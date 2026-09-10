@@ -1,0 +1,121 @@
+[
+ {
+  "id": "5e|Abs. 3",
+  "article": "5e",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 48,
+  "fields": {
+   "TOPIC": "Re-establishment",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "Once the breach has been remedied, the providing Member State (MS) shall RE-ESTABLISH the provision and the use and shall inform the users, the relying parties (RPs), the single point of contact and the Commission without undue delay.",
+   "PURPOSE": "The state of emergency must also be capable of coming to an end – with the same transparency.",
+   "DEADLINE": "without undue delay",
+   "CROSS-REFERENCES": "Article 10(2) eIDAS · Re-establishment Requires the notifying Member State to re-establish cross-border authentication once the breach has been remedied and to inform the other Member States and the Commission without undue delay. The state of emergency must also be capable of coming to an end – with the same transparency as its imposition.",
+   "AUDIT CHECK": "Is the restart process documented to the same standard as the shutdown process?",
+   "KEY POINT": "Switching off and switching back on – both routes are subject to notification."
+  }
+ },
+ {
+  "id": "5e|Abs. 4-5 Auftrag Kommission",
+  "article": "5e",
+  "locus": "Abs. 4-5 Auftrag Kommission",
+  "locus_en": "Paragraphs 4-5 Commission mandate",
+  "modality": "",
+  "modality_en": "",
+  "level": "L2",
+  "page": 49,
+  "fields": {
+   "TOPIC": "Publication + implementing act",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 4: The Commission shall publish the corresponding amendments to the list referred to in Article 5d in the Official Journal WITHOUT UNDUE DELAY. Paragraph 5: implementing act on reference standards, specifications and procedures for the measures referred to in paragraphs 1, 2 and 3.",
+   "PURPOSE": "The state of the list must mirror the state of security.",
+   "DEADLINE": "Paragraph 5: by 21 November 2024",
+   "CROSS-REFERENCES": "Article 5d(3) · Official Journal list of certified European Digital Identity Wallets Requires the Commission to establish, publish in the Official Journal and maintain a machine-readable list of certified European Digital Identity Wallets. That list is the central official reference and is not to be confused with the trusted list under Article 22. Article 5a(23) · Implementing act on the core European Digital Identity Wallet requirements for the European Digital Identity Wallet The most important empowering provision of the Regulation in practice. The Commission lays down reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. At the same time it is one of the two triggers of the 24-month period under paragraph 1. Numerous further provisions (Article 5b(11), Article 5d(7), Article 5e(5), Article 45d(5), Article 45e(2), Article 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS",
+   "AUDIT CHECK": "Does the Official Journal list reflect the current suspension status?",
+   "KEY POINT": "The list = the truth. Delayed publication is a security problem."
+  }
+ },
+ {
+  "id": "5f|Abs. 1",
+  "article": "5f",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 49,
+  "fields": {
+   "TOPIC": "Public sector obligation to accept",
+   "ADDRESSEE": "Member States / public sector bodies",
+   "CONTENT": "Where Member States (MS) require electronic identification and authentication for access to an online service provided by a public sector body, they shall ALSO ACCEPT European Digital Identity Wallets.",
+   "PURPOSE": "Without an obligation to accept there would be no pressure to use it – the European Digital Identity Wallet needs use cases in order to achieve uptake.",
+   "DEADLINE": "no separate deadline – follows Article 5a(1)",
+   "CROSS-REFERENCES": "Article 6 eIDAS · Mutual recognition Establishes the obligation to recognise notified electronic identification means from other Member States where the scheme is included in the list published by the Commission, where its assurance level is at least substantial and corresponds to the level required, and where the public sector body itself uses assurance level substantial or high. Recognition must take place no later than twelve months after publication of the list. For assurance level low, recognition is merely optional (a 'may' recognition). Article 45c eIDAS · An electronic attestation of attributes does not replace electronic identification Primarily a prohibition subject to authorisation: person identification data from an electronic attestation of attributes (EAA) may not replace the electronic identification, together with authentication, required under national law – unless the Member State expressly permits this. Only then does the legal consequence follow that qualified electronic attestations of attributes from other Member States must also be accepted. The widespread reading of the provision as a mere obligation to accept is incorrect.",
+   "AUDIT CHECK": "Does the service actually accept the European Digital Identity Wallet – or only the national electronic identification means?",
+   "KEY POINT": "Paragraph 1 the State, 2 private parties except micro/small, 3 very large platforms."
+  }
+ },
+ {
+  "id": "5f|Abs. 2",
+  "article": "5f",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 50,
+  "fields": {
+   "TOPIC": "Obligation of certain private relying parties to accept",
+   "ADDRESSEE": "Private relying parties (except microenterprises and small enterprises)",
+   "CONTENT": "Private relying parties (RPs) – WITH THE EXCEPTION OF microenterprises and small enterprises as defined in Recommendation 2003/361/EC – which are required by Union law, national law OR BY CONTRACTUAL OBLIGATION to use STRONG user authentication for online identification shall accept the European Digital Identity Wallet. Sectors named: transport, energy, banking, financial services, social security, health, drinking water, postal services, digital infrastructure, education, telecommunications. Only upon the VOLUNTARY REQUEST OF THE USER.",
+   "PURPOSE": "Creates the market: only once banks, insurers and telecommunications operators are required to take the European Digital Identity Wallet does it become worthwhile for the citizen.",
+   "DEADLINE": "36 months after the entry into force of the implementing acts referred to in Article 5a(23) and Article 5c(6)",
+   "CROSS-REFERENCES": "Article 5a(15) · Voluntary use and prohibition of discrimination The core political condition of the European Digital Identity Wallet: nobody is obliged to use it, and those who do not use it may not be placed at a disadvantage in their access to services, in the labour market or in their freedom to conduct business. It forms the necessary counterweight to the obligations to accept under Article 5f – the service SHALL accept, the user NEED NOT use. “The use of European Digital Identity Wallets shall be voluntary” ✓ Article 5a(15) eIDAS Relevance here: Necessary counterweight: the service must accept, the user need not use. Article 5a(1) · Obligation to provide and deadline anchor Establishes the central implementation obligation of Chapter II: every Member State must provide at least one European Digital Identity Wallet. The decisive element is the deadline mechanism – the 24 months do not run from the date of the Regulation, but from the entry into force of TWO implementing acts: Article 5a(23) (core functionalities) and Article 5c(6) (certification). As long as either of the two is missing, the period does not begin to run. The same anchor also governs Article 5f(2) (36 months) and Article 45e(1). “each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6)” ✓ Article 5a(1) eIDAS",
+   "AUDIT CHECK": "Does the undertaking fall under the obligation – or does the SME exemption apply? Is the deadline in the project plan?",
+   "KEY POINT": "24 months to provide (5a(1)) – 36 months for private acceptance (5f(2))."
+  }
+ },
+ {
+  "id": "5f|Abs. 3",
+  "article": "5f",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 51,
+  "fields": {
+   "TOPIC": "Very large online platforms (VLOPs)",
+   "ADDRESSEE": "Providers of very large online platforms as referred to in Article 33 DSA",
+   "CONTENT": "Where VLOP providers as referred to in Article 33 of Regulation (EU) 2022/2065 (DSA) require user authentication for access, they shall also ACCEPT and FACILITATE the use of the European Digital Identity Wallet – only upon the voluntary request of the user and only in respect of the MINIMUM DATA necessary for the specific service.",
+   "PURPOSE": "Brings the large platforms on board without opening up additional flows of data to them.",
+   "CROSS-REFERENCES": "Article 33 DSA · Very large online platforms and very large online search engines Covers services with an average of at least 45 million monthly active recipients in the Union – which corresponds to around 10 percent of the Union population. The Commission designates the providers concerned by decision and publishes the list in the Official Journal; the enhanced obligations apply four months after notification. Relation to eIDAS: the obligation to accept under Article 5f(3) eIDAS attaches exclusively to that formal designation. A platform which reaches the threshold but has not been designated does not fall within it. ● Summary of content, not verified against the original text DMA · Regulation (EU) 2022/1925 – Digital Markets Act Governs the obligations of so-called gatekeepers, that is to say large platform operators which have been formally designated by the Commission. Central to it are the definitions in Article 2 and the conduct obligations in Articles 5 to 7. Enforcement lies with the Commission, not with national supervisory bodies. Relation to eIDAS: Article 12b eIDAS connects directly to it: gatekeepers must grant providers of European Digital Identity Wallets and issuers of electronic identification means access to the same operating system, hardware and software features. Enforcement of that eIDAS obligation therefore runs through the DMA and not through eIDAS supervision. ● Summary of content, not verified against the original text Article 5b(3) · Prohibition of over-asking Makes the registration information under paragraph 2, point (c) legally binding: the scope of data registered is at the same time the maximum permissible scope. Purpose limitation under data protection law thereby becomes technically and supervisorily enforceable for the first time, instead of merely being asserted. “shall not request users to provide any data other than that indicated pursuant to paragraph 2, point (c)” ✓ Article 5b(3) eIDAS Article 12b eIDAS · Access to hardware and software features Requires gatekeepers within the meaning of the Digital Markets Act to enable providers of European Digital Identity Wallets and issuers of notified electronic identification means to have effective interoperability with, and access to, the same operating system, hardware and software features – such as the secure element and the NFC interface. Under Article 6(7) DMA this is free of charge and irrespective of whether the feature forms part of the operating system. Without this provision, two platform operators could technically prevent compliance with the State's obligation to provide. It is enforced through the DMA, not through eIDAS supervision. “gatekeepers shall in particular allow them effective interoperability with, and, for the purposes of interoperability, access to, the same operating system, hardware or software features” ✓ Article 12b eIDAS",
+   "AUDIT CHECK": "Is the scope of data limited to the minimum in the case of VLOPs?",
+   "KEY POINT": "Three EU legal acts interlock: eIDAS, the DSA (paragraph 3), the DMA (Article 12b)."
+  }
+ },
+ {
+  "id": "5f|Abs. 4-5 Auftrag Kommission",
+  "article": "5f",
+  "locus": "Abs. 4-5 Auftrag Kommission",
+  "locus_en": "Paragraphs 4-5 Commission mandate",
+  "modality": "",
+  "modality_en": "",
+  "level": "L3",
+  "page": 52,
+  "fields": {
+   "TOPIC": "Codes of conduct and evaluation",
+   "ADDRESSEE": "Commission / Member States",
+   "CONTENT": "Paragraph 4: The Commission shall FACILITATE the development of codes of conduct with all relevant stakeholders, including civil society. Paragraph 5: WITHIN 24 MONTHS after deployment of the European Digital Identity Wallet, the Commission shall assess the demand for, and the availability and usability of, the European Digital Identity Wallet, taking into account criteria such as user take-up, cross-border presence, technological development and consumer demand.",
+   "PURPOSE": "Built-in monitoring of success – the basis for a possible tightening of the obligations to accept. Not audit-relevant, but strategic: this is where the pressure for eIDAS 3 arises.",
+   "DEADLINE": "Paragraph 5: 24 months after deployment of the European Digital Identity Wallet",
+   "CROSS-REFERENCES": "Article 49 eIDAS · Review Requires the Commission to review the application of the Regulation at regular intervals and to report to the Parliament and the Council. eIDAS 2.0 emerged from this built-in review clause; together with the assessment under Article 5f(5) it is the starting point for a possible further amendment.",
+   "AUDIT CHECK": "Which two tasks do paragraphs 4 and 5 place on the Commission – and from when does the 24-month evaluation period run?",
+   "KEY POINT": "Soft law (codes) plus evaluation – the preparatory pattern for the next amendment."
+  }
+ }
+]

@@ -1,0 +1,174 @@
+[
+ {
+  "id": "5a|Abs. 6",
+  "article": "5a",
+  "locus": "Abs. 6",
+  "locus_en": "Paragraph 6",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 19,
+  "fields": {
+   "TOPIC": "Informing users of security breaches",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "The Member State shall inform users WITHOUT DELAY of any security breach that could have entirely or partially compromised their European Digital Identity Wallet or its contents – in particular where the European Digital Identity Wallet has been suspended or revoked pursuant to Article 5e.",
+   "PURPOSE": "The user must be able to stop relying on a compromised European Digital Identity Wallet.",
+   "DEADLINE": "without delay",
+   "CROSS-REFERENCES": "Article 5e · Security breach of European Digital Identity Wallets Governs the emergency case: suspension without undue delay, immediate withdrawal where the severity so justifies, and information of users, single points of contact, relying parties and the Commission. If the breach is not remedied within three months, the European Digital Identity Wallets shall be withdrawn and their validity revoked. Once the breach has been remedied, provision shall be re-established; the Commission shall update the list referred to in Article 5d without undue delay. Article 46c eIDAS · Single points of contact Requires every Member State to designate, make public and notify to the Commission a single point of contact for trust services, European Digital Identity Wallets and notified electronic identification schemes. Cross-border supervision needs a defined contact point; the single point of contact is, among other things, an addressee of the notifications under Article 5e.",
+   "AUDIT CHECK": "Is there a documented notification process specifying channels and responsible persons?",
+   "KEY POINT": "Paragraph 6 = tell the users. Article 5e = suspend the Wallet. Two separate duties."
+  }
+ },
+ {
+  "id": "5a|Abs. 7",
+  "article": "5a",
+  "locus": "Abs. 7",
+  "locus_en": "Paragraph 7",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L3",
+  "page": 20,
+  "fields": {
+   "TOPIC": "Additional functionalities under national law",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "A Member State (MS) MAY provide for additional functionalities, including interoperability with existing national electronic identification means. Those additional functionalities SHALL comply with Article 5a.",
+   "PURPOSE": "Permits national value-added services without diluting the harmonised core.",
+   "CROSS-REFERENCES": "Article 5f · Cross-border reliance and the obligation to accept Requires the public sector to accept the European Digital Identity Wallet wherever it requires electronic identification, and extends this to certain private parties in eleven named sectors as well as to very large online platforms. Microenterprises and small enterprises are exempt, and use follows only upon the voluntary request of the user. In addition, the Article provides for codes of conduct and an assessment of the use of European Digital Identity Wallets.",
+   "AUDIT CHECK": "Have national additional functionalities been checked for conformity with Article 5a?",
+   "KEY POINT": "They may do more – not worse."
+  }
+ },
+ {
+  "id": "5a|Abs. 8 a-b",
+  "article": "5a",
+  "locus": "Abs. 8 a-b",
+  "locus_en": "Paragraph 8(a)-(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 20,
+  "fields": {
+   "TOPIC": "Free-of-charge validation mechanisms",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "The Member State shall provide validation mechanisms FREE OF CHARGE in order to (a) make the authenticity and validity of the European Digital Identity Wallet verifiable and (b) allow users to verify the authenticity and the identity of registered relying parties (RPs).",
+   "PURPOSE": "Trust arises only where each side can verify the other independently – and without a cost barrier.",
+   "CROSS-REFERENCES": "Article 5a(18) · Notification obligations towards the Commission Names five items to be notified: the body responsible for the list of relying parties, together with the location of that list; the bodies responsible for the provision; the bodies responsible for associating the person identification data; the mechanism for validating those data and the identity of the relying parties; and the mechanisms for validating the authenticity and validity of the European Digital Identity Wallet. The Commission makes this information available to the public through a secure channel, in electronically signed form suitable for automated processing. Article 5b(5) · Publication of the registration Requires the Member State to make the registration information publicly available online in electronically signed or sealed form suitable for automated processing. Only this enables the European Digital Identity Wallet to verify by automated means whether a requesting party is registered. Article 5c(1) · Subject matter of certification Defines exhaustively what is certified: the conformity of the European Digital Identity Wallet AND of the electronic identification scheme with Article 5a(4), (5) and (8), the requirement for logical separation laid down in paragraph 14 and, where applicable, the standards referred to in paragraph 24. Everything else in Article 5a is subject to supervision under Article 46a, not to certification. The number sequence 4-5-8-14 is the practical mnemonic anchor.",
+   "AUDIT CHECK": "Are both directions of validation implemented and actually free of charge?",
+   "KEY POINT": "Two directions, free of charge: genuine EUDI Wallet? Genuine relying party?"
+  }
+ },
+ {
+  "id": "5a|Abs. 9 a-c",
+  "article": "5a",
+  "locus": "Abs. 9 a-c",
+  "locus_en": "Paragraph 9(a)-(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 21,
+  "fields": {
+   "TOPIC": "Grounds for revocation",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "The Member State shall ensure that the validity of the European Digital Identity Wallet can be revoked: (a) upon the explicit request of the user, (b) where the security of the European Digital Identity Wallet has been compromised, (c) upon the death of the user or the cessation of activity of the legal person.",
+   "PURPOSE": "An identity without a possibility of revocation is a security risk – in particular in the event of death or theft.",
+   "CROSS-REFERENCES": "Article 5e · Security breach of European Digital Identity Wallets Governs the emergency case: suspension without undue delay, immediate withdrawal where the severity so justifies, and information of users, single points of contact, relying parties and the Commission. If the breach is not remedied within three months, the European Digital Identity Wallets shall be withdrawn and their validity revoked. Once the breach has been remedied, provision shall be re-established; the Commission shall update the list referred to in Article 5d without undue delay.",
+   "AUDIT CHECK": "Are all three grounds for revocation reflected in processes, including the case of death?",
+   "KEY POINT": "User request, compromise, death – three triggers."
+  }
+ },
+ {
+  "id": "5a|Abs. 10",
+  "article": "5a",
+  "locus": "Abs. 10",
+  "locus_en": "Paragraph 10",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 21,
+  "fields": {
+   "TOPIC": "User support and incident reporting",
+   "ADDRESSEE": "Provider of the European Digital Identity Wallet",
+   "CONTENT": "Providers shall ensure that users can EASILY request technical support and report technical problems or any other incidents having a negative impact.",
+   "PURPOSE": "Incident detection begins with the user – without a low-threshold reporting channel a compromise goes undetected.",
+   "CROSS-REFERENCES": "Article 5e(1) · Immediate suspension in the event of compromise Requires the Member State to suspend the provision and the use without undue delay where the European Digital Identity Wallet, the validation mechanisms or the underlying electronic identification scheme are breached or compromised in a manner that affects their reliability – with immediate withdrawal where the severity so justifies. Four groups of addressees are to be informed: the users affected, the single points of contact under Article 46c, the relying parties and the Commission.",
+   "AUDIT CHECK": "Is there a documented, easily locatable support channel with response times?",
+   "KEY POINT": "The user is the first sensor."
+  }
+ },
+ {
+  "id": "5a|Abs. 11",
+  "article": "5a",
+  "locus": "Abs. 11",
+  "locus_en": "Paragraph 11",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 22,
+  "fields": {
+   "TOPIC": "Provision at assurance level high",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "European Digital Identity Wallets shall be provided under an electronic identification scheme with assurance level HIGH.",
+   "PURPOSE": "Anchors the European Digital Identity Wallet in the existing electronic identification framework – in law it is an electronic identification means, not a special object.",
+   "CROSS-REFERENCES": "Article 5a(22) · Exemptions from the electronic identification Articles Disapplies Articles 7, 9, 10, 12 and 12a for the European Digital Identity Wallet and the underlying scheme. Instead, the European Digital Identity Wallet follows its own, stricter regime under Articles 5a to 5f. Important for the delimitation: Article 11 (liability) does apply, via Article 5a(19), and Article 12b (platform access) is precisely NOT exempted here. “shall not be subject to the requirements laid down in Articles 7, 9, 10, 12 and 12a” ✓ Article 5a(22) eIDAS Article 5a(5) · Mandatory technical characteristics The internal view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure requests, reporting to the authority, creation of qualified electronic signatures) – in effect the table of contents of the ARF. Point (b) prohibits any information being provided to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 9 eIDAS · Notification Governs the content of, and the procedure for, the notification of an electronic identification scheme. The Member State submits the description of the scheme, the assurance levels, the supervision and liability arrangements separately for the issuer and for the party operating the authentication procedure, the competent authorities, the registry responsible for the person identification data, the evidence of interoperability, the description of the authentication and the suspension and revocation arrangements. The Commission publishes the list in the Official Journal and includes amendments within one month.",
+   "AUDIT CHECK": "Does the underlying electronic identification scheme actually meet assurance level high – and is the exemption from Articles 7, 9, 10, 12 and 12a under Article 5a(22) documented?",
+   "KEY POINT": "EUDI Wallet = electronic identification means at assurance level high."
+  }
+ },
+ {
+  "id": "5a|Abs. 12",
+  "article": "5a",
+  "locus": "Abs. 12",
+  "locus_en": "Paragraph 12",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 22,
+  "fields": {
+   "TOPIC": "Security by design",
+   "ADDRESSEE": "Provider of the European Digital Identity Wallet",
+   "CONTENT": "European Digital Identity Wallets shall be equipped with 'security by design'.",
+   "PURPOSE": "Security is to be an architectural feature, not a protective layer bolted on afterwards.",
+   "CROSS-REFERENCES": "Article 25 GDPR · Data protection by design and by default Paragraph 1 requires that appropriate measures such as pseudonymisation be taken already when determining the means of processing, in order to implement the principles of Article 5 GDPR effectively. Paragraph 2 requires default settings ensuring that, as a rule, only the personal data necessary for each specific purpose are processed – as regards the amount of data, the extent of the processing, the period of storage and accessibility. Relation to eIDAS: Article 12(3), point (c), eIDAS expressly incorporates privacy and security by design into the interoperability framework; Article 5a(12) eIDAS requires security by design for the European Digital Identity Wallet. ● Summary of content, not verified against the original text Article 5c · Certification of the European Digital Identity Wallet Provides that the European Digital Identity Wallet and the underlying electronic identification scheme are certified by designated conformity assessment bodies, and splits the assessment: cybersecurity requirements through the schemes under the Cybersecurity Act, everything else through national certification schemes, the drafts of which are to be submitted to the Cooperation Group. In addition it governs the five-year limit with a vulnerability assessment every two years, the optional GDPR certification, the implementing act and a delegated act on the criteria for the conformity assessment bodies.",
+   "AUDIT CHECK": "Is there a documented security concept from the design phase, and not only from testing?",
+   "KEY POINT": "Security by design is a legal obligation here, not a best practice."
+  }
+ },
+ {
+  "id": "5a|Abs. 13",
+  "article": "5a",
+  "locus": "Abs. 13",
+  "locus_en": "Paragraph 13",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 23,
+  "fields": {
+   "TOPIC": "Free of charge for natural persons",
+   "ADDRESSEE": "Member State / provider of the European Digital Identity Wallet",
+   "CONTENT": "The issuance, use and revocation of the European Digital Identity Wallet shall be FREE OF CHARGE to ALL natural persons.",
+   "PURPOSE": "An identity subject to a charge would make access to public services socially selective.",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical characteristics The internal view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure requests, reporting to the authority, creation of qualified electronic signatures) – in effect the table of contents of the ARF. Point (b) prohibits any information being provided to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 5a(15) · Voluntary use and prohibition of discrimination The core political condition of the European Digital Identity Wallet: no one has to use it, and those who do not use it must not be disadvantaged in their access to services, on the labour market or in their freedom to conduct business. It forms the necessary counterweight to the obligations to accept under Article 5f – the service SHALL accept, the user is NOT required to use. “The use of European Digital Identity Wallets shall be voluntary” ✓ Article 5a(15) eIDAS",
+   "AUDIT CHECK": "Are issuance, use AND revocation free of charge – or only issuance?",
+   "KEY POINT": "Three operations are free: issuing, using, revoking."
+  }
+ },
+ {
+  "id": "5a|Abs. 14",
+  "article": "5a",
+  "locus": "Abs. 14",
+  "locus_en": "Paragraph 14",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 24,
+  "fields": {
+   "TOPIC": "User control, prohibition of tracking, logical separation",
+   "ADDRESSEE": "Provider of the European Digital Identity Wallet",
+   "CONTENT": "Users shall have full control. The provider shall collect NO information about the use that is not necessary, and shall NOT combine person identification data (PID) or other European Digital Identity Wallet data with personal data from other services of its own or of third parties, unless the user has expressly requested otherwise. European Digital Identity Wallet data shall be kept LOGICALLY SEPARATE from any other data stored. Where the European Digital Identity Wallet is provided by private parties (paragraph 2, points (b) and (c)), Article 45h(3) applies mutatis mutandis.",
+   "PURPOSE": "Prevents the State's identity infrastructure from becoming a data source for an advertising or platform business.",
+   "CROSS-REFERENCES": "Article 45h(1) eIDAS · Prohibition on combining data from electronic attestations of attributes Prohibits providers of qualified AND non-qualified electronic attestation of attributes services from combining personal data from those services with data from other services offered by themselves OR BY THEIR BUSINESS PARTNERS. The reach beyond the provider's own group of companies is frequently overlooked. Paragraphs 2 and 3 add logical and functional separation. Article 5a(16) · Unlinkability in the technical framework Point (a) prohibits providers of electronic attestations of attributes or any other party from obtaining, after issuance, data that would allow transactions or user behaviour to be tracked, linked or correlated. Point (b) requires techniques that ensure unlinkability where identification of the user is not necessary. Whereas paragraph 5, point (b), prohibits reading along, paragraph 16 prohibits bringing data together – technically this leads to techniques such as selective disclosure and zero-knowledge proofs. Article 5c(1) · Subject matter of certification Defines exhaustively what is certified: the conformity of the European Digital Identity Wallet AND of the electronic identification scheme with Article 5a(4), (5) and (8), the requirement for logical separation laid down in paragraph 14 and, where applicable, the standards referred to in paragraph 24. Everything else in Article 5a is subject to supervision under Article 46a, not to certification. The number sequence 4-5-8-14 is the practical mnemonic anchor. Article 12b eIDAS · Access to hardware and software features Requires gatekeepers within the meaning of the Digital Markets Act to provide providers of European Digital Identity Wallets and issuers of notified electronic identification means with effective interoperability with, and access to, the same operating system, hardware and software features – such as the secure element and the NFC interface. Pursuant to Article 6(7) DMA, free of charge and irrespective of whether the feature is part of the operating system. Without this provision, two platform operators could technically prevent compliance with the State's obligation to provide. It is enforced through the DMA, not through eIDAS supervision. ● Summary of content, not verified against the original text",
+   "AUDIT CHECK": "Is the logical separation demonstrated technically – and was it part of the certification under Article 5c(1)?",
+   "KEY POINT": "Paragraph 14 is the only paragraph outside 4/5/8 that is expressly certified."
+  }
+ }
+]

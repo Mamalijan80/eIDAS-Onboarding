@@ -1,0 +1,173 @@
+[
+ {
+  "id": "5a|Abs. 4 f-g",
+  "article": "5a",
+  "locus": "Abs. 4 f-g",
+  "locus_en": "Paragraph 4(f)-(g)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L3",
+  "page": 13,
+  "fields": {
+   "TOPIC": "Data export and data portability",
+   "ADDRESSEE": "User / European Digital Identity Wallet",
+   "CONTENT": "(f) Download of the user's data, electronic attestations of attributes (EAA) and configurations – to the extent technically feasible. (g) Exercise of the user's rights to data portability.",
+   "PURPOSE": "Prevents lock-in to a single European Digital Identity Wallet provider; implements Article 20 of Regulation (EU) 2016/679 (GDPR) in the context of the European Digital Identity Wallet.",
+   "CROSS-REFERENCES": "Article 20 GDPR · Right to data portability. The data subject may receive the personal data concerning him or her in a structured, commonly used and machine-readable format and transmit that data to another controller, provided that the processing is based on consent or on a contract and is carried out by automated means. Where technically feasible, there is a right to have the data transmitted directly from one controller to another. Relationship to eIDAS: Article 5a(4), points (f) and (g), eIDAS implements this for the European Digital Identity Wallet – point (f) being qualified by 'to the extent technically feasible', point (g) not. The purpose is to avoid lock-in to a European Digital Identity Wallet provider. ● Summary of content, not verified against the original text",
+   "AUDIT CHECK": "Is there a working export path – and is the 'technically feasible' limitation documented?",
+   "KEY POINT": "Point (f) is qualified ('to the extent technically feasible'), point (g) is not."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 (Einleitung)",
+  "article": "5a",
+  "locus": "Abs. 5 (Einleitung)",
+  "locus_en": "Paragraph 5 (introductory wording)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 14,
+  "fields": {
+   "TOPIC": "Mandatory technical characteristics – principle",
+   "ADDRESSEE": "European Digital Identity Wallet (technical) / European Digital Identity Wallet provider",
+   "CONTENT": "The European Digital Identity Wallet SHALL IN PARTICULAR meet the requirements in points (a) to (g). 'In particular' = not exhaustive; the implementing act under paragraph 23 supplements them.",
+   "PURPOSE": "Paragraph 4 describes the user-facing view, paragraph 5 the internal technical view – only the two together yield an auditable European Digital Identity Wallet.",
+   "CROSS-REFERENCES": "Article 5a(23) · Implementing act on the core European Digital Identity Wallet requirements for the European Digital Identity Wallet. The Regulation's most important empowering provision for practical purposes. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. It is at the same time one of the two triggers of the 24-month deadline in paragraph 1. Numerous further provisions (5b(11), 5d(7), 5e(5), 45d(5), 45e(2), 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Significance here: without that act, paragraphs 4, 5, 8 and 18 cannot be audited; it is at the same time the deadline anchor of paragraph 1. Article 5c(1) · Subject matter of certification. Defines exhaustively what is certified: the conformity of the European Digital Identity Wallet AND of the electronic identification scheme with Article 5a(4), (5) and (8), the logical separation under paragraph 14 and, where applicable, the standards referred to in paragraph 24. Everything else in Article 5a is subject to supervision under Article 46a, not to certification. The sequence 4-5-8-14 is the practical mnemonic anchor.",
+   "AUDIT CHECK": "Are paragraphs 4, 5, 8 and the logical separation under paragraph 14 covered by the certificate under Article 5c?",
+   "KEY POINT": "Remember: what is certified is 4, 5, 8 + 14 – not the whole Article."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 a i-xi",
+  "article": "5a",
+  "locus": "Abs. 5 a i-xi",
+  "locus_en": "Paragraph 5(a)(i)-(xi)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 15,
+  "fields": {
+   "TOPIC": "Common protocols and interfaces",
+   "ADDRESSEE": "European Digital Identity Wallet (technical)",
+   "CONTENT": "Eleven interface cases: (i) issuance of person identification data (PID)/electronic attestations of attributes (EAA)/certificates; (ii) requesting and validating by relying parties (RP); (iii) sharing and presentation (including selectively disclosed data, online/offline mode); (iv) user interaction + display of the EU Digital Identity Wallet Trust Mark; (v) secure onboarding of the user in accordance with paragraph 24; (vi) European Digital Identity Wallet-to-European Digital Identity Wallet; (vii) authentication of relying parties in accordance with Article 5b; (viii) verification by relying parties of the authenticity and validity of the European Digital Identity Wallet; (ix) requests for erasure pursuant to Article 17 GDPR; (x) reporting to the data protection authority; (xi) creation of qualified electronic signatures (QES)/qualified electronic seals by means of qualified electronic signature creation devices (QSCD).",
+   "PURPOSE": "Without uniform protocols, 27 mutually non-interoperable Wallets would emerge – interoperability would be merely asserted.",
+   "CROSS-REFERENCES": "ARF · Architecture and Reference Framework of the European Digital Identity Wallet. Not a legal act, but the technical reference architecture developed in the context of the implementing acts under Article 5a(23) eIDAS. It describes the roles, data models, protocols and trust model of the European Digital Identity Wallet, drawing on formats such as ISO/IEC 18013-5 (mobile driving licences) and W3C Verifiable Credentials. Relationship to eIDAS: it fills the eleven interface cases of Article 5a(5), point (a), (i) to (xi), eIDAS with concrete specifications. Only what the implementing act takes over becomes legally binding. ● Summary of content, not verified against the original text Article 5a(23) · Implementing act on the core European Digital Identity Wallet requirements for the European Digital Identity Wallet. The Regulation's most important empowering provision for practical purposes. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. It is at the same time one of the two triggers of the 24-month deadline in paragraph 1. Numerous further provisions (5b(11), 5d(7), 5e(5), 45d(5), 45e(2), 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Significance here: without that act, paragraphs 4, 5, 8 and 18 cannot be audited; it is at the same time the deadline anchor of paragraph 1.",
+   "AUDIT CHECK": "Are all eleven interfaces covered by the scope of certification?",
+   "KEY POINT": "Eleven interfaces, (i) to (xi) – that is the ARF table of contents."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 b",
+  "article": "5a",
+  "locus": "Abs. 5 b",
+  "locus_en": "Paragraph 5(b)",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 16,
+  "fields": {
+   "TOPIC": "No feedback to the issuer of the electronic attestation of attributes",
+   "ADDRESSEE": "European Digital Identity Wallet (technical)",
+   "CONTENT": "The European Digital Identity Wallet SHALL ENSURE that, after issuance, NO information whatsoever about the use of those electronic attestations is provided to trust service providers of electronic attestations of attributes (EAA).",
+   "PURPOSE": "Prevents the 'phone-home' problem: the issuer of the credential must not be able to observe where the credential is used.",
+   "CROSS-REFERENCES": "Article 5a(16) · Unlinkability in the technical framework. Point (a) prohibits providers of electronic attestations of attributes or any other party from obtaining, after issuance of the attestation of attributes, data that would allow transactions or user behaviour to be tracked, linked or correlated. Point (b) requires techniques which ensure unlinkability where identification of the user is not needed. Whereas paragraph 5, point (b), prohibits observation of the use, paragraph 16 prohibits the bringing together of data – technically this leads to techniques such as selective disclosure and zero-knowledge proofs. Article 45h eIDAS · Additional rules for services of electronic attestation of attributes. Prohibits providers of qualified and non-qualified attestation services from combining personal data from those services with data from other services offered by them or by their business partners. Paragraph 2 requires the logical separation of that data from all other data held; paragraph 3 requires the functional separation of the qualified service from the provider's other services.",
+   "AUDIT CHECK": "Can the issuer of the electronic attestation of attributes technically detect when and where its attestation was presented?",
+   "KEY POINT": "The issuer must not be able to observe. No phone-home."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 c",
+  "article": "5a",
+  "locus": "Abs. 5 c",
+  "locus_en": "Paragraph 5(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 16,
+  "fields": {
+   "TOPIC": "Authentication of relying parties",
+   "ADDRESSEE": "European Digital Identity Wallet (technical)",
+   "CONTENT": "Ensure that relying parties (RP) can be authenticated and identified by implementing authentication mechanisms in accordance with Article 5b.",
+   "PURPOSE": "Mutual authentication: it is not only the user who identifies himself or herself, the service too must identify itself – protection against phishing relying parties.",
+   "CROSS-REFERENCES": "Article 5b(7) · Common identification mechanism. Obliges the Member State (MS) to provide a common mechanism for allowing the identification and authentication of relying parties, as referred to in Article 5a(5), point (c). Twenty-seven different procedures would be unmanageable across borders. Article 5b(8) · Self-identification towards the user. Obliges the relying party to identify itself to the user. Before releasing data, the user is to know to whom the data is being given – protection against phishing and impersonation. Article 5a(8) · Free-of-charge validation mechanisms. Requires the Member State to provide two free-of-charge verification paths running in opposite directions: point (a) allows verification that a presented European Digital Identity Wallet is authentic and valid; point (b) allows the user to verify that the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the relying party) could not be verified. Forms part of the subject matter of certification under Article 5c(1).",
+   "AUDIT CHECK": "Does the European Digital Identity Wallet actively verify the registration and identity of the requesting relying party?",
+   "KEY POINT": "Two-way: the user shows the Wallet, the relying party shows its registration."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 d",
+  "article": "5a",
+  "locus": "Abs. 5 d",
+  "locus_en": "Paragraph 5(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 17,
+  "fields": {
+   "TOPIC": "Assurance level 'high' mandatory",
+   "ADDRESSEE": "European Digital Identity Wallet (technical)",
+   "CONTENT": "The European Digital Identity Wallet SHALL meet the requirements set out in Article 8 with regard to assurance level HIGH, in particular as applied to the requirements for identity proofing and verification and for electronic identification means management and authentication.",
+   "PURPOSE": "The European Digital Identity Wallet is the starting point for qualified electronic signatures and for access to public sector services – a lower assurance level would devalue the entire chain.",
+   "CROSS-REFERENCES": "Article 8(2) eIDAS · The three assurance levels. Contains definitions only, no obligations to act – a frequent source of error. The scale is calibrated to the effect against identity misuse: 'low' reduces the risk, 'substantial' reduces it substantially, 'high' prevents it. The substantive requirements only follow from the implementing act under paragraph 3, implemented by Implementing Regulation (EU) 2015/1502. “The assurance levels low, substantial and high shall meet respectively the following criteria” ✓ Article 8(2) eIDAS Article 5a(11) · Provision at assurance level high. Provides that European Digital Identity Wallets are to be provided under an electronic identification scheme with assurance level high. In law the European Digital Identity Wallet is therefore an electronic identification means at assurance level high and not a special object – subject, however, to the exceptions in paragraph 22. Article 24(1a) eIDAS · Four methods of identity verification. Exhaustive list: (a) a European Digital Identity Wallet or a notified electronic identification means with assurance level high; (b) a certificate of a qualified electronic signature or of a qualified electronic seal issued in accordance with point (a), (c) or (d); (c) other methods which ensure a high level of confidence, the conformity of which is confirmed by a conformity assessment body; (d) physical presence. Point (c) is the route for video identification and comparable remote procedures – but only with confirmation by a conformity assessment body (CAB).",
+   "AUDIT CHECK": "Is there evidence of conformity with assurance level high (LoA high) under Implementing Regulation (EU) 2015/1502?",
+   "KEY POINT": "Wallet = assurance level high. Always. Without exception."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 e",
+  "article": "5a",
+  "locus": "Abs. 5 e",
+  "locus_en": "Paragraph 5(e)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L3",
+  "page": 17,
+  "fields": {
+   "TOPIC": "Embedded disclosure policies",
+   "ADDRESSEE": "European Digital Identity Wallet (technical)",
+   "CONTENT": "In the case of electronic attestations of attributes (EAA) with embedded disclosure policies, an appropriate mechanism SHALL inform the user that the requesting relying party (RP) or the requesting user has the permission to access that attestation.",
+   "PURPOSE": "The user is to be able to recognise whether a request is legitimate before releasing data.",
+   "CROSS-REFERENCES": "Annex V · Annex V – qualified electronic attestations of attributes. Nine mandatory items, (a) to (i). The core is point (d): the attested attributes, including their scope. Point (g) requires – unlike Annexes I and III – a QUALIFIED electronic signature or a qualified electronic seal of the issuing qualified trust service provider (QTSP). Article 5b(2) · Minimum content of the relying party's registration. The relying party shall provide the information necessary for authentication, its contact details and – point (c) – the intended use, including an indication of the data to be requested. Point (c) is the anchor of purpose limitation: it defines the permissible scope of requests, to which paragraph 3 binds the relying party.",
+   "AUDIT CHECK": "Is the relying party's access permission visibly displayed to the user?",
+   "KEY POINT": "Inform first, then release."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 f",
+  "article": "5a",
+  "locus": "Abs. 5 f",
+  "locus_en": "Paragraph 5(f)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 18,
+  "fields": {
+   "TOPIC": "Uniqueness of the person identification data",
+   "ADDRESSEE": "European Digital Identity Wallet (technical) / Member State (MS)",
+   "CONTENT": "The person identification data (PID) available from the electronic identification scheme shall UNIQUELY represent the associated natural or legal person (or the natural person representing that person).",
+   "PURPOSE": "Without uniqueness, cross-border identity matching under Article 11a fails – duplicate identities arise.",
+   "CROSS-REFERENCES": "Article 5a(18) · Notification obligations towards the Commission. Names five items to be notified: the body responsible for the list of relying parties, together with the location of that list; the bodies responsible for the provision of the Wallets; the bodies responsible for associating the person identification data; the mechanism allowing for the validation of that data and of the identity of the relying parties; and the mechanisms by which to validate the authenticity and validity of the European Digital Identity Wallet. The Commission makes this available to the public through a secure channel, in electronically signed or sealed form suitable for automated processing. Article 11a eIDAS · Cross-border identity matching. New in eIDAS 2.0. Obliges Member States, where they are themselves relying parties for cross-border services, to ensure identity matching for natural persons using a notified electronic identification means or a European Digital Identity Wallet. Paragraph 2 requires technical and organisational measures for a high level of protection of the matching data and expressly the prevention of user profiling. Paragraph 3 contains the empowerment to adopt an implementing act. Article 3 eIDAS · Definitions. Contains the legal definitions in points 1 to 57, supplemented by the lettered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Particularly important in practice: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 42 electronic attestation of attributes, point 45 authentic source and point 46 the public sector body responsible for an authentic source.",
+   "AUDIT CHECK": "Has the mechanism for associating the person identification data been notified to the Commission under paragraph 18, point (c)?",
+   "KEY POINT": "Unique means: one person, one data record, resolvable EU-wide."
+  }
+ },
+ {
+  "id": "5a|Abs. 5 g + UAbs. 2",
+  "article": "5a",
+  "locus": "Abs. 5 g + UAbs. 2",
+  "locus_en": "Paragraph 5(g) + second subparagraph",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 19,
+  "fields": {
+   "TOPIC": "Free-of-charge qualified electronic signatures for natural persons",
+   "ADDRESSEE": "European Digital Identity Wallet provider / Member State (MS)",
+   "CONTENT": "All NATURAL persons shall be offered the ability to sign by means of qualified electronic signatures (QES) BY DEFAULT and FREE OF CHARGE. Second subparagraph: Member States (MS) MAY provide for proportionate measures to limit the free-of-charge use to NON-PROFESSIONAL purposes.",
+   "PURPOSE": "Makes the qualified electronic signature practically attainable for private individuals for the first time; the exception prevents undertakings from using the free-of-charge service as business infrastructure.",
+   "CROSS-REFERENCES": "Article 25(2) eIDAS · Equivalence of the qualified electronic signature with a handwritten signature. The most consequential sentence of signature law in practice: a qualified electronic signature has the same legal effect as a handwritten signature. Advanced electronic signatures do not achieve that effect – not even on the basis of a qualified certificate. In German law, Section 126a BGB is the counterpart. “A qualified electronic signature shall have the equivalent legal effect of a handwritten signature” ✓ Article 25(2) eIDAS Article 5a(13) · Free of charge. Provides that the issuance, use and revocation of the European Digital Identity Wallet shall be free of charge to all natural persons. All three operations are covered, not only issuance. Article 29a eIDAS · Qualified service for the management of remote electronic signature creation devices. Makes the server-side management of signature keys a qualified trust service in its own right, subject to three conditions: generation or management of the electronic signature creation data on behalf of the signatory; duplication of that data for back-up purposes only, at the same security level and in no more copies than strictly necessary; and compliance with all requirements set out in the certification report under Article 30. Grandfathering applies until 21 May 2026.",
+   "AUDIT CHECK": "Is the qualified electronic signature actually available to all natural persons BY DEFAULT – without separate activation – and free of charge? How is the delimitation of 'professional' use regulated?",
+   "KEY POINT": "Free QES for all natural persons BY DEFAULT – MS MAY limit it to non-professional use."
+  }
+ }
+]

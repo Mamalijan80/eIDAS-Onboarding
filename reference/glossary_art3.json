@@ -1,0 +1,287 @@
+[
+ {
+  "no": "1",
+  "de": "Elektronische Identifizierung",
+  "en": "electronic identification"
+ },
+ {
+  "no": "2",
+  "de": "Elektronisches Identifizierungsmittel",
+  "en": "electronic identification means"
+ },
+ {
+  "no": "3",
+  "de": "Personenidentifizierungsdaten",
+  "en": "person identification data"
+ },
+ {
+  "no": "4",
+  "de": "Elektronisches Identifizierungssystem",
+  "en": "electronic identification scheme"
+ },
+ {
+  "no": "5",
+  "de": "Authentifizierung",
+  "en": "authentication"
+ },
+ {
+  "no": "6",
+  "de": "Vertrauender Beteiligter",
+  "en": "relying party"
+ },
+ {
+  "no": "7",
+  "de": "Öffentliche Stelle",
+  "en": "public sector body"
+ },
+ {
+  "no": "8",
+  "de": "Einrichtung des öffentlichen Rechts",
+  "en": "body governed by public law"
+ },
+ {
+  "no": "9",
+  "de": "Unterzeichner",
+  "en": "signatory"
+ },
+ {
+  "no": "10",
+  "de": "Elektronische Signatur",
+  "en": "electronic signature"
+ },
+ {
+  "no": "11",
+  "de": "Fortgeschrittene elektronische Signatur",
+  "en": "advanced electronic signature"
+ },
+ {
+  "no": "12",
+  "de": "Qualifizierte elektronische Signatur",
+  "en": "qualified electronic signature"
+ },
+ {
+  "no": "13",
+  "de": "Elektronische Signaturerstellungsdaten",
+  "en": "electronic signature creation data"
+ },
+ {
+  "no": "14",
+  "de": "Zertifikat für elektronische Signaturen",
+  "en": "certificate for electronic signature"
+ },
+ {
+  "no": "15",
+  "de": "Qualifiziertes Zertifikat für elektronische Signaturen",
+  "en": "qualified certificate for electronic signature"
+ },
+ {
+  "no": "16",
+  "de": "Vertrauensdienst",
+  "en": "trust service"
+ },
+ {
+  "no": "17",
+  "de": "Qualifizierter Vertrauensdienst",
+  "en": "qualified trust service"
+ },
+ {
+  "no": "18",
+  "de": "Konformitätsbewertungsstelle",
+  "en": "conformity assessment body"
+ },
+ {
+  "no": "19",
+  "de": "Vertrauensdiensteanbieter",
+  "en": "trust service provider"
+ },
+ {
+  "no": "20",
+  "de": "Qualifizierter Vertrauensdiensteanbieter",
+  "en": "qualified trust service provider"
+ },
+ {
+  "no": "21",
+  "de": "Produkt",
+  "en": "product"
+ },
+ {
+  "no": "22",
+  "de": "Elektronische Signaturerstellungsei nheit",
+  "en": "electronic signature creation device"
+ },
+ {
+  "no": "23",
+  "de": "Qualifizierte elektronische Signaturerstellungseinheit",
+  "en": "qualified electronic signature creation device"
+ },
+ {
+  "no": "24",
+  "de": "Siegelersteller",
+  "en": "creator of a seal"
+ },
+ {
+  "no": "25",
+  "de": "Elektronisches Siegel",
+  "en": "electronic seal"
+ },
+ {
+  "no": "26",
+  "de": "Fortgeschrittenes elektronisches Siegel",
+  "en": "advanced electronic seal"
+ },
+ {
+  "no": "27",
+  "de": "Qualifiziertes elektronisches Siegel",
+  "en": "qualified electronic seal"
+ },
+ {
+  "no": "28",
+  "de": "Elektronische Siegelerstellungsdaten",
+  "en": "electronic seal creation data"
+ },
+ {
+  "no": "29",
+  "de": "Zertifikat für elektronische Siegel",
+  "en": "certificate for electronic seal"
+ },
+ {
+  "no": "30",
+  "de": "Qualifiziertes Zertifikat für elektronische Siegel",
+  "en": "qualified certificate for electronic seal"
+ },
+ {
+  "no": "31",
+  "de": "Elektronische Siegelerstellungseinheit",
+  "en": "electronic seal creation device"
+ },
+ {
+  "no": "32",
+  "de": "Qualifizierte elektronische Siegelerstellungseinheit",
+  "en": "qualified electronic seal creation device"
+ },
+ {
+  "no": "33",
+  "de": "Elektronischer Zeitstempel",
+  "en": "electronic time stamp"
+ },
+ {
+  "no": "34",
+  "de": "Qualifizierter elektronischer Zeitstempel",
+  "en": "qualified electronic time stamp"
+ },
+ {
+  "no": "35",
+  "de": "Elektronisches Dokument",
+  "en": "electronic document"
+ },
+ {
+  "no": "36",
+  "de": "Dienst für die Zustellung elektronischer Einschreiben",
+  "en": "electronic registered delivery service"
+ },
+ {
+  "no": "37",
+  "de": "Qualifizierter Dienst für die Zustellung elektronischer Einschreiben",
+  "en": "qualified electronic registered delivery service"
+ },
+ {
+  "no": "38",
+  "de": "Zertifikat für die Website-Authentifizierung",
+  "en": "certificate for website authentication"
+ },
+ {
+  "no": "39",
+  "de": "Qualifiziertes Zertifikat für die Website-Authentifizierung",
+  "en": "qualified certificate for website authentication"
+ },
+ {
+  "no": "40",
+  "de": "Validierungsdaten",
+  "en": "validation data"
+ },
+ {
+  "no": "41",
+  "de": "Validierung",
+  "en": "validation"
+ },
+ {
+  "no": "42",
+  "de": "Europäische Brieftasche für die Digitale Identität",
+  "en": "European Digital Identity Wallet"
+ },
+ {
+  "no": "43",
+  "de": "Attribut",
+  "en": "attribute"
+ },
+ {
+  "no": "44",
+  "de": "Elektronische Attributsbescheinigung",
+  "en": "electronic attestation of attributes"
+ },
+ {
+  "no": "45",
+  "de": "Qualifizierte elektronische Attributsbescheinigung",
+  "en": "qualified electronic attestation of attributes"
+ },
+ {
+  "no": "46",
+  "de": "Von oder im Namen einer für eine authentische Quelle zuständigen öffentlichen Stelle ausgestellte elektronische Attributsbescheinigung",
+  "en": "electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source"
+ },
+ {
+  "no": "47",
+  "de": "Authentische Quelle",
+  "en": "authentic source"
+ },
+ {
+  "no": "48",
+  "de": "Elektronische Archivierung",
+  "en": "electronic archiving"
+ },
+ {
+  "no": "49",
+  "de": "Qualifizierter elektronischer Archivierungsdienst",
+  "en": "qualified electronic archiving service"
+ },
+ {
+  "no": "50",
+  "de": "Vertrauenssiegel der europäischen Brieftasche für die Digitale Identität",
+  "en": "EU Digital Identity Wallet Trust Mark"
+ },
+ {
+  "no": "51",
+  "de": "Starke Nutzerauthentifizierung",
+  "en": "strong user authentication"
+ },
+ {
+  "no": "52",
+  "de": "Elektronisches Journal",
+  "en": "electronic ledger"
+ },
+ {
+  "no": "53",
+  "de": "Qualifiziertes elektronisches Journal",
+  "en": "qualified electronic ledger"
+ },
+ {
+  "no": "54",
+  "de": "Personenbezogene Daten",
+  "en": "personal data"
+ },
+ {
+  "no": "55",
+  "de": "Identitätsabgleich",
+  "en": "identity matching"
+ },
+ {
+  "no": "56",
+  "de": "Datensatz",
+  "en": "data record"
+ },
+ {
+  "no": "57",
+  "de": "Offline-Modus",
+  "en": "offline mode"
+ }
+]

@@ -1,0 +1,175 @@
+[
+ {
+  "id": "5a|Abs. 24 Auftrag Kommission",
+  "article": "5a",
+  "locus": "Abs. 24 Auftrag Kommission",
+  "locus_en": "Paragraph 24 Commission mandate",
+  "modality": "",
+  "modality_en": "",
+  "level": "L1",
+  "page": 32,
+  "fields": {
+   "TOPIC": "Implementing act on user onboarding",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act on reference standards and procedures for the onboarding of users to the European Digital Identity Wallet – either by electronic identification means conforming to assurance level HIGH or by electronic identification means conforming to assurance level SUBSTANTIAL in conjunction with additional remote onboarding procedures that together meet the requirements of assurance level HIGH.",
+   "PURPOSE": "Without this bridge, citizens without an identity document at assurance level high could not get into the European Digital Identity Wallet at all – the rollout would be blocked.",
+   "DEADLINE": "no explicit deadline in the wording",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical characteristics The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 5c(1) · Subject matter of certification Defines exhaustively what is certified: the conformity of the European Digital Identity Wallet AND of the electronic identification scheme with Article 5a(4), (5) and (8), with the requirement for logical separation laid down in Article 5a(14) and, where applicable, with the standards referred to in Article 5a(24). Everything else in Article 5a is subject to supervision under Article 46a, not to certification. The number sequence 4-5-8-14 is the practical mnemonic anchor. Article 8 eIDAS · Assurance levels of electronic identification schemes Paragraph 1 requires the assurance level attributed to be specified, paragraph 2 defines the scale of low, substantial and high by reference to their effectiveness against the misuse of identity, and paragraph 3 empowers the Commission to lay down minimum requirements in six areas: identity proofing and verification, issuance of the means, the authentication mechanism, the issuing body, other bodies involved, and the technical specifications of the means.",
+   "AUDIT CHECK": "Which onboarding path is used – assurance level high directly, or substantial plus additional procedures?",
+   "KEY POINT": "Substantial + additional procedures = high. The only lawful detour."
+  }
+ },
+ {
+  "id": "5b|Abs. 1",
+  "article": "5b",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 33,
+  "fields": {
+   "TOPIC": "Registration obligation of relying parties",
+   "ADDRESSEE": "Relying party (RP)",
+   "CONTENT": "Whoever intends to rely upon European Digital Identity Wallets for the provision of public OR private services SHALL REGISTER in the Member State where it is established.",
+   "PURPOSE": "Only registered relying parties can be authenticated by the European Digital Identity Wallet – registration is the filter against anonymous data harvesting.",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical characteristics The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 5a(8) · Free-of-charge validation mechanisms Requires the Member State to provide two free-of-charge verification routes running in opposite directions: point (a) allows verification of whether a European Digital Identity Wallet presented is authentic and valid; point (b) allows the user to verify whether the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the relying party) could not be verified. Forms part of the subject matter of certification under Article 5c(1). Relevance here: the registration becomes effective only because the European Digital Identity Wallet can verify the registered relying party free of charge. Article 5b(5) · Publication of the registration Obliges the Member State to make the registration information publicly available online in electronically signed or sealed form suitable for automated processing. Only this enables the European Digital Identity Wallet to verify by automated means whether a requesting entity is registered. Article 5b(7) · Common identification mechanism Obliges the Member State to provide a common mechanism for allowing the identification and authentication of relying parties, as referred to in Article 5a(5), point (c). Twenty-seven different procedures would be unmanageable across borders.",
+   "AUDIT CHECK": "Has registration taken place in the Member State of establishment – and is the entry up to date?",
+   "KEY POINT": "No access without registration. That is the entry ticket."
+  }
+ },
+ {
+  "id": "5b|Abs. 2 a-c",
+  "article": "5b",
+  "locus": "Abs. 2 a-c",
+  "locus_en": "Paragraph 2(a)-(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 34,
+  "fields": {
+   "TOPIC": "Minimum content of the registration",
+   "ADDRESSEE": "Relying party (RP)",
+   "CONTENT": "The registration process shall be cost-effective and proportionate to risk. The relying party shall provide AT LEAST: (a) the information necessary for authentication (i the Member State (MS) in which it is established, ii the name and, where applicable, the registration number as stated in an official record, together with the identification data of that official record), (b) contact details, (c) the INTENDED USE, including an indication of the data to be requested.",
+   "PURPOSE": "Point (c) is the anchor of purpose limitation: what is not indicated here may not be requested later.",
+   "CROSS-REFERENCES": "Article 5b(3) · Prohibition of over-asking Makes the registration information under paragraph 2, point (c) legally binding: the registered scope of data is at the same time the maximum permissible scope. This makes purpose limitation under data protection law enforceable in technical and supervisory terms for the first time, instead of merely being asserted. “shall not request users to provide any data other than that indicated pursuant to paragraph 2, point (c)” ✓ Article 5b(3) eIDAS Article 5b(6) · Duty to update Obliges registered entities to inform the Member State without delay of any change to the registration information – including a change of the intended use and thus of the permissible scope of requests. Article 5b(11) · Implementing act Empowers the Commission to establish technical and operational specifications and procedures for paragraphs 2, 5 and 6 to 9, by means of the implementing acts on the implementation of the European Digital Identity Wallet referred to in Article 5a(23). Without a uniform format, the registration could not be evaluated across borders.",
+   "AUDIT CHECK": "Does the registered data request actually cover the scope of requests made in production?",
+   "KEY POINT": "What is not in point (c) may not be requested under paragraph 3."
+  }
+ },
+ {
+  "id": "5b|Abs. 3",
+  "article": "5b",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 34,
+  "fields": {
+   "TOPIC": "Prohibition of over-asking",
+   "ADDRESSEE": "Relying party (RP)",
+   "CONTENT": "Relying parties SHALL NOT request users to provide ANY DATA OTHER THAN that indicated pursuant to paragraph 2, point (c).",
+   "PURPOSE": "Makes purpose limitation enforceable in technical and supervisory terms instead of merely asserted.",
+   "CROSS-REFERENCES": "Article 5 GDPR · Principles relating to the processing of personal data Paragraph 1 sets out six principles: lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality. Paragraph 2 establishes accountability – the controller must be able to DEMONSTRATE compliance with those principles. Link to eIDAS: Article 5b(2), point (c) and Article 5b(3) eIDAS make the purpose limitation of paragraph 1, point (b) technically enforceable: what is not indicated as an intended use at registration may not be requested. The accountability of paragraph 2 recurs in Article 5a(17) eIDAS as a separate obligation to demonstrate compliance. ● Summary of content, not verified against the original text Article 5b(2) · Minimum content of the relying party registration The relying party must provide authentication information, contact details and – point (c) – the intended use, including an indication of the data to be requested. Point (c) is the anchor of purpose limitation: it defines the permissible scope of requests to which paragraph 3 binds the relying party. Article 5b(6) · Duty to update Obliges registered entities to inform the Member State without delay of any change to the registration information – including a change of the intended use and thus of the permissible scope of requests.",
+   "AUDIT CHECK": "Does the request made in production deviate from the registered scope? How is this monitored?",
+   "KEY POINT": "Registered scope = maximum scope. No adding data later."
+  }
+ },
+ {
+  "id": "5b|Abs. 4",
+  "article": "5b",
+  "locus": "Abs. 4",
+  "locus_en": "Paragraph 4",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L3",
+  "page": 35,
+  "fields": {
+   "TOPIC": "Other legal provisions left unaffected",
+   "ADDRESSEE": "-",
+   "CONTENT": "Paragraphs 1 and 2 shall be without prejudice to Union or national law that is applicable to the provision of specific services.",
+   "PURPOSE": "Sectoral law (for example anti-money-laundering law, health law) continues to apply with priority.",
+   "CROSS-REFERENCES": "GDPR · Regulation (EU) 2016/679 – General Data Protection Regulation Continues to apply in full alongside eIDAS; Article 2(3) eIDAS states this expressly. For the European Digital Identity Wallet and for trust services, the decisive provisions are above all the principles relating to processing (Article 5), accountability (Article 5(2), Article 24), data protection by design (Article 25), security of processing (Article 32), notification obligations (Article 33), the impact assessment (Article 35) and liability and penalties (Articles 82 and 83). Link to eIDAS: Article 5a(17) eIDAS expressly requires compliance with the GDPR to be DEMONSTRATED for processing in the European Digital Identity Wallet; Article 20(3b) eIDAS makes a notified infringement of the GDPR a ground for withdrawing qualified status. ● Summary of content, not verified against the original text Article 2(3) eIDAS · Relationship with data protection law Clarifies that this Regulation is without prejudice to the General Data Protection Regulation. Where eIDAS regulates processing operations, its requirements are added to the GDPR and do not replace it.",
+   "AUDIT CHECK": "Which sector-specific identification obligations apply in addition?",
+   "KEY POINT": "eIDAS does not displace sectoral law."
+  }
+ },
+ {
+  "id": "5b|Abs. 5",
+  "article": "5b",
+  "locus": "Abs. 5",
+  "locus_en": "Paragraph 5",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 35,
+  "fields": {
+   "TOPIC": "Publication of the relying party registration",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "The Member State (MS) shall make the information referred to in paragraph 2 PUBLICLY available online in electronically signed or sealed form suitable for automated processing.",
+   "PURPOSE": "The European Digital Identity Wallet must be able to verify by automated means whether the requesting relying party is registered – this requires a signed, retrievable list.",
+   "CROSS-REFERENCES": "Article 5a(8) · Free-of-charge validation mechanisms Requires the Member State to provide two free-of-charge verification routes running in opposite directions: point (a) allows verification of whether a European Digital Identity Wallet presented is authentic and valid; point (b) allows the user to verify whether the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the relying party) could not be verified. Forms part of the subject matter of certification under Article 5c(1). Relevance here: the registration becomes effective only because the European Digital Identity Wallet can verify the registered relying party free of charge. Article 5a(18) · Notification obligations towards the Commission Names five subjects of notification: the body responsible for the list of relying parties together with the location of that list, the bodies responsible for the provision, the bodies responsible for associating the person identification data, the mechanism for validating that data and the identity of the relying parties, and the mechanisms for validating the authenticity and validity of the European Digital Identity Wallet. The Commission makes this information public through a secure channel, in signed form suitable for automated processing. Article 5b(7) · Common identification mechanism Obliges the Member State to provide a common mechanism for allowing the identification and authentication of relying parties, as referred to in Article 5a(5), point (c). Twenty-seven different procedures would be unmanageable across borders.",
+   "AUDIT CHECK": "Is the relying party list signed, machine-readable and up to date?",
+   "KEY POINT": "Public, signed, machine-readable – otherwise the EUDI Wallet can verify nothing."
+  }
+ },
+ {
+  "id": "5b|Abs. 6",
+  "article": "5b",
+  "locus": "Abs. 6",
+  "locus_en": "Paragraph 6",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 36,
+  "fields": {
+   "TOPIC": "Duty to update",
+   "ADDRESSEE": "Relying party (RP)",
+   "CONTENT": "Registered relying parties shall inform the Member State (MS) WITHOUT DELAY of any change to the information provided pursuant to paragraph 2.",
+   "PURPOSE": "An out-of-date registration either permits impermissible requests or blocks permissible ones.",
+   "DEADLINE": "without delay",
+   "CROSS-REFERENCES": "Article 5b(2) · Minimum content of the relying party registration The relying party must provide authentication information, contact details and – point (c) – the intended use, including an indication of the data to be requested. Point (c) is the anchor of purpose limitation: it defines the permissible scope of requests to which paragraph 3 binds the relying party. Article 5b(3) · Prohibition of over-asking Makes the registration information under paragraph 2, point (c) legally binding: the registered scope of data is at the same time the maximum permissible scope. This makes purpose limitation under data protection law enforceable in technical and supervisory terms for the first time, instead of merely being asserted. “shall not request users to provide any data other than that indicated pursuant to paragraph 2, point (c)” ✓ Article 5b(3) eIDAS",
+   "AUDIT CHECK": "Is there a process that notifies the registration authority of changes to the scope of requests?",
+   "KEY POINT": "If the purpose changes, the registration changes."
+  }
+ },
+ {
+  "id": "5b|Abs. 7",
+  "article": "5b",
+  "locus": "Abs. 7",
+  "locus_en": "Paragraph 7",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 36,
+  "fields": {
+   "TOPIC": "Common identification mechanism",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "The Member State (MS) shall provide a COMMON mechanism for allowing the identification and authentication of relying parties, as referred to in Article 5a(5), point (c).",
+   "PURPOSE": "27 different relying party authentication procedures would be unmanageable for a cross-border European Digital Identity Wallet.",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical characteristics The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 5a(8) · Free-of-charge validation mechanisms Requires the Member State to provide two free-of-charge verification routes running in opposite directions: point (a) allows verification of whether a European Digital Identity Wallet presented is authentic and valid; point (b) allows the user to verify whether the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the relying party) could not be verified. Forms part of the subject matter of certification under Article 5c(1). Relevance here: the registration becomes effective only because the European Digital Identity Wallet can verify the registered relying party free of charge. Article 5b(5) · Publication of the registration Obliges the Member State to make the registration information publicly available online in electronically signed or sealed form suitable for automated processing. Only this enables the European Digital Identity Wallet to verify by automated means whether a requesting entity is registered.",
+   "AUDIT CHECK": "Does the Member State (MS) use the common mechanism – or a national bespoke solution?",
+   "KEY POINT": "One mechanism for all relying parties, interoperable EU-wide."
+  }
+ },
+ {
+  "id": "5b|Abs. 8",
+  "article": "5b",
+  "locus": "Abs. 8",
+  "locus_en": "Paragraph 8",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 37,
+  "fields": {
+   "TOPIC": "Self-identification towards the user",
+   "ADDRESSEE": "Relying party (RP)",
+   "CONTENT": "Relying parties intending to rely upon European Digital Identity Wallets SHALL identify themselves to the USER.",
+   "PURPOSE": "Before releasing data the user should know to whom the data is given – protection against phishing and impersonation.",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical characteristics The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, and point (g) the free-of-charge qualified electronic signature for natural persons. Article 5a(8) · Free-of-charge validation mechanisms Requires the Member State to provide two free-of-charge verification routes running in opposite directions: point (a) allows verification of whether a European Digital Identity Wallet presented is authentic and valid; point (b) allows the user to verify whether the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the relying party) could not be verified. Forms part of the subject matter of certification under Article 5c(1). Relevance here: the registration becomes effective only because the European Digital Identity Wallet can verify the registered relying party free of charge.",
+   "AUDIT CHECK": "Is the relying party identity visibly displayed to the user before the data is released?",
+   "KEY POINT": "First the service identifies itself, then the user."
+  }
+ }
+]

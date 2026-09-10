@@ -1,0 +1,175 @@
+[
+ {
+  "id": "5a|Abs. 15",
+  "article": "5a",
+  "locus": "Abs. 15",
+  "locus_en": "Paragraph 15",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 25,
+  "fields": {
+   "TOPIC": "Voluntary use and prohibition of discrimination",
+   "ADDRESSEE": "Member State / all service providers",
+   "CONTENT": "Use shall be VOLUNTARY. Persons who do not use the European Digital Identity Wallet SHALL NOT in any way be restricted or placed at a disadvantage in accessing public and private services, in access to the labour market or in the freedom to conduct a business. Other identification means shall remain possible.",
+   "PURPOSE": "A core political condition of the Regulation – without it the European Digital Identity Wallet would amount to a de facto obligation to identify oneself.",
+   "CROSS-REFERENCES": "Article 5f · Cross-border use and obligation of acceptance Requires the public sector to accept the European Digital Identity Wallet wherever it requires electronic identification, and extends this to certain private parties in eleven named sectors as well as to very large online platforms. Microenterprises and small enterprises are exempt; use takes place only at the voluntary request of the user. In addition, the Article provides for codes of conduct and an evaluation of the use of the European Digital Identity Wallet.",
+   "AUDIT CHECK": "Does an alternative identification route remain open for every service?",
+   "KEY POINT": "The relying party SHALL accept (5f) – the user is NOT REQUIRED to use (Article 5a(15))."
+  }
+ },
+ {
+  "id": "5a|Abs. 16 a-b",
+  "article": "5a",
+  "locus": "Abs. 16 a-b",
+  "locus_en": "Paragraph 16(a)-(b)",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 25,
+  "fields": {
+   "TOPIC": "Unlinkability in the technical framework",
+   "ADDRESSEE": "European Digital Identity Wallet (technical) / Commission (via implementing act)",
+   "CONTENT": "The technical framework (a) SHALL NOT allow providers of electronic attestations of attributes (EAA) or any other party, after issuance, to obtain any data that would allow transactions or user behaviour to be tracked, linked or correlated, unless the user explicitly authorises it; (b) shall enable privacy preserving techniques which ensure UNLINKABILITY where identification is not required.",
+   "PURPOSE": "Protects against the build-up of an EU-wide behavioural profile via the identity infrastructure.",
+   "CROSS-REFERENCES": "ARF · Architecture and Reference Framework of the European Digital Identity Wallet Not a legal act, but the technical reference architecture developed within the implementing acts under Article 5a(23) eIDAS. It describes the roles, data models, protocols and trust model of the European Digital Identity Wallet, drawing on formats such as ISO/IEC 18013-5 (mobile driving licences) and W3C Verifiable Credentials. Relationship to eIDAS: it fills the eleven interface cases of Article 5a(5), point (a)(i) to (xi) eIDAS with concrete specifications. Only what the implementing act takes over becomes legally binding. ● Summary of content, not verified against the original text Article 5a(5) · Mandatory technical characteristics The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, European Digital Identity Wallet-to-European Digital Identity Wallet, relying party authentication, verification of authenticity, deletion requests, reporting to authorities, creation of qualified electronic signatures) – in effect the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) requires assurance level high, point (g) the qualified electronic signature free of charge for natural persons. Article 45h eIDAS · Additional rules for services for electronic attestation of attributes Prohibits providers of qualified and non-qualified attestation services from combining personal data from those services with data from other services offered by them or by their business partners. Paragraph 2 requires the data to be kept logically separate from all other data holdings; paragraph 3 requires the qualified service to be functionally separate from the provider's other services.",
+   "AUDIT CHECK": "Which cryptographic technique actually implements unlinkability – or is it merely asserted at organisational level?",
+   "KEY POINT": "Paragraph 5(b) prohibits monitoring, paragraph 16 prohibits aggregating."
+  }
+ },
+ {
+  "id": "5a|Abs. 17",
+  "article": "5a",
+  "locus": "Abs. 17",
+  "locus_en": "Paragraph 17",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 26,
+  "fields": {
+   "TOPIC": "GDPR compliance and accountability",
+   "ADDRESSEE": "Member State / responsible bodies",
+   "CONTENT": "Any processing shall be carried out in accordance with appropriate and effective data protection measures. Compliance of the processing activities with the GDPR SHALL BE DEMONSTRATED. Member States (MS) may adopt national provisions further specifying those requirements.",
+   "PURPOSE": "The burden of proof lies with the operator – accountability analogous to Article 5(2) GDPR.",
+   "CROSS-REFERENCES": "Article 5 GDPR · Principles relating to processing of personal data Paragraph 1 sets out six principles: lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality. Paragraph 2 establishes accountability – the controller SHALL be able to DEMONSTRATE compliance with those principles. Relationship to eIDAS: Article 5b(2), point (c), and Article 5b(3) eIDAS make the purpose limitation of paragraph 1(b) technically enforceable: what has not been stated as an intended use at registration may not be requested. The accountability of paragraph 2 recurs in Article 5a(17) eIDAS as a self-standing obligation to demonstrate compliance. ● Summary of content, not verified against the original text Article 24 eIDAS · Requirements for qualified trust service providers The central catalogue of obligations. Paragraphs 1, 1a and 1b govern the verification of identity (four methods) and of attributes (five methods). Paragraph 2 contains points (a) to (k) – notification obligations, staff, financial resources, information to users, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery, record-keeping, termination plan and certificate database. Paragraphs 3 and 4 govern revocation and certificate status information. Article 35 eIDAS · Legal effects of electronic seals Paragraph 1 contains the prohibition of discrimination, paragraph 2 the presumption of the integrity of the data and of the correctness of the origin claimed, for qualified electronic seals. Unlike the qualified electronic signature, the electronic seal is NOT given the equivalent effect of a handwritten signature – it attests the origin from an organisation, not a person's intention to be legally bound. The former paragraph 3 has been deleted.",
+   "AUDIT CHECK": "Is there a data protection impact assessment and a record of processing activities for the European Digital Identity Wallet?",
+   "KEY POINT": "Not 'being compliant', but 'demonstrating compliance'."
+  }
+ },
+ {
+  "id": "5a|Abs. 18 a-e",
+  "article": "5a",
+  "locus": "Abs. 18 a-e",
+  "locus_en": "Paragraph 18(a)-(e)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 27,
+  "fields": {
+   "TOPIC": "Notification obligations towards the Commission",
+   "ADDRESSEE": "Member State / Commission",
+   "CONTENT": "The Member State (MS) shall notify, WITHOUT UNDUE DELAY, information about (a) the body responsible for the list of relying parties and the location of that list, (b) the bodies responsible for the provision of the European Digital Identity Wallet, (c) the bodies responsible for associating the person identification data (PID), (d) the mechanism for validating the person identification data and the identity of the relying parties, (e) the mechanisms for validating the authenticity and validity of the European Digital Identity Wallet. The Commission shall make this available to the public through a SECURE channel, in electronically signed or sealed form suitable for automated processing.",
+   "PURPOSE": "A relying party abroad must be able to establish by automated means which European Digital Identity Wallet and which list of relying parties are genuine.",
+   "DEADLINE": "without undue delay",
+   "CROSS-REFERENCES": "Article 5b(5) · Publication of the registration Requires the Member State to make the registration information publicly available online in electronically signed or sealed form suitable for automated processing. Only this enables the European Digital Identity Wallet to verify by automated means whether a requesting party is registered. Article 5a(23) · Implementing act on the core European Digital Identity Wallet requirements In practice the most important empowering provision of the Regulation. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. At the same time it is one of the two triggers of the 24-month time limit in paragraph 1. Numerous further provisions (Article 5b(11), 5d(7), 5e(5), 45d(5), 45e(2), 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Significance here: without that act, paragraphs 4, 5, 8 and 18 cannot be audited; it is also the time-limit anchor of paragraph 1. Article 5d · Publication of the list of certified European Digital Identity Wallets Requires Member States to inform the Commission and the Cooperation Group without undue delay of certified as well as of withdrawn European Digital Identity Wallets, and states the minimum content of that notification. The Commission maintains a machine-readable list published in the Official Journal and incorporates changes within one month. The list of European Digital Identity Wallets is to be distinguished from the trusted list of trust service providers under Article 22.",
+   "AUDIT CHECK": "Have all five items subject to notification actually been transmitted and published?",
+   "KEY POINT": "Five notifications: list, providers, association – plus two validation mechanisms."
+  }
+ },
+ {
+  "id": "5a|Abs. 19",
+  "article": "5a",
+  "locus": "Abs. 19",
+  "locus_en": "Paragraph 19",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L2",
+  "page": 28,
+  "fields": {
+   "TOPIC": "Liability",
+   "ADDRESSEE": "Member State / European Digital Identity Wallet provider",
+   "CONTENT": "Article 11 (liability in the field of electronic identification) applies MUTATIS MUTANDIS to the European Digital Identity Wallet – without prejudice to paragraph 22.",
+   "PURPOSE": "Avoids a separate liability regime; the European Digital Identity Wallet follows the electronic identification liability rules.",
+   "CROSS-REFERENCES": "Article 5a(22) · Exemptions from the electronic identification Articles Disapplies Articles 7, 9, 10, 12 and 12a for the European Digital Identity Wallet and the underlying scheme. The European Digital Identity Wallet instead follows its own, stricter regime under Articles 5a to 5f. Important for the delimitation: Article 11 (liability) does apply, by virtue of Article 5a(19), and Article 12b (access to platforms) is precisely NOT exempted here. “shall not be subject to the requirements laid down in Articles 7, 9, 10, 12 and 12a” ✓ Article 5a(22) eIDAS Article 11 eIDAS · Liability in the field of electronic identification Allocates liability over three roles and three points of Article 7: the notifying Member State is liable for point (d) (unambiguous attribution of the person identification data) and point (f) (availability of authentication), the issuer for point (e) (correct attribution of the means), and the operator of the authentication procedure for its incorrect operation. All three cases concern cross-border transactions only. By virtue of Article 5a(19) it applies mutatis mutandis to European Digital Identity Wallets as well. Significance here: the European Digital Identity Wallet follows the electronic identification liability of Chapter II, not the trust service liability of Article 13.",
+   "AUDIT CHECK": "Is the liability regime for the European Digital Identity Wallet documented and notified to the Commission under Article 5d(2)(c)?",
+   "KEY POINT": "EUDI Wallet liability = Article 11 (electronic identification), not Article 13."
+  }
+ },
+ {
+  "id": "5a|Abs. 20",
+  "article": "5a",
+  "locus": "Abs. 20",
+  "locus_en": "Paragraph 20",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L1",
+  "page": 28,
+  "fields": {
+   "TOPIC": "Partial application of the qualified trust service provider obligations",
+   "ADDRESSEE": "European Digital Identity Wallet provider",
+   "CONTENT": "Article 24(2), points (b) and (d) to (h), apply MUTATIS MUTANDIS to providers of European Digital Identity Wallets: qualified staff, information to users, trustworthy systems, verifiable storage, risk management (fa), 24-hour notification (fb), protection against forgery, record-keeping.",
+   "PURPOSE": "Transfers the established catalogue of qualified trust service provider (QTSP) obligations in part to European Digital Identity Wallet providers, without turning them into qualified trust service providers.",
+   "CROSS-REFERENCES": "Article 24(2) eIDAS · Catalogue of obligations of the qualified trust service provider The central catalogue, in practice the structure of every audit: (a) notification obligations (1 month for changes, 3 months for cessation), (b) qualified and trained staff in accordance with recognised standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems, including suitable cryptographic techniques, (f) verifiable data storage, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and loss of data, (h) record-keeping beyond the cessation of activities, (i) termination plan, (k) certificate database. Point (j) has been deleted – the gap is intentional. Significance here: only points (b) and (d) to (h) are taken over – this expressly does not make the European Digital Identity Wallet provider a qualified trust service provider. Article 46a eIDAS · Supervision of the European Digital Identity Wallet framework Requires Member States to designate supervisory bodies for European Digital Identity Wallet providers and to notify them to the Commission. Those bodies monitor compliance with the requirements, may require evidence and may order measures. Before eIDAS 2.0 there was no comparable supervisory structure for the electronic identification pillar.",
+   "AUDIT CHECK": "Are the incorporated points (b) and (d) to (h) actually audited at the European Digital Identity Wallet provider?",
+   "KEY POINT": "(b) and (d) to (h) – NOT (a), (c), (i), (k). The extract is precisely delimited."
+  }
+ },
+ {
+  "id": "5a|Abs. 21",
+  "article": "5a",
+  "locus": "Abs. 21",
+  "locus_en": "Paragraph 21",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 29,
+  "fields": {
+   "TOPIC": "Accessibility",
+   "ADDRESSEE": "European Digital Identity Wallet provider / Member State",
+   "CONTENT": "European Digital Identity Wallets shall be made accessible for use by persons with disabilities on an equal basis with other users, in accordance with Directive (EU) 2019/882.",
+   "PURPOSE": "An infrastructure that is mandatory must not technically exclude any group of persons.",
+   "CROSS-REFERENCES": "Article 15 eIDAS · Accessibility Requires electronic identification means, trust services AND the end-user products used in the provision of those services to be made accessible in easy-to-understand language – in accordance with the UN Convention on the Rights of Persons with Disabilities and the accessibility requirements of Directive (EU) 2019/882. Older persons and persons with limited access to digital technologies are expressly covered as well. eIDAS 2.0 has deleted the former qualification 'where feasible'.",
+   "AUDIT CHECK": "Is there an accessibility statement or evidence of conformity in accordance with EN 301 549?",
+   "KEY POINT": "Accessible on an equal basis for persons with disabilities – Directive (EU) 2019/882."
+  }
+ },
+ {
+  "id": "5a|Abs. 22",
+  "article": "5a",
+  "locus": "Abs. 22",
+  "locus_en": "Paragraph 22",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L1",
+  "page": 30,
+  "fields": {
+   "TOPIC": "Exemptions from the electronic identification Articles",
+   "ADDRESSEE": "Member State",
+   "CONTENT": "For the purposes of the provision of the European Digital Identity Wallet and of the underlying electronic identification scheme, Articles 7, 9, 10, 12 and 12a do NOT apply.",
+   "PURPOSE": "With Articles 5a to 5f the European Digital Identity Wallet has its own, stricter regime; applying both in parallel would be contradictory.",
+   "CROSS-REFERENCES": "Article 7 eIDAS · Conditions for notification Eight cumulative conditions, points (a) to (h). Particularly relevant in practice: point (f) requires online authentication that is available across borders and must be free of charge for public services; point (g) requires the description of the scheme to be submitted to the other Member States at least six months before notification. Points (d), (e) and (f) are at the same time the connecting factors for liability under Article 11. Not applicable to European Digital Identity Wallets (Article 5a(22)). Article 9 eIDAS · Notification Governs the content and the procedure for notifying an electronic identification scheme. The Member State transmits the description of the scheme, the assurance levels, the supervisory and liability arrangements separately for the issuer and for the operator of the authentication procedure, the competent authorities, the registry for the person identification data, the evidence of interoperability, the description of the authentication and the arrangements for suspension and revocation. The Commission publishes the list in the Official Journal and incorporates changes within one month. Article 10 eIDAS · Security breach in electronic identification schemes Requires the notifying Member State, in the event of a breach affecting the reliability, to suspend or revoke cross-border authentication without delay and to inform the other Member States and the Commission. Once the breach is remedied, authentication is to be restored; if it is not remedied within three months, the withdrawal of the scheme is to be notified. The parallel provision for European Digital Identity Wallets is Article 5e. Article 12 eIDAS · Interoperability Requires the notified schemes to be interoperable and describes the framework to be created for that purpose: technology-neutral, based on European and international standards and – new since eIDAS 2.0 – promoting privacy and security by design. The framework covers the reference to the assurance levels, the mapping of the national levels, minimum technical requirements, the minimum data set of person identification data, procedural rules, dispute resolution and common security standards. In addition, the Article governs peer review. Article 12a eIDAS · Certification of electronic identification schemes Allows the cybersecurity compliance of electronic identification schemes to be notified to be certified by designated conformity assessment bodies under a scheme adopted pursuant to the Cybersecurity Act. The certification is valid for a maximum of five years, subject to a vulnerability assessment every two years, and is withdrawn where a vulnerability is not remedied within three months. The practical incentive is in paragraph 5: certified schemes are exempt from peer review. Article 11 eIDAS · Liability in the field of electronic identification Allocates liability over three roles and three points of Article 7: the notifying Member State is liable for point (d) (unambiguous attribution of the person identification data) and point (f) (availability of authentication), the issuer for point (e) (correct attribution of the means), and the operator of the authentication procedure for its incorrect operation. All three cases concern cross-border transactions only. By virtue of Article 5a(19) it applies mutatis mutandis to European Digital Identity Wallets as well. Significance here: the European Digital Identity Wallet follows the electronic identification liability of Chapter II, not the trust service liability of Article 13.",
+   "AUDIT CHECK": "Is the notification procedure under Article 9 being wrongly applied to the European Digital Identity Wallet?",
+   "KEY POINT": "Not applicable: 7, 9, 10, 12, 12a. Applicable: 11 (via paragraph 19)."
+  }
+ },
+ {
+  "id": "5a|Abs. 23 Auftrag Kommission",
+  "article": "5a",
+  "locus": "Abs. 23 Auftrag Kommission",
+  "locus_en": "Paragraph 23 Commission mandate",
+  "modality": "",
+  "modality_en": "",
+  "level": "L1",
+  "page": 31,
+  "fields": {
+   "TOPIC": "Implementing-act empowerment – basis of the ARF",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in PARAGRAPHS 4, 5, 8 and 18. Examination procedure under Article 48(2).",
+   "PURPOSE": "The substantive European Digital Identity Wallet requirements cannot be audited without technical specification – this paragraph is the legal basis of the Architecture and Reference Framework.",
+   "DEADLINE": "by 21 November 2024",
+   "CROSS-REFERENCES": "Article 5a(1) · Obligation to provide and time-limit anchor Establishes the central implementation obligation of Chapter II: every Member State SHALL provide at least one European Digital Identity Wallet. The time-limit mechanism is decisive – the 24 months do not run from the date of the Regulation, but from the entry into force of TWO implementing acts: Article 5a(23) (core functions) and Article 5c(6) (certification). As long as either of the two is missing, the period does not start to run. The same anchor governs Article 5f(2) (36 months) and Article 45e(1) as well. “each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6)” ✓ Article 5a(1) eIDAS Article 5c(6) · Implementing act on European Digital Identity Wallet certification Establishes reference standards, specifications and procedures for the certification under paragraphs 1, 2 and 3. Together with Article 5a(23), the second trigger of the 24-month time limit. Without a uniform certification scheme, a European Digital Identity Wallet certificate from one Member State would not be dependable in another – and the list under Article 5d would have no common yardstick. Significance here: the second trigger of the same time limit – if either of the two acts is missing, the 24-month clock in paragraph 1 does not start to run at all. Article 5b(11) · Implementing act Empowers the Commission to lay down technical and operational specifications and procedures for paragraphs 2, 5 and 6 to 9, and to do so within the European Digital Identity Wallet act under Article 5a(23). Without a uniform format, the registration could not be evaluated across borders. Article 5d(7) · Implementing act on notification formats Empowers the Commission to lay down formats and procedures for the notifications under paragraphs 1, 4 and 5 – within the European Digital Identity Wallet act under Article 5a(23). Notifications must be suitable for automated processing, otherwise the procedure does not scale. Article 5e(5) · Implementing act on security incidents Empowers the Commission to lay down reference standards, specifications and procedures for the measures under paragraphs 1, 2 and 3 – that is, for suspension, withdrawal and reinstatement. Article 45d(5) eIDAS · Implementing act on attestations of attributes Empowers the Commission to lay down reference standards, specifications and procedures for qualified electronic attestations of attributes – expressly in line with the European Digital Identity Wallet act under Article 5a(23). Without that alignment, the attestation could not reach the European Digital Identity Wallet. Article 45e(2) eIDAS · Implementing act on the catalogue of attributes Empowers the Commission to lay down reference standards, specifications and procedures for the catalogue of attributes, the attestation schemes and the verification procedures – taking international standards into account and in line with the European Digital Identity Wallet act. Article 45f(6) eIDAS · Implementing act on PuB-EAA Empowers the Commission to lay down reference standards for electronic attestations of attributes issued by public sector bodies – in line with the European Digital Identity Wallet act under Article 5a(23).",
+   "AUDIT CHECK": "Which implementing act is in place – and does it cover paragraphs 4, 5, 8 and 18 in full?",
+   "KEY POINT": "Without the paragraph 23 act there is no ARF – and no 24-month clock."
+  }
+ }
+]
