@@ -12,7 +12,7 @@
   },
   {
    "ref": "Article 3",
-   "text": "Contains the legal definitions in points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0, such as 5a, 23a and 23b. Particularly important in practice: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source, and point 47 authentic source."
+   "text": "Contains the legal definitions in points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0, namely 5a, 23a and 23b. Particularly important in practice: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source, and point 47 authentic source."
   },
   {
    "ref": "Article 4",
@@ -364,7 +364,7 @@
   },
   {
    "ref": "Article 5a",
-   "text": "Paragraph 14 Prohibits the provider of the European Digital Identity Wallet from collecting information about use that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It shall also keep the data logically separate from all other holdings. Where the Wallet is provided by private parties in accordance with paragraph 2, point (b) or (c), Article 45h(3) (functional separation) applies mutatis mutandis in addition. This is the only paragraph outside 4, 5 and 8 that is expressly certified. \"Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet\" ✓ Article 5a(14) eIDAS"
+   "text": "Paragraph 14 Prohibits the provider of the European Digital Identity Wallet from collecting information about use that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It shall also keep the data logically separate from all other holdings. Where the Wallet is provided by private parties in accordance with paragraph 2, points (b) and (c), Article 45h(3) (functional separation) shall apply mutatis mutandis in addition. This is the only paragraph outside 4, 5 and 8 that is expressly certified. \"Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet\" ✓ Article 5a(14) eIDAS"
   },
   {
    "ref": "Article 5a",
@@ -812,15 +812,15 @@
   },
   {
    "ref": "Article 39",
-   "text": "Paragraph 1 Provides that Article 29 applies mutatis mutandis to qualified electronic seal creation devices - and thereby indirectly Annex II as well as the rule on remote management."
+   "text": "Paragraph 1 Provides that Article 29 shall apply mutatis mutandis to qualified electronic seal creation devices - and thereby indirectly Annex II as well as the rule on remote management."
   },
   {
    "ref": "Article 39",
-   "text": "Paragraph 2 Provides that Article 30 applies mutatis mutandis: certification by designated bodies, security evaluation process in accordance with a listed standard or a process using comparable security levels, five-year limit with vulnerability assessments every two years."
+   "text": "Paragraph 2 Provides that Article 30 shall apply mutatis mutandis: certification by designated bodies, security evaluation process in accordance with a listed standard or a process using comparable security levels, five-year limit with vulnerability assessments every two years."
   },
   {
    "ref": "Article 39",
-   "text": "Paragraph 3 Provides that Article 31 applies mutatis mutandis: notification within one month of the certification as well as of its cancellation, maintenance of the list by the Commission."
+   "text": "Paragraph 3 Provides that Article 31 shall apply mutatis mutandis: notification within one month of the certification as well as of its cancellation, maintenance of the list by the Commission."
   },
   {
    "ref": "Article 41",
@@ -892,7 +892,7 @@
   },
   {
    "ref": "Article 45h",
-   "text": "Paragraph 3 Requires providers to implement the provision of such qualified trust services in a manner that is functionally separate from other services provided by them. Via Article 5a(14) this provision applies mutatis mutandis to private providers of the European Digital Identity Wallet."
+   "text": "Paragraph 3 Requires providers to implement the provision of such qualified trust services in a manner that is functionally separate from other services provided by them. Via Article 5a(14) this provision shall apply mutatis mutandis to private providers of the European Digital Identity Wallet."
   },
   {
    "ref": "Article 45i",

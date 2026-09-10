@@ -15,11 +15,11 @@ The English edition runs **143 pages** against the German original's 231.
 
 | Check | Result |
 |---|---|
-| Verbatim quotations character-exact vs. official English | 27 / 27 (pilot), 15 / 15 (Art. 6–25) |
-| Block, field and ordering parity DE ↔ EN | 213 / 213 |
+| Verbatim quotations character-exact vs. official English | 57 / 57 |
+| Block, field and ordering parity DE ↔ EN | 220 / 220, identifier difference 0 |
 | Modality mapping (SHALL / SHALL NOT / MAY …) | 1:1, no softening |
 | Defined terms vs. the 57 Article 3 definitions | no non-official variant found |
-| Retrieval cues within the 90-character limit | 69 / 69 |
+| Cross-references and quotations present in the rendered PDF | 624 / 624, 57 / 57 |
 
 ## Terminology
 
