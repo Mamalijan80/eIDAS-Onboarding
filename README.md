@@ -85,3 +85,15 @@ are marked typographically — and all text colours meet a 4.5:1 contrast floor.
 Every row count matches the German manual's own stated figure. Part G keeps the
 answer below a fold rule so it stays coverable — the desirable-difficulties
 principle the source document commits to.
+
+## Word edition
+
+`build/eIDAS_Study_Manual_EN.docx` is the same manual as a native Word document,
+generated from the same corpus by `pipeline/build_docx.js` — not converted from
+the PDF. It uses real heading levels (Part / Article / norm block), so Word's
+navigation pane and the built-in table of contents work, and the reference parts
+are real Word tables rather than pictures of tables.
+
+Verified with an independent reader: 220 / 220 block identifiers and topics,
+57 / 57 verbatim quotations, 624 / 624 cross-references, and every row of Parts
+C to I. The file also passes the OOXML schema validation.
