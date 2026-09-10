@@ -8,8 +8,10 @@ Source regulation: **Regulation (EU) No 910/2014**, consolidated version of
 
 ## Status
 
-Pilot covering **Articles 5a–5f — 69 norm blocks, 74 typeset pages**.
+Pilot covering **Articles 5a–5f — 69 norm blocks, 38 typeset pages**.
 The full manual holds 220 norm blocks across 64 articles plus reference parts C–I.
+At the pilot's density (0.55 pages per block) that projects to about **169 pages**,
+against a 200-page budget and the German original's 231.
 
 | Check | Result |
 |---|---|
@@ -53,6 +55,13 @@ parse_blocks ──────────────────────�
 
 `verify_quotes.py` and `lint.py` are runnable gates, not reports:
 quotations are compared character-by-character against the official English text.
+
+## Length
+
+Blocks are set as continuous flow, not one per page, on a 152 mm measure. Median
+unused page height is 3 %. `Wallet` is used as the defined short form, as the German
+manual does, with the full term on first use in each block and inside every quotation.
+English runs 1.08× the German source by character count.
 
 ## Layout
 
