@@ -1,0 +1,162 @@
+{
+ "part": "H",
+ "title": "Corrections against the previous edition",
+ "rows": [
+  {
+   "kind": "CORRECTION",
+   "reference": "Article 5e(2)",
+   "subject": "Deadline for withdrawal of a suspended European Digital Identity Wallet",
+   "previous": "Previous edition: 'if the compromise remains unremedied for more than 6 months'",
+   "finding": "Correct: THREE months. The wording reads 'not remedied within three months of the suspension'. Identical to Article 10(3) for electronic identification schemes."
+  },
+  {
+   "kind": "CORRECTION",
+   "reference": "Article 16(2)",
+   "subject": "Maximum administrative fines",
+   "previous": "Previous edition: 'for European Digital Identity Wallet providers at least EUR 10 million or 2 %'",
+   "finding": "Article 16 knows only ONE framework: EUR 5 000 000, or, where the provider is a legal person, EUR 5 000 000 or 1 % of the total worldwide turnover of the preceding financial year - whichever is higher, applying to qualified AND non-qualified TSPs. The figures of EUR 10 million / 2 % come from the NIS-2 Directive."
+  },
+  {
+   "kind": "CORRECTION",
+   "reference": "Article 45c",
+   "subject": "Electronic attestation of attributes in public services",
+   "previous": "Previous edition: 'shall accept qualified EAAs'",
+   "finding": "Article 45c is primarily a PROHIBITION: PID in an EAA shall NOT substitute electronic identification and its authentication - unless the Member State specifically allows it. Only then does acceptance of QEAAs from other Member States follow."
+  },
+  {
+   "kind": "CORRECTION",
+   "reference": "Article 3",
+   "subject": "Number of definitions",
+   "previous": "Previous edition: 'approximately 55 definitions'",
+   "finding": "The numbering runs from point (1) to point (57), supplemented by inserted letter-numbers such as 5a, 16a and 21a. Now stated precisely instead of estimated."
+  },
+  {
+   "kind": "CORRECTION",
+   "reference": "Annex VI",
+   "subject": "Minimum list of attributes",
+   "previous": "Previous edition: incomplete list, 'marital status', 'tax and social security numbers'",
+   "finding": "Annex VI contains eleven items; item 4 reads 'civil status'; item 10 is public permits and licences, item 11 financial and company data for legal persons. Tax and social security numbers are not mentioned in the wording."
+  },
+  {
+   "kind": "CORRECTION",
+   "reference": "Annex I / Annex III",
+   "subject": "Number of mandatory contents",
+   "previous": "Previous edition: points (a) to (i)",
+   "finding": "Both Annexes contain points (a) to (j). Point (i) (indication of the validity status) was recast by eIDAS 2.0."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 5a(1)",
+   "subject": "Start of the deadline for provision of the European Digital Identity Wallet",
+   "previous": "Previous edition: no deadline named",
+   "finding": "24 months after the entry into force of the implementing acts under Article 5a(23) AND Article 5c(6) - both shall be in force."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 5f(2)",
+   "subject": "Obligation of private relying parties to accept",
+   "previous": "Previous edition: without a deadline and without the SME exemption",
+   "finding": "36 months after the entry into force of the same implementing acts; microenterprises and small enterprises as defined in Recommendation 2003/361/EC are exempt; acceptance takes place only upon the voluntary request of the user."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 20",
+   "subject": "Supervision of QTSPs",
+   "previous": "Previous edition: only the 24-month audit and the 3-working-day deadline",
+   "finding": "Added: paragraph 1a (advance information one month beforehand and the supervisory body's right to participate as an observer), paragraph 1b (notification of the CAB together with its accreditation), paragraphs 3a/3b (withdrawal of qualified status for NIS2 and GDPR infringements); the scope of the audit includes Article 21 NIS-2."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 24",
+   "subject": "Verification of identity and attributes",
+   "previous": "Previous edition: one common list of methods",
+   "finding": "eIDAS 2.0 separates paragraph 1a (identity, four methods) and paragraph 1b (attributes, five methods including QEAA). Also added were the letter gap at (j) and the 24-hour deadlines in paragraph 2, point (fb) and paragraph 3."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 12",
+   "subject": "Interoperability",
+   "previous": "Previous edition: only a reference to Implementing Regulation (EU) 2015/1501",
+   "finding": "Added: paragraph 3, point (c) (privacy and security by design, new in eIDAS 2.0), paragraphs 5/6 (peer review, implementing act deadline 18 March 2025), paragraph 8 (new interoperability framework, deadline 18 September 2025). Paragraph 7 was deleted."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 45f",
+   "subject": "PuB-EAA",
+   "previous": "Previous edition: only Annex VII and the qualified electronic seal",
+   "finding": "Added: paragraph 2 (level of reliability in accordance with Article 24), paragraph 3 (notification with a conformity assessment report - the audit-relevant core), paragraph 8 (obligation to provide an interface with European Digital Identity Wallets)."
+  },
+  {
+   "kind": "CLARIFICATION",
+   "reference": "Article 45h(1)",
+   "subject": "Prohibition on combining data",
+   "previous": "Previous edition: 'data from the provider's own other services'",
+   "finding": "The wording also covers services of the provider's COMMERCIAL PARTNERS."
+  },
+  {
+   "kind": "ADDITION",
+   "reference": "Articles 17-19",
+   "subject": "Deleted Articles",
+   "previous": "not covered in the previous edition",
+   "finding": "Included as a row of its own in order to explain the gap in numbering: Articles 17, 18 and 19 were repealed by eIDAS 2.0; their successors are Articles 46b, 46d and 19a."
+  },
+  {
+   "kind": "ADDITION",
+   "reference": "Article 5c(4), Article 12a(3), Article 30(3a)",
+   "subject": "Validity period of certifications",
+   "previous": "not covered in the previous edition",
+   "finding": "Newly included: up to five years, provided that a vulnerability assessment is carried out every two years. Article 12a(3) additionally names a remediation period of three months. For QSCDs (Article 30(3a)) this time limit is new in eIDAS 2.0."
+  },
+  {
+   "kind": "ADDITION",
+   "reference": "Article 44(2a) and (2b)",
+   "subject": "Interoperability between ERDS providers",
+   "previous": "not covered in the previous edition",
+   "finding": "New in eIDAS 2.0: providers may agree on an interoperability framework; its conformity is confirmed by a conformity assessment body."
+  },
+  {
+   "kind": "ADDITION",
+   "reference": "new roles",
+   "subject": "Map of roles",
+   "previous": "16 roles in the previous edition",
+   "finding": "Extended by: the designated body under Article 30 (to be distinguished from the CAB), the operator of the authentication procedure, intermediaries/identity brokers under Article 5b(10), the NIS2 authority and the data protection supervisory authority. ENISA entry corrected: the link runs via Regulation (EU) 2019/881, not via Article 46c."
+  },
+  {
+   "kind": "NEW",
+   "reference": "Sheets 03 and 04",
+   "subject": "Paragraph-level detail for Chapter II and Chapter III",
+   "previous": "in the previous edition only Article 8",
+   "finding": "Complete analysis by paragraph and point for Chapter II (Articles 5a-12b) and Chapter III (Articles 13-45l) with addressee, modality, purpose, deadline, cross-references, audit question and mnemonic for each row."
+  },
+  {
+   "kind": "NEW",
+   "reference": "Sheet 07",
+   "subject": "Calendar of deadlines",
+   "previous": "not present",
+   "finding": "All dates and deadlines in the Regulation in chronological order - one-off cut-off dates and recurring obligations shown separately."
+  },
+  {
+   "kind": "NEW",
+   "reference": "Sheet 08",
+   "subject": "Mirror image of electronic signature / electronic seal",
+   "previous": "not present",
+   "finding": "Comparison of the Article pairs 25/35 through 34/40, with explicit marking of the points at which the mirroring does NOT apply."
+  },
+  {
+   "kind": "NEW",
+   "reference": "Sheet 09",
+   "subject": "Flashcards",
+   "previous": "not present",
+   "finding": "43 question-and-answer cards with Article reference and difficulty level for self-testing. The answer column can be hidden for revision."
+  },
+  {
+   "kind": "NEW",
+   "reference": "Sheet 00",
+   "subject": "Reading guide and progress",
+   "previous": "not present",
+   "finding": "Legend of the modalities and priorities, list of abbreviations, operating instructions and a progress evaluation with formulas over the status column of the master sheet."
+  }
+ ],
+ "rows_in_source": 22,
+ "check": null
+}

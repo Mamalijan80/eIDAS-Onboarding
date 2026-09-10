@@ -1,0 +1,179 @@
+[
+ {
+  "id": "6|Abs. 1 a-c",
+  "article": "6",
+  "locus": "Abs. 1 a-c",
+  "locus_en": "Paragraph 1(a)-(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 53,
+  "fields": {
+   "TOPIC": "Mutual recognition of notified electronic identification means",
+   "ADDRESSEE": "Member States / public sector bodies",
+   "CONTENT": "An electronic identification means issued in another Member State SHALL BE RECOGNISED where, cumulatively: (a) it comes from a scheme included in the Commission list under Article 9, (b) its assurance level is equal to or higher than the level required AND corresponds at least to SUBSTANTIAL, (c) the public sector body itself uses substantial or high for that service. Recognition shall take place NO LATER THAN 12 MONTHS after publication of the list.",
+   "PURPOSE": "Core promise of eIDAS 2014: using the national identity document across borders to access public sector services.",
+   "DEADLINE": "12 months after publication of the list; date of application under Article 52(2)(c)",
+   "CROSS-REFERENCES": "Article 5f(1) eIDAS · Public sector obligation to accept Where a Member State requires electronic identification and authentication to access an online service provided by a public sector body, it shall also accept the Wallet. Without this obligation there would be no use cases and therefore no incentive to use it. Article 52(3) eIDAS · Transition for schemes already listed Governs the treatment of electronic identification schemes that were already included in the Commission list before the relevant date, and thereby secures the continuity of earlier notifications. Article 8 eIDAS · Assurance levels of electronic identification schemes Requires in paragraph 1 that the assurance level attributed be specified, defines in paragraph 2 the scale low, substantial and high by reference to its effect against misuse of identity, and empowers the Commission in paragraph 3 to lay down minimum requirements for six fields: identity proofing and verification, issuance of the means, authentication mechanism, issuing entity, other bodies involved and the technical specifications of the means. Article 9 eIDAS · Notification Governs the content and the procedure of the notification of an electronic identification scheme. The Member State transmits the description of the scheme, the assurance levels, the supervisory and liability regime separately for the issuing party and the party operating the authentication, the competent authorities, the entity managing the registration of the person identification data, the evidence of interoperability, the description of the authentication and the arrangements for suspension and revocation. The Commission publishes the list in the Official Journal and incorporates amendments within one month. Article 12 eIDAS · Interoperability Requires the notified schemes to be interoperable and describes the framework to be established for that purpose: technology neutral, following European and international standards and – new since eIDAS 2.0 – facilitating privacy and security by design. The framework comprises a reference to the assurance levels (LoA), the mapping of the national levels, minimum technical requirements, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. In addition, the Article governs peer review.",
+   "AUDIT CHECK": "Are foreign electronic identification means with assurance level substantial actually accepted?",
+   "KEY POINT": "'Low' NEVER triggers an obligation – it becomes binding only from substantial upwards."
+  }
+ },
+ {
+  "id": "6|Abs. 2",
+  "article": "6",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L2",
+  "page": 54,
+  "fields": {
+   "TOPIC": "'May' recognition at the assurance level 'low'",
+   "ADDRESSEE": "Public sector bodies",
+   "CONTENT": "An electronic identification means with the assurance level LOW from a listed scheme MAY be recognised by public sector bodies.",
+   "PURPOSE": "Leaves room for low-risk services without establishing an obligation.",
+   "CROSS-REFERENCES": "Article 8(2) eIDAS · The three assurance levels Contains exclusively definitions, no obligations to act – a frequent source of error. The scale is aligned with the effect against misuse of identity: 'low' decreases the risk, 'substantial' decreases it substantially, 'high' prevents it. The substantive requirements follow only from the implementing act under paragraph 3, implemented by Implementing Regulation (EU) 2015/1502. “The assurance levels low, substantial and high shall meet respectively the following criteria” ✓ Article 8(2) eIDAS Relevance here: the recognition obligation attaches directly to the scale of levels defined there – below 'substantial' no obligation arises.",
+   "AUDIT CHECK": "Is 'low' wrongly treated as a mandatory level?",
+   "KEY POINT": "Low = may. Substantial/high = shall."
+  }
+ },
+ {
+  "id": "7|Buchst. a-h",
+  "article": "7",
+  "locus": "Buchst. a-h",
+  "locus_en": "Points (a)-(h)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 55,
+  "fields": {
+   "TOPIC": "Eligibility for notification",
+   "ADDRESSEE": "Notifying Member State",
+   "CONTENT": "Notification only where ALL conditions are met: (a) issuance by the Member State, under its mandate or independently of it but recognised by it; (b) use for at least ONE service provided by a public sector body which requires electronic identification; (c) compliance with at least ONE assurance level under the implementing act referred to in Article 8(3); (d) unique attribution of the person identification data (PID) to the person; (e) attribution of the means to precisely that person by the issuing party; (f) AVAILABLE online authentication for relying parties from other Member States – FREE OF CHARGE where a service provided online by a public sector body is concerned, and without disproportionate technical requirements; (g) provision of a description of the scheme to the other Member States AT LEAST SIX MONTHS BEFORE the notification (for the peer review under Article 12(5)); (h) compliance with the interoperability implementing act under Article 12(8).",
+   "PURPOSE": "Without minimum conditions a Member State could notify a weak scheme which all the others would have to trust.",
+   "DEADLINE": "Point (g): 6 months before notification",
+   "CROSS-REFERENCES": "Article 8(3) eIDAS · Empowerment for the LoA minimum requirements The actual obligation of the Article, addressed to the Commission. It sets out technical specifications, standards and procedures with minimum requirements, relating to six fields: identity proofing and verification, issuance of the means, authentication mechanism, issuing entity, any other body involved as well as technical and security specifications of the means. Without that act, 'high' would mean something different in every Member State. Article 11(1) eIDAS · Liability of the Member State Establishes the liability of the notifying Member State for damage caused intentionally or negligently which is due to a failure to comply with the obligations under Article 7, point (d) – unique attribution of the person identification data – and point (f) – availability of the authentication – in a cross-border transaction. Article 12(5) eIDAS · Peer review Requires the Member States to carry out peer reviews of the electronic identification schemes that are to be notified. This collegial control replaces central Union supervision; under Article 12a(5) it does not apply to certified schemes. Article 5a(22) eIDAS · Exemptions from the electronic identification Articles Switches off Articles 7, 9, 10, 12 and 12a for the Wallet and the underlying scheme. The Wallet instead follows its own, stricter regime under Articles 5a to 5f. Important for the demarcation: Article 11 (liability) does apply, via Article 5a(19), and Article 12b (platform access) is precisely NOT excluded here. “shall not be subject to the requirements laid down in Articles 7, 9, 10, 12 and 12a” ✓ Article 5a(22) eIDAS Article 9 eIDAS · Notification Governs the content and the procedure of the notification of an electronic identification scheme. The Member State transmits the description of the scheme, the assurance levels, the supervisory and liability regime separately for the issuing party and the party operating the authentication, the competent authorities, the entity managing the registration of the person identification data, the evidence of interoperability, the description of the authentication and the arrangements for suspension and revocation. The Commission publishes the list in the Official Journal and incorporates amendments within one month.",
+   "AUDIT CHECK": "Has the 6-month submission deadline under point (g) been observed?",
+   "KEY POINT": "Points (d), (e) and (f) are at the same time the liability anchor in Article 11 – learn (a)-(h) once, use them twice."
+  }
+ },
+ {
+  "id": "8|Abs. 1",
+  "article": "8",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 56,
+  "fields": {
+   "TOPIC": "Specification of the assurance level",
+   "ADDRESSEE": "Notifying electronic identification scheme / Member State",
+   "CONTENT": "A notified scheme SHALL SPECIFY the assurance levels low, substantial AND/OR high which have been attributed to the electronic identification means issued under it. 'And/or': a scheme may contain means of differing strength.",
+   "PURPOSE": "An assurance level that is not specified cannot be evaluated by other Member States – Article 6(1)(b) would be inapplicable.",
+   "DEADLINE": "Applies from the date of application of the implementing act under Article 8(3), see Article 52(2)(b)",
+   "CROSS-REFERENCES": "Article 6(1) eIDAS · Mutual recognition of notified electronic identification means The core promise of eIDAS 2014. The recognition obligation applies cumulatively: the scheme shall be included in the Commission list under Article 9, its assurance level shall be at least 'substantial' and shall correspond to the level required, and the public sector body shall itself use substantial or high for that service. Recognition no later than twelve months after publication of the list. The level 'low' never triggers an obligation (paragraph 2). Article 9(1) eIDAS · Content of the notification Seven items, (a) to (g), including the description of the scheme with its assurance levels, the supervisory regime together with the liability regime separately for the issuing party and the party operating the authentication, the competent authorities, the entity managing the registration of the person identification data (PID) as well as the arrangements for suspension and revocation. Almost identical to Article 5d(2) for Wallets – the same reporting logic in two regimes. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires online authentication available across borders, which shall be free of charge for services provided by a public sector body; point (g) requires the description of the scheme to be provided to the other Member States at least six months before notification. Points (d), (e) and (f) are at the same time the liability anchor of Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Is the assurance level specified for each means, or only globally for the scheme?",
+   "KEY POINT": "One scheme, several assurance levels – that is permitted."
+  }
+ },
+ {
+  "id": "8|Abs. 2 a-c",
+  "article": "8",
+  "locus": "Abs. 2 a-c",
+  "locus_en": "Paragraph 2(a)-(c)",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L1",
+  "page": 57,
+  "fields": {
+   "TOPIC": "The scale of the three assurance levels",
+   "ADDRESSEE": "no one – pure definition",
+   "CONTENT": "(a) LOW: a limited degree of confidence, technical controls to DECREASE the risk of misuse or alteration of the identity. (b) SUBSTANTIAL: a substantial degree of confidence, SUBSTANTIAL DECREASE of the risk. (c) HIGH: a higher degree than substantial, PREVENTION of the risk. Three definitions on an ascending scale – NOT three obligations.",
+   "PURPOSE": "Without a uniform definition, 'high' would mean something different in every Member State and recognition would be blind.",
+   "CROSS-REFERENCES": "Article 6(1) eIDAS · Mutual recognition of notified electronic identification means The core promise of eIDAS 2014. The recognition obligation applies cumulatively: the scheme shall be included in the Commission list under Article 9, its assurance level shall be at least 'substantial' and shall correspond to the level required, and the public sector body shall itself use substantial or high for that service. Recognition no later than twelve months after publication of the list. The level 'low' never triggers an obligation (paragraph 2). Article 5a(5) eIDAS · Mandatory technical properties The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, wallet-to-wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any information being provided to the issuer of the electronic attestation of attributes (EAA), point (d) prescribes assurance level high, point (g) the free-of-charge qualified electronic signature for natural persons. Relevance here: point (d) of that paragraph expressly requires for the Wallet the level 'high' defined here. Article 24(1a) eIDAS · Four methods of identity verification Exhaustive list: (a) the Wallet or a notified electronic identification means with assurance level high, (b) a certificate of a qualified electronic signature or of a qualified electronic seal issued in compliance with (a), (c) or (d), (c) other identification methods which ensure identification with a high level of confidence, the conformity of which is confirmed by a conformity assessment body, (d) physical presence. Point (c) is the gateway for video identification and comparable remote procedures – but only with confirmation by a conformity assessment body (CAB). Article 12a(1) eIDAS · Subject matter of certification for electronic identification schemes Provides that the conformity of the schemes to be notified with the cybersecurity requirements of the Regulation – including the cybersecurity relevant requirements set out in Article 8(2) – shall be certified by the conformity assessment bodies designated by the Member States.",
+   "AUDIT CHECK": "Typical examination trap: paragraph 2 contains definitions, not obligations to act.",
+   "KEY POINT": "Decrease – decrease substantially – prevent. Three verbs, three levels."
+  }
+ },
+ {
+  "id": "8|Abs. 3 (Hauptsatz)",
+  "article": "8",
+  "locus": "Abs. 3 (Hauptsatz)",
+  "locus_en": "Paragraph 3 (main clause)",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 58,
+  "fields": {
+   "TOPIC": "Mandate to the Commission (LoA specifications)",
+   "ADDRESSEE": "European Commission",
+   "CONTENT": "The Commission SHALL SET OUT, by means of implementing acts, technical specifications, standards and procedures WITH MINIMUM REQUIREMENTS with reference to which the three assurance levels are specified – taking into account relevant international standards, subject to paragraph 2, adopted in accordance with the examination procedure referred to in Article 48(2).",
+   "PURPOSE": "The scale alone cannot be audited. Without minimum technical requirements, every Member State could claim that its scheme is 'high'.",
+   "DEADLINE": "by 18 September 2015 (deadline expired; implemented by Implementing Regulation (EU) 2015/1502)",
+   "CROSS-REFERENCES": "Article 12(8) eIDAS · Implementing act on the interoperability framework Implements the framework which, under paragraph 4, comprises among other things the mapping of national assurance levels to the Article 8 levels, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. Together with the act under Article 8(3) it triggers, under Article 52(2)(b), the date of application of the electronic identification Articles. Deadline of the recast: 18 September 2025. Relevance here: only both acts taken together trigger, under Article 52(2)(b), the date of application of the electronic identification Articles. Article 52(2) eIDAS · Staggered dates of application Determines which provisions apply earlier or later by way of derogation from the general rule: the empowering provisions already from 17 September 2014, the electronic identification Articles from the date of application of the implementing acts under Article 8(3) and Article 12(8), and the recognition obligation of Article 6 only three years after that date. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires online authentication available across borders, which shall be free of charge for services provided by a public sector body; point (g) requires the description of the scheme to be provided to the other Member States at least six months before notification. Points (d), (e) and (f) are at the same time the liability anchor of Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Is the audit carried out against Implementing Regulation 2015/1502 – and is the mapping of the national assurance level documented?",
+   "KEY POINT": "THIS is the actual core of the Article – not paragraph 2."
+  }
+ },
+ {
+  "id": "8|Abs. 3 a-f",
+  "article": "8",
+  "locus": "Abs. 3 a-f",
+  "locus_en": "Paragraph 3(a)-(f)",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L1",
+  "page": 59,
+  "fields": {
+   "TOPIC": "The six fields of the minimum requirements",
+   "ADDRESSEE": "no one directly – catalogue of subject matter",
+   "CONTENT": "(a) the procedure to prove and verify the identity of the applicants; (b) the procedure for the issuance of the means; (c) the authentication mechanism; (d) the entity issuing the means; (e) any other body involved in the application; (f) technical and security specifications of the issued means. (a)-(f) are NOT six obligations, but the elements to the reliability and quality of which the ONE obligation of the main clause refers.",
+   "PURPOSE": "Limits the Commission's regulatory mandate in substance – it may regulate only in respect of these six fields.",
+   "CROSS-REFERENCES": "ETSI EN 319 401 · General requirements for trust service providers The basic standard of every trust service audit. It covers, among other things, risk assessment, the practice statement and terms and conditions, organisation and reliability of personnel, physical and access security, operational and network security, incident management, records, business continuity and termination of the service. Relation to eIDAS: gives concrete form to Article 24(2), points (b), (e), (fa), (g), (h) and (i) eIDAS as well as Article 19a(1), point (a) eIDAS. Through the formula 'recognised European or international standards' in point (b) it is at the same time the bridge to ISO/IEC 27001. ● Summary of content, not verified against the original text Article 5a(5) eIDAS · Mandatory technical properties The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, wallet-to-wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice this is the table of contents of the ARF. Point (b) prohibits any information being provided to the issuer of the electronic attestation of attributes (EAA), point (d) prescribes assurance level high, point (g) the free-of-charge qualified electronic signature for natural persons. Relevance here: point (d) of that paragraph expressly requires for the Wallet the level 'high' defined here. Article 12a(1) eIDAS · Subject matter of certification for electronic identification schemes Provides that the conformity of the schemes to be notified with the cybersecurity requirements of the Regulation – including the cybersecurity relevant requirements set out in Article 8(2) – shall be certified by the conformity assessment bodies designated by the Member States.",
+   "AUDIT CHECK": "Is each of the six fields addressed in the LoA evidence?",
+   "KEY POINT": "Application – issuance – use – issuer – third parties – product. Six fields, one obligation."
+  }
+ },
+ {
+  "id": "9|Abs. 1 a-g",
+  "article": "9",
+  "locus": "Abs. 1 a-g",
+  "locus_en": "Paragraph 1(a)-(g)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 60,
+  "fields": {
+   "TOPIC": "Content of the notification",
+   "ADDRESSEE": "Notifying Member State",
+   "CONTENT": "The Member State shall notify the Commission and shall report WITHOUT UNDUE DELAY any subsequent changes: (a) a description of the scheme including its assurance levels and the issuers; (b) the supervisory regime and the LIABILITY REGIME with respect to (i) the party issuing the electronic identification means and (ii) the party operating the authentication procedure; (c) the competent authority or authorities; (d) the entity or entities which manage the registration of the unique person identification data (PID); (e) a description of how the interoperability implementing act under Article 12(8) is complied with; (f) a description of the authentication referred to in Article 7, point (f); (g) arrangements for suspension or revocation.",
+   "PURPOSE": "Legal certainty: only the official publication triggers the recognition obligation under Article 6.",
+   "DEADLINE": "without undue delay in the event of changes",
+   "CROSS-REFERENCES": "Article 6(1) eIDAS · Mutual recognition of notified electronic identification means The core promise of eIDAS 2014. The recognition obligation applies cumulatively: the scheme shall be included in the Commission list under Article 9, its assurance level shall be at least 'substantial' and shall correspond to the level required, and the public sector body shall itself use substantial or high for that service. Recognition no later than twelve months after publication of the list. The level 'low' never triggers an obligation (paragraph 2). Article 12(8) eIDAS · Implementing act on the interoperability framework Implements the framework which, under paragraph 4, comprises among other things the mapping of national assurance levels to the Article 8 levels, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. Together with the act under Article 8(3) it triggers, under Article 52(2)(b), the date of application of the electronic identification Articles. Deadline of the recast: 18 September 2025. Article 5d(2) eIDAS · Minimum content of the Wallet notification Names five items: the certificate and certification assessment report, a description of the underlying electronic identification scheme, the applicable supervisory regime and the liability regime, the competent authorities as well as the arrangements for suspension and revocation. The structure largely corresponds to Article 9(1) for notified electronic identification schemes. Relevance here: an almost verbatim parallel provision – whoever knows one of the two reporting lists knows both. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires online authentication available across borders, which shall be free of charge for services provided by a public sector body; point (g) requires the description of the scheme to be provided to the other Member States at least six months before notification. Points (d), (e) and (f) are at the same time the liability anchor of Article 11. Not applicable to Wallets (Article 5a(22)). Article 10 eIDAS · Security breach of electronic identification schemes Requires the notifying Member State, where a compromise affects reliability, to suspend or revoke the cross-border authentication without delay and to inform the other Member States and the Commission. Once the breach is remedied, authentication shall be re-established; if it is not remedied within three months, the withdrawal of the scheme shall be notified. The parallel provision for Wallets is Article 5e. Article 11 eIDAS · Liability in the field of electronic identification Distributes liability across three roles and three points of Article 7: the notifying Member State is liable for point (d) (unique attribution of the person identification data) and point (f) (availability of the authentication), the issuing party for point (e) (correct attribution of the means), the party operating the authentication procedure for its incorrect operation. All three cases concern cross-border transactions only. Applies mutatis mutandis to Wallets via Article 5a(19).",
+   "AUDIT CHECK": "Are all seven items up to date – in particular the liability regime under point (b)?",
+   "KEY POINT": "Article 9(1)(a)-(g) and Article 5d(2)(a)-(e) are almost identical – the Wallet and electronic identification follow the same reporting logic."
+  }
+ },
+ {
+  "id": "9|Abs. 2-4",
+  "article": "9",
+  "locus": "Abs. 2-4",
+  "locus_en": "Paragraphs 2-4",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 61,
+  "fields": {
+   "TOPIC": "Publication and removal",
+   "ADDRESSEE": "Commission / Member State",
+   "CONTENT": "Paragraph 2: the Commission shall publish WITHOUT UNDUE DELAY a list of the notified schemes in the Official Journal. Paragraph 3: amendments shall be published WITHIN ONE MONTH of the date of receipt of the notification. Paragraph 4: a Member State MAY request removal; publication likewise within ONE MONTH.",
+   "PURPOSE": "The list is the act that triggers the recognition obligation – keeping it up to date is therefore subject to deadlines.",
+   "DEADLINE": "1 month",
+   "CROSS-REFERENCES": "Article 6(1) eIDAS · Mutual recognition of notified electronic identification means The core promise of eIDAS 2014. The recognition obligation applies cumulatively: the scheme shall be included in the Commission list under Article 9, its assurance level shall be at least 'substantial' and shall correspond to the level required, and the public sector body shall itself use substantial or high for that service. Recognition no later than twelve months after publication of the list. The level 'low' never triggers an obligation (paragraph 2). Article 10(3) eIDAS · Withdrawal of the electronic identification scheme after three months The mirror image of Article 5e(2). If the breach is not remedied within three months of the suspension or revocation, the notifying Member State notifies the withdrawal of the scheme; the Commission publishes the amendment in the Official Journal without undue delay. “three months of the suspension or revocation, the notifying Member State shall notify other Member States and the Commission of the withdrawal of the electronic identification scheme” ✓ Article 10(3) eIDAS Article 5d(3) eIDAS · Official Journal list of certified Wallets Requires the Commission to establish, publish in the Official Journal and maintain, in machine-readable form, a list of certified Wallets. That list is the central official reference and is not to be confused with the trusted list under Article 22.",
+   "AUDIT CHECK": "Is the scheme currently included in the Official Journal list?",
+   "KEY POINT": "One month – the same deadline as for Wallets under Article 5d(6)."
+  }
+ }
+]

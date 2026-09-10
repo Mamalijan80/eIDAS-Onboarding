@@ -1,0 +1,173 @@
+[
+ {
+  "id": "12b|Einziger Absatz",
+  "article": "12b",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 73,
+  "fields": {
+   "TOPIC": "Access to hardware and software features (DMA coupling)",
+   "ADDRESSEE": "Gatekeepers under Regulation (EU) 2022/1925 (DMA)",
+   "CONTENT": "Where providers of European Digital Identity Wallets and issuers of notified electronic identification means acting in a commercial or professional capacity use CORE PLATFORM SERVICES within the meaning of Article 2(2) DMA and are thereby business users within the meaning of Article 2(21) DMA, gatekeepers SHALL ALLOW them effective INTEROPERABILITY with – and access to – THE SAME operating system, hardware or software features. Under Article 6(7) DMA this shall be done FREE OF CHARGE and regardless of whether the features are part of the operating system. Without prejudice to Article 5a(14).",
+   "PURPOSE": "Without access to a smartphone's secure element a Wallet could not be operated securely at all in technical terms – the provision breaks open platform control.",
+   "CROSS-REFERENCES": "DMA Article 2 · Definitions Point 2 defines the core platform service and lists the categories covered: online intermediation services, online search engines, online social networking services, video-sharing platform services, number-independent interpersonal communications services, OPERATING SYSTEMS, web browsers, virtual assistants, cloud computing services and online advertising services. Point 21 defines the business user as a natural or legal person which uses core platform services in the course of its commercial or professional activity. Relationship to eIDAS: Article 12b eIDAS presupposes precisely these two definitions: the Wallet provider must use a core platform service within the meaning of point 2 – in practice a mobile operating system – and must in doing so be a business user within the meaning of point 21. Only then does the entitlement arise. ● Summary, not verified against the original text DMA Article 6(7) · DMA Article 6(7) – Interoperability access Does not relate to eIDAS but to the Digital Markets Act: the gatekeeper shall allow, free of charge, effective interoperability with, and access to, the same operating system, hardware or software features that are accessible via, or controlled by, the operating system or the virtual assistant – regardless of whether they are part of the operating system. Article 12b eIDAS refers expressly to this provision. Article 5a(14) · User control and logical separation Prohibits the Wallet provider from collecting usage data that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It must also keep the data logically separate from all other holdings. Where the Wallet is provided privately under paragraph 2(b) or (c), Article 45h(3) (functional separation) additionally applies mutatis mutandis. This is the only paragraph outside 4, 5 and 8 that is expressly certified. “Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet” ✓ Article 5a(14) eIDAS Significance here: platform access extends the technical possibilities, not the data protection powers. Article 5f(3) · Very large online platforms Requires the providers designated under Article 33 of the Digital Services Act (DSA) to accept the Wallet and to facilitate its use where they require user authentication for access – but only upon the voluntary request of the user and limited to the minimum data necessary for the specific service.",
+   "AUDIT CHECK": "Is access to the secure element/NFC actually granted – and free of charge?",
+   "KEY POINT": "Enforcement runs through the DMA, not through eIDAS supervision. That is the crux of the matter."
+  }
+ },
+ {
+  "id": "13|Abs. 1 UAbs. 1",
+  "article": "13",
+  "locus": "Abs. 1 UAbs. 1",
+  "locus_en": "Paragraph 1, first subparagraph",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 75,
+  "fields": {
+   "TOPIC": "Liability principle for all trust service providers",
+   "ADDRESSEE": "Trust service providers (TSP and QTSP)",
+   "CONTENT": "TSPs SHALL BE LIABLE for damage caused INTENTIONALLY OR NEGLIGENTLY to any natural or legal person as a result of a failure to comply with their obligations. Any person who has suffered damage shall have the right to seek compensation for MATERIAL AND NON-MATERIAL damage. Without prejudice to the GDPR.",
+   "PURPOSE": "Without liability, compliance with the obligations would be economically unattractive – liability is the economic lever behind the catalogue of obligations.",
+   "CROSS-REFERENCES": "GDPR Article 82 · Liability and right to compensation Any person who has suffered material or non-material damage as a result of an infringement shall have the right to receive compensation. The controller is liable unless it proves that it is not in any way responsible for the event giving rise to the damage – an exculpation rule with the burden of proof on the controller. Relationship to eIDAS: structurally the same reversal of the burden of proof as in Article 13(1), third subparagraph, eIDAS for qualified providers. The extension to non-material damage likewise corresponds to the wording of Article 13(1) eIDAS since eIDAS 2.0. ● Summary, not verified against the original text Article 24(2) · Catalogue of obligations of the QTSP The central catalogue, in practice the structure of every audit: a) notification obligations (1 month for changes, 3 months for cessation), b) qualified and trained staff in accordance with recognised standards, c) sufficient financial resources or liability insurance, d) pre-contractual information, e) trustworthy systems including suitable cryptographic techniques, f) verifiable data storage, fa) risk management, fb) 24-hour notification, g) protection against forgery and data loss, h) record-keeping obligation extending beyond the cessation of operations, i) termination plan, k) certificate database. Point j was deleted – the gap is intentional. Significance here: point h (the record-keeping obligation) is the practical precondition for a QTSP being able to exculpate itself at all. Article 16 · Penalties Requires the Member States to lay down effective, proportionate and dissuasive rules on penalties and, in paragraph 2, sets a maximum administrative fine of at least EUR 5 million, or, in the case of legal persons, EUR 5 million or 1 % of the total worldwide turnover of the preceding year. Paragraph 3 allows the supervisory body to initiate the procedure and a national court to impose the fine. Article 31 of the NIS2 Directive remains unaffected.",
+   "AUDIT CHECK": "Is the liability cover also designed to cover non-material damage?",
+   "KEY POINT": "Material AND non-material – the 'non-material' was added only with eIDAS 2.0."
+  }
+ },
+ {
+  "id": "13|Abs. 1 UAbs. 2-3",
+  "article": "13",
+  "locus": "Abs. 1 UAbs. 2-3",
+  "locus_en": "Paragraph 1, second and third subparagraphs",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 76,
+  "fields": {
+   "TOPIC": "Reversal of the burden of proof for the QTSP",
+   "ADDRESSEE": "Injured person (in the case of a TSP) / QTSP (in the case of a QTSP)",
+   "CONTENT": "In the case of NON-QUALIFIED TSPs the burden of proving intention or negligence lies with the INJURED PERSON. In the case of QUALIFIED TSPs, intention or negligence SHALL BE PRESUMED unless the QTSP proves that the damage occurred without its intention or negligence.",
+   "PURPOSE": "Qualified status must also be worth something in liability law – otherwise 'qualified' would be no more than a label.",
+   "CROSS-REFERENCES": "Article 20 · Supervision of qualified trust service providers The audit core of the Regulation: an audit at least every 24 months at the provider's own expense by a conformity assessment body, the scope of the audit including Article 21 of the NIS2 Directive, submission of the report within three working days. New are the advance information one month before planned audits, with a right for the supervisory body to attend as an observer, and the withdrawal of qualified status where NIS2 or GDPR infringements are reported. Paragraph 4 contains the empowerment for the central implementing act. Article 21 · Initiation of a qualified trust service Governs the admission procedure: notification of the intention to the supervisory body, accompanied by a conformity assessment report covering eIDAS and Article 21 of the NIS2 Directive. The supervisory body verifies, involves the NIS2 authorities with a two-month deadline for their reply, and decides within three months. The qualified service may not be provided until the status has been indicated in the trusted list. Article 22 · Trusted lists Requires each Member State to establish, maintain and publish lists of the qualified providers and of the qualified services they provide – electronically signed or sealed in a secured manner and in a form suitable for automated processing. The information on the body responsible for the list, the place of publication and the signing certificates must be notified to the Commission without undue delay, and the Commission in turn makes it available in a secured, machine-processable form. Article 23 · EU trust mark Allows qualified providers, once indicated in the trusted list, to use the EU trust mark to indicate the qualified services they provide. Anyone using it must make a link to the relevant trusted list available on its website. The form and design of the trust mark are laid down by implementing act. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbers inserted by eIDAS 2.0 such as 5a, 16a and 21a. Particularly important in practice: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 47 authentic source and point 46 electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source.",
+   "AUDIT CHECK": "Can the QTSP demonstrate its due diligence seamlessly in the event of a dispute? That is the actual purpose of the record-keeping obligation under Article 24(2)(h).",
+   "KEY POINT": "Non-qualified: the customer proves. Qualified: the provider exculpates itself. Exactly the other way round."
+  }
+ },
+ {
+  "id": "13|Abs. 2",
+  "article": "13",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L1",
+  "page": 77,
+  "fields": {
+   "TOPIC": "Limitation of liability by means of limitations on use",
+   "ADDRESSEE": "Trust service providers",
+   "CONTENT": "Where TSPs DULY inform their customers IN ADVANCE of limitations on the use of the services they provide and where those limitations are RECOGNISABLE TO THIRD PARTIES, they SHALL NOT be liable for damage arising from use exceeding those limitations.",
+   "PURPOSE": "Allows calculable product definitions – but only where there is double transparency: towards the customer and towards third parties.",
+   "CROSS-REFERENCES": "Annex I · Annex I – qualified certificates for electronic signatures Ten mandatory items a to j: machine-readable indication that the certificate has been issued as a qualified certificate, a set of data identifying the issuing QTSP including its Member State of establishment, the name OR pseudonym of the signatory, electronic signature validation data, the period of validity, a unique identity code, an advanced electronic signature or advanced electronic seal of the QTSP, the location where the underlying certificate is available free of charge, an indication of the validity status service and an indication whether a QSCD is used. Article 24(2) · Catalogue of obligations of the QTSP The central catalogue, in practice the structure of every audit: a) notification obligations (1 month for changes, 3 months for cessation), b) qualified and trained staff in accordance with recognised standards, c) sufficient financial resources or liability insurance, d) pre-contractual information, e) trustworthy systems including suitable cryptographic techniques, f) verifiable data storage, fa) risk management, fb) 24-hour notification, g) protection against forgery and data loss, h) record-keeping obligation extending beyond the cessation of operations, i) termination plan, k) certificate database. Point j was deleted – the gap is intentional. Significance here: point h (the record-keeping obligation) is the practical precondition for a QTSP being able to exculpate itself at all.",
+   "AUDIT CHECK": "Are limitations on use machine-recognisable in the certificate – not only in the terms and conditions?",
+   "KEY POINT": "Two conditions: the customer informed AND third parties able to see it. One alone is not sufficient."
+  }
+ },
+ {
+  "id": "13|Abs. 3",
+  "article": "13",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L3",
+  "page": 77,
+  "fields": {
+   "TOPIC": "Relationship to national liability law",
+   "ADDRESSEE": "-",
+   "CONTENT": "Paragraphs 1 and 2 shall be applied in accordance with national rules on liability.",
+   "PURPOSE": "eIDAS governs the ground of liability, not the assessment of damages, limitation periods or contributory fault.",
+   "CROSS-REFERENCES": "Article 11(4) · Relationship to national law Provides that the liability rules in paragraphs 1 to 3 are to be applied in accordance with national rules on liability. The Regulation thereby determines the ground of liability, but not the assessment of damages, limitation periods or contributory fault.",
+   "AUDIT CHECK": "Which national law is applicable?"
+  }
+ },
+ {
+  "id": "14|Abs. 1",
+  "article": "14",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 78,
+  "fields": {
+   "TOPIC": "Recognition of third-country trust services",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Trust services from third countries or from international organisations shall be recognised as LEGALLY EQUIVALENT to the services of QTSPs established in the Union, PROVIDED THAT they are recognised by means of an implementing act OR by an agreement pursuant to Article 218 TFEU.",
+   "PURPOSE": "Enables digital trade with non-EU States without lowering the EU level of trust.",
+   "DEADLINE": "no deadline ('provided that they are recognised')",
+   "CROSS-REFERENCES": "TFEU · Treaty on the Functioning of the European Union Primary law of the Union. For eIDAS, Article 218 is the relevant provision, governing the procedure for the conclusion of international agreements. Relationship to eIDAS: Article 14(1) eIDAS permits the recognition of third-country trust services by two routes: by implementing act or by an agreement pursuant to Article 218 TFEU. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission may not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Does a service invoke third-country equivalence? If so, an implementing act or an agreement must be capable of being identified.",
+   "KEY POINT": "Two routes: implementing act (unilateral) or agreement (bilateral). Without one of them: no recognition."
+  }
+ },
+ {
+  "id": "14|Abs. 2",
+  "article": "14",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 78,
+  "fields": {
+   "TOPIC": "Substantive condition for recognition",
+   "ADDRESSEE": "Third country / international organisation",
+   "CONTENT": "The implementing act or the agreement SHALL ENSURE that the requirements applicable to EU QTSPs are also met by the providers in the third country. Third countries and international organisations shall in particular ESTABLISH, MAINTAIN and PUBLISH a TRUSTED LIST of recognised providers.",
+   "PURPOSE": "Prevents recognition from becoming a back door for lower standards – including the obligation to maintain a trusted list of their own.",
+   "CROSS-REFERENCES": "Article 22 · Trusted lists Requires each Member State to establish, maintain and publish lists of the qualified providers and of the qualified services they provide – electronically signed or sealed in a secured manner and in a form suitable for automated processing. The information on the body responsible for the list, the place of publication and the signing certificates must be notified to the Commission without undue delay, and the Commission in turn makes it available in a secured, machine-processable form. Article 24 · Requirements for qualified trust service providers The central catalogue of obligations. Paragraphs 1, 1a and 1b govern the verification of identity (four methods) and of attributes (five methods). Paragraph 2 contains points a to k – notification obligations, staff, financial resources, user information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery, record-keeping obligation, termination plan and certificate database. Paragraphs 3 and 4 govern revocation and status information.",
+   "AUDIT CHECK": "Does the third-country trusted list exist and is it technically verifiable?",
+   "KEY POINT": "Equivalence means: the same requirements AND a trusted list of one's own."
+  }
+ },
+ {
+  "id": "14|Abs. 3",
+  "article": "14",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L3",
+  "page": 79,
+  "fields": {
+   "TOPIC": "Reciprocity",
+   "ADDRESSEE": "Commission / third country",
+   "CONTENT": "The agreements referred to in paragraph 1 SHALL ENSURE that, conversely, the qualified services of EU QTSPs are also recognised as legally equivalent in the third country.",
+   "PURPOSE": "Reciprocity – a unilateral opening of the market would be a competitive disadvantage for EU providers.",
+   "CROSS-REFERENCES": "Article 24a · EU-wide recognition of qualified services Lists in eleven paragraphs all types of qualified service and requires their recognition in all Member States: signatures and seals, creation devices, certificates and remote management services, validation and preservation services, time stamps, website authentication certificates, delivery services, attestations of attributes, archiving services and electronic ledgers. As a list, ideal for learning by heart.",
+   "AUDIT CHECK": "Is reciprocity actually reflected in the specific agreement?",
+   "KEY POINT": "Only agreements (not implementing acts) have to establish reciprocity."
+  }
+ },
+ {
+  "id": "15|Einziger Absatz",
+  "article": "15",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 79,
+  "fields": {
+   "TOPIC": "Accessibility",
+   "ADDRESSEE": "Providers of electronic identification means and of trust services",
+   "CONTENT": "Electronic identification means, trust services AND the END-USER PRODUCTS used in providing them shall be made available in PLAIN AND INTELLIGIBLE LANGUAGE, in accordance with the United Nations Convention on the Rights of Persons with Disabilities and with the accessibility requirements of Directive (EU) 2019/882 – thus also benefiting persons who experience functional limitations, elderly people and persons with limited access to digital technologies.",
+   "PURPOSE": "Digital identity must exclude no one; eIDAS 2.0 has tightened the provision considerably (previously only 'where feasible').",
+   "CROSS-REFERENCES": "Article 5a(21) · Accessibility Requires that Wallets be made accessible for use by persons with disabilities on an equal basis with other users, in accordance with Directive (EU) 2019/882. The provision repeats Article 15 specifically for the Wallet.",
+   "AUDIT CHECK": "Is accessibility demonstrated for the end-user products (signing portal, app) – not only for the website?",
+   "KEY POINT": "'Plain and intelligible language' is a legal obligation, not a recommendation."
+  }
+ }
+]

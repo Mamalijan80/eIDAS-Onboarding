@@ -1,0 +1,176 @@
+[
+ {
+  "id": "45|Abs. 1",
+  "article": "45",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 155,
+  "fields": {
+   "TOPIC": "Requirements for QWACs",
+   "ADDRESSEE": "QTSP",
+   "CONTENT": "Qualified certificates for website authentication SHALL MEET the requirements of ANNEX IV. The evaluation of compliance shall be carried out in accordance with the standards, specifications and procedures referred to in paragraph 2.",
+   "PURPOSE": "The user should be able to see WHO is behind a website – not merely that the connection is encrypted.",
+   "CROSS-REFERENCES": "ETSI EN 319 411 · Policy and security requirements for certification authorities Part 1 contains the general requirements and defines certificate policies, among them QCP-w for qualified website authentication certificates. Part 2 supplements the requirements for issuers of qualified certificates with the policies QCP-n and QCP-l as well as their QSCD variants. Relation to eIDAS: gives concrete form to Article 24, Article 28 and Article 45 eIDAS as well as to Annexes I, III and IV. ● Summary, not verified against the original text ETSI EN 319 412 · Certificate profiles Part 2 describes profiles for certificates of natural persons, Part 3 for legal persons, Part 4 for website authentication and Part 5 the QCStatements – those machine-readable extensions which indicate, for instance, the qualified status or the use of a QSCD. Relation to eIDAS: the technical counterpart of Annexes I, III and IV. Part 5 is in practice the precondition for a validation under Article 32(1)(f) eIDAS to be able to establish the use of a QSCD by machine at all. ● Summary, not verified against the original text Annex IV · Annex IV – website authentication certificates Besides the usual items, this Annex is the only one to contain a point 'ca', which requires for legal persons a unique set of data including the registration number. Point (d) requires address components with city and country, point (e) the domain names operated by the certificate holder. Article 24a(7) · Recognition of website certificates Provides for the Union-wide recognition of qualified certificates for website authentication.",
+   "AUDIT CHECK": "Does the QWAC profile conform to Annex IV, in particular point (e) (domain names) and 'ca' (legal person)?",
+   "KEY POINT": "Annex IV is the only Annex with a point 'ca' – inserted for legal persons."
+  }
+ },
+ {
+  "id": "45|Abs. 1a",
+  "article": "45",
+  "locus": "Abs. 1a",
+  "locus_en": "Paragraph 1a",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 156,
+  "fields": {
+   "TOPIC": "Recognition obligation of the providers of web-browsers",
+   "ADDRESSEE": "Providers of web-browsers",
+   "CONTENT": "QWACs SHALL BE RECOGNISED by providers of web-browsers. Providers of web-browsers SHALL ENSURE that the attested IDENTITY DATA and additional attributes are DISPLAYED IN A USER-FRIENDLY MANNER. They SHALL ENSURE support and interoperability – WITH THE EXCEPTION OF microenterprises and small enterprises as defined in Recommendation 2003/361/EC DURING THE FIRST FIVE YEARS of their operation as providers of web-browsers.",
+   "PURPOSE": "The politically most contested provision of eIDAS 2.0: for the first time it places browser manufacturers under a direct obligation.",
+   "DEADLINE": "SME exemption: first 5 years of operation",
+   "CROSS-REFERENCES": "Annex IV · Annex IV – website authentication certificates Besides the usual items, this Annex is the only one to contain a point 'ca', which requires for legal persons a unique set of data including the registration number. Point (d) requires address components with city and country, point (e) the domain names operated by the certificate holder. Article 32(2) · Display of the result Requires the validation system to provide the relying party with the correct result and to allow it to detect any security relevant issues. A result that is technically correct but displayed incomprehensibly leads to wrong decisions. Article 45a · Cybersecurity precautionary measures Prohibits providers of web-browsers from taking measures contrary to their obligations under Article 45, but permits precautionary measures in the event of substantiated concerns related to security breaches or the loss of integrity of an identified certificate or set of certificates. These shall be notified in writing without undue delay to the Commission, the supervisory body, the certificate holder and the issuing provider; the supervisory body investigates and may request that the measure be put to an end. Significance here: the recognition obligation is there flanked by a narrowly limited exception for substantiated security concerns.",
+   "AUDIT CHECK": "Is the identity information actually displayed visibly in the browser – or only in the certificate dialogue?",
+   "KEY POINT": "Two obligations: recognise AND display in a user-friendly manner. The second is the harder one."
+  }
+ },
+ {
+  "id": "45|Abs. 1b + 2",
+  "article": "45",
+  "locus": "Abs. 1b + 2",
+  "locus_en": "Paragraphs 1b + 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 157,
+  "fields": {
+   "TOPIC": "No additional requirements and implementing act",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Paragraph 1b: NO mandatory requirements going beyond paragraph 1 may apply to QWACs. Paragraph 2: implementing act with reference standards, specifications and procedures for QWACs.",
+   "PURPOSE": "As with Article 28(2) and Article 38(2): Annex IV is at the same time the minimum and the maximum content.",
+   "DEADLINE": "Paragraph 2: by 21 May 2025",
+   "CROSS-REFERENCES": "Article 28(2) · No additional requirements going beyond Annex I Member States shall not lay down mandatory requirements for qualified signature certificates beyond Annex I. Annex I is thereby at the same time the minimum and the maximum content. The same pattern is found in Article 38(2), Article 45(1b) and Article 45d(3). Article 38(2) · No additional requirements Prohibits mandatory requirements for qualified certificates for electronic seals going beyond Annex III. Annex III is thereby at the same time the minimum and the maximum content. Article 45d(3) · No additional requirements Prohibits mandatory requirements for qualified electronic attestations of attributes going beyond Annex V – the same pattern as in Article 28(2), Article 38(2) and Article 45(1b). Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "KEY POINT": "The pattern 'no additional requirements' is found in 28(2), 38(2), 45(1b) and 45d(3)."
+  }
+ },
+ {
+  "id": "45a|Abs. 1-2",
+  "article": "45a",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 158,
+  "fields": {
+   "TOPIC": "Principle and exception of the precautionary measures",
+   "ADDRESSEE": "Providers of web-browsers",
+   "CONTENT": "Paragraph 1: Providers of web-browsers SHALL TAKE NO measures contrary to their obligations under Article 45 – in particular the recognition of QWACs and the user-friendly display. Paragraph 2: BY WAY OF DEROGATION therefrom, and ONLY in the event of SUBSTANTIATED CONCERNS related to security breaches or the loss of integrity of an identified certificate or set of certificates, they MAY take precautionary measures.",
+   "PURPOSE": "A balance between the recognition obligation (Article 45) and the need to devalue compromised certificates quickly.",
+   "CROSS-REFERENCES": "Article 45(1a) · Obligations of the providers of web-browsers The politically most contested provision of eIDAS 2.0. Providers of web-browsers shall recognise qualified certificates for website authentication, display the attested identity data in a user-friendly manner and ensure support as well as interoperability. Microenterprises and small enterprises are exempt during their first five years of operation. For the first time browser manufacturers are placed under obligation directly by eIDAS. “Providers of web-browsers shall ensure that the identity data attested in the certificate and additional attested attributes are displayed in a user-friendly manner” ✓ Article 45(1a) eIDAS Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)). Significance here: point (k) expressly assigns the investigation of the browser notification to the supervisory body.",
+   "AUDIT CHECK": "On which specific security concerns is a measure based? Blanket distrust decisions are not permissible under paragraph 1.",
+   "KEY POINT": "Rule: recognise. Exception: substantiated security concerns. And only then."
+  }
+ },
+ {
+  "id": "45a|Abs. 3-4",
+  "article": "45a",
+  "locus": "Abs. 3-4",
+  "locus_en": "Paragraphs 3-4",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 159,
+  "fields": {
+   "TOPIC": "Notification obligation and investigation",
+   "ADDRESSEE": "Providers of web-browsers / supervisory body",
+   "CONTENT": "Paragraph 3: Whoever takes measures under paragraph 2 SHALL NOTIFY its concerns to the Commission, the competent supervisory body, the certificate holder AND the issuing QTSP WITHOUT UNDUE DELAY IN WRITING – together with a description of the measures taken. The supervisory body SHALL ISSUE an ACKNOWLEDGEMENT OF RECEIPT. Paragraph 4: The supervisory body SHALL INVESTIGATE the notification in accordance with Article 46b(4), point (k). Where the investigation does NOT result in the withdrawal of the qualified status, it shall inform the provider of the web-browser and SHALL REQUEST that provider TO PUT AN END to the precautionary measures.",
+   "PURPOSE": "Prevents a browser manufacturer from acting de facto as a supervisory authority – the final decision is taken by the supervisory body.",
+   "DEADLINE": "without undue delay (notification)",
+   "CROSS-REFERENCES": "Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)). Significance here: point (k) expressly assigns the investigation of the browser notification to the supervisory body. Article 20(3) · Request for a remedy and withdrawal of status A two-stage procedure: the supervisory body first requires a remedy to be provided within a set time limit. Where none is provided, it withdraws the qualified status where justified by the extent, duration and consequences of the failure. Those three criteria also apply to the withdrawal for NIS2 and GDPR failures under paragraphs 3a and 3b.",
+   "AUDIT CHECK": "Four addressees of the notification: Commission, supervisory body, certificate holder, QTSP. All four?",
+   "KEY POINT": "The browser notifies – the supervisory body decides – the browser must put an end to the measure."
+  }
+ },
+ {
+  "id": "45b|Abs. 1-3",
+  "article": "45b",
+  "locus": "Abs. 1-3",
+  "locus_en": "Paragraphs 1-3",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L1",
+  "page": 160,
+  "fields": {
+   "TOPIC": "Legal effects of the EAA",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: Prohibition of discrimination for EAAs. Paragraph 2: A QUALIFIED EAA and EAAs ISSUED BY OR ON BEHALF OF A PUBLIC SECTOR BODY RESPONSIBLE FOR AN AUTHENTIC SOURCE SHALL HAVE THE SAME LEGAL EFFECT AS LAWFULLY ISSUED ATTESTATIONS IN PAPER FORM. Paragraph 3: Such a PuB-EAA shall be recognised in ALL Member States.",
+   "PURPOSE": "Without being placed on an equal footing with the paper evidence, a digital attestation (for example a diploma) would be legally worthless.",
+   "CROSS-REFERENCES": "Article 24a(9) · Recognition of attestations of attributes Provides for the Union-wide recognition of qualified electronic attestations of attributes. Article 45d · Requirements for the qualified EAA Refers to Annex V and prohibits additional mandatory requirements. Noteworthy is Annex V, point (g): it requires a QUALIFIED signature or a qualified seal of the issuing QTSP, whereas Annexes I and III require only an advanced form at the same point. Under paragraph 4 the revocation is final. Article 45f · Requirements for the PuB-EAA Creates a third EAA class between the simple and the qualified one. The issuing public sector body does not need QTSP status, but shall under paragraph 2 meet a level of reliability and trustworthiness EQUIVALENT to that of QTSPs in accordance with Article 24, and is notified under paragraph 3 together with a conformity assessment report. Its responsibility for the authentic source shall be evidenced in machine-readable form in the underlying certificate. Paragraph 8 requires an interface with the Wallet. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Of particular practical importance: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 42 electronic attestation of attributes, point 45 authentic source and point 46 the public sector body responsible for an authentic source.",
+   "AUDIT CHECK": "Note: paragraph 2 places QEAA AND PuB-EAA on an equal footing – not the simple EAA.",
+   "KEY POINT": "Three EAA classes: simple (paragraph 1 only), qualified and PuB-EAA (paragraphs 2 + 3)."
+  }
+ },
+ {
+  "id": "45c|Einziger Absatz",
+  "article": "45c",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 161,
+  "fields": {
+   "TOPIC": "EAA in public services",
+   "ADDRESSEE": "Member States / public sector bodies",
+   "CONTENT": "Where an electronic identification using an electronic identification means and authentication is required under national law to access an online service, PERSON IDENTIFICATION DATA contained in an EAA SHALL NOT SUBSTITUTE the electronic identification and its authentication – UNLESS the Member State has SPECIFICALLY ALLOWED it. In such a case, qualified EAAs FROM OTHER Member States shall ALSO be accepted.",
+   "PURPOSE": "Prevents the weaker EAA from circumventing the stronger eID authentication – an attestation of attributes is not an identity document.",
+   "CROSS-REFERENCES": "Article 5f(1) · Public sector obligation to accept Where a Member State requires electronic identification and authentication to access an online service provided by a public sector body, it shall also accept the Wallet. Without this obligation there would be no use cases and therefore no incentive to use it. Article 6 eIDAS · Mutual recognition Establishes the obligation to recognise notified electronic identification means from other Member States where the scheme is included in the Commission's list, its assurance level is at least substantial and corresponds to the level required, and the public sector body itself uses substantial or high. Such recognition shall take place no later than twelve months after publication of the list. For the level low there is only an optional recognition. Significance here: the eID recognition remains the stronger means of evidence; the attestation of attributes shall not displace it. Article 45b · Legal effects of the electronic attestation of attributes Paragraph 1 contains the prohibition of discrimination for all attestations of attributes. Paragraph 2 places the qualified attestation and the attestation issued by a public sector body responsible for an authentic source on an equal footing with the lawfully issued paper attestation. Paragraph 3 provides for the Union-wide recognition of the attestations issued by public sector bodies.",
+   "AUDIT CHECK": "CAUTION, a frequent misunderstanding: Article 45c is primarily a PROHIBITION subject to authorisation, not an obligation to accept.",
+   "KEY POINT": "An EAA does not replace an eID – unless the Member State specifically allows it. But then EU-wide."
+  }
+ },
+ {
+  "id": "45d|Abs. 1-3",
+  "article": "45d",
+  "locus": "Abs. 1-3",
+  "locus_en": "Paragraphs 1-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 162,
+  "fields": {
+   "TOPIC": "Requirements for the qualified EAA",
+   "ADDRESSEE": "QTSP (QEAA providers) / Member States",
+   "CONTENT": "Paragraph 1: QEAAs SHALL MEET the requirements of ANNEX V. Paragraph 2: The evaluation shall be carried out in accordance with the standards referred to in paragraph 5. Paragraph 3: NO mandatory requirements going beyond Annex V may apply.",
+   "PURPOSE": "Without uniform content and format a relying party (RP) abroad cannot evaluate the attestation.",
+   "CROSS-REFERENCES": "Annex V · Annex V – qualified electronic attestations of attributes Nine mandatory items, (a) to (i). At its core is point (d): the attested attributes including their scope of validity. Point (g) requires – unlike Annexes I and III – a QUALIFIED electronic signature or a qualified electronic seal of the issuing QTSP. Significance here: point (g) of this Annex requires a qualified signature – stricter than Annexes I and III. Article 24(1b) · Five methods of attribute verification Parallel to paragraph 1a, but extended by one option: the qualified electronic attestation of attributes is additionally permitted (point (c)). The QEAA from Section 9 thereby itself becomes an admissible means of evidence in the admission procedure of Section 3 – here the circle between the two blocks closes. Article 24a(9) · Recognition of attestations of attributes Provides for the Union-wide recognition of qualified electronic attestations of attributes. Article 28(2) · No additional requirements going beyond Annex I Member States shall not lay down mandatory requirements for qualified signature certificates beyond Annex I. Annex I is thereby at the same time the minimum and the maximum content. The same pattern is found in Article 38(2), Article 45(1b) and Article 45d(3).",
+   "AUDIT CHECK": "Does the QEAA profile conform to Annex V – in particular point (d) (attested attributes with scope of validity)?",
+   "KEY POINT": "Annex V requires in point (g) a QUALIFIED signature/seal – Annex I only an advanced one. An important difference."
+  }
+ },
+ {
+  "id": "45d|Abs. 4-5",
+  "article": "45d",
+  "locus": "Abs. 4-5",
+  "locus_en": "Paragraphs 4-5",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 163,
+  "fields": {
+   "TOPIC": "Final revocation and implementing act",
+   "ADDRESSEE": "QTSP / Commission",
+   "CONTENT": "Paragraph 4: Where a QEAA is revoked after issuance, it is NO LONGER VALID from the moment of its revocation and SHALL NOT IN ANY CIRCUMSTANCES REGAIN VALIDITY. Paragraph 5: implementing act with reference standards for QEAAs – CONSISTENT with the European Digital Identity Wallet implementing acts referred to in Article 5a(23).",
+   "PURPOSE": "Alignment with the Wallet implementing act is decisive: QEAA and Wallet have to fit together technically.",
+   "DEADLINE": "Paragraph 5: by 21 November 2024",
+   "CROSS-REFERENCES": "Article 24(4a) · Extension to attestations of attributes Provides that paragraphs 3 and 4 apply accordingly to the revocation of qualified electronic attestations of attributes. The 24-hour time limit and the permanent status information thus apply there as well. Article 28(4) · Finality of revocation A revoked qualified certificate loses its validity and its status shall not in any circumstances be reverted. A reversible intermediate stage exists only by way of the suspension under paragraph 5, the period of which must be visible in the certificate database. The same finality applies under Article 38(4), Article 45d(4) and Article 45f(4). Article 5a(23) · Implementing act on the core requirements for the Wallet The most important empowering provision of the Regulation for practice. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. At the same time one of the two triggers of the 24-month time limit of paragraph 1. Numerous further provisions (5b(11), 5d(7), 5e(5), 45d(5), 45e(2), 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Article 45g(2) · Interface obligation of qualified providers Requires the providers of QUALIFIED attestations of attributes – and only those – to provide an interface with the Wallets. The obligation under paragraph 1 to make it possible to request, obtain, store and manage, by contrast, applies to all providers.",
+   "AUDIT CHECK": "Is the QEAA implementing act aligned with the Wallet implementing act? Without alignment the Wallet connection does not work.",
+   "KEY POINT": "The QEAA deadlines (21 November 2024) follow the Wallet rhythm, not the QTSP rhythm (21 May 2025)."
+  }
+ }
+]

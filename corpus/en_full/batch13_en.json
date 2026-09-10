@@ -1,0 +1,177 @@
+[
+ {
+  "id": "16|Abs. 1",
+  "article": "16",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 80,
+  "fields": {
+   "TOPIC": "Rules on penalties of the Member States",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States SHALL LAY DOWN the rules on penalties applicable to infringements. Those penalties shall be EFFECTIVE, PROPORTIONATE and DISSUASIVE. Without prejudice to Article 31 of the NIS 2 Directive (EU) 2022/2555.",
+   "PURPOSE": "Obligations without penalties are not complied with; the triad 'effective, proportionate, dissuasive' is the standard EU formula.",
+   "CROSS-REFERENCES": "NIS2 Article 31 · General aspects of supervision and enforcement Requires the Member States to ensure effective supervision and enforcement. Essential entities are subject to supervision ex ante AND ex post, important entities only ex post – that is, only once there are indications of an infringement. The supervisory measures shall be effective, proportionate and dissuasive and shall take account of the circumstances of each individual case. Relation to eIDAS: The same scheme is found in Article 46b(3) eIDAS: qualified providers ex ante and ex post, non-qualified providers only ex post. Article 16(1) eIDAS moreover refers expressly to Article 31 NIS 2. ● Summary, not verified against the original text Article 46b · Supervision of trust services Successor to the deleted Article 17. Requires the designation of a supervisory body in each Member State and distinguishes the intensity of supervision: qualified providers ex ante and ex post, non-qualified providers only ex post where an alleged failure to comply becomes known. Paragraph 4 sets out the tasks exhaustively in points (a) to (k) – among them the analysis of the conformity assessment reports, the verification of the termination plans and the investigation of claims made by web-browser providers pursuant to Article 45a.",
+   "AUDIT CHECK": "Which national provision implements Article 16 (in Germany: the Vertrauensdienstegesetz, the Trust Services Act)?",
+   "KEY POINT": "Learn the triad by heart: effective – proportionate – dissuasive."
+  }
+ },
+ {
+  "id": "16|Abs. 2 a-b",
+  "article": "16",
+  "locus": "Abs. 2 a-b",
+  "locus_en": "Paragraph 2(a)-(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 81,
+  "fields": {
+   "TOPIC": "Maximum amounts of administrative fines",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States shall ensure that administrative fines of a maximum of AT LEAST a) EUR 5 000 000 where the trust service provider is a natural person or b) where the trust service provider is a legal person, EUR 5 000 000 OR 1 % of the total worldwide annual turnover of the undertaking in the preceding financial year – WHICHEVER IS HIGHER – may be imposed on QUALIFIED AND NON-QUALIFIED trust service providers.",
+   "PURPOSE": "A maximum 'of at least' sets a Union-wide floor for the severity of national penalties.",
+   "CROSS-REFERENCES": "GDPR Article 83 · General conditions for imposing administrative fines Provides for two tiers of fines: up to EUR 10 000 000 or 2 per cent of the total worldwide turnover of the preceding financial year for infringements of, for example, Articles 25 and 32, and up to EUR 20 000 000 or 4 per cent for infringements of the principles and of the rights of data subjects – in each case whichever amount is higher. Paragraph 2 names the criteria for determining the amount. Relation to eIDAS: These frameworks apply alongside the eIDAS framework of Article 16(2) (EUR 5 million or 1 per cent) and alongside Article 34 NIS 2. A single incident may in principle be sanctioned under several regimes. ● Summary, not verified against the original text NIS2 Article 34 · General conditions for imposing administrative fines Sets the upper limits for fines: for ESSENTIAL entities at least EUR 10 000 000 or 2 per cent of the total worldwide turnover of the preceding financial year, whichever amount is higher; for IMPORTANT entities at least EUR 7 000 000 or 1.4 per cent. The amount is determined by reference to, among other things, the gravity, the duration, intent or negligence and the degree of cooperation with the authority. Relation to eIDAS: Here lies the source of a frequent confusion: the figures of EUR 10 million and 2 per cent come from NIS 2, NOT from eIDAS. Article 16(2) eIDAS provides for only one framework, of EUR 5 million or 1 per cent. Since qualified providers are at the same time essential entities under NIS 2, both frameworks may apply side by side. ● Summary, not verified against the original text Article 13 · Liability and burden of proof Establishes the liability of all trust service providers for material and non-material damage caused intentionally or negligently and allocates the burden of proof: for a non-qualified provider it lies with the injured person, for a qualified provider intention or negligence is presumed. Paragraph 2 permits a limitation of liability by means of limitations on use, provided that the customer is informed in advance and the limitation remains recognisable to third parties. Paragraph 3 refers to national rules on liability. Article 46b · Supervision of trust services Successor to the deleted Article 17. Requires the designation of a supervisory body in each Member State and distinguishes the intensity of supervision: qualified providers ex ante and ex post, non-qualified providers only ex post where an alleged failure to comply becomes known. Paragraph 4 sets out the tasks exhaustively in points (a) to (k) – among them the analysis of the conformity assessment reports, the verification of the termination plans and the investigation of claims made by web-browser providers pursuant to Article 45a.",
+   "AUDIT CHECK": "CAUTION: Article 16 provides NO separate framework of EUR 10 million / 2 % for Wallet providers. Those figures come from the NIS 2 Directive, not from eIDAS.",
+   "KEY POINT": "Only ONE framework in eIDAS: EUR 5 million or 1 %, whichever amount is higher. For QTSPs and TSPs alike."
+  }
+ },
+ {
+  "id": "16|Abs. 3",
+  "article": "16",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L3",
+  "page": 82,
+  "fields": {
+   "TOPIC": "Enforcement through national courts",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Depending on the legal system, the administrative fine MAY be initiated by the supervisory body and imposed by the national courts; the effectiveness and the equivalence of effect shall be ensured.",
+   "PURPOSE": "Accommodates legal systems in which administrative authorities may not impose administrative fines.",
+   "CROSS-REFERENCES": "Article 46b · Supervision of trust services Successor to the deleted Article 17. Requires the designation of a supervisory body in each Member State and distinguishes the intensity of supervision: qualified providers ex ante and ex post, non-qualified providers only ex post where an alleged failure to comply becomes known. Paragraph 4 sets out the tasks exhaustively in points (a) to (k) – among them the analysis of the conformity assessment reports, the verification of the termination plans and the investigation of claims made by web-browser providers pursuant to Article 45a.",
+   "AUDIT CHECK": "Who actually imposes the penalty in the Member State concerned?"
+  }
+ },
+ {
+  "id": "19a|Abs. 1 a",
+  "article": "19a",
+  "locus": "Abs. 1 a",
+  "locus_en": "Paragraph 1(a)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 83,
+  "fields": {
+   "TOPIC": "Risk management of non-qualified TSPs",
+   "ADDRESSEE": "Non-qualified trust service providers",
+   "CONTENT": "Non-qualified TSPs SHALL HAVE appropriate policies and SHALL TAKE corresponding measures to manage legal, business, operational and other direct or indirect risks. These shall, notwithstanding Article 21 of the NIS 2 Directive, include AT LEAST: i) registration and onboarding procedures; ii) procedural or administrative checks; iii) the management and implementation of trust services.",
+   "PURPOSE": "Before eIDAS 2.0 non-qualified providers were practically unregulated – now there is a security baseline for all of them.",
+   "CROSS-REFERENCES": "NIS2 Article 21 · Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time the subject matter of every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size, the likelihood of occurrence and the severity of potential impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities of each individual direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. a) policies on risk analysis and information system security b) incident handling c) business continuity – backup management, disaster recovery, crisis management d) supply chain security, including the relationships with direct suppliers and service providers e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure f) policies and procedures to assess the effectiveness of the risk-management measures g) basic cyber hygiene practices and cybersecurity training h) policies and procedures regarding the use of cryptography and, where appropriate, encryption i) human resources security, access control policies and asset management j) the use of multi-factor authentication or continuous authentication, secured voice, video and text communications as well as secured emergency communications Relation to eIDAS: The conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas – a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary, not verified against the original text Article 24(2) · Catalogue of obligations of the QTSP The central catalogue, in practice the structure of every audit: a) notification obligations (one month for changes, three months for cessation), b) qualified and trained staff in accordance with recognised standards, c) sufficient financial resources or liability insurance, d) pre-contractual information, e) trustworthy systems including suitable cryptographic techniques, f) verifiable data storage, fa) risk management, fb) 24-hour notification, g) protection against forgery and loss of data, h) recording obligation extending beyond the cessation of activities, i) termination plan, k) certificate database. Point j) was deleted – the gap is intentional. Significance here: point fa) is the word-for-word counterpart for qualified providers – the same triad i, ii, iii. Article 46b(3) · Intensity of supervision The core distinction of the supervisory regime: qualified providers are subject to supervision ex ante AND ex post, non-qualified providers only ex post – and then only where the supervisory body is informed of an alleged failure to comply. Paragraph 4 sets out the tasks exhaustively in points (a) to (k).",
+   "AUDIT CHECK": "Is there documented risk management covering i, ii and iii? That is precisely the point of connection to the ISMS.",
+   "KEY POINT": "Article 19a(1)(a) and Article 24(2)(fa) are twins – the same triad i/ii/iii."
+  }
+ },
+ {
+  "id": "19a|Abs. 1 b",
+  "article": "19a",
+  "locus": "Abs. 1 b",
+  "locus_en": "Paragraph 1(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 84,
+  "fields": {
+   "TOPIC": "24-hour notification obligation",
+   "ADDRESSEE": "Non-qualified trust service providers",
+   "CONTENT": "TSPs SHALL NOTIFY the supervisory body, the identifiable affected individuals, the public (where it is of public interest) and, where applicable, other relevant competent authorities, WITHOUT UNDUE DELAY AND IN ANY CASE NO LATER THAN 24 HOURS OF HAVING BECOME AWARE, of any security breaches or disruptions that have a SIGNIFICANT impact on the trust service provided or on the personal data maintained therein.",
+   "PURPOSE": "24 hours is considerably stricter than the 72-hour deadline of the GDPR – trust services are regarded as critical infrastructure.",
+   "DEADLINE": "24 hours from having become aware",
+   "CROSS-REFERENCES": "GDPR Article 33 · Notification of a personal data breach to the supervisory authority Requires the controller to notify a personal data breach without undue delay and, where feasible, within 72 hours after having become aware of it, unless the breach is unlikely to result in a risk. Later notifications must be accompanied by reasons. The processor notifies the controller without undue delay. The notification must state the nature of the breach, the categories and approximate number of data subjects concerned, the contact point, the likely consequences and the measures taken. Relation to eIDAS: Considerably more generous than eIDAS: Article 24(2), point (fb) eIDAS requires 24 hours of the incident. A single incident may trigger both notification obligations at the same time – with different deadlines, addressees and content. ● Summary, not verified against the original text NIS2 Article 23 · Reporting obligations for significant incidents Requires significant incidents to be notified without undue delay to the CSIRT or the competent authority and the recipients of the services to be informed. An incident is considered significant if it has caused or is capable of causing severe operational disruption or financial loss, or if it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage. Notification is made in stages. Early warning: without undue delay, in any event within 24 hours of having become aware Incident notification: without undue delay, in any event within 72 hours Intermediate report: upon request of the CSIRT or the competent authority Final report: not later than one month after the notification Progress report: where the incident is still ongoing on expiry of that deadline Relation to eIDAS: Not to be confused with the eIDAS deadlines: Article 24(2), point (fb) eIDAS requires 24 hours OF THE INCIDENT, Article 19a(1), point (b) eIDAS 24 hours of HAVING BECOME AWARE – the NIS 2 early warning of 24 hours likewise runs from having become aware, but is followed by a full 72-hour notification. A QTSP therefore has to serve parallel reporting channels. ● Summary, not verified against the original text Article 24(2) · Catalogue of obligations of the QTSP The central catalogue, in practice the structure of every audit: a) notification obligations (one month for changes, three months for cessation), b) qualified and trained staff in accordance with recognised standards, c) sufficient financial resources or liability insurance, d) pre-contractual information, e) trustworthy systems including suitable cryptographic techniques, f) verifiable data storage, fa) risk management, fb) 24-hour notification, g) protection against forgery and loss of data, h) recording obligation extending beyond the cessation of activities, i) termination plan, k) certificate database. Point j) was deleted – the gap is intentional. Significance here: point fa) is the word-for-word counterpart for qualified providers – the same triad i, ii, iii. Article 24 · Requirements for qualified trust service providers The central catalogue of obligations. Paragraphs 1, 1a and 1b govern the verification of identity (four methods) and of attributes (five methods). Paragraph 2 contains points a) to k) – notification obligations, staff, financial resources, user information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery, recording obligation, termination plan and certificate database. Paragraphs 3 and 4 govern revocation and status information.",
+   "AUDIT CHECK": "Important difference: Article 19a(1)(b) runs from HAVING BECOME AWARE, Article 24(2)(fb) runs FROM THE INCIDENT. Which clock is running in the undertaking?",
+   "KEY POINT": "24 hours – not 72. And the start of the period differs between TSP and QTSP."
+  }
+ },
+ {
+  "id": "19a|Abs. 2",
+  "article": "19a",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 85,
+  "fields": {
+   "TOPIC": "Implementing act on reference standards",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with a list of reference standards and, where necessary, specifications and procedures for Paragraph 1, point (a). Where these are met, the PRESUMPTION OF CONFORMITY is triggered.",
+   "PURPOSE": "The presumption of conformity is the central mechanism of the Regulation: conformity with standards replaces individual proof.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 401 · General policy requirements for trust service providers The baseline standard of every trust service audit. It deals, among other things, with risk assessment, the practice statement and terms and conditions, organisation and the trustworthiness of staff, physical and access security, operations and network security, incident management, records, business continuity and the termination of the service. Relation to eIDAS: Gives concrete form to Article 24(2), points (b), (e), (fa), (g), (h) and (i) eIDAS as well as to Article 19a(1), point (a) eIDAS. Through the formula 'recognised European or international standards' in point (b) it is at the same time the bridge to ISO/IEC 27001. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of the Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission may not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Is the audit carried out against ETSI EN 319 401? Then the presumption applies.",
+   "KEY POINT": "Wherever 'shall be presumed' appears, the presumption of conformity applies."
+  }
+ },
+ {
+  "id": "20|Abs. 1",
+  "article": "20",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 86,
+  "fields": {
+   "TOPIC": "24-month audit and submission of the CAR",
+   "ADDRESSEE": "QTSP / conformity assessment body",
+   "CONTENT": "QTSPs SHALL BE AUDITED AT LEAST EVERY 24 MONTHS AT THEIR OWN EXPENSE by a conformity assessment body. The audit shall confirm that the QTSPs and the qualified trust services provided by them fulfil the requirements laid down in THIS REGULATION AND IN ARTICLE 21 OF THE NIS 2 DIRECTIVE. The conformity assessment report (CAR) shall be submitted to the supervisory body WITHIN THREE WORKING DAYS of its receipt.",
+   "PURPOSE": "Without a recurring external audit, 'qualified' would be a status without ongoing control.",
+   "DEADLINE": "24 months (audit) / three working days (submission of the CAR)",
+   "CROSS-REFERENCES": "NIS2 Article 21 · Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time the subject matter of every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size, the likelihood of occurrence and the severity of potential impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities of each individual direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. a) policies on risk analysis and information system security b) incident handling c) business continuity – backup management, disaster recovery, crisis management d) supply chain security, including the relationships with direct suppliers and service providers e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure f) policies and procedures to assess the effectiveness of the risk-management measures g) basic cyber hygiene practices and cybersecurity training h) policies and procedures regarding the use of cryptography and, where appropriate, encryption i) human resources security, access control policies and asset management j) the use of multi-factor authentication or continuous authentication, secured voice, video and text communications as well as secured emergency communications Relation to eIDAS: The conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas – a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary, not verified against the original text Significance here: The scope of the conformity assessment expressly extends to that provision – a purely eIDAS audit is not sufficient. Article 21(1) eIDAS · Notification of intention Requires providers intending to start providing a qualified trust service to notify the supervisory body of their intention together with a report issued by a conformity assessment body confirming the fulfilment of the requirements laid down in this Regulation AND in Article 21 of the NIS 2 Directive. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)). Article 51(4) · Obligation of existing QTSPs to provide evidence Providers that were granted qualified status before 20 May 2024 must submit to the supervisory body, by 21 May 2026 at the latest, a conformity assessment report proving compliance with Article 24(1), (1a) and (1b) – that is, with the new rules on the verification of identity and attributes. In practice the most important retrofitting deadline for existing providers.",
+   "AUDIT CHECK": "Is the current CAR available? Was the three-working-day deadline met and documented?",
+   "KEY POINT": "WORKING days, not calendar days. And the scope of the audit includes NIS2 Article 21."
+  }
+ },
+ {
+  "id": "20|Abs. 1a",
+  "article": "20",
+  "locus": "Abs. 1a",
+  "locus_en": "Paragraph 1a",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 87,
+  "fields": {
+   "TOPIC": "Advance information and observer right",
+   "ADDRESSEE": "QTSP / supervisory body",
+   "CONTENT": "QTSPs SHALL INFORM the supervisory body AT THE LATEST ONE MONTH BEFORE any planned audits and SHALL ALLOW it to PARTICIPATE AS AN OBSERVER upon request.",
+   "PURPOSE": "New in eIDAS 2.0: the supervisory body is to know the audit not only from a report but to be able to witness it.",
+   "DEADLINE": "one month before the audit",
+   "CROSS-REFERENCES": "Article 20(1) · Conformity assessment every 24 months The audit core of the Regulation. QTSPs are audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly also covers Article 21 of the NIS 2 Directive. The conformity assessment report is to be submitted to the supervisory body within three WORKING days of its receipt. “Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body” ✓ Article 20(1) eIDAS Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)).",
+   "AUDIT CHECK": "Is the supervisory body informed one month in advance? If this step is missing, the audit is formally open to challenge.",
+   "KEY POINT": "New in 2024: the supervisory body may watch. One month's lead time."
+  }
+ },
+ {
+  "id": "20|Abs. 1b",
+  "article": "20",
+  "locus": "Abs. 1b",
+  "locus_en": "Paragraph 1b",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 87,
+  "fields": {
+   "TOPIC": "Notification of the conformity assessment bodies",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Member States shall, WITHOUT UNDUE DELAY, notify to the Commission the names, addresses and ACCREDITATION details of the CABs as well as any subsequent changes thereto; the Commission shall make that information available to all Member States.",
+   "PURPOSE": "A CAR is worth only as much as the accreditation of the body that issues it.",
+   "DEADLINE": "without undue delay",
+   "CROSS-REFERENCES": "Article 20(4) · Implementing act on accreditation and the report Governs the accreditation of the conformity assessment bodies, the content of the conformity assessment report as well as the auditing requirements and the conformity assessment schemes. Together with the act under Article 24(5), the most important audit document for QTSPs. Implemented by Implementing Regulation (EU) 2025/2162. Article 5c(7) · Notification of the assessment bodies Requires the Member States to communicate to the Commission the names and addresses of the designated conformity assessment bodies; the Commission makes that information available to all Member States. Only known bodies can be recognised across borders. Article 12a(6) · Notification of the assessment bodies Requires the Member States to communicate to the Commission the names and addresses of the conformity assessment bodies they have designated. The parallel provisions are found in Article 5c(7), Article 20(1b) and Article 30(2). Article 30(2) · Notification of the designated bodies Requires the Member States to notify to the Commission the names and addresses of the public or private bodies designated for the certification of qualified electronic signature creation devices; the Commission makes that information available to all Member States.",
+   "AUDIT CHECK": "Is the auditing CAB notified AND accredited (check the scope of accreditation)?",
+   "KEY POINT": "Not only name and address – the accreditation too is subject to notification. That is new."
+  }
+ }
+]

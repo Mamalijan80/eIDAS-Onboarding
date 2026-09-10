@@ -8,15 +8,16 @@ Source regulation: **Regulation (EU) No 910/2014**, consolidated version of
 
 ## Status
 
-Pilot covering **Articles 5a–5f — 69 norm blocks, 33 typeset pages**.
+**213 of 220 norm blocks** plus reference parts C to H — 121 typeset pages so far.
 The full manual holds 220 norm blocks across 64 articles plus reference parts C–I.
-At the pilot's density (0.48 pages per block) that projects to about **153 pages**,
-against a 200-page budget and the German original's 231.
+Part A is complete at exactly 97 norm blocks, matching the German manual's own count.
+With Part I still to come the document projects to about **145 pages**, against a
+200-page budget and the German original's 231.
 
 | Check | Result |
 |---|---|
-| Verbatim quotations character-exact vs. official English | 27 / 27 |
-| Block, field and ordering parity DE ↔ EN | 69 / 69 |
+| Verbatim quotations character-exact vs. official English | 27 / 27 (pilot), 15 / 15 (Art. 6–25) |
+| Block, field and ordering parity DE ↔ EN | 213 / 213 |
 | Modality mapping (SHALL / SHALL NOT / MAY …) | 1:1, no softening |
 | Defined terms vs. the 57 Article 3 definitions | no non-official variant found |
 | Retrieval cues within the 90-character limit | 69 / 69 |
@@ -69,3 +70,19 @@ Modality is encoded as colour **and** silhouette (seven distinguishable badges);
 priority is achromatic and positional, in separate height zones at the page edge,
 so the two codes never share a channel. Red denotes prohibition only — deadlines
 are marked typographically — and all text colours meet a 4.5:1 contrast floor.
+
+## Reference parts
+
+| Part | Content | Rows | Source count |
+|---|---|---|---|
+| C | All articles at a glance | 90 | 90 |
+| D | Roles in the eIDAS system | 21 | 21 |
+| E | Deadline calendar | 51 | 51 |
+| F | Signature and seal side by side | 12 | 12 |
+| G | Retrieval cards | 43 | 43 |
+| H | Corrections against the previous edition | 22 | 22 |
+| I | Reference digest | 255 entries | in progress |
+
+Every row count matches the German manual's own stated figure. Part G keeps the
+answer below a fold rule so it stays coverable — the desirable-difficulties
+principle the source document commits to.

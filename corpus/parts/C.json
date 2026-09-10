@@ -1,0 +1,818 @@
+{
+ "part": "C",
+ "title": "All articles at a glance",
+ "rows": [
+  {
+   "article": "1",
+   "chapter": "Ch. I",
+   "topic": "Subject matter",
+   "addressee": "- (programmatic provision)",
+   "deadline": "-",
+   "key_point": "Three pillars: eID/European Digital Identity Wallet - trust services - legal effects.",
+   "priority": "L1"
+  },
+  {
+   "article": "2",
+   "chapter": "Ch. I",
+   "topic": "Scope",
+   "addressee": "Member States, trust service providers (indirectly)",
+   "deadline": "-",
+   "key_point": "Closed systems are out - an internal corporate PKI does not fall under eIDAS.",
+   "priority": "L1"
+  },
+  {
+   "article": "3",
+   "chapter": "Ch. I",
+   "topic": "Definitions (Nos 1-57 plus inserted letter-numbers such as 5a, 16a, 21a, 46)",
+   "addressee": "- (applies to all)",
+   "deadline": "-",
+   "key_point": "No 46 (public sector body responsible for an authentic source) is the key to Article 45f.",
+   "priority": "L1"
+  },
+  {
+   "article": "4",
+   "chapter": "Ch. I",
+   "topic": "Internal market principle",
+   "addressee": "Member States",
+   "deadline": "-",
+   "key_point": "Article 4 is the general rule, Article 24a the concrete expression of it for qualified services.",
+   "priority": "L1"
+  },
+  {
+   "article": "5",
+   "chapter": "Ch. I",
+   "topic": "Use of pseudonyms in electronic transactions",
+   "addressee": "Users (entitled), Member States (shall not prohibit)",
+   "deadline": "-",
+   "key_point": "Article 5 is carried through concretely in Article 5a(4)(b), Article 5b(9) and Article 32(1)(e).",
+   "priority": "L2"
+  },
+  {
+   "article": "5a",
+   "chapter": "Ch. II",
+   "topic": "European Digital Identity Wallets (24 paragraphs)",
+   "addressee": "Member States (provide), European Digital Identity Wallet providers",
+   "deadline": "Provision: 24 months after entry into force of the implementing acts under Article 5a(23) AND Article 5c(6); the implementing-act deadline itself: 21 November 2024",
+   "key_point": "Only paragraphs 4, 5, 8 and 14 are certified (Article 5c(1)).",
+   "priority": "L1"
+  },
+  {
+   "article": "5b",
+   "chapter": "Ch. II",
+   "topic": "Relying parties of the European Digital Identity Wallet",
+   "addressee": "Relying parties, Member States (registration body)",
+   "deadline": "21 November 2024 (implementing act)",
+   "key_point": "What is not in the registration shall not be requested (paragraph 2(c) + paragraph 3).",
+   "priority": "L1"
+  },
+  {
+   "article": "5c",
+   "chapter": "Ch. II",
+   "topic": "Certification of the European Digital Identity Wallet",
+   "addressee": "Member States, conformity assessment bodies (CABs)",
+   "deadline": "21 November 2024 (implementing act); certificate: 5 years / 2 years vulnerability assessment",
+   "key_point": "Scope of certification: Article 5a(4), (5), (8) and (14) - no more, no less.",
+   "priority": "L1"
+  },
+  {
+   "article": "5d",
+   "chapter": "Ch. II",
+   "topic": "Publication of the list of certified European Digital Identity Wallets",
+   "addressee": "Member States (notify), Commission (publishes)",
+   "deadline": "21 November 2024 (implementing act); 1 month (update)",
+   "key_point": "European Digital Identity Wallets are on the list under Article 5d, QTSPs on the trusted list under Article 22.",
+   "priority": "L2"
+  },
+  {
+   "article": "5e",
+   "chapter": "Ch. II",
+   "topic": "Security breach of European Digital Identity Wallets",
+   "addressee": "Member States, European Digital Identity Wallet providers",
+   "deadline": "3 months (withdrawal); 21 November 2024 (implementing act)",
+   "key_point": "THREE months - identical to the deadline for electronic identification schemes in Article 10(3).",
+   "priority": "L1"
+  },
+  {
+   "article": "5f",
+   "chapter": "Ch. II",
+   "topic": "Cross-border use / obligation to accept",
+   "addressee": "Public sector bodies; certain private relying parties; very large online platforms",
+   "deadline": "Private relying parties: 36 months after entry into force of the implementing acts under Article 5a(23) and Article 5c(6)",
+   "key_point": "24 months for provision (Article 5a(1)), 36 months for private-sector acceptance (Article 5f(2)).",
+   "priority": "L1"
+  },
+  {
+   "article": "6",
+   "chapter": "Ch. II",
+   "topic": "Mutual recognition",
+   "addressee": "Member States / public sector bodies",
+   "deadline": "Recognition at the latest 12 months after publication of the list",
+   "key_point": "Low = may. Substantial/high = shall.",
+   "priority": "L1"
+  },
+  {
+   "article": "7",
+   "chapter": "Ch. II",
+   "topic": "Eligibility for notification",
+   "addressee": "Notifying Member State",
+   "deadline": "Point (g): 6 months before notification",
+   "key_point": "Points (d), (e) and (f) are at the same time the connecting factors for liability in Article 11.",
+   "priority": "L1"
+  },
+  {
+   "article": "8",
+   "chapter": "Ch. II",
+   "topic": "Assurance levels (low / substantial / high)",
+   "addressee": "Commission (specifications), Member State (assignment)",
+   "deadline": "Paragraph 3: by 18 September 2015",
+   "key_point": "Paragraph 2 = definition. Paragraph 3 = the actual obligation.",
+   "priority": "L1"
+  },
+  {
+   "article": "9",
+   "chapter": "Ch. II",
+   "topic": "Notification",
+   "addressee": "Member State (notifies), Commission (publishes in the Official Journal)",
+   "deadline": "1 month (publication of changes)",
+   "key_point": "Article 9(1)(a)-(g) and Article 5d(2)(a)-(e) are almost identical.",
+   "priority": "L2"
+  },
+  {
+   "article": "10",
+   "chapter": "Ch. II",
+   "topic": "Security breach of electronic identification schemes",
+   "addressee": "Notifying Member State",
+   "deadline": "3 months",
+   "key_point": "Article 10 = electronic identification scheme, Article 5e = European Digital Identity Wallet. Same deadlines, different addressees.",
+   "priority": "L2"
+  },
+  {
+   "article": "11",
+   "chapter": "Ch. II",
+   "topic": "Liability (eID)",
+   "addressee": "Notifying Member State, issuer of the electronic identification means, operator of the authentication procedure",
+   "deadline": "-",
+   "key_point": "Applies correspondingly, via Article 5a(19), to the European Digital Identity Wallet as well.",
+   "priority": "L2"
+  },
+  {
+   "article": "11a",
+   "chapter": "Ch. II",
+   "topic": "Cross-border identity matching",
+   "addressee": "Member States (as relying parties), Commission (implementing act)",
+   "deadline": "21 November 2024 (implementing act)",
+   "key_point": "New in eIDAS 2.0 - and the greatest profiling risk in the Regulation.",
+   "priority": "L2"
+  },
+  {
+   "article": "12",
+   "chapter": "Ch. II",
+   "topic": "Interoperability / interoperability framework",
+   "addressee": "Commission (framework + implementing act), Member States (connection, peer review)",
+   "deadline": "Paragraph 6 (peer-review arrangements): 18 March 2025; paragraph 8 (interoperability framework): 18 September 2025",
+   "key_point": "Two implementing acts govern the eID part: Article 8(3) for LoA, Article 12(8) for interoperability.",
+   "priority": "L1"
+  },
+  {
+   "article": "12a",
+   "chapter": "Ch. II",
+   "topic": "Certification of electronic identification schemes",
+   "addressee": "Member States, designated conformity assessment bodies",
+   "deadline": "5 years / 2 years / 3 months for remediation",
+   "key_point": "Certification replaces the peer review (paragraph 5).",
+   "priority": "L2"
+  },
+  {
+   "article": "12b",
+   "chapter": "Ch. II",
+   "topic": "Access to hardware and software features",
+   "addressee": "Gatekeepers under Regulation (EU) 2022/1925 (DMA)",
+   "deadline": "-",
+   "key_point": "Enforcement runs through the DMA, not through eIDAS supervision.",
+   "priority": "L2"
+  },
+  {
+   "article": "13",
+   "chapter": "Ch. III",
+   "topic": "Liability and burden of proof",
+   "addressee": "Trust service providers (TSPs and QTSPs)",
+   "deadline": "-",
+   "key_point": "Non-qualified: the customer proves. Qualified: the provider exculpates itself.",
+   "priority": "L1"
+  },
+  {
+   "article": "14",
+   "chapter": "Ch. III",
+   "topic": "International aspects (third countries)",
+   "addressee": "Commission",
+   "deadline": "no deadline",
+   "key_point": "Two routes: implementing act (unilateral) or agreement (with reciprocity).",
+   "priority": "L3"
+  },
+  {
+   "article": "15",
+   "chapter": "Ch. III",
+   "topic": "Accessibility",
+   "addressee": "Providers of electronic identification means and trust services",
+   "deadline": "-",
+   "key_point": "eIDAS 2.0 deleted 'where feasible' - the obligation is now unconditional.",
+   "priority": "L2"
+  },
+  {
+   "article": "16",
+   "chapter": "Ch. III",
+   "topic": "Penalties",
+   "addressee": "Member States",
+   "deadline": "-",
+   "key_point": "Only ONE framework: EUR 5 million or 1 %. For QTSPs and TSPs alike.",
+   "priority": "L2"
+  },
+  {
+   "article": "17-19",
+   "chapter": "Ch. III",
+   "topic": "Supervisory body / Mutual assistance / Security requirements (REPEALED)",
+   "addressee": "-",
+   "deadline": "-",
+   "key_point": "For anyone reading older literature: Articles 17/18/19 no longer exist. The successors are Article 46b, Article 46d and Article 19a.",
+   "priority": "L2"
+  },
+  {
+   "article": "19a",
+   "chapter": "Ch. III",
+   "topic": "Requirements for non-qualified trust service providers",
+   "addressee": "Non-qualified trust service providers",
+   "deadline": "Implementing act: 21 May 2025; notification: 24 hours from becoming aware",
+   "key_point": "Article 19a(1)(a) is the twin of Article 24(2)(fa).",
+   "priority": "L1"
+  },
+  {
+   "article": "20",
+   "chapter": "Ch. III",
+   "topic": "Supervision of qualified trust service providers (AUDIT CORE)",
+   "addressee": "QTSPs (audit obligation), conformity assessment body, supervisory body",
+   "deadline": "24 months (audit); 3 working days (CAR); 1 month (advance notice); implementing act: 21 May 2025",
+   "key_point": "New in 2024: advance notice and the supervisory body's right to attend as observer (paragraph 1a).",
+   "priority": "L1"
+  },
+  {
+   "article": "21",
+   "chapter": "Ch. III",
+   "topic": "Initiation of a qualified trust service",
+   "addressee": "TSP (applicant), supervisory body",
+   "deadline": "3 months (whole procedure); 2 months (NIS2 response); implementing act: 21 May 2025",
+   "key_point": "It is not the decision that counts but the entry in the trusted list (paragraph 3).",
+   "priority": "L1"
+  },
+  {
+   "article": "22",
+   "chapter": "Ch. III",
+   "topic": "Trusted lists",
+   "addressee": "Member States (establish/publish), Commission (implementing act + access point)",
+   "deadline": "Paragraph 5: by 18 September 2015",
+   "key_point": "27 national lists plus the list of lists held by the Commission.",
+   "priority": "L1"
+  },
+  {
+   "article": "23",
+   "chapter": "Ch. III",
+   "topic": "EU trust mark",
+   "addressee": "Qualified trust service providers",
+   "deadline": "Paragraph 3: by 1 July 2015",
+   "key_point": "A right, not an obligation - but whoever uses it SHALL link.",
+   "priority": "L2"
+  },
+  {
+   "article": "24",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified trust service providers (AUDIT CORE)",
+   "addressee": "Qualified trust service providers",
+   "deadline": "Implementing act: 21 May 2025; notification of changes 1 month; cessation 3 months; notification 24 hours; revocation 24 hours",
+   "key_point": "Mind the gap in the lettering: (i) is followed by (k) - point (j) was deleted.",
+   "priority": "L1"
+  },
+  {
+   "article": "24a",
+   "chapter": "Ch. III",
+   "topic": "Recognition of qualified trust services",
+   "addressee": "Member States",
+   "deadline": "-",
+   "key_point": "Article 24a(1) to (11) is the complete list of all types of qualified service - ideal for learning by heart.",
+   "priority": "L1"
+  },
+  {
+   "article": "25",
+   "chapter": "Ch. III",
+   "topic": "Legal effects of electronic signatures",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "Only the QES is treated as equivalent - an AdES is not, not even with a qualified certificate.",
+   "priority": "L1"
+  },
+  {
+   "article": "26",
+   "chapter": "Ch. III",
+   "topic": "Requirements for advanced electronic signatures (AdES)",
+   "addressee": "Signature solutions / providers (indirectly)",
+   "deadline": "Assessment by 21 May 2026",
+   "key_point": "Point (c) ('sole control') is the critical point in remote signing.",
+   "priority": "L1"
+  },
+  {
+   "article": "27",
+   "chapter": "Ch. III",
+   "topic": "Electronic signatures in public services",
+   "addressee": "Member States / public sector bodies",
+   "deadline": "Paragraph 5: by 18 September 2015",
+   "key_point": "Whoever requires an AdES shall also accept a QES. The QES is the ceiling.",
+   "priority": "L2"
+  },
+  {
+   "article": "28",
+   "chapter": "Ch. III",
+   "topic": "Qualified certificates for electronic signatures",
+   "addressee": "QTSPs / Member States",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Annex I is the minimum AND the maximum content at the same time.",
+   "priority": "L1"
+  },
+  {
+   "article": "29",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified signature creation devices (QSCD)",
+   "addressee": "QTSPs / manufacturers of QSCDs",
+   "deadline": "Transition for paragraph 1a: 21 May 2026 (Article 51(3))",
+   "key_point": "Paragraph 1a is new: server-side key management becomes subject to qualification.",
+   "priority": "L1"
+  },
+  {
+   "article": "29a",
+   "chapter": "Ch. III",
+   "topic": "Qualified service for the management of qualified remote signature creation devices",
+   "addressee": "QTSPs (remote signing providers)",
+   "deadline": "Implementing act: 21 May 2025; transitional period: 21 May 2026",
+   "key_point": "Point (b)(ii) ('no more copies than strictly necessary') is the strictest single requirement.",
+   "priority": "L1"
+  },
+  {
+   "article": "30",
+   "chapter": "Ch. III",
+   "topic": "Certification of QSCDs",
+   "addressee": "Member States (designate bodies), designated bodies, Commission",
+   "deadline": "5 years / 2 years vulnerability assessment",
+   "key_point": "Paragraph 3a is new in eIDAS 2.0 - previously QSCD certificates were in practice unlimited in time.",
+   "priority": "L1"
+  },
+  {
+   "article": "31",
+   "chapter": "Ch. III",
+   "topic": "Publication of the list of certified QSCDs",
+   "addressee": "Member States (notify within 1 month), Commission (publishes)",
+   "deadline": "1 month; implementing act: 21 May 2025",
+   "key_point": "One month - for inclusion AND for removal.",
+   "priority": "L3"
+  },
+  {
+   "article": "32",
+   "chapter": "Ch. III",
+   "topic": "Requirements for the validation of qualified electronic signatures",
+   "addressee": "Validating body / relying party / validation service",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Eight points. Article 32a has only seven - the QSCD condition is missing there.",
+   "priority": "L1"
+  },
+  {
+   "article": "32a",
+   "chapter": "Ch. III",
+   "topic": "Validation of advanced signatures based on qualified certificates",
+   "addressee": "Validating body, Commission (implementing act)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Article 32 minus the QSCD = Article 32a.",
+   "priority": "L2"
+  },
+  {
+   "article": "33",
+   "chapter": "Ch. III",
+   "topic": "Qualified validation service",
+   "addressee": "QTSPs (validation service providers)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Advanced is enough for the result report - not qualified.",
+   "priority": "L2"
+  },
+  {
+   "article": "34",
+   "chapter": "Ch. III",
+   "topic": "Qualified preservation service",
+   "addressee": "QTSPs (preservation service providers)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Preservation (Article 34) keeps the signature alive. Archiving (Article 45j) keeps the document alive.",
+   "priority": "L2"
+  },
+  {
+   "article": "35",
+   "chapter": "Ch. III",
+   "topic": "Legal effects of electronic seals",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "Signature = equivalence with a handwritten signature. Seal = presumption. Not the same thing.",
+   "priority": "L1"
+  },
+  {
+   "article": "36",
+   "chapter": "Ch. III",
+   "topic": "Requirements for advanced electronic seals",
+   "addressee": "Seal solutions / providers (indirectly)",
+   "deadline": "Assessment by 21 May 2026",
+   "key_point": "Article 26(c) = sole control. Article 36(c) = control. A difference of one word.",
+   "priority": "L2"
+  },
+  {
+   "article": "37",
+   "chapter": "Ch. III",
+   "topic": "Electronic seals in public services",
+   "addressee": "Member States / public sector bodies",
+   "deadline": "Paragraph 5: by 18 September 2015",
+   "key_point": "Articles 27 and 37 are identical apart from the word 'seal'.",
+   "priority": "L2"
+  },
+  {
+   "article": "38",
+   "chapter": "Ch. III",
+   "topic": "Qualified certificates for electronic seals",
+   "addressee": "QTSPs",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Annex I allows a pseudonym, Annex III requires the name and, where applicable, the registration number.",
+   "priority": "L1"
+  },
+  {
+   "article": "39",
+   "chapter": "Ch. III",
+   "topic": "Qualified seal creation devices",
+   "addressee": "QTSPs / manufacturers",
+   "deadline": "-",
+   "key_point": "Three paragraphs, three references: Article 29 - Article 30 - Article 31.",
+   "priority": "L2"
+  },
+  {
+   "article": "39a",
+   "chapter": "Ch. III",
+   "topic": "Qualified service for the management of qualified remote seal creation devices",
+   "addressee": "QTSPs",
+   "deadline": "Transitional period: 21 May 2026 (Article 51(3))",
+   "key_point": "Article 51(3) expressly names BOTH - Article 29a and Article 39a.",
+   "priority": "L1"
+  },
+  {
+   "article": "40",
+   "chapter": "Ch. III",
+   "topic": "Validation and preservation of qualified seals",
+   "addressee": "Validation and preservation services",
+   "deadline": "-",
+   "key_point": "One reference, three articles.",
+   "priority": "L2"
+  },
+  {
+   "article": "40a",
+   "chapter": "Ch. III",
+   "topic": "Validation of advanced seals based on qualified certificates",
+   "addressee": "Validation services",
+   "deadline": "-",
+   "key_point": "This completes the mirroring of signatures and seals.",
+   "priority": "L3"
+  },
+  {
+   "article": "41",
+   "chapter": "Ch. III",
+   "topic": "Legal effect of electronic time stamps",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "The time stamp is the glue: it reappears in ERDS (Article 44(f)), electronic ledgers (Article 45l) and validation.",
+   "priority": "L1"
+  },
+  {
+   "article": "42",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified electronic time stamps",
+   "addressee": "QTSPs (time stamping service)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Point (c) requires only ADVANCED - a common mistake.",
+   "priority": "L1"
+  },
+  {
+   "article": "43",
+   "chapter": "Ch. III",
+   "topic": "Legal effect of an electronic registered delivery service",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "Four presumptions at once - the densest presumption rule in the Regulation.",
+   "priority": "L1"
+  },
+  {
+   "article": "44",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified electronic registered delivery services",
+   "addressee": "QTSPs (ERDS providers)",
+   "deadline": "Implementing act under paragraph 2: 21 May 2025",
+   "key_point": "Point (d) only advanced, point (f) by contrast qualified.",
+   "priority": "L1"
+  },
+  {
+   "article": "45",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified certificates for website authentication (QWAC)",
+   "addressee": "QTSPs, providers of web-browsers",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Two obligations for browsers: recognise AND display in a user-friendly manner.",
+   "priority": "L1"
+  },
+  {
+   "article": "45a",
+   "chapter": "Ch. III",
+   "topic": "Cybersecurity precautionary measures",
+   "addressee": "Providers of web-browsers",
+   "deadline": "without undue delay (notification)",
+   "key_point": "The browser notifies - the supervisory body decides - the browser shall withdraw the measure.",
+   "priority": "L2"
+  },
+  {
+   "article": "45b",
+   "chapter": "Ch. III",
+   "topic": "Legal effects of the electronic attestation of attributes (EAA)",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "Three classes of EAA: plain, qualified, PuB-EAA.",
+   "priority": "L1"
+  },
+  {
+   "article": "45c",
+   "chapter": "Ch. III",
+   "topic": "Electronic attestation of attributes in public services",
+   "addressee": "Member States / public sector bodies",
+   "deadline": "-",
+   "key_point": "Primarily a PROHIBITION, not an obligation to accept - a frequent misunderstanding.",
+   "priority": "L2"
+  },
+  {
+   "article": "45d",
+   "chapter": "Ch. III",
+   "topic": "Requirements for the qualified electronic attestation of attributes",
+   "addressee": "QTSPs (QEAA providers)",
+   "deadline": "Implementing act: 21 November 2024",
+   "key_point": "Annex V requires a QUALIFIED signature/seal - Annex I only an advanced one.",
+   "priority": "L1"
+  },
+  {
+   "article": "45e",
+   "chapter": "Ch. III",
+   "topic": "Verification of attributes against authentic sources",
+   "addressee": "Member States, operators of authentic sources",
+   "deadline": "24 months after entry into force of the implementing acts under Article 5a(23) and Article 5c(6); the implementing act itself: 21 November 2024",
+   "key_point": "The same 24-month clock as the provision of the European Digital Identity Wallet under Article 5a(1).",
+   "priority": "L1"
+  },
+  {
+   "article": "45f",
+   "chapter": "Ch. III",
+   "topic": "Requirements for EAA issued by public sector bodies (PuB-EAA)",
+   "addressee": "Public sector bodies within the meaning of Article 3, point (46)",
+   "deadline": "Implementing act: 21 November 2024",
+   "key_point": "No QTSP status, but QTSP level and a QTSP assessment report (paragraphs 2 and 3).",
+   "priority": "L1"
+  },
+  {
+   "article": "45g",
+   "chapter": "Ch. III",
+   "topic": "Issuing of electronic attestations of attributes to European Digital Identity Wallets",
+   "addressee": "Providers of electronic attestations of attributes",
+   "deadline": "-",
+   "key_point": "Paragraph 1 = all providers. Paragraph 2 (interface) = qualified providers only.",
+   "priority": "L1"
+  },
+  {
+   "article": "45h",
+   "chapter": "Ch. III",
+   "topic": "Additional rules for EAA services",
+   "addressee": "Providers of qualified AND non-qualified EAA services",
+   "deadline": "-",
+   "key_point": "Business partners are covered too - this is often overlooked. Paragraph 3 also applies, via Article 5a(14), to private European Digital Identity Wallet providers.",
+   "priority": "L1"
+  },
+  {
+   "article": "45i",
+   "chapter": "Ch. III",
+   "topic": "Legal effect of electronic archiving services",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "The presumption applies only for the preservation period.",
+   "priority": "L2"
+  },
+  {
+   "article": "45j",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified electronic archiving services",
+   "addressee": "QTSPs (archiving service)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "The report under point (d) requires QUALIFIED - unlike Article 33(1)(b).",
+   "priority": "L1"
+  },
+  {
+   "article": "45k",
+   "chapter": "Ch. III",
+   "topic": "Legal effects of electronic ledgers",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "The Regulation deliberately never says 'blockchain'.",
+   "priority": "L2"
+  },
+  {
+   "article": "45l",
+   "chapter": "Ch. III",
+   "topic": "Requirements for qualified electronic ledgers",
+   "addressee": "QTSPs (ledger providers)",
+   "deadline": "Implementing act: 21 May 2025",
+   "key_point": "Four points: QTSP - origin - sequence - immutability.",
+   "priority": "L3"
+  },
+  {
+   "article": "46",
+   "chapter": "Ch. IV",
+   "topic": "Legal effects of electronic documents",
+   "addressee": "Courts / Member States",
+   "deadline": "-",
+   "key_point": "The shortest chapter in the Regulation: one article, one sentence.",
+   "priority": "L2"
+  },
+  {
+   "article": "46a",
+   "chapter": "Ch. IVa",
+   "topic": "Supervision of the European Digital Identity Wallet Framework",
+   "addressee": "Member States (designate), supervisory bodies, European Digital Identity Wallet providers",
+   "deadline": "-",
+   "key_point": "The new Chapter IVa bundles the entire governance.",
+   "priority": "L1"
+  },
+  {
+   "article": "46b",
+   "chapter": "Ch. IVa",
+   "topic": "Supervision of trust services",
+   "addressee": "Member States, supervisory bodies, TSPs/QTSPs",
+   "deadline": "-",
+   "key_point": "Paragraph 3(a)/(b) is the core distinction: QTSPs ex ante + ex post, TSPs ex post only.",
+   "priority": "L1"
+  },
+  {
+   "article": "46c",
+   "chapter": "Ch. IVa",
+   "topic": "Single points of contact",
+   "addressee": "Member States (designate), Commission (publishes)",
+   "deadline": "-",
+   "key_point": "The single point of contact is the addressee of the notifications under Article 5e.",
+   "priority": "L2"
+  },
+  {
+   "article": "46d",
+   "chapter": "Ch. IVa",
+   "topic": "Mutual assistance",
+   "addressee": "Supervisory bodies of the Member States",
+   "deadline": "-",
+   "key_point": "Successor to the deleted Article 18.",
+   "priority": "L3"
+  },
+  {
+   "article": "46e",
+   "chapter": "Ch. IVa",
+   "topic": "The European Digital Identity Cooperation Group",
+   "addressee": "Commission (chair/secretariat), Member States (members)",
+   "deadline": "-",
+   "key_point": "Addressee of the national draft certification schemes under Article 5c(3).",
+   "priority": "L2"
+  },
+  {
+   "article": "47",
+   "chapter": "Ch. V",
+   "topic": "Exercise of the delegation (delegated acts)",
+   "addressee": "Commission, Parliament, Council",
+   "deadline": "-",
+   "key_point": "Only three provisions refer to Article 47: Article 5c(8), Article 24(4b) and Article 30(4).",
+   "priority": "L3"
+  },
+  {
+   "article": "48",
+   "chapter": "Ch. V",
+   "topic": "Committee procedure (comitology)",
+   "addressee": "Commission, committee of the Member States",
+   "deadline": "-",
+   "key_point": "The standard cross-reference at the end of almost every empowerment to adopt implementing acts.",
+   "priority": "L2"
+  },
+  {
+   "article": "48a",
+   "chapter": "Ch. VI",
+   "topic": "Reporting requirements (statistics)",
+   "addressee": "Member States",
+   "deadline": "annually",
+   "key_point": "New in eIDAS 2.0.",
+   "priority": "L2"
+  },
+  {
+   "article": "49",
+   "chapter": "Ch. VI",
+   "topic": "Review",
+   "addressee": "Commission",
+   "deadline": "-",
+   "key_point": "Together with Article 5f(5), the starting point for a possible eIDAS 3 amendment.",
+   "priority": "L3"
+  },
+  {
+   "article": "50",
+   "chapter": "Ch. VI",
+   "topic": "Repeal",
+   "addressee": "-",
+   "deadline": "1 July 2016",
+   "key_point": "-",
+   "priority": "L3"
+  },
+  {
+   "article": "51",
+   "chapter": "Ch. VI",
+   "topic": "Transitional measures (AUDIT-RELEVANT)",
+   "addressee": "QTSPs, supervisory bodies, Member States",
+   "deadline": "21 May 2026 (paragraphs 2, 3, 4) / 21 May 2027 (paragraph 1)",
+   "key_point": "Four paragraphs, three deadlines in May 2026 and one in May 2027.",
+   "priority": "L1"
+  },
+  {
+   "article": "52",
+   "chapter": "Ch. VI",
+   "topic": "Entry into force / date of application",
+   "addressee": "-",
+   "deadline": "1 July 2016 / 17 September 2014 / depending on the implementing act",
+   "key_point": "Article 52(2)(c) contains the three-year delay for the recognition obligation in Article 6.",
+   "priority": "L2"
+  },
+  {
+   "article": "Annex I",
+   "chapter": "Annex",
+   "topic": "Requirements for qualified certificates for electronic signatures",
+   "addressee": "QTSPs",
+   "deadline": "-",
+   "key_point": "TEN points (a)-(j), not nine. Point (i) was recast by eIDAS 2.0.",
+   "priority": "L1"
+  },
+  {
+   "article": "Annex II",
+   "chapter": "Annex",
+   "topic": "Requirements for qualified electronic signature creation devices (QSCD)",
+   "addressee": "QTSPs / QSCD manufacturers",
+   "deadline": "-",
+   "key_point": "Two numbered points, but point 1 has four letters. Point 1(d) is modified by Article 29a(1)(b).",
+   "priority": "L1"
+  },
+  {
+   "article": "Annex III",
+   "chapter": "Annex",
+   "topic": "Requirements for qualified certificates for electronic seals",
+   "addressee": "QTSPs",
+   "deadline": "-",
+   "key_point": "The only substantive difference from Annex I lies in point (c).",
+   "priority": "L1"
+  },
+  {
+   "article": "Annex IV",
+   "chapter": "Annex",
+   "topic": "Requirements for qualified certificates for website authentication",
+   "addressee": "QTSPs",
+   "deadline": "-",
+   "key_point": "The only Annex with a point (ca) - inserted for legal persons.",
+   "priority": "L2"
+  },
+  {
+   "article": "Annex V",
+   "chapter": "Annex",
+   "topic": "Requirements for qualified electronic attestations of attributes",
+   "addressee": "QTSPs (QEAA)",
+   "deadline": "-",
+   "key_point": "Point (g) requires QUALIFIED - Annex I and Annex III require only advanced at the same place.",
+   "priority": "L1"
+  },
+  {
+   "article": "Annex VI",
+   "chapter": "Annex",
+   "topic": "Minimum list of attributes (11 items)",
+   "addressee": "Member States / authentic sources",
+   "deadline": "-",
+   "key_point": "ELEVEN items. Item 11 applies expressly only to legal persons.",
+   "priority": "L1"
+  },
+  {
+   "article": "Annex VII",
+   "chapter": "Annex",
+   "topic": "Requirements for EAA issued by public sector bodies (PuB-EAA)",
+   "addressee": "Public sector bodies and their agents",
+   "deadline": "-",
+   "key_point": "Annex V and Annex VII are almost identical - the difference lies in the issuer (QTSP vs. public sector body).",
+   "priority": "L2"
+  }
+ ],
+ "rows_in_source": 90,
+ "check": null
+}

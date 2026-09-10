@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 """Continuous-flow typesetter for the English eIDAS study manual."""
-import json, glob, re, sys
+import json, glob, re, sys, os
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.pdfbase.pdfmetrics import stringWidth
 import fonts, design as D, richtext as R
 from xref import parse as parse_xref, split_title
+import parts_render as PR
 
 fonts.register()
 T = D.T
@@ -369,21 +370,64 @@ def part_banner(doc, letter, title, subtitle):
     c.drawString(D.LABEL_X0+20*mm, y-18.5*mm, subtitle)
     doc.y = y-24*mm-5*mm
 
-def main(out="eIDAS_Study_Manual_EN_pilot.pdf"):
-    blocks=[b for f in sorted(glob.glob("pilot/out/*_en.json")) for b in json.load(open(f))]
+ARTKEY = lambda a: (int(re.match(r'\d+', a).group()), a)
+
+def load_corpus():
+    """Pilot output plus the full run, ordered as the Regulation is."""
+    seen={}; out=[]
+    for pat in ("pilot/out/*_en.json", "full/out/*_en.json"):
+        for f in sorted(glob.glob(pat)):
+            for b in json.load(open(f)):
+                if b["id"] in seen: continue
+                seen[b["id"]]=1; out.append(b)
+    order={b["id"]: i for i,b in enumerate(
+        json.load(open("blocks.json")))}
+    out.sort(key=lambda b: order.get(b["id"], 10**6))
+    return out
+
+PART_A = {"5a","5b","5c","5d","5e","5f","6","7","8","9","10","11","11a","12","12a","12b"}
+
+def main(out="eIDAS_Study_Manual_EN.pdf"):
+    blocks=load_corpus()
+    a=[b for b in blocks if b["article"] in PART_A]
+    bb=[b for b in blocks if b["article"] not in PART_A]
     doc=Doc(out)
     doc.c.setTitle("eIDAS — Study and Audit Manual, English Edition")
+    doc.c.setSubject("Regulation (EU) No 910/2014, consolidated 18 October 2024")
     title_page(doc); legend_page(doc)
-    doc.new_page("Part A · Electronic Identification","")
-    part_banner(doc,"A","Electronic Identification","Chapter II · Articles 5a to 5f")
-    cur=None
-    for b in blocks:
-        if b["article"]!=cur:
-            cur=b["article"]
-            doc.c.bookmarkPage(f"art{cur}"); doc.c.addOutlineEntry(f"Article {cur}", f"art{cur}", 0)
-        draw_block(doc, b, "Part A · Electronic Identification")
+    for letter,title,sub,items in (
+        ("A","Electronic Identification","Chapter II · Articles 5a to 12b", a),
+        ("B","Trust Services","Chapter III · Articles 13 to 45l", bb)):
+        if not items: continue
+        head=f"Part {letter} · {title}"
+        doc.new_page(head,"")
+        part_banner(doc, letter, title, sub)
+        doc.c.bookmarkPage("part"+letter); doc.c.addOutlineEntry(f"Part {letter} — {title}","part"+letter,0)
+        cur=None
+        for b in items:
+            if b["article"]!=cur:
+                cur=b["article"]
+                key=f"p{letter}art{cur}"
+                doc.c.bookmarkPage(key); doc.c.addOutlineEntry(f"Article {cur}", key, 1)
+            draw_block(doc, b, head)
+    # ---- reference parts C to I ----
+    def banner(d, letter, title, sub):
+        d.new_page(f"Part {letter} · {title}", "")
+        part_banner(d, letter, title, sub)
+        d.c.bookmarkPage("part"+letter); d.c.addOutlineEntry(f"Part {letter} — {title}","part"+letter,0)
+    stats={}
+    for k in ("C","D","E","F","G","H","I"):
+        p=f"full/parts_en/{k}.json"
+        if not os.path.exists(p): continue
+        rows=json.load(open(p))["rows"]
+        if   k=="G": PR.part_cards(doc, rows, banner)
+        elif k=="I": PR.part_index(doc, rows, banner)
+        else:        PR.part_table(doc, k, rows, banner)
+        stats[k]=len(rows)
     doc.c.showPage(); doc.c.save()
-    return out, doc.page, len(blocks)
+    return out, doc.page, len(blocks), len(a), len(bb), stats
 
 if __name__=="__main__":
-    f,p,n=main(); print(f"built {f}: {p} pages, {n} blocks  =>  {p/n:.2f} pages/block  =>  220 blocks ~ {round(p/n*220)} pp")
+    f,p,n,na,nb,st=main()
+    print(f"built {f}: {p} pages | {n} blocks (Part A {na}, Part B {nb})")
+    print("  reference parts:", ", ".join(f"{k}={v}" for k,v in sorted(st.items())) or "none yet")

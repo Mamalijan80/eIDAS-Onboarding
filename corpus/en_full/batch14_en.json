@@ -1,0 +1,176 @@
+[
+ {
+  "id": "20|Abs. 2",
+  "article": "20",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L1",
+  "page": 88,
+  "fields": {
+   "TOPIC": "Audit irrespective of any specific cause",
+   "ADDRESSEE": "Supervisory body",
+   "CONTENT": "The supervisory body MAY AT ANY TIME carry out an audit or request a conformity assessment body (CAB) to perform a conformity assessment – AT THE EXPENSE OF THE QTSP. Where personal data protection rules appear to have been breached, it SHALL INFORM the GDPR supervisory authorities under Article 51 GDPR without undue delay.",
+   "PURPOSE": "The 24-month cycle shall not create a period of grace; supervision remains able to act at any time.",
+   "DEADLINE": "at any time / without undue delay (GDPR notification)",
+   "CROSS-REFERENCES": "GDPR Article 51 · Supervisory authority Requires each Member State to provide for one or more independent public authorities responsible for monitoring the application of the Regulation, and governs their contribution to its consistent application in the Union as well as their cooperation with one another and with the Commission. Relation to eIDAS: Article 20(2) eIDAS requires the eIDAS supervisory body, where personal data protection rules appear to have been breached, to inform those authorities without undue delay; under Article 20(3b) eIDAS their notification back may trigger the withdrawal of qualified status. They are moreover the addressee of the user reports from the Wallet dashboard under Article 5a(4)(d)(iii) eIDAS. ● Summary, not verified against the original text Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)).",
+   "AUDIT CHECK": "Does the budget take into account that unscheduled audits are at the QTSP's expense?",
+   "KEY POINT": "At any time, at the expense of the audited party."
+  }
+ },
+ {
+  "id": "20|Abs. 3",
+  "article": "20",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 89,
+  "fields": {
+   "TOPIC": "Requirement to remedy and withdrawal of status",
+   "ADDRESSEE": "Supervisory body / QTSP",
+   "CONTENT": "Where there is a failure to fulfil a requirement, the supervisory body SHALL REQUIRE a remedy to be provided within a set time limit. Where no remedy is provided, the supervisory body SHALL WITHDRAW – where justified by the EXTENT, DURATION and CONSEQUENCES – the QUALIFIED STATUS of the provider or of the affected service.",
+   "PURPOSE": "Two stages: first the remedy, then the withdrawal. The withdrawal is bound by proportionality.",
+   "DEADLINE": "time limit set by the supervisory body",
+   "CROSS-REFERENCES": "Article 20(3c) · Chain of notification upon withdrawal of status Requires the supervisory body to inform the provider concerned of the withdrawal, and further the body notified pursuant to Article 22(3) as responsible for the trusted list for the purposes of updating it, as well as the competent NIS2 authority. In practice the withdrawal takes effect only once it is visible in the trusted list. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)). Article 22 · Trusted lists Requires each Member State to establish, maintain and publish lists of the qualified providers and of the qualified services they provide – electronically signed or sealed in a secured manner and in a form suitable for automated processing. The information on the body responsible for the list, the place of publication and the signing certificates must be notified to the Commission without undue delay, and the Commission in turn makes it available in a secured, machine-processable form.",
+   "AUDIT CHECK": "Are there documented remediation processes with deadline tracking?",
+   "KEY POINT": "Three criteria for the withdrawal: extent – duration – consequences."
+  }
+ },
+ {
+  "id": "20|Abs. 3a-3b",
+  "article": "20",
+  "locus": "Abs. 3a-3b",
+  "locus_en": "Paragraphs 3a-3b",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 90,
+  "fields": {
+   "TOPIC": "Withdrawal of status for NIS2 or GDPR infringements",
+   "ADDRESSEE": "Supervisory body",
+   "CONTENT": "Paragraph 3a: Where the NIS2 authorities designated or established pursuant to Article 8(1) NIS2 report a failure to fulfil a requirement of Article 21 NIS2, the supervisory body SHALL WITHDRAW the qualified status – on the basis of the same three criteria. Paragraph 3b: The same applies where the data protection supervisory authorities report an infringement of the GDPR.",
+   "PURPOSE": "eIDAS status is coupled to NIS2 and GDPR compliance – a data protection infringement can cost the qualified status.",
+   "CROSS-REFERENCES": "GDPR Article 51 · Supervisory authority Requires each Member State to provide for one or more independent public authorities responsible for monitoring the application of the Regulation, and governs their contribution to its consistent application in the Union as well as their cooperation with one another and with the Commission. Relation to eIDAS: Article 20(2) eIDAS requires the eIDAS supervisory body, where personal data protection rules appear to have been breached, to inform those authorities without undue delay; under Article 20(3b) eIDAS their notification back may trigger the withdrawal of qualified status. They are moreover the addressee of the user reports from the Wallet dashboard under Article 5a(4)(d)(iii) eIDAS. ● Summary, not verified against the original text NIS2 Article 8 · Competent authorities and single points of contact Paragraph 1 requires each Member State to designate or establish one or more authorities competent for cybersecurity, which at the same time carry out the supervisory tasks under the Directive. The further paragraphs govern the monitoring of its application, the designation of a single point of contact for cross-border cooperation and its notification to the Commission, as well as the cooperation with the data protection and law enforcement authorities. Relation to eIDAS: It is precisely these authorities designated pursuant to Article 8(1) whose notification triggers the withdrawal of qualified status under Article 20(3a) eIDAS – and which, under Article 21(2) eIDAS, must report back within two months in the admission procedure. ● Summary, not verified against the original text Article 20(1) · Conformity assessment every 24 months The audit core of the Regulation. QTSPs are audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly also covers Article 21 of the NIS 2 Directive. The conformity assessment report is to be submitted to the supervisory body within three WORKING days of its receipt. “Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body” ✓ Article 20(1) eIDAS Article 21 · Initiation of a qualified trust service Governs the admission procedure: notification of the intention to the supervisory body, accompanied by a conformity assessment report covering eIDAS and Article 21 of the NIS 2 Directive. The supervisory body verifies, involves the NIS2 authorities with a two-month deadline for their reply, and decides within three months. The qualified service may not be provided until the status has been indicated in the trusted list.",
+   "AUDIT CHECK": "Is management aware that an NIS2 or GDPR infringement jeopardises the qualified status?",
+   "KEY POINT": "Three legal acts, one status: eIDAS, NIS2, GDPR. One infringement is enough."
+  }
+ },
+ {
+  "id": "20|Abs. 3c",
+  "article": "20",
+  "locus": "Abs. 3c",
+  "locus_en": "Paragraph 3c",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 91,
+  "fields": {
+   "TOPIC": "Chain of notification upon withdrawal of status",
+   "ADDRESSEE": "Supervisory body",
+   "CONTENT": "The supervisory body SHALL INFORM the QTSP of the withdrawal, and further the body notified pursuant to Article 22(3) as responsible for the trusted list (for the purposes of updating it) as well as the competent NIS2 authority.",
+   "PURPOSE": "The withdrawal takes effect only once it is visible in the trusted list – hence the fixed chain of notification.",
+   "CROSS-REFERENCES": "NIS2 Article 8 · Competent authorities and single points of contact Paragraph 1 requires each Member State to designate or establish one or more authorities competent for cybersecurity, which at the same time carry out the supervisory tasks under the Directive. The further paragraphs govern the monitoring of its application, the designation of a single point of contact for cross-border cooperation and its notification to the Commission, as well as the cooperation with the data protection and law enforcement authorities. Relation to eIDAS: It is precisely these authorities designated pursuant to Article 8(1) whose notification triggers the withdrawal of qualified status under Article 20(3a) eIDAS – and which, under Article 21(2) eIDAS, must report back within two months in the admission procedure. ● Summary, not verified against the original text Article 22(1) · Trusted lists Each Member State establishes, maintains and publishes lists of the QTSPs and of the qualified services they provide. Paragraph 2 requires those lists to be electronically signed or sealed in a secured manner and suitable for automated processing – a PDF list does not satisfy the provision. Under paragraph 4 the Commission maintains the central access point. Significance here: The withdrawal of status takes effect in practice only once it is visible in the trusted list. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)).",
+   "AUDIT CHECK": "How quickly is the trusted list actually updated after a withdrawal of status?",
+   "KEY POINT": "Three addressees: QTSP, the body responsible for the list, the NIS2 authority."
+  }
+ },
+ {
+  "id": "20|Abs. 4 a-c",
+  "article": "20",
+  "locus": "Abs. 4 a-c",
+  "locus_en": "Paragraph 4(a)-(c)",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 92,
+  "fields": {
+   "TOPIC": "Implementing act on CAB accreditation, the CAR and the auditing requirements",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with reference standards, specifications and procedures for (a) the ACCREDITATION of the CABs and the CONFORMITY ASSESSMENT REPORT, (b) the AUDITING REQUIREMENTS for the conformity assessment, including composite assessment, (c) the CONFORMITY ASSESSMENT SCHEMES for carrying out the assessment and for the provision of the report.",
+   "PURPOSE": "Without a uniform conformity assessment scheme a CAR from Member State A would not be dependable in Member State B – this is the core document of every QTSP audit.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 403 · Requirements for conformity assessment bodies assessing trust service providers Lays down the requirements to be met by a body that audits trust service providers – building on ISO/IEC 17065 – and how the audit process and the report are to be structured. Relation to eIDAS: the practical benchmark for the accreditation under Article 20(1b) eIDAS and for the conformity assessment report under Article 20(4)(a) eIDAS. ● Summary, not verified against the original text Article 20(1) · Conformity assessment every 24 months The audit core of the Regulation. QTSPs are audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly also covers Article 21 of the NIS 2 Directive. The conformity assessment report is to be submitted to the supervisory body within three WORKING days of its receipt. “Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body” ✓ Article 20(1) eIDAS Article 21(1) · Notification of intention Requires providers intending to start providing a qualified trust service to notify the supervisory body of their intention and to attach a report issued by a conformity assessment body confirming the fulfilment of the requirements laid down in this Regulation AND in Article 21 of the NIS 2 Directive. Article 51(4) · Obligation of existing QTSPs to provide evidence Providers that were granted qualified status before 20 May 2024 must submit to the supervisory body, by 21 May 2026 at the latest, a conformity assessment report proving compliance with Article 24(1), (1a) and (1b) – that is, with the new rules on the verification of identity and attributes. In practice the most important retrofitting deadline for existing providers. Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Which version of the conformity assessment scheme underlies the CAR?",
+   "KEY POINT": "The single most important follow-up legal act for auditors."
+  }
+ },
+ {
+  "id": "21|Abs. 1",
+  "article": "21",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 93,
+  "fields": {
+   "TOPIC": "Notification of intention + submission of the CAR",
+   "ADDRESSEE": "Trust service provider (applicant)",
+   "CONTENT": "Where a provider intends to start providing a qualified trust service, it SHALL NOTIFY the supervisory body of that intention and SHALL ATTACH a CONFORMITY ASSESSMENT REPORT issued by a CAB confirming the fulfilment of the requirements laid down in this Regulation AND in Article 21 NIS 2.",
+   "PURPOSE": "Lays down the formal route by which one becomes a QTSP at all – the starting point of every admission audit.",
+   "CROSS-REFERENCES": "NIS2 Article 21 · Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time the subject matter of every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size, the likelihood of occurrence and the severity of potential impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities of each individual direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. a) policies on risk analysis and information system security b) incident handling c) business continuity – backup management, disaster recovery, crisis management d) supply chain security, including the relationships with direct suppliers and service providers e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure f) policies and procedures to assess the effectiveness of the risk-management measures g) basic cyber hygiene practices and cybersecurity training h) policies and procedures regarding the use of cryptography and, where appropriate, encryption i) human resources security, access control policies and asset management j) the use of multi-factor authentication or continuous authentication, secured voice, video and text communications as well as secured emergency communications Relation to eIDAS: The conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas – a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary, not verified against the original text Article 20(1) · Conformity assessment every 24 months The audit core of the Regulation. QTSPs are audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly also covers Article 21 of the NIS 2 Directive. The conformity assessment report is to be submitted to the supervisory body within three WORKING days of its receipt. “Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body” ✓ Article 20(1) eIDAS Article 22(1) · Trusted lists Each Member State establishes, maintains and publishes lists of the QTSPs and of the qualified services they provide. Paragraph 2 requires those lists to be electronically signed or sealed in a secured manner and suitable for automated processing – a PDF list does not satisfy the provision. Under paragraph 4 the Commission maintains the central access point. Significance here: It is not the administrative decision but the entry in the list that marks the permissible start of the provision of the service. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)).",
+   "AUDIT CHECK": "Does the CAR submitted really ALSO cover the NIS2 requirements?",
+   "KEY POINT": "The CAR is the entry ticket – and must cover eIDAS AND NIS2."
+  }
+ },
+ {
+  "id": "21|Abs. 2",
+  "article": "21",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 94,
+  "fields": {
+   "TOPIC": "Verification by the supervisory body (3 months)",
+   "ADDRESSEE": "Supervisory body",
+   "CONTENT": "The supervisory body SHALL VERIFY the fulfilment of the requirements. For the purposes of the NIS2 verification it SHALL REQUEST the NIS2 authorities to carry out supervisory actions and to provide information about the outcome without undue delay and in any event WITHIN TWO MONTHS. Where the outcome is positive, it SHALL GRANT the qualified status and shall inform the body responsible for the trusted list – NOT LATER THAN THREE MONTHS after the notification. Where the verification is not concluded within the time limit, it shall inform the applicant specifying the reasons and the new period.",
+   "PURPOSE": "Procedural time limits protect the applicant against an open-ended state of limbo and create predictability.",
+   "DEADLINE": "3 months (overall procedure) / 2 months (NIS2 reply)",
+   "CROSS-REFERENCES": "NIS2 Article 8 · Competent authorities and single points of contact Paragraph 1 requires each Member State to designate or establish one or more authorities competent for cybersecurity, which at the same time carry out the supervisory tasks under the Directive. The further paragraphs govern the monitoring of its application, the designation of a single point of contact for cross-border cooperation and its notification to the Commission, as well as the cooperation with the data protection and law enforcement authorities. Relation to eIDAS: It is precisely these authorities designated pursuant to Article 8(1) whose notification triggers the withdrawal of qualified status under Article 20(3a) eIDAS – and which, under Article 21(2) eIDAS, must report back within two months in the admission procedure. ● Summary, not verified against the original text Article 22(3) · Notification of the trusted list details Requires the Member States to notify to the Commission, without undue delay, which bodies are responsible for establishing, maintaining and publishing the national trusted lists, where those lists are published, which certificates are used to sign or seal them, and any changes thereto. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them the notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, the granting and withdrawal of qualified status, the informing of the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of claims made by web-browser providers pursuant to Article 45a (point (k)). Article 20 · Supervision of qualified trust service providers The audit core of the Regulation: an audit at least every 24 months at the provider's own expense by a conformity assessment body, the scope of the audit including Article 21 of the NIS 2 Directive, submission of the report within three working days. New are the advance information one month before planned audits, with a right for the supervisory body to attend as an observer, and the withdrawal of qualified status where NIS2 or GDPR infringements are reported. Paragraph 4 contains the empowerment for the central implementing act.",
+   "AUDIT CHECK": "Were the time limits complied with? Where they were exceeded: is the reasoned notification on file?",
+   "KEY POINT": "Three months in total, with the two months for the NIS2 reply falling within them."
+  }
+ },
+ {
+  "id": "21|Abs. 3",
+  "article": "21",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 95,
+  "fields": {
+   "TOPIC": "Start of the provision of the service",
+   "ADDRESSEE": "QTSP",
+   "CONTENT": "QTSPs MAY BEGIN to provide the service only AFTER the qualified status has been INDICATED in the trusted lists referred to in Article 22(1).",
+   "PURPOSE": "The entry in the list – not the administrative decision – is the legally decisive moment.",
+   "CROSS-REFERENCES": "Article 22(1) · Trusted lists Each Member State establishes, maintains and publishes lists of the QTSPs and of the qualified services they provide. Paragraph 2 requires those lists to be electronically signed or sealed in a secured manner and suitable for automated processing – a PDF list does not satisfy the provision. Under paragraph 4 the Commission maintains the central access point. Significance here: It is not the administrative decision but the entry in the list that marks the permissible start of the provision of the service. Article 23(1) · Use of the EU trust mark Allows qualified providers, after their status has been indicated in the trusted list, to use the EU trust mark to indicate in a simple, recognisable and clear manner the qualified services they provide. This is a right, not an obligation.",
+   "AUDIT CHECK": "Was the service marketed as 'qualified' only after the entry in the list?",
+   "KEY POINT": "It is not the administrative decision that counts, but the entry in the trusted list."
+  }
+ },
+ {
+  "id": "21|Abs. 4",
+  "article": "21",
+  "locus": "Abs. 4",
+  "locus_en": "Paragraph 4",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 95,
+  "fields": {
+   "TOPIC": "Implementing act on formats and procedures",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act on the formats and procedures of the notification and verification for the purposes of paragraphs 1 and 2.",
+   "PURPOSE": "Harmonises the admission procedure across the Member States.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ }
+]

@@ -1,0 +1,170 @@
+[
+ {
+  "id": "40|Einziger Absatz",
+  "article": "40",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L2",
+  "page": 148,
+  "fields": {
+   "TOPIC": "Validation and preservation of qualified electronic seals",
+   "ADDRESSEE": "Validation and preservation services",
+   "CONTENT": "ARTICLES 32, 33 AND 34 shall apply MUTATIS MUTANDIS to the validation and preservation of qualified electronic seals.",
+   "PURPOSE": "Mirror image – learn once, apply twice.",
+   "CROSS-REFERENCES": "Article 32 · Requirements for the validation of qualified electronic signatures Sets out in eight points when a validation may confirm validity: a qualified certificate complying with Annex I at the time of signing, issuance by a qualified trust service provider and validity at the time of signing, correspondence of the signature validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a qualified electronic signature creation device, integrity of the data and compliance with Article 26. Paragraph 2 additionally requires that the result be presented intelligibly. Article 33 · Qualified validation service Permits provision only by qualified trust service providers and requires that validation be carried out in compliance with Article 32(1) and that the result be made available in an automated manner that is reliable and efficient – confirmed by an advanced electronic signature or an advanced electronic seal of the provider. For the result report the advanced form therefore suffices. Article 34 · Qualified preservation service Requires procedures and technologies capable of extending the trustworthiness of a qualified electronic signature beyond the technological validity period. Cryptography ages – without preservation a 15-year-old signature loses its evidential value. To be distinguished from Article 45j: preservation keeps the SIGNATURE alive, archiving keeps the DOCUMENT alive.",
+   "KEY POINT": "One reference, three articles."
+  }
+ },
+ {
+  "id": "40a|Einziger Absatz",
+  "article": "40a",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L2",
+  "page": 148,
+  "fields": {
+   "TOPIC": "Validation of advanced electronic seals with a qualified certificate",
+   "ADDRESSEE": "Validation services",
+   "CONTENT": "ARTICLE 32a shall apply MUTATIS MUTANDIS to the validation of advanced electronic seals based on qualified certificates.",
+   "PURPOSE": "Completes the mirroring: for every signature article there is a seal article.",
+   "CROSS-REFERENCES": "Article 32a · Validation of advanced electronic signatures with a qualified certificate New in eIDAS 2.0 and substantively identical to Article 32 – minus the condition that the signature was created by a qualified electronic signature creation device. The article thereby closes the regulatory gap for the case, very common in practice, of an advanced electronic signature based on a qualified certificate.",
+   "KEY POINT": "The seal mirroring is thus complete: 35/25, 36/26, 37/27, 38/28, 39/29+30+31, 39a/29a, 40/32+33+34, 40a/32a."
+  }
+ },
+ {
+  "id": "41|Abs. 1-2",
+  "article": "41",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1 – 2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L1",
+  "page": 149,
+  "fields": {
+   "TOPIC": "Legal effect of electronic time stamps",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: prohibition of discrimination. Paragraph 2: QUALIFIED electronic time stamps shall enjoy the PRESUMPTION OF THE ACCURACY OF THE DATE AND TIME they indicate and of the INTEGRITY of the data bound to them.",
+   "PURPOSE": "Without evidentially reliable time it cannot be shown that a document existed before an event.",
+   "CROSS-REFERENCES": "Article 32(1) · Eight check points of QES validation The validation confirms validity only if all eight conditions are met: a qualified certificate complying with Annex I at the time of signing, issuance by a QTSP and validity at the time of signing, correspondence of the signature validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a QSCD, unimpaired integrity of the data and compliance with Article 26. Point (f) – the QSCD condition – is precisely the point that is missing from Article 32a. Article 44(1) · Requirements for qualified electronic registered delivery services Six conditions, points (a) to (f), which in the event of transfer between several providers apply to all those involved. Note the differing signature level: point (d) requires an advanced electronic signature or an advanced electronic seal for securing the sending and receiving process, whereas point (f) requires a QUALIFIED electronic time stamp for the time indication. “the date and time of sending, receiving and any change of data are indicated by a qualified electronic time stamp” ✓ Article 44(1)(f) eIDAS Article 45l(1) · Requirements for qualified electronic ledgers Four conditions: creation and management by one or more QTSP, establishing the origin of the data records, ensuring the unique sequential chronological ordering, and recording data in such a way that any subsequent change is immediately detectable. Article 42 · Requirements for qualified electronic time stamps Requires three things: a binding of the date and time to the data that reasonably precludes the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered.",
+   "AUDIT CHECK": "Are qualified electronic time stamps used wherever the presumption is needed?",
+   "KEY POINT": "The time stamp is the glue of the Regulation – it reappears in ERDS, electronic ledgers and signature validation."
+  }
+ },
+ {
+  "id": "42|Abs. 1 a-c",
+  "article": "42",
+  "locus": "Abs. 1 a-c",
+  "locus_en": "Paragraph 1(a) – (c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 150,
+  "fields": {
+   "TOPIC": "Requirements for qualified electronic time stamps",
+   "ADDRESSEE": "QTSP (time stamping service)",
+   "CONTENT": "The qualified electronic time stamp SHALL: a) BIND the date and time to data in such a manner that the possibility of UNDETECTED CHANGE is reasonably PRECLUDED; b) be based on an ACCURATE TIME SOURCE linked to COORDINATED UNIVERSAL TIME (UTC); c) be signed using an ADVANCED electronic signature or sealed with an ADVANCED electronic seal of the QTSP – or use some equivalent method.",
+   "PURPOSE": "A time stamp open to manipulation would devalue the entire chain of evidence – including signature validation.",
+   "CROSS-REFERENCES": "ETSI EN 319 421 · Requirements for providers of qualified electronic time stamps Governs policy and security requirements for time stamping services, in particular the link to Coordinated Universal Time, the permissible deviation, its monitoring and the conduct required where it is exceeded. Relation to eIDAS: gives concrete form to Article 42(1)(b) eIDAS. The associated EN 319 422 describes the protocol and profile. ● Summary, not verified against the original text ETSI EN 319 422 · Profile and protocol for time stamps Describes the technical format of the time stamp token and the request-response protocol. Relation to eIDAS: supplements EN 319 421 in relation to Article 42 eIDAS. ● Summary, not verified against the original text Article 41(2) · Presumption attaching to the qualified electronic time stamp Establishes the presumption of the accuracy of the date and time and of the integrity of the data bound to them. The time stamp is the glue of the Regulation: it reappears in signature validation, in Article 44(1)(f) for electronic registered delivery services and indirectly in the electronic ledgers under Article 45l. Article 24a(6) · Recognition of time stamps Requires Union-wide recognition of qualified electronic time stamps.",
+   "AUDIT CHECK": "How is the UTC link implemented, and how is time accuracy monitored and logged?",
+   "KEY POINT": "Note: an ADVANCED electronic signature suffices (point (c)) – not a qualified one. A common error."
+  }
+ },
+ {
+  "id": "42|Abs. 1a + 2",
+  "article": "42",
+  "locus": "Abs. 1a + 2",
+  "locus_en": "Paragraphs 1a and 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 150,
+  "fields": {
+   "TOPIC": "Presumption of conformity and implementing act",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 1a: where the standards referred to in paragraph 2 are complied with, the presumption of conformity with paragraph 1 applies. Paragraph 2: implementing act with reference standards for the binding of date and time to data and for establishing the accuracy of time sources.",
+   "PURPOSE": "-",
+   "DEADLINE": "Paragraph 2: by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 421 · Requirements for providers of qualified electronic time stamps Governs policy and security requirements for time stamping services, in particular the link to Coordinated Universal Time, the permissible deviation, its monitoring and the conduct required where it is exceeded. Relation to eIDAS: gives concrete form to Article 42(1)(b) eIDAS. The associated EN 319 422 describes the protocol and profile. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of the Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure. Legal effect of an electronic registered delivery"
+  }
+ },
+ {
+  "id": "43|Abs. 1-2",
+  "article": "43",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1 – 2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L1",
+  "page": 151,
+  "fields": {
+   "TOPIC": "Legal effect of the ERDS",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: prohibition of discrimination. Paragraph 2: Data from a QUALIFIED electronic registered delivery service shall enjoy the PRESUMPTION of the INTEGRITY of the data, of the SENDING of that data by the identified SENDER, of its RECEIPT by the identified ADDRESSEE and of the ACCURACY of the date and time of sending and receipt.",
+   "PURPOSE": "The electronic counterpart of registered mail with advice of receipt – without the presumption the proof of delivery would be worthless.",
+   "CROSS-REFERENCES": "Article 24a(8) · Recognition of electronic registered delivery services Requires Union-wide recognition of qualified electronic registered delivery services. Article 44 · Requirements for qualified electronic registered delivery services Lists six requirements which, in the event of transfer between several providers, apply to all those involved: provision by qualified trust service providers, identification of the sender with a high level of confidence, identification of the addressee before delivery, securing by an advanced electronic signature or an advanced electronic seal, clear indication of any necessary changes to the data, and indication of the time by a qualified electronic time stamp. The voluntary interoperability frameworks are new. Article 42 · Requirements for qualified electronic time stamps Requires three things: a binding of the date and time to the data that reasonably precludes the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered.",
+   "AUDIT CHECK": "Does the presumption cover the proof required – sending, receipt AND time?",
+   "KEY POINT": "FOUR presumptions at once: integrity, sender, addressee, time. The densest presumption rule in the Regulation. Requirements for qualified electronic registered delivery"
+  }
+ },
+ {
+  "id": "44|Abs. 1 a-f",
+  "article": "44",
+  "locus": "Abs. 1 a-f",
+  "locus_en": "Paragraph 1(a) – (f)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 152,
+  "fields": {
+   "TOPIC": "Requirements for qualified ERDS",
+   "ADDRESSEE": "QTSP (ERDS provider)",
+   "CONTENT": "Qualified electronic registered delivery services SHALL: a) be provided by one or MORE QTSP; b) ensure the identification of the SENDER with a HIGH LEVEL OF CONFIDENCE; c) ensure the identification of the ADDRESSEE BEFORE DELIVERY; d) secure the sending and receiving of the data by an ADVANCED electronic signature or an ADVANCED electronic seal of a QTSP in such a manner as to preclude the possibility of the data being changed undetectably; e) CLEARLY INDICATE to the sender and the addressee any change of the data needed for sending/receiving; f) indicate the date and time of sending, receiving or any change of the data by a QUALIFIED ELECTRONIC TIME STAMP. In the event of transfer between several QTSP, points a) – f) apply to ALL those involved.",
+   "PURPOSE": "Determines what a 'registered letter' must be capable of proving in digital form in the first place.",
+   "CROSS-REFERENCES": "ETSI EN 319 521 · Requirements for electronic registered delivery service providers Policy and security requirements for ERDS providers, including identification of the sender and the addressee, generation of evidence and retention of that evidence. Relation to eIDAS: gives concrete form to Article 44(1) eIDAS. ● Summary, not verified against the original text ETSI EN 319 522 · Architecture and protocols for electronic registered delivery services Describes the reference architecture, message formats and interoperability between delivery services. Relation to eIDAS: the practical basis of the voluntary interoperability frameworks under Article 44(2a) eIDAS. ● Summary, not verified against the original text ETSI EN 319 531 · Requirements for qualified electronic registered delivery services Supplements EN 319 521 with the additional requirements for the qualified variant. Relation to eIDAS: gives concrete form to Article 44 eIDAS for the qualified case. ● Summary, not verified against the original text ETSI EN 319 532 · Protocols for qualified electronic registered delivery services Technical arrangement of the evidence and interfaces for qualified electronic registered delivery services. Relation to eIDAS: gives concrete form to Article 44 eIDAS. ● Summary, not verified against the original text Article 43(2) · Four presumptions of the qualified electronic registered delivery service The densest presumption rule in the Regulation: integrity of the data, sending of that data by the identified sender, receipt by the identified addressee and accuracy of the date and time of both operations. This makes the electronic registered delivery service the functional counterpart of registered mail with advice of receipt. Article 24a(8) · Recognition of electronic registered delivery services Requires Union-wide recognition of qualified electronic registered delivery services. Article 42 · Requirements for qualified electronic time stamps Requires three things: a binding of the date and time to the data that reasonably precludes the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered. Significance here: for the time indication under point (f) a simple electronic time stamp does not suffice – it must be qualified.",
+   "AUDIT CHECK": "Is a QUALIFIED electronic time stamp actually used for point (f)? Is every link in the chain a QTSP?",
+   "KEY POINT": "Subtlety: point (d) requires only ADVANCED, whereas point (f) requires QUALIFIED. Do not confuse the two."
+  }
+ },
+ {
+  "id": "44|Abs. 1a + 2",
+  "article": "44",
+  "locus": "Abs. 1a + 2",
+  "locus_en": "Paragraphs 1a and 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 153,
+  "fields": {
+   "TOPIC": "Presumption of conformity and implementing act",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 1a: presumption of conformity where the standards referred to in paragraph 2 are complied with. Paragraph 2: implementing act with reference standards for the processes for sending and receiving data.",
+   "PURPOSE": "-",
+   "DEADLINE": "Paragraph 2: by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 521 · Requirements for electronic registered delivery service providers Policy and security requirements for ERDS providers, including identification of the sender and the addressee, generation of evidence and retention of that evidence. Relation to eIDAS: gives concrete form to Article 44(1) eIDAS. ● Summary, not verified against the original text ETSI EN 319 522 · Architecture and protocols for electronic registered delivery services Describes the reference architecture, message formats and interoperability between delivery services. Relation to eIDAS: the practical basis of the voluntary interoperability frameworks under Article 44(2a) eIDAS. ● Summary, not verified against the original text ETSI EN 319 531 · Requirements for qualified electronic registered delivery services Supplements EN 319 521 with the additional requirements for the qualified variant. Relation to eIDAS: gives concrete form to Article 44 eIDAS for the qualified case. ● Summary, not verified against the original text ETSI EN 319 532 · Protocols for qualified electronic registered delivery services Technical arrangement of the evidence and interfaces for qualified electronic registered delivery services. Relation to eIDAS: gives concrete form to Article 44 eIDAS. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of the Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "44|Abs. 2a-2b",
+  "article": "44",
+  "locus": "Abs. 2a-2b",
+  "locus_en": "Paragraphs 2a – 2b",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L2",
+  "page": 154,
+  "fields": {
+   "TOPIC": "Interoperability between ERDS providers",
+   "ADDRESSEE": "QTSP (ERDS) / Commission",
+   "CONTENT": "Paragraph 2a: Providers of qualified ERDS MAY agree on INTEROPERABILITY. Such an interoperability framework SHALL comply with the requirements of paragraph 1; that compliance SHALL BE CONFIRMED BY A CONFORMITY ASSESSMENT BODY. Paragraph 2b: The Commission MAY establish reference standards for this; these shall be COST-EFFECTIVE and PROPORTIONATE.",
+   "PURPOSE": "New in eIDAS 2.0: electronic registered delivery services are to be able to deliver to one another – without interoperability every ERDS remains an island.",
+   "DEADLINE": "no deadline ('may')",
+   "CROSS-REFERENCES": "Article 44(1) · Requirements for qualified electronic registered delivery services Six conditions, points (a) to (f), which in the event of transfer between several providers apply to all those involved. Note the differing signature level: point (d) requires an advanced electronic signature or an advanced electronic seal for securing the sending and receiving process, whereas point (f) requires a QUALIFIED electronic time stamp for the time indication. “the date and time of sending, receiving and any change of data are indicated by a qualified electronic time stamp” ✓ Article 44(1)(f) eIDAS Article 48(2) · Examination procedure Refers to Article 5 of the Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure. Article 20 · Supervision of qualified trust service providers The audit core of the Regulation: an audit at least every 24 months at the provider's own expense by a conformity assessment body, the audit scope including Article 21 of the NIS 2 Directive, submission of the report within three working days. New are the advance notification one month before planned audits, with a right of the supervisory body to attend as observer, and the withdrawal of qualified status where NIS2 or GDPR infringements have been notified. Paragraph 4 contains the empowerment for the central implementing act.",
+   "AUDIT CHECK": "Are interoperability agreements in place? Is the CAB confirmation for them available?",
+   "KEY POINT": "Voluntary – but if so, then with CAB confirmation. Requirements for qualified certificates for"
+  }
+ }
+]

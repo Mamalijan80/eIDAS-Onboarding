@@ -1,0 +1,176 @@
+[
+ {
+  "id": "12|Abs. 1-2",
+  "article": "12",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1 – 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 66,
+  "fields": {
+   "TOPIC": "Interoperability obligation",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Paragraph 1: The national electronic identification schemes (eID schemes) notified pursuant to Article 9(1) SHALL BE INTEROPERABLE. Paragraph 2: For that purpose, an INTEROPERABILITY FRAMEWORK shall be established.",
+   "PURPOSE": "An obligation of recognition without technical connectivity would be worthless – a common protocol is needed (eIDAS node).",
+   "DEADLINE": "Applies from the date of application of the implementing acts under Article 8(3)/Article 12(8), cf. Article 52(2)(b)",
+   "CROSS-REFERENCES": "Article 12(8) eIDAS · Implementing act on the interoperability framework Implements the framework which, under paragraph 4, covers among other things the mapping of national assurance levels onto the Article 8 levels, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. Together with the act under Article 8(3) it triggers, under Article 52(2)(b), the start of application of the eID Articles. Deadline in the recast: 18 September 2025. Article 6 eIDAS · Mutual recognition Establishes the obligation to recognise notified electronic identification means from other Member States where the scheme is included in the Commission's list, its assurance level is at least substantial and corresponds to the level required, and the public sector body itself uses substantial or high. Such recognition shall take place no later than twelve months after publication of the list. For assurance level low there is only an optional recognition. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions, points (a) to (h). Of particular practical relevance: point (f) requires authentication online available across borders, which shall be provided free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the basis of liability under Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Is the eIDAS node connected in production and tested?",
+   "KEY POINT": "Recognition (Article 6) requires interoperability (Article 12) – otherwise it is only paper."
+  }
+ },
+ {
+  "id": "12|Abs. 3 a-c",
+  "article": "12",
+  "locus": "Abs. 3 a-c",
+  "locus_en": "Paragraph 3(a) – (c)",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L2",
+  "page": 67,
+  "fields": {
+   "TOPIC": "Criteria of the interoperability framework",
+   "ADDRESSEE": "Commission / Member States",
+   "CONTENT": "The framework (a) aims at TECHNOLOGY NEUTRALITY and does not discriminate between national technical solutions, (b) follows European and international standards where possible, (c) FACILITATES the implementation of privacy and security by design. Point (c) was inserted by eIDAS 2.0.",
+   "PURPOSE": "Technology neutrality protects national investments; point (c) raises data protection to the architectural level.",
+   "CROSS-REFERENCES": "GDPR Article 25 · Data protection by design and by default Paragraph 1 requires appropriate measures such as pseudonymisation to be taken already when determining the means of processing, in order to implement the principles of GDPR Article 5 effectively. Paragraph 2 requires default settings under which, as a rule, only the data necessary for each specific purpose are processed – with regard to amount, extent of processing, period of storage and accessibility. Link to eIDAS: Article 12(3)(c) eIDAS expressly writes privacy and security by design into the interoperability framework; Article 5a(12) eIDAS requires security-by-design for the Wallet. ● Summary, not verified against the original text Article 5a(12) eIDAS · Security-by-design Requires Wallets to ensure security-by-design. Security is to be an architectural feature and not a protective layer added afterwards – the counterpart to GDPR Article 25 on the security side. Article 12(8) eIDAS · Implementing act on the interoperability framework Implements the framework which, under paragraph 4, covers among other things the mapping of national assurance levels onto the Article 8 levels, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. Together with the act under Article 8(3) it triggers, under Article 52(2)(b), the start of application of the eID Articles. Deadline in the recast: 18 September 2025.",
+   "AUDIT CHECK": "Is point (c) (privacy by design) actually reflected in the framework?",
+   "KEY POINT": "Point (c) is new in eIDAS 2.0 – a typical audit topic."
+  }
+ },
+ {
+  "id": "12|Abs. 4 a-g",
+  "article": "12",
+  "locus": "Abs. 4 a-g",
+  "locus_en": "Paragraph 4(a) – (g)",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L2",
+  "page": 68,
+  "fields": {
+   "TOPIC": "Components of the interoperability framework",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The framework consists of (a) a reference to the minimum technical requirements related to the assurance levels under Article 8; (b) a mapping of national assurance levels onto the Article 8 assurance levels; (c) a reference to the minimum technical requirements for interoperability; (d) a reference to a MINIMUM SET of person identification data (PID) uniquely representing a person; (e) rules of procedure; (f) arrangements for dispute resolution; (g) common operational security standards.",
+   "PURPOSE": "Describes precisely what the eIDAS node has to deliver – from the mapping to dispute resolution.",
+   "CROSS-REFERENCES": "Article 5a(5) eIDAS · Mandatory technical features The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, Wallet-to-Wallet, relying party authentication, verification of authenticity, erasure request, reporting to the authority, creation of qualified electronic signatures) – in practice the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) mandates assurance level high, point (g) the free-of-charge qualified electronic signature for natural persons. Article 8 eIDAS · Assurance levels of electronic identification schemes Paragraph 1 requires the assurance level accorded to be specified, paragraph 2 defines the scale low, substantial and high by reference to their effect against misuse of identity, and paragraph 3 empowers the Commission to lay down minimum requirements in six fields: identity proofing and verification, issuance of the means, authentication mechanism, issuing entity, any other body involved, and the technical specifications of the means. Article 11a eIDAS · Cross-border identity matching New in eIDAS 2.0. Requires Member States, where they themselves act as relying parties for cross-border services, to ensure identity matching for natural persons using a notified electronic identification means or a Wallet. Paragraph 2 requires technical and organisational measures to ensure a high level of protection of the data used for matching and expressly to prevent the profiling of users. Paragraph 3 contains the empowerment for the implementing act.",
+   "AUDIT CHECK": "Is the national assurance level (LoA) mapping under point (b) documented?",
+   "KEY POINT": "Point (b) is the conversion table between the national and the EU assurance level."
+  }
+ },
+ {
+  "id": "12|Abs. 5-6",
+  "article": "12",
+  "locus": "Abs. 5-6",
+  "locus_en": "Paragraphs 5 – 6",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 69,
+  "fields": {
+   "TOPIC": "Peer review",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Paragraph 5: Member States SHALL CARRY OUT peer reviews of the electronic identification schemes to be notified. Paragraph 6: The Commission shall establish the necessary procedural arrangements for the peer reviews with a view to fostering a high level of trust and security appropriate to the degree of risk.",
+   "PURPOSE": "Collegial control replaces central EU supervision – the Member States review one another.",
+   "DEADLINE": "Paragraph 6: by 18 March 2025",
+   "CROSS-REFERENCES": "Article 12a(5) eIDAS · Disapplication of the peer review Provides that for certified schemes or parts thereof the peer review under Article 12(5) does not apply. For the non-cybersecurity-related requirements of Article 8(2) the Member States may use a certificate or a statement of conformity. This is where the practical incentive to certify lies. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions, points (a) to (h). Of particular practical relevance: point (f) requires authentication online available across borders, which shall be provided free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the basis of liability under Article 11. Not applicable to Wallets (Article 5a(22)). Article 6 eIDAS · Mutual recognition Establishes the obligation to recognise notified electronic identification means from other Member States where the scheme is included in the Commission's list, its assurance level is at least substantial and corresponds to the level required, and the public sector body itself uses substantial or high. Such recognition shall take place no later than twelve months after publication of the list. For assurance level low there is only an optional recognition. Article 46e eIDAS · European Digital Identity Cooperation Group Establishes the Cooperation Group in which the Member States coordinate practical application. It facilitates the peer review and the exchange of experience and issues opinions and recommendations – among other things on the draft national Wallet certification schemes under Article 5c(3) and on the notifications under Article 5d.",
+   "AUDIT CHECK": "Has the scheme been subjected to a peer review – or does the exception under Article 12a(5) apply?",
+   "KEY POINT": "Peer review OR certification under Article 12a – either one suffices."
+  }
+ },
+ {
+  "id": "12|Abs. 8-9",
+  "article": "12",
+  "locus": "Abs. 8-9",
+  "locus_en": "Paragraphs 8 – 9",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 70,
+  "fields": {
+   "TOPIC": "Implementing act on the interoperability framework",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 8: The Commission SHALL ADOPT, subject to the criteria set out in paragraph 3 and taking into account the cooperation between the Member States, implementing acts on the interoperability framework as set out in paragraph 4. Paragraph 9: Adoption in accordance with the examination procedure under Article 48(2). (Paragraph 7 was deleted by eIDAS 2.0.)",
+   "PURPOSE": "The implementing act under paragraph 8 is, together with the implementing act under Article 8(3), the trigger for the start of application of Articles 7 – 12 under Article 52(2)(b).",
+   "DEADLINE": "by 18 September 2025",
+   "CROSS-REFERENCES": "Article 8(3) eIDAS · Empowerment for the minimum requirements on assurance levels The actual obligation of the Article, addressed to the Commission. It sets out minimum technical specifications, standards and procedures relating to six fields: identity proofing and verification, issuance of the means, authentication mechanism, issuing entity, any other body involved, and the technical and security specifications of the means. Without that act, 'high' would mean something different in every Member State. Article 52(2) eIDAS · Staggered start of application Determines which provisions apply earlier or later than the general rule: the empowering provisions already from 17 September 2014, the eID Articles from the date of application of the implementing acts under Article 8(3) and Article 12(8), and the recognition obligation of Article 6 only three years from that date. Article 7 eIDAS · Eligibility for notification Eight cumulative conditions, points (a) to (h). Of particular practical relevance: point (f) requires authentication online available across borders, which shall be provided free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the basis of liability under Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Which version of the interoperability framework is currently in force?",
+   "KEY POINT": "Two implementing acts govern the entire eID part: Article 8(3) for the assurance levels and Article 12(8) for interoperability."
+  }
+ },
+ {
+  "id": "12a|Abs. 1",
+  "article": "12a",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L2",
+  "page": 71,
+  "fields": {
+   "TOPIC": "Certification of electronic identification schemes",
+   "ADDRESSEE": "Conformity assessment bodies / Member States",
+   "CONTENT": "The conformity of the electronic identification schemes (eID schemes) TO BE NOTIFIED with the cybersecurity requirements of the Regulation – including the cybersecurity relevant requirements set out in Article 8(2) – SHALL BE CERTIFIED by the conformity assessment bodies designated by the Member State.",
+   "PURPOSE": "Allows the evidence of the assurance level to rest on verifiable certificates instead of on self-declaration and peer review.",
+   "CROSS-REFERENCES": "Article 8(2) eIDAS · The three assurance levels Contains definitions only, no obligations to act – a frequent source of error. The scale is oriented to the effect against misuse of identity: 'low' decreases the risk, 'substantial' decreases it substantially, 'high' prevents it. The substantive requirements follow only from the implementing act under paragraph 3, implemented by Implementing Regulation (EU) 2015/1502. “The assurance levels low, substantial and high shall meet respectively the following criteria” ✓ Article 8(2) eIDAS Article 12(5) eIDAS · Peer review Requires Member States to carry out peer reviews of the electronic identification schemes to be notified. This collegial control replaces central Union supervision; under Article 12a(5) it does not apply to certified schemes. Article 5a(22) eIDAS · Exceptions from the eID Articles Disapplies Articles 7, 9, 10, 12 and 12a for the Wallet and the electronic identification scheme under which it is provided. The Wallet instead follows its own, stricter regime of Articles 5a to 5f. Important for the delimitation: Article 11 (liability) does apply, via Article 5a(19), and Article 12b (platform access) is precisely NOT excepted here. “shall not be subject to the requirements laid down in Articles 7, 9, 10, 12 and 12a” ✓ Article 5a(22) eIDAS Article 5c eIDAS · Certification of the Wallet Provides that the Wallet and the electronic identification scheme under which it is provided shall be certified by designated conformity assessment bodies, and splits the assessment: cybersecurity requirements via the schemes of the Cybersecurity Act, everything else via national certification schemes whose drafts are to be transmitted to the Cooperation Group. In addition it governs the five-year limit with a vulnerability assessment every two years, the optional certification under the GDPR, the implementing act and a delegated act on the criteria for the assessment bodies.",
+   "AUDIT CHECK": "Is a certificate available – and does it thereby replace the peer review under paragraph 5?",
+   "KEY POINT": "Article 12a for electronic identification schemes, Article 5c for Wallets – almost the same construction."
+  }
+ },
+ {
+  "id": "12a|Abs. 2",
+  "article": "12a",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 71,
+  "fields": {
+   "TOPIC": "Link to the Cybersecurity Act schemes",
+   "ADDRESSEE": "Conformity assessment bodies",
+   "CONTENT": "Certification shall be carried out under a relevant cybersecurity certification scheme pursuant to Regulation (EU) 2019/881, or parts thereof, insofar as that scheme covers the cybersecurity requirements.",
+   "PURPOSE": "No eIDAS scheme of its own, but use of the Cybersecurity Act.",
+   "CROSS-REFERENCES": "Article 5c(2) eIDAS · Cybersecurity certification Provides that certification shall, insofar as cybersecurity requirements are concerned, be carried out in accordance with the European cybersecurity certification schemes of Regulation (EU) 2019/881. No separate eIDAS certification world is thereby created; instead the Cybersecurity Act is relied upon.",
+   "AUDIT CHECK": "Which Cybersecurity Act scheme was relied upon?"
+  }
+ },
+ {
+  "id": "12a|Abs. 3",
+  "article": "12a",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 72,
+  "fields": {
+   "TOPIC": "Five-year validity and three-month remediation period",
+   "ADDRESSEE": "Conformity assessment bodies / Member States",
+   "CONTENT": "Certification shall be valid for UP TO FIVE YEARS, provided that a vulnerability assessment is carried out EVERY TWO YEARS. Where a vulnerability is identified and NOT REMEDIED WITHIN THREE MONTHS of such identification, certification SHALL BE CANCELLED.",
+   "PURPOSE": "A more precise wording than Article 5c(4): here the remediation period is quantified concretely as three months.",
+   "DEADLINE": "5 years / 2 years / 3 months for remediation",
+   "CROSS-REFERENCES": "Article 5c(4) eIDAS · Period of validity and vulnerability assessment Limits the Wallet certification to five years and ties it to a vulnerability assessment every two years. Where a vulnerability is not remedied in a timely manner, certification is to be cancelled. The same 5/2 pattern is found in Article 12a(3) (there with an express three-month period) and in Article 30(3a) for qualified electronic signature creation devices (QSCD). “Certification pursuant to paragraph 1 shall be valid for up to five years, provided that a vulnerability assessment is carried out every two years” ✓ Article 5c(4) eIDAS Article 30(3a) eIDAS · Five-year limit for QSCD certifications New in eIDAS 2.0: the validity of a certification of a qualified electronic signature creation device shall not exceed five years, provided that vulnerabilities assessments are carried out every two years; where vulnerabilities are not remedied, the certification is to be cancelled. Previously QSCD certificates were in practice unlimited in time, which was untenable with ageing cryptography.",
+   "AUDIT CHECK": "Note the difference: Article 12a(3) states THREE MONTHS, Article 5c(4) says only 'in a timely manner', Article 30(3a) states no period at all.",
+   "KEY POINT": "The 5/2 rule appears three times – only the remediation period is worded differently."
+  }
+ },
+ {
+  "id": "12a|Abs. 4-6",
+  "article": "12a",
+  "locus": "Abs. 4-6",
+  "locus_en": "Paragraphs 4 – 6",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 72,
+  "fields": {
+   "TOPIC": "Additional information, peer review exception, communication",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Paragraph 4: Member States MAY request additional information about certified schemes. Paragraph 5: For certified schemes or parts thereof the peer review under Article 12(5) SHALL NOT APPLY; Member States may use a certificate or a statement of conformity for the non-cybersecurity-related requirements of Article 8(2). Paragraph 6: Member States shall communicate to the Commission the names and addresses of the conformity assessment bodies (CAB).",
+   "PURPOSE": "Paragraph 5 is the real incentive: certification spares the burdensome peer review.",
+   "CROSS-REFERENCES": "Article 12(5) eIDAS · Peer review Requires Member States to carry out peer reviews of the electronic identification schemes to be notified. This collegial control replaces central Union supervision; under Article 12a(5) it does not apply to certified schemes. Article 5c(7) eIDAS · Communication of the assessment bodies Requires the Member States to communicate to the Commission the names and addresses of the designated conformity assessment bodies; the Commission shall make that information available to all Member States. Only bodies that are known can be recognised across borders.",
+   "AUDIT CHECK": "Is the peer review exception being relied upon – and is the certificate sufficient for that?",
+   "KEY POINT": "Certification instead of peer review – that is the deal in paragraph 5."
+  }
+ }
+]

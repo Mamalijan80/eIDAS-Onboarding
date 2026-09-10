@@ -1,0 +1,96 @@
+{
+ "part": "F",
+ "title": "Signature and seal side by side",
+ "rows": [
+  {
+   "subject": "Legal effect",
+   "signature": "Article 25",
+   "seal": "Article 35",
+   "common": "QES = handwritten signature (equivalence). Qualified seal = PRESUMPTION of integrity and origin.",
+   "difference": "MAJOR DIFFERENCE - not a true mirror image. Only the signature is placed on an equal footing with the handwritten signature."
+  },
+  {
+   "subject": "Advanced form",
+   "signature": "Article 26",
+   "seal": "Article 36",
+   "common": "Both: (a) unique linkage, (b) identification, (c) control over the creation data, (d) detectability of any subsequent change.",
+   "difference": "Fine difference in point (c): Article 26 requires SOLE control, Article 36 only 'under its control'."
+  },
+  {
+   "subject": "Public services",
+   "signature": "Article 27",
+   "seal": "Article 37",
+   "common": "Obligation to accept the listed forms, prohibition of excessive requirements, implementing act on reference formats.",
+   "difference": "Completely mirror-symmetrical. Both have a deleted paragraph 4."
+  },
+  {
+   "subject": "Qualified certificates",
+   "signature": "Article 28 (Annex I)",
+   "seal": "Article 38 (Annex III)",
+   "common": "Compliance with the annex, no additional requirements, optional attributes, definitive revocation, national suspension rules.",
+   "difference": "Difference only in the annexes: Annex I permits a pseudonym, Annex III requires the name and, where applicable, the registration number of the creator of the seal."
+  },
+  {
+   "subject": "Creation devices",
+   "signature": "Article 29 (Annex II)",
+   "seal": "Article 39",
+   "common": "Article 39 refers to Articles 29, 30 and 31 and, mutatis mutandis, to Annex II.",
+   "difference": "A pure referring provision - no separate annex for seal creation devices."
+  },
+  {
+   "subject": "Remote management service",
+   "signature": "Article 29a",
+   "seal": "Article 39a",
+   "common": "Article 39a refers in full to Article 29a.",
+   "difference": "The transitional period under Article 51(3) applies to BOTH until 21 May 2026."
+  },
+  {
+   "subject": "Certification of the devices",
+   "signature": "Article 30",
+   "seal": "Article 39(2)",
+   "common": "Certification by designated bodies, max. 5 years where a vulnerability assessment is carried out every two years.",
+   "difference": "A single joint certification may cover signature and seal where the same hardware is used."
+  },
+  {
+   "subject": "List of certified devices",
+   "signature": "Article 31",
+   "seal": "Article 39(3)",
+   "common": "Notification within one month, the Commission maintains the list.",
+   "difference": "-"
+  },
+  {
+   "subject": "Validation (qualified)",
+   "signature": "Article 32",
+   "seal": "Article 40",
+   "common": "Eight check points (a)-(h); Article 40 refers to Articles 32, 33 and 34.",
+   "difference": "-"
+  },
+  {
+   "subject": "Validation (AdES based on a qualified certificate)",
+   "signature": "Article 32a",
+   "seal": "Article 40a",
+   "common": "Seven check points (a)-(g) - the QSCD condition of Article 32(1)(f) is missing.",
+   "difference": "EXAM TRAP: 32 has eight, 32a has seven points."
+  },
+  {
+   "subject": "Validation service",
+   "signature": "Article 33",
+   "seal": "Article 40",
+   "common": "Only by a QTSP; result confirmed with an ADVANCED electronic signature or an advanced electronic seal.",
+   "difference": "Advanced is sufficient - unlike the archiving report under Article 45j(1)(d), which must be qualified."
+  },
+  {
+   "subject": "Preservation service",
+   "signature": "Article 34",
+   "seal": "Article 40",
+   "common": "Extension of trustworthiness beyond the technological validity period.",
+   "difference": "Distinguish from Article 45j (archiving of documents)."
+  }
+ ],
+ "rows_in_source": 12,
+ "check": {
+  "verdict": "clean - no defects found; 12 rows, order and columns match the German source, all article/annex/paragraph numbers and the date 21 May 2026 are correct, glossary terms and the one quoted phrase ('under its control', Art. 36(c)) match the official English",
+  "defects": [],
+  "rows_checked": 12
+ }
+}

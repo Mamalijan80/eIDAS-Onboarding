@@ -1,0 +1,174 @@
+[
+ {
+  "id": "25|Abs. 2",
+  "article": "25",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L1",
+  "page": 119,
+  "fields": {
+   "TOPIC": "Equivalence of the QES with a handwritten signature",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "A QUALIFIED electronic signature HAS THE SAME LEGAL EFFECT AS A HANDWRITTEN SIGNATURE.",
+   "PURPOSE": "The most important sentence in the whole of signature law – only it makes the QES usable in practice.",
+   "CROSS-REFERENCES": "Article 26 · Requirements for advanced electronic signatures Names four cumulative requirements: unique linkage to the signatory, capability of identifying him, creation using signature creation data under his sole control with a high level of confidence, and detectability of any subsequent change. Paragraph 2 requires the Commission to assess by 21 May 2026 whether reference standards are necessary by way of an implementing act. Significance here: equivalence with a handwritten signature presupposes that the signature first meets all four requirements of this Article. Article 28 · Qualified certificates for electronic signatures Requires compliance with Annex I and at the same time prohibits the Member States from laying down mandatory requirements going beyond it; non-mandatory additional attributes remain permissible as long as interoperability and recognition are not affected. Revocation is final and shall not be reverted; a temporary suspension is permissible only under the conditions of paragraph 5. Article 29 · Requirements for qualified electronic signature creation devices Refers to Annex II for the requirements and contains, in paragraph 1a, the central innovation of eIDAS 2.0: electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a qualified trust service provider providing a qualified trust service for the management of a remote qualified electronic signature creation device under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of relevant standards. Article 32 · Requirements for the validation of qualified electronic signatures Sets out in eight points when a validation may confirm validity: a qualified certificate complying with Annex I at the time of signing, issuance by a qualified trust service provider and validity, correspondence of the validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a qualified electronic signature creation device, integrity of the data and compliance with Article 26. Paragraph 2 additionally requires the result to be displayed in an understandable manner.",
+   "AUDIT CHECK": "Is the QES used where national law requires the written form?",
+   "KEY POINT": "Only the QES is equivalent to a handwritten signature – AdES is not, not even with a qualified certificate."
+  }
+ },
+ {
+  "id": "26|Abs. 1 a-d",
+  "article": "26",
+  "locus": "Abs. 1 a-d",
+  "locus_en": "Paragraph 1(a)-(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 120,
+  "fields": {
+   "TOPIC": "Requirements for advanced signatures (AdES)",
+   "ADDRESSEE": "Signature solutions / providers (indirectly)",
+   "CONTENT": "An advanced electronic signature MEETS ALL of the following requirements: (a) it is UNIQUELY LINKED TO THE SIGNATORY; (b) it is CAPABLE OF IDENTIFYING the signatory; (c) it is created using electronic signature creation data that the signatory can, WITH A HIGH LEVEL OF CONFIDENCE, USE UNDER HIS SOLE CONTROL; (d) it is linked to the data in such a way that ANY SUBSEQUENT CHANGE IS DETECTABLE.",
+   "PURPOSE": "Defines the minimum quality on which the QES builds – (a) to (d) are CUMULATIVE, not alternative.",
+   "CROSS-REFERENCES": "ETSI EN 319 122 · CAdES – signature format based on CMS Defines baseline profiles for CMS-based signatures, typical for binary data and containers. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text ETSI EN 319 132 · XAdES – signature format based on XML Defines baseline profiles for XML signatures, typical for structured data exchange formats. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text ETSI EN 319 142 · PAdES – signature format for PDF Defines baseline profiles for signatures embedded in PDF, including long-term validation data. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text Article 32a(1) · Seven verification points for AdES based on a qualified certificate Substantively identical to Article 32(1), but without the QSCD condition. The provision thereby covers the case, very frequent in practice, of an advanced electronic signature based on a qualified certificate, which was not regulated before eIDAS 2.0. The one missing point is at the same time the difference between QES and AdES. Article 36(1) · Requirements for advanced electronic seals Mirror image of Article 26(1), related to the creator of the seal as a legal person. The only substantive difference lies in point (c): what is required is the use of the electronic seal creation data under 'its control', not under 'sole control'. In the case of an organisation sole control could not sensibly be represented either. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Of particular practical importance: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 the electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source and point 47 authentic source.",
+   "AUDIT CHECK": "Is point (c) ('sole control') actually preserved in remote signing? That is the critical point.",
+   "KEY POINT": "Linkage – identification – sole control – integrity. Four conditions, all at the same time."
+  }
+ },
+ {
+  "id": "26|Abs. 2",
+  "article": "26",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 121,
+  "fields": {
+   "TOPIC": "Commission assessment of AdES standards",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission ASSESSES whether it is necessary to adopt implementing acts laying down reference standards for advanced electronic signatures. On the basis of that assessment it MAY adopt such implementing acts; where they are complied with, the presumption of conformity applies.",
+   "PURPOSE": "Two-stage: first a mandate to assess with a deadline, then optional legislation – a rare construction in this Regulation.",
+   "DEADLINE": "Assessment by 21 May 2026",
+   "CROSS-REFERENCES": "Article 36(2) · Mandate to assess seal standards Requires the Commission to assess by 21 May 2026 whether implementing acts laying down reference standards for advanced electronic seals are necessary, and empowers it to adopt such acts on that basis. Only the assessment is subject to a time limit, not the act. Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Note: here only the ASSESSMENT is subject to a deadline, not the legal act itself.",
+   "KEY POINT": "First assess (mandatory by 2026), then perhaps regulate ('may')."
+  }
+ },
+ {
+  "id": "27|Abs. 1-2",
+  "article": "27",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 121,
+  "fields": {
+   "TOPIC": "Obligation to accept in public services",
+   "ADDRESSEE": "Member States / public sector bodies",
+   "CONTENT": "Paragraph 1: If a Member State requires an ADVANCED signature to use an online service of a public sector body, it SHALL RECOGNISE AdES, AdES based on qualified certificates AND QES – at least in the formats or using the methods of the implementing act under paragraph 5. Paragraph 2: If it requires an AdES BASED ON A QUALIFIED CERTIFICATE, it shall recognise AdES-with-qualified-certificate and QES.",
+   "PURPOSE": "Prevents authorities from imposing proprietary formats and thereby excluding foreign users; recognition always works 'upwards'.",
+   "CROSS-REFERENCES": "Article 37(1) · Obligation to accept seals Requires Member States which require an advanced electronic seal to use an online service of a public sector body also to recognise advanced electronic seals based on qualified certificates and qualified electronic seals – at least in the formats laid down by implementing act.",
+   "AUDIT CHECK": "Does the specialist application actually accept all prescribed formats (CAdES, XAdES, PAdES, ASiC)?",
+   "KEY POINT": "Anyone who requires AdES must also accept QES. Upwards is always allowed."
+  }
+ },
+ {
+  "id": "27|Abs. 3",
+  "article": "27",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L2",
+  "page": 122,
+  "fields": {
+   "TOPIC": "Prohibition of excessive requirements",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States SHALL NOT REQUEST, for CROSS-BORDER use in an online service offered by a public sector body, an electronic signature at a HIGHER security level than that of the QES.",
+   "PURPOSE": "The QES is the upper limit – national special formats above the QES would fragment the internal market.",
+   "CROSS-REFERENCES": "Article 37(3) · Prohibition of excessive requirements Prohibits Member States from requesting, for the cross-border use in an online service offered by a public sector body, an electronic seal at a higher security level than that of the qualified electronic seal. Article 25(2) · Equivalence of the QES with a handwritten signature The sentence with the greatest practical consequences in signature law: a qualified electronic signature has the same legal effect as a handwritten signature. Advanced signatures do not achieve that effect – not even on the basis of a qualified certificate. In German law Section 126a BGB is the counterpart. “A qualified electronic signature shall have the equivalent legal effect of a handwritten signature” ✓ Article 25(2) eIDAS Article 4 · Internal market principle Prohibits Member States from restricting the provision of trust services from another Member State for reasons that fall within the fields covered by the Regulation. Paragraph 2 requires that products and services lawfully provided in one Member State be permitted to circulate freely in the internal market. The general rule is spelled out for qualified services in Article 24a.",
+   "AUDIT CHECK": "Does a specialist application require proprietary additional features above the QES?",
+   "KEY POINT": "The QES is the ceiling. Nothing goes above it. (Paragraph 4 was deleted.)"
+  }
+ },
+ {
+  "id": "27|Abs. 5",
+  "article": "27",
+  "locus": "Abs. 5",
+  "locus_en": "Paragraph 5",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 123,
+  "fields": {
+   "TOPIC": "Implementing act on reference formats",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission DEFINES, taking into account existing practices, standards and Union legal acts, REFERENCE FORMATS for AdES or reference methods where alternative formats are used.",
+   "PURPOSE": "Interoperability of the signature formats is the precondition for paragraphs 1 and 2 to work in practice.",
+   "DEADLINE": "by 18 September 2015 (deadline expired; implemented by Implementing Regulation (EU) 2015/1506)",
+   "CROSS-REFERENCES": "ETSI EN 319 122 · CAdES – signature format based on CMS Defines baseline profiles for CMS-based signatures, typical for binary data and containers. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text ETSI EN 319 132 · XAdES – signature format based on XML Defines baseline profiles for XML signatures, typical for structured data exchange formats. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text ETSI EN 319 142 · PAdES – signature format for PDF Defines baseline profiles for signatures embedded in PDF, including long-term validation data. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text ETSI EN 319 162 · ASiC – container for associated signatures Defines container formats which encapsulate document and signature together. Relation to eIDAS: reference format under Implementing Regulation (EU) 2015/1506 relating to Article 27 eIDAS. ● Summary, not verified against the original text Article 37(5) · Implementing act on seal formats Empowers the Commission to define reference formats for advanced electronic seals or reference methods where alternative formats are used. This was implemented together with the signature formats.",
+   "AUDIT CHECK": "Which format versions are authorised and supported?"
+  }
+ },
+ {
+  "id": "28|Abs. 1-3",
+  "article": "28",
+  "locus": "Abs. 1-3",
+  "locus_en": "Paragraphs 1-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 124,
+  "fields": {
+   "TOPIC": "Qualified certificates for signatures",
+   "ADDRESSEE": "QTSP / Member States",
+   "CONTENT": "Paragraph 1: Qualified certificates for electronic signatures SHALL MEET the requirements of ANNEX I. Paragraph 2: NO mandatory requirements going beyond Annex I may apply. Paragraph 3: Additional NON-MANDATORY specific attributes are permissible, but they SHALL NOT affect interoperability and recognition.",
+   "PURPOSE": "Content and structure must be the same throughout the EU so that every relying party can evaluate them by machine; paragraph 2 is a prohibition of national additional requirements.",
+   "CROSS-REFERENCES": "ETSI EN 319 412 · Certificate profiles Part 2 describes profiles for certificates of natural persons, Part 3 for legal persons, Part 4 for website authentication and Part 5 the QCStatements – those machine-readable extensions which indicate, for instance, the qualified status or the use of a QSCD. Relation to eIDAS: the technical counterpart of Annexes I, III and IV. Part 5 is in practice the precondition for a validation under Article 32(1)(f) eIDAS to be able to establish the use of a QSCD by machine at all. ● Summary, not verified against the original text Annex I · Annex I – qualified certificates for electronic signatures Ten mandatory items a to j: machine-readable indication that the certificate has been issued as a qualified certificate, a set of data identifying the issuing QTSP including its Member State of establishment, the name OR pseudonym of the signatory, electronic signature validation data, the period of validity, a unique identity code, an advanced electronic signature or advanced electronic seal of the QTSP, the location where the underlying certificate is available free of charge, an indication of the validity status service and an indication whether a QSCD is used. Article 24a(3) · Recognition of certificates and remote management services Extends Union-wide recognition to qualified certificates for electronic signatures and for electronic seals as well as to qualified services for the management of remote signature and seal creation devices. Article 38 · Qualified certificates for electronic seals Follows Article 28, but refers to Annex III. The only substantive difference from Annex I lies in point (c): Annex I permits the name OR a pseudonym of the signatory, whereas Annex III requires the name of the creator of the seal and, where applicable, the registration number – a seal without an identifiable organisation would be pointless. Article 5 · Use of pseudonyms A single, unnumbered sentence: without prejudice to specific obligations to identify oneself and to the legal effect given to pseudonyms under national law, the use of pseudonyms chosen by the user shall not be prohibited in electronic transactions. The Article has NO paragraphs. It is given concrete form in Article 5a(4)(b), Article 5b(9) and Article 32(1)(e).",
+   "AUDIT CHECK": "Does the certificate profile contain national mandatory fields going beyond Annex I? That would be a breach of paragraph 2.",
+   "KEY POINT": "Annex I is at the same time the minimum AND the maximum content (paragraph 1 + paragraph 2)."
+  }
+ },
+ {
+  "id": "28|Abs. 4",
+  "article": "28",
+  "locus": "Abs. 4",
+  "locus_en": "Paragraph 4",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 125,
+  "fields": {
+   "TOPIC": "Finality of revocation",
+   "ADDRESSEE": "QTSP",
+   "CONTENT": "If a qualified certificate is REVOKED after initial activation, it is NO LONGER VALID from the moment of its revocation and its status SHALL NOT IN ANY CIRCUMSTANCES BE REVERTED.",
+   "PURPOSE": "A reversible revocation would make validation under Article 32 unreliable – no way back.",
+   "CROSS-REFERENCES": "Article 24(3) · Revocation within 24 hours The QTSP registers the revocation in its certificate database and publishes the revocation status in a timely manner, in any event within 24 hours after RECEIPT OF THE REQUEST – not after its own decision. The revocation becomes effective only upon publication; a revocation that has not been published protects no one. “publish the revocation status of the certificate in a timely manner, and in any event within 24 hours after the receipt of the request. The revocation shall become effective immediately upon its publication” ✓ Article 24(3) eIDAS Article 32(1) · The eight verification points of QES validation The validation confirms validity only where all eight conditions are met: a qualified certificate complying with Annex I at the time of signing, issuance by a QTSP and validity, correspondence of the validation data, correct provision of the data set representing the signatory, clear indication of any pseudonym, creation by a QSCD, integrity of the data and fulfilment of Article 26. Point (f) – the QSCD condition – is precisely the point that is missing in Article 32a. Article 38(4) · Finality of revocation Provides that a revoked qualified certificate for electronic seal is no longer valid from the moment of its revocation and that its status shall not in any circumstances be reverted. Article 45d(4) · Finality of revocation Provides that a revoked qualified electronic attestation of attributes is no longer valid from the moment of its revocation and shall not in any circumstances regain validity.",
+   "AUDIT CHECK": "Is reactivation technically impossible – not merely prohibited organisationally?",
+   "KEY POINT": "Revocation is final. Suspension (paragraph 5) is not – that is the difference."
+  }
+ },
+ {
+  "id": "28|Abs. 5 a-b",
+  "article": "28",
+  "locus": "Abs. 5 a-b",
+  "locus_en": "Paragraph 5(a)-(b)",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L2",
+  "page": 126,
+  "fields": {
+   "TOPIC": "Temporary suspension under national law",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States MAY lay down national rules on TEMPORARY SUSPENSION, provided that (a) the certificate LOSES ITS VALIDITY FOR THE PERIOD OF SUSPENSION and (b) the period is CLEARLY INDICATED IN THE CERTIFICATE DATABASE and the suspension status is VISIBLE from the status service.",
+   "PURPOSE": "Permits a reversible intermediate stage (for example where loss is suspected) without undermining the finality of revocation.",
+   "CROSS-REFERENCES": "Article 24(2) · Catalogue of QTSP obligations The central catalogue, in practice the structure of every audit: (a) notification duties (one month for changes, three months for cessation), (b) qualified and trained staff in accordance with recognised standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems including suitable cryptographic techniques, (f) verifiable data storage, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and data loss, (h) recording duty extending beyond the cessation of activities, (i) termination plan, (k) certificate database. Point (j) was deleted – the gap is intentional. Article 28(4) · Finality of revocation A revoked qualified certificate loses its validity and its status shall not in any circumstances be reverted. A reversible intermediate stage exists only by way of the suspension under paragraph 5, the period of which must be visible in the certificate database. The same finality applies under Article 38(4), Article 45d(4) and Article 45f(4). Article 38(5) · Temporary suspension for seal certificates Allows national suspension rules under the same conditions as Article 28(5): loss of validity for the period of suspension and clear indication of the period in the certificate database as well as in the status service.",
+   "AUDIT CHECK": "Is suspension used? Then the period and the status must be visible in the CRL/OCSP.",
+   "KEY POINT": "Revocation = final. Suspension = time-limited, but visible."
+  }
+ }
+]

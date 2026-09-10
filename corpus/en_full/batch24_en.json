@@ -1,0 +1,171 @@
+[
+ {
+  "id": "45e|Abs. 1",
+  "article": "45e",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 164,
+  "fields": {
+   "TOPIC": "Verification of attributes against authentic sources",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States SHALL ENSURE that, at least for the attributes listed in ANNEX VI – wherever those attributes rely on authentic sources WITHIN THE PUBLIC SECTOR – measures are taken to allow QTSPs of EAA to verify those attributes AT THE REQUEST OF THE USER by ELECTRONIC MEANS.",
+   "PURPOSE": "An attestation is only as good as its source – without a connection to the registers it would be a mere assertion.",
+   "DEADLINE": "24 months after the entry into force of the implementing acts under Article 5a(23) and Article 5c(6) – the same anchor as the provision of the Wallet",
+   "CROSS-REFERENCES": "Annex VI · Annex VI – Minimum list of attributes Eleven items: address, age, sex, civil status, family composition, nationality or citizenship, educational qualifications and licences, professional qualifications and licences, powers and mandates to represent, public permits and licences as well as – expressly only for legal persons – financial and company data. Under Article 45e those attributes must be verifiable by electronic means. Significance here: the eleven attributes listed there form the minimum scope of the obligation to verify by electronic means. Article 5a(1) · Obligation to provide and deadline anchor Establishes the central implementation obligation of Chapter II: every Member State must provide at least one Wallet. What is decisive is the deadline mechanism – the 24 months run not from the date of the Regulation but from the entry into force of TWO implementing acts: Article 5a(23) (core functions) and Article 5c(6) (certification). As long as either of the two is missing, the period does not begin. The same anchor governs Article 5f(2) (36 months) and Article 45e(1). “each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6)” ✓ Article 5a(1) eIDAS Article 24(1b) · Five methods of attribute verification Parallel to paragraph 1a, but extended by one option: the qualified electronic attestation of attributes is additionally permitted (point (c)). The QEAA from Section 9 thereby itself becomes an admissible means of evidence in the admission procedure of Section 3 – here the circle between the two blocks closes. Article 11 · Liability in the field of electronic identification Distributes liability across three roles and three points of Article 7: the notifying Member State is liable for point (d) (unambiguous attribution of the person identification data) and point (f) (availability of authentication), the issuing party for point (e) (correct attribution of the means), and the party operating the authentication procedure for its incorrect operation. All three cases concern cross-border transactions only. Applies mutatis mutandis to Wallets via Article 5a(19). Article 45d · Requirements for the qualified EAA Refers to Annex V and prohibits additional mandatory requirements. Noteworthy is Annex V, point (g): it requires a QUALIFIED signature or a qualified seal of the issuing QTSP, whereas Annexes I and III require only an advanced form at the same point. Under paragraph 4 the revocation is final. Article 45f · Requirements for PuB-EAA Creates a third class of EAA between simple and qualified. The issuing public sector body does not need QTSP status, but must under paragraph 2 meet a level of reliability and trustworthiness EQUIVALENT to that of QTSPs under Article 24, and is notified under paragraph 3 together with a conformity assessment report. Its responsibility for the authentic source must be evidenced in machine-readable form in the underlying certificate. Paragraph 8 requires an interface with the Wallet.",
+   "AUDIT CHECK": "Which of the eleven types of attribute in Annex VI are actually verifiable by electronic means at national level?",
+   "KEY POINT": "The same 24-month clock as Article 5a(1) – Wallet and register connection start together."
+  }
+ },
+ {
+  "id": "45e|Abs. 2",
+  "article": "45e",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 165,
+  "fields": {
+   "TOPIC": "Implementing act on the catalogue of attributes",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with a list of reference standards and, where necessary, specifications and procedures for the CATALOGUE OF ATTRIBUTES, the schemes for the attestation of attributes and the verification procedures – taking into account international standards and CONSISTENT with the European Digital Identity Wallet implementing act under Article 5a(23).",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 November 2024",
+   "CROSS-REFERENCES": "Annex VI · Annex VI – Minimum list of attributes Eleven items: address, age, sex, civil status, family composition, nationality or citizenship, educational qualifications and licences, professional qualifications and licences, powers and mandates to represent, public permits and licences as well as – expressly only for legal persons – financial and company data. Under Article 45e those attributes must be verifiable by electronic means. Significance here: the eleven attributes listed there form the minimum scope of the obligation to verify by electronic means. Article 5a(23) · Implementing act on the core Wallet requirements The most important empowering provision of the Regulation for practical purposes. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. At the same time it is one of the two triggers of the 24-month period in paragraph 1. Numerous further provisions (Article 5b(11), Article 5d(7), Article 5e(5), Article 45d(5), Article 45e(2), Article 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "45f|Abs. 1 a-b",
+  "article": "45f",
+  "locus": "Abs. 1 a-b",
+  "locus_en": "Paragraph 1(a)-(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 166,
+  "fields": {
+   "TOPIC": "Requirements for PuB-EAA",
+   "ADDRESSEE": "Public sector bodies referred to in Article 3(46)",
+   "CONTENT": "An EAA issued by or on behalf of a public sector body responsible for an authentic source SHALL meet: (a) the requirements set out in ANNEX VII; (b) the underlying QUALIFIED certificate of the qualified signature/qualified seal of the issuing body contains a SPECIFIC SET OF CERTIFIED ATTRIBUTES in a form suitable for automated processing, from which (i) it is apparent that the body is, under Union or national law, responsible for the authentic source or designated to act on its behalf, (ii) a data record UNAMBIGUOUSLY represents the authentic source and (iii) the relevant provisions of law are IDENTIFIED.",
+   "PURPOSE": "Creates a third class of EAA between 'simple' and 'qualified' – official attestations without QTSP status, but with evidenced responsibility for the register.",
+   "CROSS-REFERENCES": "Annex VII · Annex VII – EAA of public sector bodies Structured in parallel to Annex V, but with an identification as PuB-EAA and a data record on the issuing public sector body giving the Member State of establishment, the name and, where applicable, the registration number. The signature or seal comes from the public sector body, not from a QTSP. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Of particular practical importance: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 47 authentic source and point 46 the electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source.",
+   "AUDIT CHECK": "Does the certificate of the issuing body contain the three attribute indications under point (b)(i) – (iii)?",
+   "KEY POINT": "PuB-EAA = official instead of qualified. The evidence of responsibility for the register sits in the certificate."
+  }
+ },
+ {
+  "id": "45f|Abs. 2-3",
+  "article": "45f",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 167,
+  "fields": {
+   "TOPIC": "Level of reliability and notification",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Paragraph 2: the Member State SHALL ENSURE that the issuing public sector bodies meet a level of RELIABILITY AND TRUSTWORTHINESS EQUIVALENT TO QTSPs IN ACCORDANCE WITH ARTICLE 24. Paragraph 3: Member States shall notify those bodies to the Commission; the notification SHALL INCLUDE A CONFORMITY ASSESSMENT REPORT ISSUED BY A CAB confirming that paragraphs 1, 2 and 6 are met. The Commission shall make the list available to the public through a secure channel, electronically signed or sealed and in a form suitable for automated processing.",
+   "PURPOSE": "The waiver of QTSP status is offset by an equivalent level of requirements plus a CAR – this is where the actual audit need lies.",
+   "CROSS-REFERENCES": "Article 20(1) · Conformity assessment every 24 months The audit core of the Regulation. QTSPs are audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly also covers Article 21 of the NIS 2 Directive. The conformity assessment report is to be submitted to the supervisory body within three WORKING days of its receipt. “Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body” ✓ Article 20(1) eIDAS Significance here: even without QTSP status a conformity assessment report must be submitted – the audit-relevant core of the article. Article 24 · Requirements for qualified trust service providers The central catalogue of obligations. Paragraphs 1, 1a and 1b govern the verification of identity (four methods) and of attributes (five methods). Paragraph 2 contains points a to k – notification obligations, staff, financial resources, user information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery, record-keeping obligation, termination plan and certificate database. Paragraphs 3 and 4 govern revocation and status information. Significance here: the public sector body does not need QTSP status, but a level of reliability equivalent to that article. Article 22 · Trusted lists Requires each Member State to establish, maintain and publish lists of the qualified providers and of the qualified services they provide – electronically signed or sealed in a secured manner and in a form suitable for automated processing. The information on the body responsible for the list, the place of publication and the signing certificates must be notified to the Commission without undue delay, and the Commission in turn makes it available in a secured, machine-processable form.",
+   "AUDIT CHECK": "AUDIT-RELEVANT: PuB-EAA bodies need a CAR at the Article 24 level – even though they are not QTSPs.",
+   "KEY POINT": "No QTSP status, but QTSP level and a QTSP audit report."
+  }
+ },
+ {
+  "id": "45f|Abs. 4-5",
+  "article": "45f",
+  "locus": "Abs. 4-5",
+  "locus_en": "Paragraphs 4-5",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 168,
+  "fields": {
+   "TOPIC": "Final revocation and presumption of conformity",
+   "ADDRESSEE": "Public sector bodies",
+   "CONTENT": "Paragraph 4: after revocation the PuB-EAA loses its validity and its status SHALL NOT BE REVERTED. Paragraph 5: where it complies with the standards referred to in paragraph 6, the presumption of conformity with paragraph 1 applies.",
+   "PURPOSE": "-",
+   "CROSS-REFERENCES": "Article 28(4) · Finality of revocation A revoked qualified certificate loses its validity and its status shall not in any circumstances be reverted. A reversible intermediate stage exists only by way of the suspension under paragraph 5, the period of which must be visible in the certificate database. The same finality applies under Article 38(4), Article 45d(4) and Article 45f(4). Article 38(4) · Finality of revocation Provides that a revoked qualified certificate for electronic seal is no longer valid from the moment of its revocation and that its status shall not in any circumstances be reverted. Article 45d(4) · Finality of revocation Provides that a revoked qualified electronic attestation of attributes is no longer valid from the moment of its revocation and shall not in any circumstances regain validity.",
+   "KEY POINT": "The fourth place of the same principle: revocation is always final (28(4), 38(4), 45d(4), 45f(4))."
+  }
+ },
+ {
+  "id": "45f|Abs. 6-7",
+  "article": "45f",
+  "locus": "Abs. 6-7",
+  "locus_en": "Paragraphs 6-7",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 168,
+  "fields": {
+   "TOPIC": "Implementing act on PuB-EAA",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 6: implementing act with reference standards for PuB-EAA, consistent with the European Digital Identity Wallet implementing act under Article 5a(23). Paragraph 7: implementing act for the purposes of paragraph 3 (notification procedure), likewise consistent with the Wallet implementing act.",
+   "PURPOSE": "-",
+   "DEADLINE": "both: by 21 November 2024",
+   "CROSS-REFERENCES": "Article 5a(23) · Implementing act on the core Wallet requirements The most important empowering provision of the Regulation for practical purposes. The Commission establishes reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 – this is the legal basis of the Architecture and Reference Framework. At the same time it is one of the two triggers of the 24-month period in paragraph 1. Numerous further provisions (Article 5b(11), Article 5d(7), Article 5e(5), Article 45d(5), Article 45e(2), Article 45f(6) and (7)) expressly require alignment with that act. “the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article” ✓ Article 5a(23) eIDAS Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "45f|Abs. 8",
+  "article": "45f",
+  "locus": "Abs. 8",
+  "locus_en": "Paragraph 8",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 169,
+  "fields": {
+   "TOPIC": "Wallet interface of public sector bodies",
+   "ADDRESSEE": "Public sector bodies referred to in Article 3(46)",
+   "CONTENT": "Public sector bodies referred to in Article 3(46) which issue EAA SHALL PROVIDE an INTERFACE with the European Digital Identity Wallets provided in accordance with Article 5a.",
+   "PURPOSE": "Without an interface the official attestation would remain outside the Wallet – and thus practically ineffective.",
+   "CROSS-REFERENCES": "Article 45g(2) · Interface obligation of qualified providers Requires providers of QUALIFIED attestations of attributes – and only those – to provide an interface with the Wallets. The obligation under paragraph 1, to make it possible to request, obtain, store and manage, by contrast applies to all providers. Article 5a(4) · The seven user functions Describes from the user's perspective what the Wallet must be able to do: (a) securely request, store, erase and selectively present attributes, (b) generate pseudonyms and store them locally in encrypted form, (c) interact with the Wallet of another person, (d) a dashboard with a complete transaction history including erasure requests and a reporting button to the data protection authority, (e) sign and seal in qualified form, (f) download data, (g) exercise data portability. Together with paragraphs 5, 8 and 14 this paragraph forms the subject matter of certification under Article 5c(1).",
+   "AUDIT CHECK": "Does the Wallet interface exist – and does it comply with the ARF?",
+   "KEY POINT": "Two interface obligations: 45f(8) for public sector bodies, 45g(2) for QTSPs."
+  }
+ },
+ {
+  "id": "45g|Abs. 1-2",
+  "article": "45g",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 169,
+  "fields": {
+   "TOPIC": "Issuing of EAA to Wallets",
+   "ADDRESSEE": "Providers of electronic attestations of attributes",
+   "CONTENT": "Paragraph 1: providers of EAA SHALL PROVIDE European Digital Identity Wallet users with the possibility to REQUEST, OBTAIN, STORE AND MANAGE the EAA IRRESPECTIVE OF THE MEMBER STATE in which the Wallet is provided. Paragraph 2: providers of QUALIFIED EAA SHALL PROVIDE an INTERFACE with the Wallets provided in accordance with Article 5a.",
+   "PURPOSE": "Connects the 'Wallet' block with the 'trust services' block – without an interface the Wallet would remain empty.",
+   "CROSS-REFERENCES": "Article 5a(4) · The seven user functions Describes from the user's perspective what the Wallet must be able to do: (a) securely request, store, erase and selectively present attributes, (b) generate pseudonyms and store them locally in encrypted form, (c) interact with the Wallet of another person, (d) a dashboard with a complete transaction history including erasure requests and a reporting button to the data protection authority, (e) sign and seal in qualified form, (f) download data, (g) exercise data portability. Together with paragraphs 5, 8 and 14 this paragraph forms the subject matter of certification under Article 5c(1). Significance here: point (a) there describes exactly the user functions which this interface has to serve technically. Article 5a(5) · Mandatory technical properties The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, wallet-to-wallet, relying party authentication, verification of authenticity, erasure requests, reporting to the authority, creation of qualified electronic signatures) – in effect the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the EAA, point (d) requires assurance level high, point (g) the qualified electronic signature free of charge for natural persons. Article 45f(8) · Interface obligation of public sector bodies Requires the public sector bodies responsible for an authentic source which issue attestations of attributes to provide an interface with the Wallets provided in accordance with Article 5a. Without an interface the official attestation would remain outside the Wallet.",
+   "AUDIT CHECK": "A fine distinction: paragraph 1 applies to ALL providers of EAA, paragraph 2 (the interface obligation) only to QUALIFIED ones.",
+   "KEY POINT": "Paragraph 1 = all. Paragraph 2 = only qualified ones. And 45f(8) = public sector bodies."
+  }
+ },
+ {
+  "id": "45h|Abs. 1",
+  "article": "45h",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "DARF NICHT",
+  "modality_en": "SHALL NOT",
+  "level": "L1",
+  "page": 170,
+  "fields": {
+   "TOPIC": "Prohibition on combining EAA data",
+   "ADDRESSEE": "Providers of qualified AND non-qualified EAA services",
+   "CONTENT": "Providers of qualified and non-qualified EAA services SHALL NOT COMBINE personal data relating to the provision of those services WITH personal data from ANY OTHER services offered BY THEM OR THEIR COMMERCIAL PARTNERS.",
+   "PURPOSE": "Prevents a group of companies from exploiting attribute data for advertising and profiling in its other services – expressly including through commercial partners.",
+   "CROSS-REFERENCES": "GDPR Article 5 · Principles relating to processing of personal data Paragraph 1 names six principles: lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality. Paragraph 2 establishes accountability – the controller must be able to DEMONSTRATE compliance with those principles. Relation to eIDAS: Article 5b(2)(c) and Article 5b(3) eIDAS make the purpose limitation of paragraph 1, point (b) technically enforceable: whatever is not stated as an intended use at registration may not be requested. The accountability of paragraph 2 recurs in Article 5a(17) eIDAS as a self-standing obligation to provide evidence. ● Summary, not verified against the original text Article 5a(14) · User control and logical separation Prohibits the Wallet provider from collecting usage data that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It must also keep the data logically separate from all other holdings. Where the Wallet is provided privately under paragraph 2(b) or (c), Article 45h(3) (functional separation) additionally applies mutatis mutandis. This is the only paragraph outside 4, 5 and 8 that is expressly certified. “Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet” ✓ Article 5a(14) eIDAS Significance here: the same separation logic; paragraph 3 applies mutatis mutandis to private Wallet providers via Article 5a(14). Article 5a(16) · Unlinkability in the technical framework Point (a) prohibits providers of electronic attestations of attributes or any other party from obtaining, after issuance, data that would allow transactions or user behaviour to be tracked, linked or correlated. Point (b) requires techniques which ensure unlinkability where identification is not necessary. Whereas paragraph 5, point (b) prohibits reading along, paragraph 16 prohibits bringing data together – technically this leads to techniques such as selective disclosure and zero-knowledge proofs.",
+   "AUDIT CHECK": "Are COMMERCIAL PARTNERS also covered? The provision reaches beyond the provider's own group.",
+   "KEY POINT": "Not only its own services – also those of its commercial partners. This is often overlooked."
+  }
+ }
+]

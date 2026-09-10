@@ -1,0 +1,176 @@
+[
+ {
+  "id": "9|Abs. 5",
+  "article": "9",
+  "locus": "Abs. 5",
+  "locus_en": "Paragraph 5",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 61,
+  "fields": {
+   "TOPIC": "Implementing act on the circumstances of notification",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission MAY, by means of implementing acts, define the circumstances, formats and procedures of notifications.",
+   "PURPOSE": "A discretionary empowerment ('may'), not an obligation - hence no deadline.",
+   "DEADLINE": "no deadline ('may')",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure. Article 52(2) · Staggered start of application Determines which provisions apply earlier or later by way of derogation from the general principle: the empowering provisions already from 17 September 2014, the electronic identification articles from the date of application of the implementing acts referred to in Article 8(3) and Article 12(8), and the recognition obligation of Article 6 only three years after that date.",
+   "AUDIT CHECK": "A 'may' or a 'shall' empowerment? Only a 'shall' comes with a deadline.",
+   "KEY POINT": "'May define' without a date vs. 'shall, by ..., establish' - always look at the verb."
+  }
+ },
+ {
+  "id": "10|Abs. 1",
+  "article": "10",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 62,
+  "fields": {
+   "TOPIC": "Suspension in the event of a security breach",
+   "ADDRESSEE": "Notifying Member State",
+   "CONTENT": "Where the notified scheme OR the authentication referred to in Article 7, point (f), is breached or partly compromised in a manner that affects the reliability of the cross-border authentication, the Member State SHALL WITHOUT DELAY SUSPEND or REVOKE it and shall inform the other Member States and the Commission.",
+   "PURPOSE": "It must be possible to take a compromised scheme out of the trust network immediately.",
+   "DEADLINE": "without delay",
+   "CROSS-REFERENCES": "Article 5e(1) · Immediate suspension in the event of compromise Requires the Member State to suspend provision and use without undue delay where the Wallet, the validation mechanisms or the underlying electronic identification scheme are compromised in a manner affecting reliability - where the severity so justifies, immediate withdrawal. Four groups of addressees are to be informed: the users affected, the single points of contact under Article 46c, the relying parties and the Commission. Article 9(2) · Publication of the list of schemes Requires the Commission to publish the list of notified electronic identification schemes in the Official Journal without undue delay. Only that publication triggers the recognition obligation of Article 6. Article 7 · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires authentication available online across borders, which must be free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the liability trigger of Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Is there a documented shut-down process with defined trigger criteria?",
+   "KEY POINT": "Article 10 = electronic identification scheme. Article 5e = Wallet. Same logic, different addressees."
+  }
+ },
+ {
+  "id": "10|Abs. 2-3",
+  "article": "10",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 62,
+  "fields": {
+   "TOPIC": "Re-establishment and withdrawal after three months",
+   "ADDRESSEE": "Notifying Member State / Commission",
+   "CONTENT": "Paragraph 2: Once the breach is remedied, the Member State SHALL RE-ESTABLISH the cross-border authentication and shall inform the others without undue delay. Paragraph 3: If the breach is not remedied WITHIN THREE MONTHS of the suspension or revocation, the Member State SHALL NOTIFY the WITHDRAWAL of the scheme; the Commission shall publish the amendment in the Official Journal without undue delay.",
+   "PURPOSE": "Limits how long a state of suspense in the trust network may last.",
+   "DEADLINE": "three months",
+   "CROSS-REFERENCES": "Article 5e(2) · Withdrawal after three months Sets the upper limit for the state of suspense: if the security breach is not remedied within three months of the suspension, the Wallets are to be withdrawn and their validity revoked. The deadline is identical to that in Article 10(3) for notified electronic identification schemes - neither regime tolerates anything longer. “is not remedied within three months of the suspension, the Member State that provided the European Digital Identity Wallets shall withdraw European Digital Identity Wallets and revoke their validity” ✓ Article 5e(2) eIDAS Article 9(2) · Publication of the list of schemes Requires the Commission to publish the list of notified electronic identification schemes in the Official Journal without undue delay. Only that publication triggers the recognition obligation of Article 6.",
+   "AUDIT CHECK": "Is the three-month deadline monitored?",
+   "KEY POINT": "Three months - the same deadline as for the Wallet (Article 5e(2))."
+  }
+ },
+ {
+  "id": "11|Abs. 1",
+  "article": "11",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 63,
+  "fields": {
+   "TOPIC": "Liability of the notifying Member State",
+   "ADDRESSEE": "Notifying Member State",
+   "CONTENT": "The Member State SHALL BE LIABLE for damage caused intentionally or negligently due to a failure to comply with the obligations under Article 7, points (d) AND (f), in a CROSS-BORDER transaction.",
+   "PURPOSE": "Without liability the loss always falls on the service that relied - and then nobody would rely.",
+   "CROSS-REFERENCES": "Article 5a(19) · Liability cross-reference Provides that Article 11 shall apply mutatis mutandis - without prejudice to paragraph 22. The Wallet thus follows the liability regime of electronic identification and not that of trust services under Article 13. Article 7 · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires authentication available online across borders, which must be free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the liability trigger of Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Cross-border transactions only - purely national cases are governed by national law.",
+   "KEY POINT": "The Member State is liable for (d) + (f). The issuer for (e). The party operating the authentication for the operation of (f)."
+  }
+ },
+ {
+  "id": "11|Abs. 2-3",
+  "article": "11",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 63,
+  "fields": {
+   "TOPIC": "Liability of the issuing party and of the party operating the authentication",
+   "ADDRESSEE": "Party issuing the electronic identification means / party operating the authentication procedure",
+   "CONTENT": "Paragraph 2: The ISSUING PARTY shall be liable for damage due to a failure to comply with the obligation under Article 7, point (e) (correct attribution of the means). Paragraph 3: The PARTY OPERATING the authentication procedure shall be liable for the INCORRECT OPERATION of the authentication referred to in Article 7, point (f).",
+   "PURPOSE": "Allocates liability to the body that is actually able to cause the error.",
+   "CROSS-REFERENCES": "Article 9(1) · Content of the notification Seven items (a) to (g), among them the description of the scheme with its assurance levels, the supervisory regime together with the liability regime stated separately for the issuing party and the party operating the authentication, the competent authorities, the PID registration body, and the arrangements for suspension and revocation. Almost identical to Article 5d(2) for Wallets - the same notification logic in two regimes. Article 7 · Eligibility for notification Eight cumulative conditions (a) to (h). Of particular practical relevance: point (f) requires authentication available online across borders, which must be free of charge for services provided by public sector bodies; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the liability trigger of Article 11. Not applicable to Wallets (Article 5a(22)).",
+   "AUDIT CHECK": "Is the allocation of liability reflected in the notification under Article 9(1)(b)?",
+   "KEY POINT": "Three paragraphs, three addressees, three points from Article 7: (d)/(f) - (e) - (f)."
+  }
+ },
+ {
+  "id": "11|Abs. 4-5",
+  "article": "11",
+  "locus": "Abs. 4-5",
+  "locus_en": "Paragraphs 4-5",
+  "modality": "Definition",
+  "modality_en": "DEFINITION",
+  "level": "L3",
+  "page": 64,
+  "fields": {
+   "TOPIC": "Relationship to national liability law",
+   "ADDRESSEE": "-",
+   "CONTENT": "Paragraph 4: Paragraphs 1 to 3 shall be applied in accordance with national rules on liability. Paragraph 5: They are without prejudice to the liability under national law of the other parties to the transaction.",
+   "PURPOSE": "eIDAS governs the ground of liability, not the whole of liability law - the assessment of damages and limitation periods remain national.",
+   "CROSS-REFERENCES": "Article 13(3) · Relationship to national liability law Provides that the liability rules of paragraphs 1 and 2 shall be applied in accordance with national rules on liability - the Regulation governs the ground of liability, national law the legal consequences in detail.",
+   "AUDIT CHECK": "Which national liability regime applies?",
+   "KEY POINT": "eIDAS says WHO is liable, national law says HOW MUCH."
+  }
+ },
+ {
+  "id": "11a|Abs. 1",
+  "article": "11a",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 64,
+  "fields": {
+   "TOPIC": "Obligation to ensure identity matching",
+   "ADDRESSEE": "Member States acting as relying parties",
+   "CONTENT": "Where Member States are themselves relying parties for cross-border services, they SHALL ENSURE UNEQUIVOCAL IDENTITY MATCHING for natural persons using notified electronic identification means or European Digital Identity Wallets.",
+   "PURPOSE": "Without matching the person ends up in the foreign system as a 'new person' - duplicate files, misattributions, incorrect decisions.",
+   "CROSS-REFERENCES": "Article 5a(5) · Mandatory technical properties The inside view of paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, wallet-to-wallet, relying party authentication, verification of authenticity, erasure requests, reporting to the authority, creation of qualified electronic signatures) - in effect the table of contents of the ARF. Point (b) prohibits any feedback to the issuer of the electronic attestation of attributes, point (d) requires assurance level high, point (g) the qualified electronic signature free of charge for natural persons. Relevance here: point (f) requires the unique representation of the person - the technical precondition for any identity matching. Article 12 · Interoperability Requires the notified schemes to be interoperable and describes the framework to be established for that purpose: technology neutral, following European and international standards and - new since eIDAS 2.0 - facilitating privacy and security by design. The framework covers the reference to assurance levels, the mapping of the national levels, minimum technical requirements, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. In addition, the Article governs peer review. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Of particular practical importance: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 the electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source and point 47 authentic source.",
+   "AUDIT CHECK": "How is a foreign identity matched to the correct national data record?",
+   "KEY POINT": "New in eIDAS 2.0 - in 2014 this obligation did not yet exist."
+  }
+ },
+ {
+  "id": "11a|Abs. 2",
+  "article": "11a",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 65,
+  "fields": {
+   "TOPIC": "Data protection in identity matching",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Member States SHALL PROVIDE FOR technical AND organisational measures to ensure a HIGH level of protection of the personal data used for identity matching and to PREVENT THE PROFILING OF USERS.",
+   "PURPOSE": "By its very design a matching service sees every cross-border contact a person has with public authorities - and that is precisely what shall not be evaluated.",
+   "CROSS-REFERENCES": "GDPR Article 25 · Data protection by design and by default Paragraph 1 requires appropriate measures such as pseudonymisation to be taken already at the time of determining the means of processing, in order to implement the principles of Article 5 GDPR effectively. Paragraph 2 requires default settings ensuring that, in principle, only the data necessary for each specific purpose are processed - in terms of the amount, the extent of processing, the storage period and accessibility. Link to eIDAS: Article 12(3)(c) eIDAS expressly raises privacy and security by design into the interoperability framework; Article 5a(12) eIDAS requires security-by-design for the Wallet. ● Summary, not verified against the original text Article 5a(16) · Unlinkability in the technical framework Point (a) prohibits providers of electronic attestations of attributes or any other party from obtaining, after issuance, data that would allow transactions or user behaviour to be tracked, linked or correlated. Point (b) requires techniques which ensure unlinkability where identification is not necessary. Whereas paragraph 5, point (b) prohibits reading along, paragraph 16 prohibits bringing data together - technically this leads to techniques such as selective disclosure and zero-knowledge proofs. Article 32 · Requirements for the validation of qualified electronic signatures Sets out in eight points when a validation may confirm validity: a qualified certificate complying with Annex I at the time of signing, issuance by a qualified trust service provider and validity, correspondence of the validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a qualified electronic signature creation device, integrity of the data and compliance with Article 26. Paragraph 2 additionally requires the result to be displayed in an understandable manner.",
+   "AUDIT CHECK": "How is it technically prevented that profiles arise in the course of matching?",
+   "KEY POINT": "Matching is necessary - and at the same time the greatest risk of profiling in the Regulation."
+  }
+ },
+ {
+  "id": "11a|Abs. 3",
+  "article": "11a",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 65,
+  "fields": {
+   "TOPIC": "Empowerment for implementing acts",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "A list of reference standards and, where necessary, specifications and procedures for the requirements referred to in paragraph 1.",
+   "PURPOSE": "Matching across 27 registers needs a common procedure.",
+   "DEADLINE": "by 21 November 2024",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Has the implementing act been adopted?"
+  }
+ }
+]

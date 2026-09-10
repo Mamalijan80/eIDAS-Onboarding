@@ -1,0 +1,176 @@
+[
+ {
+  "id": "24|Abs. 2 a",
+  "article": "24",
+  "locus": "Abs. 2 a",
+  "locus_en": "Paragraph 2(a)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 103,
+  "fields": {
+   "TOPIC": "Notification of changes and cessation of activities",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL inform the supervisory body AT LEAST ONE MONTH before implementing any change in the provision of their qualified trust services and AT LEAST THREE MONTHS in advance in the case of an intended CESSATION of those activities. The supervisory body may request additional information or the result of a conformity assessment and may make the granting of the permission subject to conditions; where the verification is not concluded within three months, the provider shall be informed, specifying the reasons.",
+   "PURPOSE": "Changes to a qualified service may affect its conformity – the supervisory body must be involved beforehand.",
+   "DEADLINE": "1 month (change) / 3 months (cessation)",
+   "CROSS-REFERENCES": "Article 24(2) · Catalogue of QTSP obligations The central catalogue, in practice the structure of every audit: (a) notification duties (one month for changes, three months for cessation), (b) qualified and trained staff in accordance with European or international standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems including suitable cryptographic techniques, (f) verifiable data storage, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and data loss, (h) recording duty extending beyond the cessation of activities, (i) termination plan, (k) certificate database. Point (j) was deleted – the gap is intentional. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, granting and withdrawal of qualified status, informing the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of web-browser notifications under Article 45a (point (k)).",
+   "AUDIT CHECK": "Are change processes notified to the supervisory body – including technical changes?",
+   "KEY POINT": "One month for changes, three months for the exit."
+  }
+ },
+ {
+  "id": "24|Abs. 2 b",
+  "article": "24",
+  "locus": "Abs. 2 b",
+  "locus_en": "Paragraph 2(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 104,
+  "fields": {
+   "TOPIC": "Staff and subcontractors",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL employ staff and, if applicable, subcontractors who possess the necessary EXPERTISE, RELIABILITY, EXPERIENCE and QUALIFICATIONS, appropriately TRAINED regarding security and personal data protection, and SHALL apply administrative and management procedures which correspond to EUROPEAN OR INTERNATIONAL STANDARDS.",
+   "PURPOSE": "The link to recognised standards is the entry point for ISO/IEC 27001 and ETSI EN 319 401 in the audit.",
+   "CROSS-REFERENCES": "ETSI EN 319 401 · General policy requirements for trust service providers The base standard of every trust service audit. It deals, among other things, with risk assessment, the practice statement and terms and conditions, organisation and reliability of staff, facility and access security, operational and network security, incident management, records, business continuity and the termination of the service. Relationship to eIDAS: gives concrete form to Article 24(2), points (b), (e), (fa), (g), (h) and (i) eIDAS as well as to Article 19a(1), point (a) eIDAS. Through the formula 'European or international standards' in point (b) it is at the same time the bridge to ISO/IEC 27001. ● Summary of content, not verified against the original text Relevance here: gives concrete form to points (b) and (fa); through the formula 'European or international standards' it is the point of attachment for ISO/IEC 27001. ISO/IEC 27001 · Information security management system Lays down requirements for the establishment, implementation, maintenance and continual improvement of an ISMS, including risk assessment and risk treatment as well as the control objectives of Annex A. Relationship to eIDAS: not named as such in eIDAS, but through the formula 'European or international standards' in Article 24(2), point (b) eIDAS and through ETSI EN 319 401 the practical frame of reference. It also covers large parts of Article 21(2) NIS2. ● Summary of content, not verified against the original text Article 5a(20) · Partial application of the catalogue of QTSP obligations Declares Article 24(2), points (b) and (d) to (h), applicable mutatis mutandis to Wallet providers: qualified staff, pre-contractual information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery and the recording duty. Points (a), (c), (i) and (k) are not taken over – a Wallet provider does not thereby become a QTSP.",
+   "AUDIT CHECK": "Are records of qualifications, reliability checks and training available for all trusted roles – including for subcontractors?",
+   "KEY POINT": "Point (b) is the ISMS bridge: 'European or international standards' means, in practice, ISO 27001 / ETSI EN 319 401."
+  }
+ },
+ {
+  "id": "24|Abs. 2 c",
+  "article": "24",
+  "locus": "Abs. 2 c",
+  "locus_en": "Paragraph 2(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 105,
+  "fields": {
+   "TOPIC": "Financial resources and liability insurance",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "With regard to the risk of liability for damages in accordance with Article 13, QTSPs SHALL maintain SUFFICIENT FINANCIAL RESOURCES AND/OR obtain APPROPRIATE LIABILITY INSURANCE in accordance with national law.",
+   "PURPOSE": "Liability without assets to cover it would be ineffective – financial capacity is part of trustworthiness.",
+   "CROSS-REFERENCES": "Article 13 · Liability and burden of proof Establishes the liability of all trust service providers for material and non-material damage caused intentionally or negligently and allocates the burden of proof: with a non-qualified provider it lies with the injured party, with a qualified provider intention or negligence is presumed. Paragraph 2 permits a limitation of liability by means of limitations on use, provided that the customer is informed in advance and the limitation remains recognisable to third parties. Paragraph 3 refers to national liability law. Article 16 · Penalties Requires the Member States to lay down effective, proportionate and dissuasive rules on penalties and, in paragraph 2, sets a maximum administrative fine of at least EUR 5 million, or, in the case of legal persons, EUR 5 million or 1 % of the total worldwide annual turnover of the preceding year. Paragraph 3 allows the supervisory body to initiate the procedure and a national court to impose the fine. Article 31 of the NIS 2 Directive remains unaffected.",
+   "AUDIT CHECK": "Is the sum insured documented and adapted to the actual risk?",
+   "KEY POINT": "'And/or' – own funds or insurance or both."
+  }
+ },
+ {
+  "id": "24|Abs. 2 d",
+  "article": "24",
+  "locus": "Abs. 2 d",
+  "locus_en": "Paragraph 2(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 105,
+  "fields": {
+   "TOPIC": "Pre-contractual information of users",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL inform any person seeking to use the service, in a CLEAR, COMPREHENSIVE and EASILY ACCESSIBLE manner, in a PUBLICLY ACCESSIBLE SPACE AND INDIVIDUALLY, of the precise terms and conditions regarding the use of that service, including any LIMITATIONS ON ITS USE – and that BEFORE entering into a contractual relationship.",
+   "PURPOSE": "Link to Article 13(2): only a provider that informs beforehand can effectively limit its liability.",
+   "DEADLINE": "before conclusion of the contract",
+   "CROSS-REFERENCES": "Article 13(2) · Limitation of liability by limitation of use Permits liability for use going beyond the intended use to be excluded – but only where there is double transparency: due prior information of the customer AND recognisability of the limitation to third parties. In practice this means machine-readable limitations in the certificate, not just a clause in the terms and conditions. Article 5a(20) · Partial application of the catalogue of QTSP obligations Declares Article 24(2), points (b) and (d) to (h), applicable mutatis mutandis to Wallet providers: qualified staff, pre-contractual information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery and the recording duty. Points (a), (c), (i) and (k) are not taken over – a Wallet provider does not thereby become a QTSP. Article 15 · Accessibility for persons with disabilities and special needs Requires that electronic identification means, trust services AND the end-user products used in the provision of those services be made available in plain and intelligible language – in accordance with the United Nations Convention on the Rights of Persons with Disabilities and with the accessibility requirements of Directive (EU) 2019/882. Elderly persons and persons with limited access to digital technologies are expressly included as well. eIDAS 2.0 deleted the earlier qualification 'where feasible'.",
+   "AUDIT CHECK": "Is the information given both publicly (website/PDS) AND individually?",
+   "KEY POINT": "Double information: publicly AND individually. Both, not one of them."
+  }
+ },
+ {
+  "id": "24|Abs. 2 e",
+  "article": "24",
+  "locus": "Abs. 2 e",
+  "locus_en": "Paragraph 2(e)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 106,
+  "fields": {
+   "TOPIC": "Trustworthy systems and products",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL use trustworthy systems and products that are PROTECTED AGAINST MODIFICATION and ensure the technical security and reliability of the processes supported by them – INCLUDING using SUITABLE CRYPTOGRAPHIC TECHNIQUES.",
+   "PURPOSE": "The express mention of cryptography was added by eIDAS 2.0 and makes algorithm management mandatory.",
+   "CROSS-REFERENCES": "ETSI TS 119 312 · Cryptographic suites Recommends algorithms, key lengths and parameters for signatures, seals and hash functions and states the time horizons up to which they are considered suitable. Relationship to eIDAS: the practical yardstick for the wording 'including using suitable cryptographic techniques' in Article 24(2), point (e) eIDAS – and thus for planning the change of algorithms. ● Summary of content, not verified against the original text Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 29 · Requirements for qualified electronic signature creation devices Refers to Annex II for the requirements and contains, in paragraph 1a, the central innovation of eIDAS 2.0: electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a qualified trust service provider providing a qualified trust service for the management of a remote qualified electronic signature creation device under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of relevant standards. Article 30 · Certification of qualified electronic signature creation devices Provides that conformity with Annex II is certified by appropriate public or private bodies designated by the Member States – to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit with a vulnerability assessment every two years.",
+   "AUDIT CHECK": "Is there a documented cryptographic concept with algorithms, key lengths and migration planning?",
+   "KEY POINT": "'Including cryptographic techniques' is new – post-quantum planning falls under this."
+  }
+ },
+ {
+  "id": "24|Abs. 2 f i-iii",
+  "article": "24",
+  "locus": "Abs. 2 f i-iii",
+  "locus_en": "Paragraph 2(f)(i) – (iii)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 107,
+  "fields": {
+   "TOPIC": "Trustworthy data storage",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL use trustworthy systems to store the data provided to them in a VERIFIABLE form, so that (i) they are publicly available for retrieval only WITH THE CONSENT of the person to whom the data relates, (ii) only AUTHORISED PERSONS can make entries and changes to the data, (iii) the data CAN BE CHECKED FOR AUTHENTICITY.",
+   "PURPOSE": "Defines confidentiality, integrity and authenticity for the data holdings of the QTSP.",
+   "CROSS-REFERENCES": "Article 24(2) · Catalogue of QTSP obligations The central catalogue, in practice the structure of every audit: (a) notification duties (one month for changes, three months for cessation), (b) qualified and trained staff in accordance with European or international standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems including suitable cryptographic techniques, (f) verifiable data storage, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and data loss, (h) recording duty extending beyond the cessation of activities, (i) termination plan, (k) certificate database. Point (j) was deleted – the gap is intentional. Article 24(3) · Revocation within 24 hours The QTSP registers the revocation in its certificate database and publishes the revocation status in a timely manner, in any event within 24 hours after RECEIPT OF THE REQUEST – not after its own decision. The revocation becomes effective only upon publication; a revocation that has not been published protects no one. “publish the revocation status of the certificate in a timely manner, and in any event within 24 hours after the receipt of the request. The revocation shall become effective immediately upon its publication” ✓ Article 24(3) eIDAS",
+   "AUDIT CHECK": "Are access rights to the certificate database role-based and logged?",
+   "KEY POINT": "Three points = three protection goals: confidentiality, integrity, authenticity."
+  }
+ },
+ {
+  "id": "24|Abs. 2 fa i-iii",
+  "article": "24",
+  "locus": "Abs. 2 fa i-iii",
+  "locus_en": "Paragraph 2(fa)(i) – (iii)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 108,
+  "fields": {
+   "TOPIC": "Risk management of the QTSP",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "Notwithstanding Article 21 NIS2, QTSPs SHALL have appropriate policies and SHALL take corresponding measures to manage legal, business, operational and other direct or indirect risks – including at least measures related to (i) registration and onboarding procedures, (ii) procedural or administrative checks, (iii) the management and implementation of services.",
+   "PURPOSE": "Word-for-word counterpart of Article 19a(1), point (a) – the common risk management baseline for all trust services.",
+   "CROSS-REFERENCES": "NIS2 Article 21 · Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time an object of examination in every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size, the likelihood of occurrence and the severity of possible impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities specific to each individual direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. a) policies on risk analysis and information system security b) incident handling c) business continuity – backup management, disaster recovery, crisis management d) supply chain security, including the relationships with direct suppliers and service providers e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure f) policies and procedures to assess the effectiveness of the risk-management measures g) basic cyber hygiene practices and cybersecurity training h) policies and procedures regarding the use of cryptography and, where appropriate, encryption i) human resources security, access control policies and asset management j) the use of multi-factor authentication or continuous authentication, secured voice, video and text communications as well as secured emergency communication Relationship to eIDAS: the conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas – a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary of content, not verified against the original text ETSI EN 319 401 · General policy requirements for trust service providers The base standard of every trust service audit. It deals, among other things, with risk assessment, the practice statement and terms and conditions, organisation and reliability of staff, facility and access security, operational and network security, incident management, records, business continuity and the termination of the service. Relationship to eIDAS: gives concrete form to Article 24(2), points (b), (e), (fa), (g), (h) and (i) eIDAS as well as to Article 19a(1), point (a) eIDAS. Through the formula 'European or international standards' in point (b) it is at the same time the bridge to ISO/IEC 27001. ● Summary of content, not verified against the original text Relevance here: gives concrete form to points (b) and (fa); through the formula 'European or international standards' it is the point of attachment for ISO/IEC 27001. Article 19a(1) · Security baseline for non-qualified providers Point (a) requires policies and measures to manage risk, at least with regard to registration and onboarding procedures, procedural and administrative checks as well as the management and implementation of the services – word for word identical with Article 24(2), point (fa) for QTSPs. Point (b) requires the notification of significant security breaches within 24 hours of BECOMING AWARE. Before eIDAS 2.0, non-qualified providers were practically unregulated. Article 24(4b) · Delegated act on risk management Empowers the Commission to adopt delegated acts in accordance with Article 47 establishing additional measures within the meaning of paragraph 2, point (fa). It is a delegated act, not an implementing act – with a right of objection for Parliament and Council.",
+   "AUDIT CHECK": "Does the ISMS cover all three fields – in particular the registration and onboarding procedures?",
+   "KEY POINT": "Point (fa) and Article 19a(1), point (a) are built identically. Whoever can do one can do both."
+  }
+ },
+ {
+  "id": "24|Abs. 2 fb",
+  "article": "24",
+  "locus": "Abs. 2 fb",
+  "locus_en": "Paragraph 2(fb)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 109,
+  "fields": {
+   "TOPIC": "24-hour notification duty of the QTSP",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL notify the supervisory body, the identifiable affected individuals, other relevant competent bodies where applicable and – AT THE REQUEST OF THE SUPERVISORY BODY – the public (where it is of public interest) WITHOUT UNDUE DELAY, and in any event WITHIN 24 HOURS OF THE INCIDENT, of any security breaches or disruptions that have a significant impact.",
+   "PURPOSE": "Difference from Article 19a(1), point (b): here the deadline runs FROM THE INCIDENT, not from becoming aware – and the public is informed only at the request of the supervisory body.",
+   "DEADLINE": "24 hours of the incident",
+   "CROSS-REFERENCES": "GDPR Article 33 · Notification of a personal data breach to the supervisory authority Requires the controller to notify a personal data breach without undue delay and, where feasible, within 72 hours after having become aware of it, unless the breach is unlikely to result in a risk. Later notifications must be reasoned. The processor notifies the controller without undue delay. The notification must contain the nature of the breach, the categories and approximate number of data subjects, the contact point, the likely consequences and the measures taken. Relationship to eIDAS: considerably more generous than eIDAS: Article 24(2), point (fb) eIDAS requires 24 hours after the incident. One incident may trigger both notification duties at the same time – with different deadlines, addressees and content. ● Summary of content, not verified against the original text NIS2 Article 23 · Reporting obligations for significant incidents Requires significant incidents to be notified without undue delay to the CSIRT or the competent authority and the recipients of the services to be informed. An incident is significant where it has caused or is capable of causing severe operational disruption or financial loss, or where it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage. Notification is staged. Early warning: without undue delay, in any event within 24 hours of becoming aware Incident notification: without undue delay, in any event within 72 hours Intermediate report: at the request of the CSIRT or the competent authority Final report: not later than one month after the incident notification Progress report: where the incident is still ongoing at the expiry of that period Relationship to eIDAS: not to be confused with the eIDAS deadlines: Article 24(2), point (fb) eIDAS requires 24 hours AFTER THE INCIDENT, Article 19a(1), point (b) eIDAS 24 hours after BECOMING AWARE – the NIS2 early warning of 24 hours likewise runs from awareness, but is followed by a full notification within 72 hours. A QTSP thus has parallel reporting channels to serve. ● Summary of content, not verified against the original text Article 19a(1) · Security baseline for non-qualified providers Point (a) requires policies and measures to manage risk, at least with regard to registration and onboarding procedures, procedural and administrative checks as well as the management and implementation of the services – word for word identical with Article 24(2), point (fa) for QTSPs. Point (b) requires the notification of significant security breaches within 24 hours of BECOMING AWARE. Before eIDAS 2.0, non-qualified providers were practically unregulated. Article 46b(4) · Catalogue of tasks of the supervisory body Eleven tasks, among them notification of the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, granting and withdrawal of qualified status, informing the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) as well as the investigation of web-browser notifications under Article 45a (point (k)).",
+   "AUDIT CHECK": "Which start of the deadline is laid down in the incident process – the incident or awareness? For the QTSP it is the incident.",
+   "KEY POINT": "QTSP: from the incident. TSP: from awareness. The QTSP has it stricter."
+  }
+ },
+ {
+  "id": "24|Abs. 2 g",
+  "article": "24",
+  "locus": "Abs. 2 g",
+  "locus_en": "Paragraph 2(g)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 110,
+  "fields": {
+   "TOPIC": "Protection against forgery and data loss",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "QTSPs SHALL take appropriate measures against FORGERY, THEFT or MISAPPROPRIATION of data as well as against, without right, DELETING, ALTERING or RENDERING data INACCESSIBLE.",
+   "PURPOSE": "Besides confidentiality it expressly covers AVAILABILITY as well ('rendering inaccessible') – the point of attachment for ransomware.",
+   "CROSS-REFERENCES": "NIS2 Article 21 · Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time an object of examination in every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size, the likelihood of occurrence and the severity of possible impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities specific to each individual direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. a) policies on risk analysis and information system security b) incident handling c) business continuity – backup management, disaster recovery, crisis management d) supply chain security, including the relationships with direct suppliers and service providers e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure f) policies and procedures to assess the effectiveness of the risk-management measures g) basic cyber hygiene practices and cybersecurity training h) policies and procedures regarding the use of cryptography and, where appropriate, encryption i) human resources security, access control policies and asset management j) the use of multi-factor authentication or continuous authentication, secured voice, video and text communications as well as secured emergency communication Relationship to eIDAS: the conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas – a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary of content, not verified against the original text Article 24(2) · Catalogue of QTSP obligations The central catalogue, in practice the structure of every audit: (a) notification duties (one month for changes, three months for cessation), (b) qualified and trained staff in accordance with European or international standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems including suitable cryptographic techniques, (f) verifiable data storage, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and data loss, (h) recording duty extending beyond the cessation of activities, (i) termination plan, (k) certificate database. Point (j) was deleted – the gap is intentional.",
+   "AUDIT CHECK": "Are backup and recovery procedures tested? 'Rendering inaccessible' also means ransomware.",
+   "KEY POINT": "Six dangers: forge, steal, misappropriate, delete, alter, render inaccessible."
+  }
+ }
+]

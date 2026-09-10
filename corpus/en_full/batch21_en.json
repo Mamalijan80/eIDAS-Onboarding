@@ -1,0 +1,175 @@
+[
+ {
+  "id": "33|Abs. 2",
+  "article": "33",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 141,
+  "fields": {
+   "TOPIC": "Implementing act on the validation service",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with reference standards, specifications and procedures; where these are complied with, the presumption of conformity applies.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI TS 119 441 · Requirements for validation services Policy and security requirements for providers of signature and seal validation services. Relation to eIDAS: gives concrete form to Article 33 and Article 40 eIDAS. ● Summary, not verified against the original text ETSI TS 119 442 · Protocol for validation services Describes the interface and the message formats for requesting validation results. Relation to eIDAS: gives concrete form to Article 33(1)(b) eIDAS. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "34|Abs. 1 + 1a",
+  "article": "34",
+  "locus": "Abs. 1 + 1a",
+  "locus_en": "Paragraphs 1 and 1a",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 142,
+  "fields": {
+   "TOPIC": "Qualified preservation service",
+   "ADDRESSEE": "QTSP (provider of the preservation service)",
+   "CONTENT": "Paragraph 1: A qualified preservation service for QES may ONLY be provided by a QTSP that uses procedures and technologies capable of EXTENDING THE TRUSTWORTHINESS OF THE QES BEYOND THE PERIOD OF ITS TECHNOLOGICAL VALIDITY. Paragraph 1a: Where the standards referred to in paragraph 2 are complied with, the presumption of conformity applies.",
+   "PURPOSE": "Cryptography ages – without preservation, a 15-year-old signature loses its evidentiary value.",
+   "CROSS-REFERENCES": "ETSI TS 119 511 · Preservation services – policy and security requirements Requirements for services which maintain the evidentiary value of signatures and seals over long periods, including re-signing and the renewal of time stamps before the algorithms become obsolete. Relation to eIDAS: gives concrete form to Article 34 eIDAS and is at the same time the point of reference for Article 45j eIDAS. ● Summary, not verified against the original text ETSI TS 119 512 · Protocol and interfaces for preservation services Technical design of the interfaces to preservation services, including the retrieval of evidence. Relation to eIDAS: gives concrete form to Article 34 eIDAS. ● Summary, not verified against the original text Article 40 · Validation and preservation of qualified electronic seals A single sentence: Articles 32, 33 and 34 shall apply mutatis mutandis to the validation and the preservation of qualified electronic seals. The eight verification points, the requirements for the qualified validation service and the preservation obligations therefore apply unchanged to seals as well. Article 45j · Requirements for qualified electronic archiving services Requires provision by qualified providers, procedures and technologies for durability and legibility beyond the technological validity period and at least throughout the entire legal or contractual preservation period, protection against loss and alteration with the exception of changes of medium and of format, as well as a report on integrity retrievable in an automated manner which bears a qualified electronic signature or a qualified electronic seal. Significance here: a demarcation: Article 34 preserves the signature, Article 45j archives the document – two different types of qualified service.",
+   "AUDIT CHECK": "Demarcation in the audit: Article 34 preserves the SIGNATURE, Article 45j archives the DOCUMENTS. Two different types of service.",
+   "KEY POINT": "Preservation (34) keeps the signature alive. Archiving (45j) keeps the document alive."
+  }
+ },
+ {
+  "id": "34|Abs. 2",
+  "article": "34",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 143,
+  "fields": {
+   "TOPIC": "Implementing act on the preservation service",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with reference standards, specifications and procedures.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI TS 119 511 · Preservation services – policy and security requirements Requirements for services which maintain the evidentiary value of signatures and seals over long periods, including re-signing and the renewal of time stamps before the algorithms become obsolete. Relation to eIDAS: gives concrete form to Article 34 eIDAS and is at the same time the point of reference for Article 45j eIDAS. ● Summary, not verified against the original text ETSI TS 119 512 · Protocol and interfaces for preservation services Technical design of the interfaces to preservation services, including the retrieval of evidence. Relation to eIDAS: gives concrete form to Article 34 eIDAS. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "35|Abs. 1-2",
+  "article": "35",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L1",
+  "page": 143,
+  "fields": {
+   "TOPIC": "Legal effects of electronic seals",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: Prohibition of discrimination as for the signature. Paragraph 2: A QUALIFIED electronic seal shall enjoy the PRESUMPTION OF INTEGRITY OF THE DATA AND OF CORRECTNESS OF THE ORIGIN OF THAT DATA.",
+   "PURPOSE": "Legal persons need a counterpart to the handwritten signature – the seal attests origin and integrity, but does NOT replace a handwritten signature.",
+   "CROSS-REFERENCES": "Article 41(2) · Presumption attaching to the qualified electronic time stamp Establishes the presumption of the accuracy of the date and time as well as of the integrity of the data bound to them. The time stamp is the glue of the Regulation: it reappears in signature validation, in Article 44(1)(f) for registered delivery services and, indirectly, in the electronic ledgers under Article 45l. Article 43(2) · The four presumptions of the qualified electronic registered delivery service The densest presumption rule of the Regulation: integrity of the data, the sending of that data by the identified sender, its receipt by the identified addressee as well as the accuracy of the date and time of both operations. This makes the electronic registered delivery service the functional counterpart of registered mail with acknowledgement of receipt. Article 25 · Legal effects of electronic signatures Contains two sentences of far-reaching consequence: paragraph 1 prohibits denying an electronic signature legal effect and admissibility as evidence solely on the grounds that it is in an electronic form or that it does not meet the requirements for qualified electronic signatures. Paragraph 2 gives the qualified electronic signature the equivalent legal effect of a handwritten signature. The former paragraph 3 was deleted by eIDAS 2.0. Significance here: a deliberate difference: equivalence with the handwritten signature only for the signature; for the seal, merely a presumption.",
+   "AUDIT CHECK": "IMPORTANT DIFFERENCE: the seal is given a PRESUMPTION, whereas the QES is given EQUIVALENCE with the handwritten signature.",
+   "KEY POINT": "Signature = person + intent. Seal = organisation + origin. Not interchangeable."
+  }
+ },
+ {
+  "id": "36|Abs. 1 a-d + Abs. 2",
+  "article": "36",
+  "locus": "Abs. 1 a-d + Abs. 2",
+  "locus_en": "Paragraph 1(a)-(d) and paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 144,
+  "fields": {
+   "TOPIC": "Requirements for advanced electronic seals",
+   "ADDRESSEE": "Seal solutions / providers (indirectly)",
+   "CONTENT": "Paragraph 1: (a) uniquely linked to the CREATOR OF THE SEAL; (b) capable of identifying the creator of the seal; (c) created using electronic seal creation data that the creator of the seal can, with a high level of confidence, use UNDER ITS CONTROL; (d) linked to the data in such a way that any subsequent change in the data is detectable. Paragraph 2: Commission assessment as to possible implementing acts, with a deadline for that assessment.",
+   "PURPOSE": "Mirror image of Article 26 – a deliberately identical structure; only the addressee changes from the natural to the legal person.",
+   "DEADLINE": "Paragraph 2: assessment by 21 May 2026",
+   "CROSS-REFERENCES": "Article 26 · Requirements for advanced electronic signatures Names four cumulative requirements: unique linkage to the signatory, capability of identifying him, creation using signature creation data under his sole control with a high level of confidence, and detectability of any subsequent change. Paragraph 2 requires the Commission to assess by 21 May 2026 whether reference standards are necessary by way of an implementing act. Significance here: the only substantive difference: 'sole control' for the signatory, mere 'control' for the creator of the seal. Article 3 · Definitions Contains the legal definitions of points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0 such as 5a, 16a and 21a. Of particular practical importance: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 the electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source and point 47 authentic source.",
+   "AUDIT CHECK": "A fine difference: Article 26(c) requires 'SOLE control', Article 36(c) only 'its control'.",
+   "KEY POINT": "Article 26 = sole control. Article 36 = control. A one-word difference, deliberately made."
+  }
+ },
+ {
+  "id": "37|Abs. 1-3 + 5",
+  "article": "37",
+  "locus": "Abs. 1-3 + 5",
+  "locus_en": "Paragraphs 1-3 and 5",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 144,
+  "fields": {
+   "TOPIC": "Electronic seals in public services",
+   "ADDRESSEE": "Member States / public sector bodies",
+   "CONTENT": "Obligation to recognise and prohibition of excessive requirements BY ANALOGY WITH ARTICLE 27, applied to seals; paragraph 5: implementing act on reference formats for advanced electronic seals.",
+   "PURPOSE": "Mirror image of Article 27 – identical logic, so that authorities also accept evidence relating to organisations EU-wide.",
+   "DEADLINE": "Paragraph 5: by 18 September 2015 (deadline expired; Implementing Regulation (EU) 2015/1506)",
+   "CROSS-REFERENCES": "Article 27 · Electronic signatures in public services Requires Member States which demand an advanced electronic signature in order to use an online service offered by a public sector body also to recognise advanced electronic signatures based on qualified certificates and qualified electronic signatures – at least in the formats defined by implementing act. Conversely, they shall not request, for cross-border use, a level higher than the qualified electronic signature. The former paragraph 4 was deleted.",
+   "AUDIT CHECK": "Are seal formats accepted in the same way as signature formats?",
+   "KEY POINT": "27 and 37 are identical but for the word 'seal'."
+  }
+ },
+ {
+  "id": "38|Abs. 1-6",
+  "article": "38",
+  "locus": "Abs. 1-6",
+  "locus_en": "Paragraphs 1-6",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 145,
+  "fields": {
+   "TOPIC": "Qualified certificates for electronic seals",
+   "ADDRESSEE": "QTSP / Member States",
+   "CONTENT": "Paragraph 1: compliance with ANNEX III. Paragraph 2: no additional requirements going beyond Annex III. Paragraph 3: non-mandatory attributes permissible. Paragraph 4: revocation is FINAL. Paragraph 5: national suspension rules by analogy with Article 28(5). Paragraph 6: implementing act with a presumption of conformity for Annex III.",
+   "PURPOSE": "Mirror image of Article 28, but with an Annex of its own (III instead of I) – the difference lies in Annex III, point (c): the name of the CREATOR OF THE SEAL instead of the signatory.",
+   "DEADLINE": "Paragraph 6: by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 412 · Certificate profiles Part 2 describes profiles for certificates of natural persons, Part 3 for legal persons, Part 4 for website authentication and Part 5 the QCStatements – those machine-readable extensions which indicate, for instance, the qualified status or the use of a QSCD. Relation to eIDAS: the technical counterpart of Annexes I, III and IV. Part 5 is in practice the precondition for a validation under Article 32(1)(f) eIDAS to be able to establish the use of a QSCD by machine at all. ● Summary, not verified against the original text Annex III · Annex III – qualified seal certificates Structure identical to Annex I. The only substantive difference lies in point (c): what is required is the name of the creator of the seal and, where applicable, the registration number as stated in official records – a pseudonym is not provided for here. Article 24a(1) · Recognition of signatures and seals Provides that qualified electronic signatures and qualified electronic seals based on qualified certificates issued in one Member State shall be recognised as such in all other Member States. Article 28 · Qualified certificates for electronic signatures Requires compliance with Annex I and at the same time prohibits the Member States from laying down mandatory requirements going beyond it; non-mandatory additional attributes remain permissible as long as interoperability and recognition are not affected. Revocation is final and shall not be reverted; a temporary suspension is permissible only under the conditions of paragraph 5.",
+   "AUDIT CHECK": "Is the seal certificate profile aligned with Annex III (not Annex I)?",
+   "KEY POINT": "Annex I = signature (pseudonym permitted). Annex III = seal (registration number instead of pseudonym)."
+  }
+ },
+ {
+  "id": "39|Abs. 1-3",
+  "article": "39",
+  "locus": "Abs. 1-3",
+  "locus_en": "Paragraphs 1-3",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L2",
+  "page": 146,
+  "fields": {
+   "TOPIC": "Qualified electronic seal creation devices",
+   "ADDRESSEE": "QTSP / manufacturers",
+   "CONTENT": "Paragraph 1: ARTICLE 29 shall apply mutatis mutandis to the REQUIREMENTS. Paragraph 2: ARTICLE 30 shall apply mutatis mutandis to the CERTIFICATION. Paragraph 3: ARTICLE 31 shall apply mutatis mutandis to the PUBLICATION of the list.",
+   "PURPOSE": "Avoids duplicate regulation – identical technology, a different user. Annex II therefore also applies mutatis mutandis.",
+   "CROSS-REFERENCES": "Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 29 · Requirements for qualified electronic signature creation devices Refers to Annex II for the requirements and contains, in paragraph 1a, the central innovation of eIDAS 2.0: electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a qualified trust service provider providing a qualified trust service for the management of a remote qualified electronic signature creation device under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of relevant standards. Article 30 · Certification of qualified electronic signature creation devices Provides that conformity with Annex II is certified by appropriate public or private bodies designated by the Member States – to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit with a vulnerability assessment every two years. Article 31 · Publication of the list of certified devices Requires the Member States to notify to the Commission, without undue delay and no later than one month after the certification is concluded, the certified signature creation devices – and likewise, within one month, those devices whose certification has been cancelled. The Commission makes the list publicly available.",
+   "AUDIT CHECK": "Is the same hardware used for signatures and for seals? Then ONE certificate covers both cases.",
+   "KEY POINT": "Three paragraphs, three references: 29 – 30 – 31. Neatly numbered through. Qualified service for the management of qualified"
+  }
+ },
+ {
+  "id": "39a|Einziger Absatz",
+  "article": "39a",
+  "locus": "Einziger Absatz",
+  "locus_en": "Sole paragraph",
+  "modality": "Verweisnorm",
+  "modality_en": "REFERENCING PROVISION",
+  "level": "L1",
+  "page": 147,
+  "fields": {
+   "TOPIC": "Qualified remote seal management service",
+   "ADDRESSEE": "QTSP",
+   "CONTENT": "ARTICLE 29a shall apply MUTATIS MUTANDIS to a qualified service for the management of remote qualified electronic seal creation devices.",
+   "PURPOSE": "Remote sealing is treated in exactly the same way as remote signing – including the transitional period under Article 51(3).",
+   "DEADLINE": "Transitional period until 21 May 2026 under Article 51(3)",
+   "CROSS-REFERENCES": "ETSI TS 119 431 · Requirements for remote signature and remote seal services Part 1 is addressed to providers which operate a signature creation device on behalf of the signatory, and deals in particular with key generation, activation data, the sole control of the signatory and back-up copies. Relation to eIDAS: the central standard for Article 29a and Article 39a eIDAS – and thereby for demonstrating that Article 26(1)(c) eIDAS is complied with on the server side as well. ● Summary, not verified against the original text Article 51(3) · Legacy protection for remote signatures and remote seals Permits the management of remote qualified electronic signature and seal creation devices to be continued until 21 May 2026 without a qualified status of its own. Thereafter Articles 29a and 39a apply without restriction. For providers of remote signing this is the most important cut-off date of the entire recast. Article 29a · Qualified service for the management of remote signature creation devices Makes the server-side management of signature keys a qualified trust service in its own right, subject to three conditions: generation or management of the data on behalf of the signatory, duplication exclusively for back-up purposes at the same security level and in no more copies than the minimum needed, as well as compliance with all requirements identified in the certification report under Article 30. Legacy protection applies until 21 May 2026.",
+   "AUDIT CHECK": "Is remote sealing offered? Then the same cut-off date of 21 May 2026 applies as for remote signing.",
+   "KEY POINT": "One sentence, full effect. Article 51(3) expressly names BOTH – 29a and 39a."
+  }
+ }
+]

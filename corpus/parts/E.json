@@ -1,0 +1,382 @@
+{
+ "part": "E",
+ "title": "Deadline calendar",
+ "rows": [
+  {
+   "date": "17 September 2014",
+   "article": "Article 52(2)(a)",
+   "action": "Start of application of the empowering provisions (including Articles 8(3), 12, 20(4), 21(4), 22(5), 23(3), 24(5), 28(6), 47, 48)",
+   "addressee": "Commission",
+   "note": "expired"
+  },
+  {
+   "date": "1 July 2015",
+   "article": "Article 23(3)",
+   "action": "Implementing Regulation on the design of the EU trust mark",
+   "addressee": "Commission",
+   "note": "expired - Implementing Regulation (EU) 2015/806"
+  },
+  {
+   "date": "18 September 2015",
+   "article": "Article 8(3)",
+   "action": "Implementing Regulation on the assurance levels (LoA)",
+   "addressee": "Commission",
+   "note": "expired - Implementing Regulation (EU) 2015/1502"
+  },
+  {
+   "date": "18 September 2015",
+   "article": "Article 22(5)",
+   "action": "Implementing Regulation on the information and format of the trusted lists",
+   "addressee": "Commission",
+   "note": "expired - Implementing Regulation (EU) 2015/1505"
+  },
+  {
+   "date": "18 September 2015",
+   "article": "Article 27(5) / 37(5)",
+   "action": "Implementing Regulation on reference formats for signatures and seals",
+   "addressee": "Commission",
+   "note": "expired - Implementing Regulation (EU) 2015/1506"
+  },
+  {
+   "date": "1 July 2016",
+   "article": "Article 50(1) / 52(2)",
+   "action": "Repeal of Directive 1999/93/EC and general start of application of the Regulation",
+   "addressee": "all",
+   "note": "expired"
+  },
+  {
+   "date": "20 May 2024",
+   "article": "Article 51(4)",
+   "action": "Cut-off date: QTSPs granted qualified status BEFORE this date shall upgrade",
+   "addressee": "QTSP",
+   "note": "expired - triggers the obligation falling due on 21 May 2026"
+  },
+  {
+   "date": "18 October 2024",
+   "article": "-",
+   "action": "Status of the present consolidated version 02014R0910 - 002.001",
+   "addressee": "-",
+   "note": "reference point of this table"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 5a(23)",
+   "action": "Implementing Regulation on the core European Digital Identity Wallet requirements (paragraphs 4, 5, 8, 18) - basis of the ARF",
+   "addressee": "Commission",
+   "note": "DEADLINE ANCHOR for Articles 5a(1), 5f(2), 45e(1)"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 5b(11)",
+   "action": "Implementing Regulation on the registration of relying parties",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 5c(6)",
+   "action": "Implementing Regulation on the certification of the European Digital Identity Wallet",
+   "addressee": "Commission",
+   "note": "SECOND DEADLINE ANCHOR for Article 5a(1)"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 5d(7)",
+   "action": "Implementing Regulation on the formats and procedures for the European Digital Identity Wallet list notification",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 5e(5)",
+   "action": "Implementing Regulation on measures in the event of European Digital Identity Wallet security breaches",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 11a(3)",
+   "action": "Implementing Regulation on cross-border identity matching",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 45d(5)",
+   "action": "Implementing Regulation on qualified electronic attestations of attributes (Annex V)",
+   "addressee": "Commission",
+   "note": "shall be consistent with the European Digital Identity Wallet Implementing Regulation"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 45e(2)",
+   "action": "Implementing Regulation on the catalogue of attributes (Annex VI) and on the verification procedures",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 November 2024",
+   "article": "Article 45f(6) and (7)",
+   "action": "Implementing Regulation on PuB-EAA (Annex VII) and on the notification procedure",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "18 March 2025",
+   "article": "Article 12(6)",
+   "action": "Implementing Regulation on the procedural arrangements for mutual assessment (peer review)",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 19a(2)",
+   "action": "Implementing Regulation on reference standards for non-qualified trust service providers",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 20(4)",
+   "action": "Implementing Regulation on CAB accreditation, the conformity assessment report and audit rules",
+   "addressee": "Commission",
+   "note": "Implementing Regulation (EU) 2025/2162 - AUDIT CORE"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 21(4)",
+   "action": "Implementing Regulation on the form and procedure of the notification for qualified status",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 24(1c)",
+   "action": "Implementing Regulation on the verification of identity and attributes",
+   "addressee": "Commission",
+   "note": "basis for Article 51(4)"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 24(5)",
+   "action": "Implementing Regulation on the requirements for QTSPs (Article 24(2))",
+   "addressee": "Commission",
+   "note": "Implementing Regulation (EU) 2025/2530 - AUDIT CORE"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 28(6) / 38(6)",
+   "action": "Implementing Regulation on qualified certificates for signatures and seals",
+   "addressee": "Commission",
+   "note": "Implementing Regulation (EU) 2025/1943"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 29a(2)",
+   "action": "Implementing Regulation on the qualified remote signature management service",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 31(3) / 32(3) / 32a(3) / 33(2) / 34(2)",
+   "action": "Implementing Regulation on QSCD lists, signature validation and preservation services",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "21 May 2025",
+   "article": "Article 42(2) / 44(2) / 45(2) / 45j(2) / 45l(3)",
+   "action": "Implementing Regulation on time stamps, ERDS, QWAC, archiving and ledgers",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "18 September 2025",
+   "article": "Article 12(8)",
+   "action": "Implementing Regulation on the interoperability framework for notified eID schemes",
+   "addressee": "Commission",
+   "note": "together with Article 8(3), triggers the start of application under Article 52(2)(b)"
+  },
+  {
+   "date": "21 May 2026",
+   "article": "Article 51(2)",
+   "action": "Qualified certificates for natural persons under Directive 1999/93/EC cease to have continued validity",
+   "addressee": "QTSP",
+   "note": "AUDIT-RELEVANT"
+  },
+  {
+   "date": "21 May 2026",
+   "article": "Article 51(3)",
+   "action": "Management of remote signatures and remote seals without its own qualified status ends - from then on, obligation under Articles 29a / 39a",
+   "addressee": "QTSP",
+   "note": "AUDIT-RELEVANT - biggest change in practice"
+  },
+  {
+   "date": "21 May 2026",
+   "article": "Article 51(4)",
+   "action": "Existing QTSPs shall submit a CAR on compliance with Article 24(1), (1a) and (1b)",
+   "addressee": "QTSP",
+   "note": "AUDIT-RELEVANT"
+  },
+  {
+   "date": "21 May 2026",
+   "article": "Article 26(2) / 36(2)",
+   "action": "Assessment by the Commission of whether Implementing Regulations on advanced signatures and seals are necessary",
+   "addressee": "Commission",
+   "note": "only the assessment is time-limited, not the legal act"
+  },
+  {
+   "date": "21 May 2027",
+   "article": "Article 51(1)",
+   "action": "Secure signature creation devices (SSCD) under Directive 1999/93/EC cease to have continued validity as QSCD",
+   "addressee": "QTSP / manufacturers",
+   "note": "AUDIT-RELEVANT"
+  },
+  {
+   "date": "24 months after Implementing Regulation 5a(23) + 5c(6)",
+   "article": "Article 5a(1)",
+   "action": "Each Member State shall provide at least one European Digital Identity Wallet",
+   "addressee": "Member States",
+   "note": "depends on the entry into force of BOTH Implementing Regulations"
+  },
+  {
+   "date": "24 months after Implementing Regulation 5a(23) + 5c(6)",
+   "article": "Article 45e(1)",
+   "action": "Electronic verification of the Annex VI attributes against authentic sources is made possible",
+   "addressee": "Member States",
+   "note": "same deadline anchor as Article 5a(1)"
+  },
+  {
+   "date": "36 months after Implementing Regulation 5a(23) + 5c(6)",
+   "article": "Article 5f(2)",
+   "action": "Certain private relying parties shall accept the European Digital Identity Wallet",
+   "addressee": "Private RP (except microenterprises and small enterprises)",
+   "note": "-"
+  },
+  {
+   "date": "24 months after European Digital Identity Wallet deployment",
+   "article": "Article 5f(5)",
+   "action": "Assessment by the Commission of the demand for, and the availability and usability of, the European Digital Identity Wallet",
+   "addressee": "Commission",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: every 24 months",
+   "article": "Article 20(1)",
+   "action": "Conformity assessment of the QTSP by a CAB at its own expense",
+   "addressee": "QTSP",
+   "note": "AUDIT CORE DEADLINE"
+  },
+  {
+   "date": "ongoing: 1 month in advance",
+   "article": "Article 20(1a)",
+   "action": "Advance information to the supervisory body about planned audits",
+   "addressee": "QTSP",
+   "note": "new in eIDAS 2.0"
+  },
+  {
+   "date": "ongoing: 3 working days",
+   "article": "Article 20(1)",
+   "action": "Submission of the conformity assessment report to the supervisory body after its receipt",
+   "addressee": "QTSP",
+   "note": "WORKING days"
+  },
+  {
+   "date": "ongoing: 1 month / 3 months",
+   "article": "Article 24(2)(a)",
+   "action": "Notification of changes (1 month) or of cessation of activities (3 months)",
+   "addressee": "QTSP",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: 24 hours",
+   "article": "Article 19a(1)(b)",
+   "action": "Notification of significant security breaches from BECOMING AWARE",
+   "addressee": "Non-qualified TSP",
+   "note": "deadline starts: awareness"
+  },
+  {
+   "date": "ongoing: 24 hours",
+   "article": "Article 24(2)(fb)",
+   "action": "Notification of significant security breaches AFTER THE INCIDENT",
+   "addressee": "QTSP",
+   "note": "deadline starts: incident - stricter than for TSP"
+  },
+  {
+   "date": "ongoing: 24 hours",
+   "article": "Article 24(3)",
+   "action": "Publication of the revocation status after receipt of the request",
+   "addressee": "QTSP",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: 3 months",
+   "article": "Article 5e(2) / 10(3)",
+   "action": "At the latest after three months without remedy: withdrawal of the European Digital Identity Wallet or revocation of the eID scheme",
+   "addressee": "Member States",
+   "note": "identical deadline in both provisions"
+  },
+  {
+   "date": "ongoing: 3 months",
+   "article": "Article 21(2)",
+   "action": "Decision of the supervisory body on the granting of qualified status",
+   "addressee": "supervisory body",
+   "note": "of which 2 months for the NIS2 response"
+  },
+  {
+   "date": "ongoing: 1 month",
+   "article": "Article 9(3) / 9(4) / 5d(6) / 31(1)",
+   "action": "Publication or notification of changes to lists",
+   "addressee": "Commission / Member States",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: 5 years / 2 years",
+   "article": "Article 5c(4) / 12a(3) / 30(3a)",
+   "action": "Maximum validity of certifications where a vulnerability assessment is carried out every two years",
+   "addressee": "CAB / designated bodies",
+   "note": "Article 12a(3) additionally specifies a 3-month remediation period"
+  },
+  {
+   "date": "ongoing: 6 months",
+   "article": "Article 7(g)",
+   "action": "Provision of the description of the scheme to the other MS before a notification",
+   "addressee": "Notifying MS",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: 12 months",
+   "article": "Article 6(1)",
+   "action": "Deadline for recognition of a notified eID means after publication of the list",
+   "addressee": "Member States",
+   "note": "-"
+  },
+  {
+   "date": "ongoing: annually",
+   "article": "Article 48a",
+   "action": "Statistical report from the Member States to the Commission",
+   "addressee": "Member States",
+   "note": "-"
+  }
+ ],
+ "rows_in_source": 51,
+ "check": {
+  "rows_checked": 51,
+  "verdict": "PASS WITH MINOR DEFECTS. Row indices below are 0-based positions in the JSON array (row 0 = \"17 September 2014\"). Structure is clean: the JSON has 51 rows, exactly matching the 51 German table rows (headers on source lines 4-5, 53-54, 106-107 correctly dropped), and the order is identical. No cell is shifted between rows or columns - every date/article/action/addressee/note quadruple sits where the German has it, including the multi-line wrapped rows (e.g. source lines 59-63, 64-68, 120-122) and the \"-\" placeholders in row 7. A token-level diff of all numerals shows a perfect match: every article, paragraph, annex (V, VI, VII) and Implementing Regulation number (2015/806, 2015/1502, 2015/1505, 2015/1506, 2025/2162, 2025/2530, 2025/1943) is unchanged, and the multi-article cells (27(5)/37(5); 50(1)/52(2); 31(3)/32(3)/32a(3)/33(2)/34(2); 42(2)/44(2)/45(2)/45j(2)/45l(3); 9(3)/9(4)/5d(6)/31(1); 5c(4)/12a(3)/30(3a); 26(2)/36(2); 5e(2)/10(3)) are complete and in source order. All 34 dates are converted correctly and unambiguously from DD.MM.YYYY to spelled-out month form - no day/month transposition (checked especially 01.07.2015, 01.07.2016, 18.03.2025, 20.05.2024). Defined terms follow the glossary: \"Wallet\" is consistently expanded to \"European Digital Identity Wallet\" (#42), \"vertrauende Beteiligte\" to \"relying parties\" (#6), \"Identitaetsabgleich\" to \"identity matching\" (#55), \"Journalen\" to \"ledgers\" (#52), \"authentische Quellen\" to \"authentic sources\" (#47), \"Attributsbescheinigungen\" to \"attestations of attributes\" (#44/45), \"Vertrauensdiensteanbieter\" to \"trust service providers\" (#19). Substantive wording checked against the official English also holds: Art 51(1)-(4), 5a(1) (\"each Member State shall provide at least one European Digital Identity Wallet\"), 5f(2) (36 months, \"microenterprises and small enterprises\"), 5f(5) (\"the demand for, and the availability and usability of\"), 20(1)/(1a) (\"at their own expense\", \"three working days\", \"one month before any planned audits\"), 21(2) (three months / two-month NIS2 response), 24(1c) (\"verification of identity and attributes\"), 24(2)(a) (one month / three months), 24(2)(fb) and 24(3) (24 hours), 5c(4)/12a(3) (five years, biennial vulnerability assessment, three-month remediation), 6(1) (12 months), 7(g) (six months), 26(2)/36(2), 48a, 52(2)(a)/(b). Two terminology defects remain, both in the \"action\" column; neither affects a number, date or row placement.",
+  "defects": [
+   {
+    "row": 17,
+    "field": "action",
+    "problem": "\"gegenseitigen Begutachtung (Peer Review)\" is rendered as \"mutual assessment (peer review)\". \"Mutual assessment\" is not the official English term: Regulation (EU) No 910/2014 Art 12(5)/(6) uses German \"gegenseitige Begutachtungen\" for English \"peer reviews\" (\"the necessary procedural arrangements for the peer reviews referred to in paragraph 5\"). The invented term plus the parenthetical gloss is redundant and breaks the one-to-one mapping to the official vocabulary.",
+    "correction": "Implementing Regulation on the procedural arrangements for the peer reviews"
+   },
+   {
+    "row": 44,
+    "field": "action",
+    "problem": "\"Zuruecknahme des eID-Systems\" is rendered as \"revocation of the eID scheme\". The official English of Art 10(3) for German \"Zurücknahme des elektronischen Identifizierungssystems\" is \"withdrawal of the electronic identification scheme\". \"Revocation\" is the official English for a different German verb in the same article (Art 10(1) \"widerruft\" = \"revoke\", which applies to the cross-border authentication, not to the scheme), so the choice both departs from the official term and blurs two distinct legal acts.",
+    "correction": "At the latest after three months without remedy: withdrawal of the European Digital Identity Wallet or withdrawal of the eID scheme"
+   }
+  ]
+ }
+}

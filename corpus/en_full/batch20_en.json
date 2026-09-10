@@ -1,0 +1,170 @@
+[
+ {
+  "id": "30|Abs. 4",
+  "article": "30",
+  "locus": "Abs. 4",
+  "locus_en": "Paragraph 4",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 136,
+  "fields": {
+   "TOPIC": "Delegated act on the criteria for the designated bodies",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission SHALL BE EMPOWERED to adopt DELEGATED acts in accordance with Article 47 concerning specific criteria to be met by the designated bodies.",
+   "PURPOSE": "Identical construction to Article 5c(8) for Wallet CABs.",
+   "CROSS-REFERENCES": "Article 5c(8) · Delegated act on the assessment bodies Empowers the Commission to adopt delegated acts in accordance with Article 47 laying down specific criteria for the designated conformity assessment bodies. A delegated act means: Parliament and Council have a right of objection – unlike under the examination procedure of Article 48. Article 47 · Exercise of the delegation Governs the procedure for delegated acts: the duration of the delegation, revocation at any time by the Parliament or the Council, the consultation of experts and the objection period within which the Parliament or the Council may raise objections. The Regulation refers to Article 47 in only three places: Article 5c(8), Article 24(4b) and Article 30(4).",
+   "AUDIT CHECK": "Delegated (Article 47), not implementing (Article 48) – remember the difference in procedure."
+  }
+ },
+ {
+  "id": "31|Abs. 1-2",
+  "article": "31",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 136,
+  "fields": {
+   "TOPIC": "Notification and list of certified QSCD",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Paragraph 1: Member States SHALL NOTIFY to the Commission WITHOUT UNDUE DELAY AND NO LATER THAN WITHIN ONE MONTH after the certification is concluded, information on certified QSCD – and likewise within ONE MONTH after CANCELLATION, information on devices that are no longer certified. Paragraph 2: The Commission shall establish, publish and maintain the list.",
+   "PURPOSE": "Relying parties and supervisory bodies must be able to check whether a device in use is genuinely certified – in both directions.",
+   "DEADLINE": "1 month (certification and cancellation)",
+   "CROSS-REFERENCES": "Article 39(3) · Reference to the list Provides for the mutatis mutandis application of Article 31: notification within one month after certification as well as after cancellation, maintenance of the list by the Commission. Article 32(1) · The eight verification points of QES validation The validation confirms validity only where all eight conditions are met: a qualified certificate complying with Annex I at the time of signing, issuance by a QTSP and validity, correspondence of the validation data, correct provision of the data set representing the signatory, clear indication of any pseudonym, creation by a QSCD, integrity of the signed data and fulfilment of Article 26. Point (f) – the QSCD condition – is precisely the point that is missing in Article 32a. Article 30 · Certification of qualified electronic signature creation devices Provides that conformity with Annex II is certified by appropriate public or private bodies designated by the Member States – to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit with a vulnerability assessment every two years.",
+   "AUDIT CHECK": "Is the QSCD in use included in the current Commission list?",
+   "KEY POINT": "One month – for inclusion AND for removal."
+  }
+ },
+ {
+  "id": "31|Abs. 3",
+  "article": "31",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 137,
+  "fields": {
+   "TOPIC": "Implementing act on formats and procedures",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act on the formats and procedures for the purpose of paragraph 1.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "32|Abs. 1 a-h",
+  "article": "32",
+  "locus": "Abs. 1 a-h",
+  "locus_en": "Paragraph 1(a)-(h)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 138,
+  "fields": {
+   "TOPIC": "Validation of qualified electronic signatures",
+   "ADDRESSEE": "Validating body / relying party (RP) / validation service",
+   "CONTENT": "The validation process SHALL CONFIRM the validity of a QES provided that: (a) the certificate that supports the signature was, AT THE TIME OF SIGNING, a qualified certificate complying with Annex I; (b) it was issued by a QTSP and was VALID at the time of signing; (c) the signature validation data CORRESPONDS to the data provided to the relying party; (d) the unique set of data representing the signatory is CORRECTLY provided to the relying party; (e) the USE OF ANY PSEUDONYM is CLEARLY indicated to the relying party; (f) the signature was created by a QSCD; (g) the INTEGRITY of the signed data has not been compromised; (h) the requirements provided for in ARTICLE 26 were met at the time of signing. Where the validation complies with the standards referred to in paragraph 3, the PRESUMPTION OF CONFORMITY applies.",
+   "PURPOSE": "A signature is worth only as much as its verification – without uniform validation rules there would be contradictory results.",
+   "CROSS-REFERENCES": "ETSI EN 319 102 · Procedures for the creation and validation of signatures and seals Part 1 defines the validation model with the result classes TOTAL-PASSED, TOTAL-FAILED and INDETERMINATE, the building blocks of validation as well as the handling of validation times and proofs of preservation. Relation to eIDAS: Technical basis of Articles 32, 32a, 33, 40 and 40a eIDAS. The result classes are decisive for the display obligation under Article 32(2) eIDAS. ● Summary of content, not verified against the original text Article 24(4) · Permanent status information The QTSP makes information on the validity and revocation status available to relying parties – at least on a per certificate basis, at any time, beyond the validity period, in an automated manner, reliably, free of charge and efficiently. The addition 'beyond the validity period' is decisive: only in that way can signatures still be validated years later. Article 26 · Requirements for advanced electronic signatures Names four cumulative requirements: unique linkage to the signatory, capability of identifying him, creation using signature creation data under his sole control with a high level of confidence, and detectability of any subsequent change. Paragraph 2 requires the Commission to assess by 21 May 2026 whether reference standards are necessary by way of an implementing act. Significance here: point (h) checks retrospectively whether the requirements of this Article were met at the time of signing. Article 28 · Qualified certificates for electronic signatures Requires compliance with Annex I and at the same time prohibits the Member States from laying down mandatory requirements going beyond it; non-mandatory additional attributes remain permissible as long as interoperability and recognition are not affected. Revocation is final and shall not be reverted; a temporary suspension is permissible only under the conditions of paragraph 5. Article 29 · Requirements for qualified electronic signature creation devices Refers to Annex II for the requirements and contains, in paragraph 1a, the central innovation of eIDAS 2.0: electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a qualified trust service provider providing a qualified trust service for the management of a remote qualified electronic signature creation device under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of relevant standards. Article 33 · Qualified validation service Permits provision only by qualified providers and requires that validation be carried out in accordance with Article 32(1) and that the result be provided in an automated, reliable and efficient manner – confirmed by an advanced electronic signature or an advanced electronic seal of the provider. For the result report the advanced form is therefore sufficient. Article 40 · Validation and preservation of qualified electronic seals A single sentence: Articles 32, 33 and 34 shall apply mutatis mutandis to the validation and preservation of qualified electronic seals. The eight verification points, the requirements for the qualified validation service and the preservation obligations thus apply unchanged to seals as well.",
+   "AUDIT CHECK": "Does the validation application check ALL eight points – in particular point (f) (use of a QSCD) and point (e) (pseudonym)?",
+   "KEY POINT": "Eight verification points. Point (f) (QSCD) is precisely the point that is MISSING in Article 32a."
+  }
+ },
+ {
+  "id": "32|Abs. 2",
+  "article": "32",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 139,
+  "fields": {
+   "TOPIC": "Correct display of the result",
+   "ADDRESSEE": "Validating body / validation system",
+   "CONTENT": "The validation system SHALL PROVIDE the relying party with the CORRECT RESULT and SHALL ALLOW it TO DETECT ANY SECURITY RELEVANT ISSUES.",
+   "PURPOSE": "A technically correct result that is displayed in an unintelligible manner leads to wrong decisions by the user.",
+   "CROSS-REFERENCES": "Article 33(1) · Qualified validation service Only QTSPs may provide it. They shall validate in accordance with Article 32(1) and provide the result in an automated, reliable and efficient manner – confirmed by their ADVANCED electronic signature or their advanced electronic seal. For the result report the advanced form is therefore sufficient, unlike for the archiving report under Article 45j(1)(d). Article 45(1a) · Obligations of the providers of web-browsers The politically most contested provision of eIDAS 2.0. Providers of web-browsers shall recognise qualified certificates for website authentication, display the attested identity data in a user-friendly manner and ensure support as well as interoperability. Microenterprises and small enterprises are exempt during their first five years of operation. For the first time browser manufacturers are placed under obligation directly by eIDAS. “Providers of web-browsers shall ensure that the identity data attested in the certificate and additional attested attributes are displayed in a user-friendly manner” ✓ Article 45(1a) eIDAS",
+   "AUDIT CHECK": "Are warnings and partial results displayed intelligibly for the user?",
+   "KEY POINT": "Not only compute correctly – display intelligibly as well."
+  }
+ },
+ {
+  "id": "32|Abs. 3",
+  "article": "32",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 139,
+  "fields": {
+   "TOPIC": "Implementing act on validation",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with reference standards, specifications and procedures for the validation of qualified electronic signatures.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 102 · Procedures for the creation and validation of signatures and seals Part 1 defines the validation model with the result classes TOTAL-PASSED, TOTAL-FAILED and INDETERMINATE, the building blocks of validation as well as the handling of validation times and proofs of preservation. Relation to eIDAS: Technical basis of Articles 32, 32a, 33, 40 and 40a eIDAS. The result classes are decisive for the display obligation under Article 32(2) eIDAS. ● Summary of content, not verified against the original text ETSI TS 119 172 · Signature Policies Describes how signature policies are formulated and represented in machine-readable form – that is, which conditions a signature has to meet in a given context. Relation to eIDAS: Practical complement to the validation under Article 32 eIDAS. ● Summary of content, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "32a|Abs. 1 a-g",
+  "article": "32a",
+  "locus": "Abs. 1 a-g",
+  "locus_en": "Paragraph 1(a)-(g)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 140,
+  "fields": {
+   "TOPIC": "Validation of an AdES with a qualified certificate",
+   "ADDRESSEE": "Validating body / validation service",
+   "CONTENT": "The validation of an AdES BASED ON A QUALIFIED CERTIFICATE shall confirm its validity provided that (a) a qualified certificate complying with Annex I at the time of signing; (b) issued by a QTSP and valid; (c) the validation data corresponds; (d) the set of data representing the signatory correctly provided; (e) any pseudonym clearly indicated; (f) the INTEGRITY not compromised; (g) the requirements of Article 26 met.",
+   "PURPOSE": "Closes the gap for the case, very frequent in practice, of AdES-with-a-qualified-certificate – new in eIDAS 2.0.",
+   "CROSS-REFERENCES": "Article 32 · Requirements for the validation of qualified electronic signatures Sets out in eight points when a validation may confirm validity: a qualified certificate complying with Annex I at the time of signing, issuance by a qualified trust service provider and validity, correspondence of the validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a qualified electronic signature creation device, integrity of the data and compliance with Article 26. Paragraph 2 additionally requires the result to be displayed in an understandable manner. Significance here: the difference consists in exactly one point: the QSCD condition of paragraph 1, point (f) is missing here. Article 26 · Requirements for advanced electronic signatures Names four cumulative requirements: unique linkage to the signatory, capability of identifying him, creation using signature creation data under his sole control with a high level of confidence, and detectability of any subsequent change. Paragraph 2 requires the Commission to assess by 21 May 2026 whether reference standards are necessary by way of an implementing act. Article 40a · Validation of advanced electronic seals based on qualified certificates A single sentence: Article 32a shall apply mutatis mutandis. The mirroring between the signature section and the seal section is thereby complete – every Article of Section 4 has a counterpart in Section 5.",
+   "AUDIT CHECK": "EXAMINATION TRAP: Article 32a has SEVEN points, Article 32 has EIGHT. It is precisely the QSCD condition (Article 32(1)(f)) that is missing.",
+   "KEY POINT": "32 minus QSCD = 32a. The only difference – and precisely that one makes the difference between QES and AdES."
+  }
+ },
+ {
+  "id": "32a|Abs. 2-3",
+  "article": "32a",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L3",
+  "page": 140,
+  "fields": {
+   "TOPIC": "Display of the result and implementing act",
+   "ADDRESSEE": "Validation system / Commission",
+   "CONTENT": "Paragraph 2: Provision of the result and detectability of security relevant issues as in Article 32(2). Paragraph 3: Implementing act with reference standards; where these are complied with, the presumption of conformity applies for paragraph 1.",
+   "PURPOSE": "-",
+   "DEADLINE": "Paragraph 3: by 21 May 2025",
+   "CROSS-REFERENCES": "Article 32(2) · Display of the result Requires the validation system to provide the relying party with the correct result of the validation process and to allow it to detect any security relevant issues. A technically correct result that is displayed in an unintelligible manner leads to wrong decisions. Article 40a · Validation of advanced electronic seals based on qualified certificates A single sentence: Article 32a shall apply mutatis mutandis. The mirroring between the signature section and the seal section is thereby complete – every Article of Section 4 has a counterpart in Section 5."
+  }
+ },
+ {
+  "id": "33|Abs. 1 a-b",
+  "article": "33",
+  "locus": "Abs. 1 a-b",
+  "locus_en": "Paragraph 1(a)-(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 141,
+  "fields": {
+   "TOPIC": "Qualified validation service",
+   "ADDRESSEE": "QTSP (provider of the validation service)",
+   "CONTENT": "Qualified validation services for QES may ONLY be provided by QTSPs who (a) provide validation IN COMPLIANCE WITH ARTICLE 32(1) AND (b) allow relying parties to receive the result in an AUTOMATED manner, which is RELIABLE and EFFICIENT and BEARS THE ADVANCED ELECTRONIC SIGNATURE OR THE ADVANCED ELECTRONIC SEAL of the provider of the validation service.",
+   "PURPOSE": "Enables relying parties to outsource the complex validation and to rely on a signed result.",
+   "CROSS-REFERENCES": "ETSI TS 119 441 · Requirements for validation services Policy and security requirements for providers of signature and seal validation services. Relation to eIDAS: gives concrete form to Article 33 and Article 40 eIDAS. ● Summary of content, not verified against the original text ETSI TS 119 442 · Protocol for validation services Describes the interface and message formats for requesting validation results. Relation to eIDAS: gives concrete form to Article 33(1)(b) eIDAS. ● Summary of content, not verified against the original text Article 32(1) · The eight verification points of QES validation The validation confirms validity only where all eight conditions are met: a qualified certificate complying with Annex I at the time of signing, issuance by a QTSP and validity, correspondence of the validation data, correct provision of the data set representing the signatory, clear indication of any pseudonym, creation by a QSCD, integrity of the signed data and fulfilment of Article 26. Point (f) – the QSCD condition – is precisely the point that is missing in Article 32a. Article 40 · Validation and preservation of qualified electronic seals A single sentence: Articles 32, 33 and 34 shall apply mutatis mutandis to the validation and preservation of qualified electronic seals. The eight verification points, the requirements for the qualified validation service and the preservation obligations thus apply unchanged to seals as well.",
+   "AUDIT CHECK": "Is the validation result actually delivered signed or sealed?",
+   "KEY POINT": "Note: an ADVANCED electronic signature suffices for the result report – not a qualified one."
+  }
+ }
+]

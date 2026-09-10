@@ -1,0 +1,175 @@
+[
+ {
+  "id": "28|Abs. 6",
+  "article": "28",
+  "locus": "Abs. 6",
+  "locus_en": "Paragraph 6",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 127,
+  "fields": {
+   "TOPIC": "Implementing act on qualified certificates for electronic signatures",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with a list of reference standards and, where necessary, specifications and procedures; where these are complied with, the PRESUMPTION OF CONFORMITY applies for Annex I.",
+   "PURPOSE": "Without a certificate profile, Annex I would be open to differing technical interpretations.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI EN 319 412 · Certificate profiles Part 2 describes profiles for certificates of natural persons, Part 3 for legal persons, Part 4 for website authentication and Part 5 the QCStatements – those machine-readable extensions which indicate, for example, the qualified status or the use of a QSCD. Relationship to eIDAS: the technical counterpart of Annexes I, III and IV. Part 5 is in practice the precondition for a validation under Article 32(1)(f) eIDAS being able to establish the use of a QSCD by machine at all. ● Summary of content, not verified against the original text Annex I · Annex I – qualified certificates for electronic signatures Ten mandatory items a to j: machine-readable indication that the certificate has been issued as a qualified certificate, a set of data identifying the issuing QTSP including its Member State of establishment, the name OR pseudonym of the signatory, electronic signature validation data, the period of validity, a unique identity code, an advanced electronic signature or advanced electronic seal of the QTSP, the location where the underlying certificate is available free of charge, an indication of the validity status service and an indication whether a QSCD is used. Article 38(6) · Implementing act on certificates for electronic seals Empowers the Commission to establish reference standards, specifications and procedures; where these are complied with, the presumption of conformity applies for Annex III. In practice this act was adopted together with the one under Article 28(6). Article 5 · Use of pseudonyms A single, unnumbered sentence: without prejudice to specific obligations to identify oneself and to the legal effects given to pseudonyms under national law, the use of pseudonyms chosen by the user shall not be prohibited in electronic transactions. The Article has NO paragraphs. It is given concrete form in Article 5a(4)(b), Article 5b(9) and Article 32(1)(e).",
+   "AUDIT CHECK": "Does the certificate profile used meet the reference standards of the implementing act?",
+   "KEY POINT": "Article 28(6) and Article 38(6) are regularly implemented together in a SINGLE legal act."
+  }
+ },
+ {
+  "id": "29|Abs. 1",
+  "article": "29",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 128,
+  "fields": {
+   "TOPIC": "Requirements for QSCD",
+   "ADDRESSEE": "QTSP / manufacturers of QSCD",
+   "CONTENT": "Qualified electronic signature creation devices SHALL meet the requirements laid down in ANNEX II.",
+   "PURPOSE": "The private key is the core of the QES – it must reside in an evaluated environment.",
+   "CROSS-REFERENCES": "CEN EN 419211 · Protection profiles for local signature creation devices A series of Common Criteria protection profiles for smart cards and similar devices in which the signature key is generated and used, with variants for key generation, key import and trusted channel. Relationship to eIDAS: the basis of evaluation for the certification under Article 30 eIDAS against Annex II. ● Summary of content, not verified against the original text CEN EN 419241 · Requirements and protection profile for server-side signature creation Part 1 sets out the security requirements for remote signing systems, among them ensuring the sole control of the signatory; Part 2 contains the associated protection profile for the cryptographic module. Relationship to eIDAS: the central basis of evaluation for Article 29a eIDAS. The certification report under Article 30 eIDAS, to which Article 29a(1)(c) eIDAS refers, is in practice based on this standard. ● Summary of content, not verified against the original text Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 39(1) · Reference to the requirements Provides that Article 29 applies mutatis mutandis to qualified electronic seal creation devices – and thereby indirectly Annex II as well as the rules on remote management. Article 30 · Certification of qualified electronic signature creation devices Provides that conformity with Annex II is certified by appropriate public or private bodies designated by the Member States – to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit with a vulnerability assessment every two years. Article 31 · Publication of the list of certified devices Requires the Member States to notify to the Commission, without undue delay and no later than one month after the certification is concluded, the certified signature creation devices – and likewise, within one month, those devices whose certification has been cancelled. The Commission makes the list publicly available.",
+   "AUDIT CHECK": "Is the QSCD used certified under Article 30 and included in the list under Article 31?",
+   "KEY POINT": "Annex II has only two points – but point 1 has four sub-points."
+  }
+ },
+ {
+  "id": "29|Abs. 1a",
+  "article": "29",
+  "locus": "Abs. 1a",
+  "locus_en": "Paragraph 1a",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 129,
+  "fields": {
+   "TOPIC": "Key generation only by a qualified service",
+   "ADDRESSEE": "QTSP (remote signing service)",
+   "CONTENT": "The GENERATING or MANAGING of electronic signature creation data or the DUPLICATING of such signature creation data for back-up purposes SHALL be carried out ONLY ON BEHALF OF THE SIGNATORY, AT THE REQUEST OF THE SIGNATORY, and by a QTSP providing a qualified trust service for the management of a remote qualified electronic signature creation device.",
+   "PURPOSE": "The central innovation of eIDAS 2.0: server-side key management itself becomes subject to qualification.",
+   "DEADLINE": "transitional period until 21 May 2026 under Article 51(3)",
+   "CROSS-REFERENCES": "ETSI TS 119 431 · Requirements for remote signature and remote seal services Part 1 is addressed to providers which operate a signature creation device on behalf of the signatory, and deals in particular with key generation, activation data, the sole control of the signatory and back-up copies. Relationship to eIDAS: the central standard for Article 29a and Article 39a eIDAS – and thereby for demonstrating that Article 26(1)(c) eIDAS is complied with on the server side as well. ● Summary of content, not verified against the original text Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 51(3) · Legacy protection for remote signatures and remote seals Permits the management of remote qualified electronic signature and seal creation devices to be continued until 21 May 2026 without a qualified status of its own. Thereafter Articles 29a and 39a apply without restriction. For providers of remote signing this is the most important cut-off date of the entire recast. Relevance here: until 21 May 2026 remote management may still be operated without a qualified status of its own. Article 29a · Qualified service for the management of remote signature creation devices Makes the server-side management of signature keys a qualified trust service in its own right, subject to three conditions: generation or management of the data on behalf of the signatory, duplication exclusively for back-up purposes at the same security level and in no more copies than the minimum needed, as well as compliance with all requirements identified in the certification report under Article 30. Legacy protection applies until 21 May 2026. Article 39a · Qualified service for the management of remote seal creation devices Declares Article 29a applicable mutatis mutandis to the management of remote qualified electronic seal creation devices. Remote sealing is thereby treated in exactly the same way as remote signing, including the transitional period until 21 May 2026 – Article 51(3) expressly names both Articles.",
+   "AUDIT CHECK": "Is remote signing operated? Then the management service ITSELF is subject to qualification – cut-off date 21 May 2026.",
+   "KEY POINT": "The most significant practical upheaval of eIDAS 2.0: remote signing needs a qualified status of its own."
+  }
+ },
+ {
+  "id": "29|Abs. 2",
+  "article": "29",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 130,
+  "fields": {
+   "TOPIC": "Implementing act on standards for QSCD",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission MAY establish reference numbers of standards for QSCD; where a device meets those standards, the presumption of conformity applies for Annex II.",
+   "PURPOSE": "An empowerment in the form of 'may', without a deadline – unlike most implementing-act mandates in eIDAS 2.0.",
+   "DEADLINE": "no deadline ('may')",
+   "CROSS-REFERENCES": "CEN EN 419211 · Protection profiles for local signature creation devices A series of Common Criteria protection profiles for smart cards and similar devices in which the signature key is generated and used, with variants for key generation, key import and trusted channel. Relationship to eIDAS: the basis of evaluation for the certification under Article 30 eIDAS against Annex II. ● Summary of content, not verified against the original text CEN EN 419241 · Requirements and protection profile for server-side signature creation Part 1 sets out the security requirements for remote signing systems, among them ensuring the sole control of the signatory; Part 2 contains the associated protection profile for the cryptographic module. Relationship to eIDAS: the central basis of evaluation for Article 29a eIDAS. The certification report under Article 30 eIDAS, to which Article 29a(1)(c) eIDAS refers, is in practice based on this standard. ● Summary of content, not verified against the original text Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Which standard underlies the certification (protection profile)? Qualified service for the management of qualified"
+  }
+ },
+ {
+  "id": "29a|Abs. 1 a-c",
+  "article": "29a",
+  "locus": "Abs. 1 a-c",
+  "locus_en": "Paragraph 1(a)-(c)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 131,
+  "fields": {
+   "TOPIC": "Qualified service for the management of remote signature creation devices",
+   "ADDRESSEE": "QTSP (remote signing providers)",
+   "CONTENT": "The management of remote qualified electronic signature creation devices as a qualified service SHALL be carried out ONLY by a QTSP that (a) generates or manages the electronic signature creation data ON BEHALF OF THE SIGNATORY; (b) – notwithstanding point (1)(d) of Annex II – duplicates the data FOR BACK-UP PURPOSES ONLY, provided that (i) the security of the duplicated datasets is at THE SAME LEVEL as for the original datasets and (ii) the number of duplicated datasets does NOT EXCEED THE MINIMUM NEEDED to ensure continuity of the service; (c) complies with ALL requirements identified in the certification report under Article 30 for the specific remote signature creation device.",
+   "PURPOSE": "Responds to reality: almost all signatures today are created on the server side and not with a smart card.",
+   "CROSS-REFERENCES": "ETSI TS 119 431 · Requirements for remote signature and remote seal services Part 1 is addressed to providers which operate a signature creation device on behalf of the signatory, and deals in particular with key generation, activation data, the sole control of the signatory and back-up copies. Relationship to eIDAS: the central standard for Article 29a and Article 39a eIDAS – and thereby for demonstrating that Article 26(1)(c) eIDAS is complied with on the server side as well. ● Summary of content, not verified against the original text CEN EN 419241 · Requirements and protection profile for server-side signature creation Part 1 sets out the security requirements for remote signing systems, among them ensuring the sole control of the signatory; Part 2 contains the associated protection profile for the cryptographic module. Relationship to eIDAS: the central basis of evaluation for Article 29a eIDAS. The certification report under Article 30 eIDAS, to which Article 29a(1)(c) eIDAS refers, is in practice based on this standard. ● Summary of content, not verified against the original text Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Relevance here: point 1, sub-point (d) is modified by paragraph 1, point (b), of this Article for the back-up case. Article 29(1a) · Key generation only by a qualified service Electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a QTSP which operates a qualified service for the management of remote signature creation devices under Article 29a. This is the greatest practical upheaval of eIDAS 2.0, because almost all of today's signatures are created on the server side. Legacy protection until 21 May 2026 under Article 51(3). Article 51(3) · Legacy protection for remote signatures and remote seals Permits the management of remote qualified electronic signature and seal creation devices to be continued until 21 May 2026 without a qualified status of its own. Thereafter Articles 29a and 39a apply without restriction. For providers of remote signing this is the most important cut-off date of the entire recast. Article 30 · Certification of qualified electronic signature creation devices Provides that conformity with Annex II is certified by appropriate public or private bodies designated by the Member States – to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit with a vulnerability assessment every two years. Article 39a · Qualified service for the management of remote seal creation devices Declares Article 29a applicable mutatis mutandis to the management of remote qualified electronic seal creation devices. Remote sealing is thereby treated in exactly the same way as remote signing, including the transitional period until 21 May 2026 – Article 51(3) expressly names both Articles.",
+   "AUDIT CHECK": "How many key copies exist, where, and how is 'the minimum needed' justified? Point (b)(ii) is the most frequent finding.",
+   "KEY POINT": "Point (b)(ii) is the strictest single requirement: not 'as few as possible', but 'the minimum needed'."
+  }
+ },
+ {
+  "id": "29a|Abs. 2",
+  "article": "29a",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 132,
+  "fields": {
+   "TOPIC": "Implementing act on the remote signature service",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with a list of reference standards and, where necessary, specifications and procedures for paragraph 1.",
+   "PURPOSE": "Without uniform requirements, remote signing would not be comparable in terms of security.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI TS 119 431 · Requirements for remote signature and remote seal services Part 1 is addressed to providers which operate a signature creation device on behalf of the signatory, and deals in particular with key generation, activation data, the sole control of the signatory and back-up copies. Relationship to eIDAS: the central standard for Article 29a and Article 39a eIDAS – and thereby for demonstrating that Article 26(1)(c) eIDAS is complied with on the server side as well. ● Summary of content, not verified against the original text CEN EN 419241 · Requirements and protection profile for server-side signature creation Part 1 sets out the security requirements for remote signing systems, among them ensuring the sole control of the signatory; Part 2 contains the associated protection profile for the cryptographic module. Relationship to eIDAS: the central basis of evaluation for Article 29a eIDAS. The certification report under Article 30 eIDAS, to which Article 29a(1)(c) eIDAS refers, is in practice based on this standard. ● Summary of content, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "30|Abs. 1-2",
+  "article": "30",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 133,
+  "fields": {
+   "TOPIC": "Certification of QSCD and notification of the bodies",
+   "ADDRESSEE": "Member States / designated bodies",
+   "CONTENT": "Paragraph 1: Conformity of QSCD with ANNEX II SHALL BE CERTIFIED BY APPROPRIATE PUBLIC OR PRIVATE BODIES DESIGNATED BY THE MEMBER STATES. Paragraph 2: Member States shall notify to the Commission the names and addresses; the Commission makes that information available to all Member States.",
+   "PURPOSE": "Without independent certification the security assertion of Annex II would not be verifiable.",
+   "CROSS-REFERENCES": "Annex II · Annex II – qualified electronic signature creation devices Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data be ensured, that those data occur practically only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing those data from being presented to the signatory prior to signing. Sub-point (d) of point 1 is modified by Article 29a(1), point (b), for the remote signature case. Article 39(2) · Reference to the certification Provides that Article 30 applies mutatis mutandis: certification by designated bodies, evaluation process in accordance with a listed standard or an equivalent process, five-year limit with a vulnerability assessment every two years. Article 5c(7) · Notification of the assessment bodies Requires the Member States to communicate to the Commission the names and addresses of the designated conformity assessment bodies; the Commission makes that information available to all Member States. Only bodies that are known can be recognised across borders. Article 12a(6) · Notification of the assessment bodies Requires the Member States to communicate to the Commission the names and addresses of the conformity assessment bodies they have designated. The parallel provisions are found in Article 5c(7), Article 20(1b) and Article 30(2). Article 20(1b) · Notification of the conformity assessment bodies Requires the Member States to notify to the Commission, without undue delay, the names, addresses AND ACCREDITATION details of the conformity assessment bodies as well as any subsequent changes thereto; the Commission makes that information available to all Member States. That the accreditation is also subject to notification was added by eIDAS 2.0. Article 29 · Requirements for qualified electronic signature creation devices Refers to Annex II for the requirements and contains, in paragraph 1a, the central innovation of eIDAS 2.0: electronic signature creation data may be generated, managed or duplicated only on behalf of the signatory, at the request of the signatory and by a qualified provider of a service for the management of remote signature creation devices under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of relevant standards. Article 31 · Publication of the list of certified devices Requires the Member States to notify to the Commission, without undue delay and no later than one month after the certification is concluded, the certified signature creation devices – and likewise, within one month, those devices whose certification has been cancelled. The Commission makes the list publicly available.",
+   "AUDIT CHECK": "Has the certifying body been notified? Note: here they are called 'designated bodies', not 'conformity assessment bodies'.",
+   "KEY POINT": "Terminological trap: Article 30 = designated bodies. Article 20 = conformity assessment bodies. Not the same thing."
+  }
+ },
+ {
+  "id": "30|Abs. 3 a-b",
+  "article": "30",
+  "locus": "Abs. 3 a-b",
+  "locus_en": "Paragraph 3(a)-(b)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L2",
+  "page": 134,
+  "fields": {
+   "TOPIC": "Permissible certification processes",
+   "ADDRESSEE": "Designated bodies",
+   "CONTENT": "The certification shall be based on (a) a SECURITY EVALUATION PROCESS carried out in accordance with a standard from the list to be established by the Commission, OR (b) ANOTHER process using COMPARABLE security levels, which the body NOTIFIES to the Commission – permissible only in the absence of standards under point (a) or where a process under point (a) is still ongoing. The Commission establishes the list of standards by means of an implementing act.",
+   "PURPOSE": "Point (b) prevents a standstill where a standard is lacking – but it is expressly subsidiary.",
+   "CROSS-REFERENCES": "Common Criteria · ISO/IEC 15408 – Common Criteria for Information Technology Security Evaluation An international framework for the security evaluation of IT products. Requirements are described in protection profiles, the depth of testing is expressed by assurance levels; the evaluation methodology is governed by ISO/IEC 18045. Relationship to eIDAS: Article 30(3)(a) eIDAS presupposes a security evaluation process in accordance with a standard listed by the Commission – in practice the Common Criteria. Point (b) allows an equivalent process only on a subsidiary basis. ● Summary of content, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "By which route was certification carried out? Point (b) requires a justification of why point (a) was not possible.",
+   "KEY POINT": "Point (b) is the emergency route – only where (a) is not possible."
+  }
+ },
+ {
+  "id": "30|Abs. 3a",
+  "article": "30",
+  "locus": "Abs. 3a",
+  "locus_en": "Paragraph 3a",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 135,
+  "fields": {
+   "TOPIC": "Five-year validity of the QSCD certification",
+   "ADDRESSEE": "Designated bodies / QTSP",
+   "CONTENT": "The validity of a certification SHALL NOT EXCEED FIVE YEARS, provided that vulnerabilities assessments are carried out EVERY TWO YEARS. Where vulnerabilities are identified and NOT REMEDIED, the certification SHALL BE CANCELLED.",
+   "PURPOSE": "New in eIDAS 2.0 – previously QSCD certificates were in practice unlimited in time, which is untenable where cryptography is concerned.",
+   "DEADLINE": "5 years max. / vulnerability assessment every 2 years",
+   "CROSS-REFERENCES": "Article 5c(4) · Period of validity and vulnerability assessment Limits the Wallet certification to five years and ties it to a vulnerability assessment every two years. Where a vulnerability is not remedied in a timely manner, the certification is to be cancelled. The same 5/2 pattern is found in Article 12a(3) (there with an express three-month period) and in Article 30(3a) for QSCD. “Certification pursuant to paragraph 1 shall be valid for up to five years, provided that a vulnerability assessment is carried out every two years” ✓ Article 5c(4) eIDAS Article 12a(3) · Five years, two years, three months A more precise variant of the 5/2 rule: the certification of an electronic identification scheme is valid for up to five years where a vulnerability assessment is carried out every two years; where a vulnerability is not remedied within three months of its identification, the certification is to be cancelled. Article 5c(4) says only 'in a timely manner' at the same point, and Article 30(3a) gives no period at all – a favourite examination topic. Article 5 · Use of pseudonyms A single, unnumbered sentence: without prejudice to specific obligations to identify oneself and to the legal effects given to pseudonyms under national law, the use of pseudonyms chosen by the user shall not be prohibited in electronic transactions. The Article has NO paragraphs. It is given concrete form in Article 5a(4)(b), Article 5b(9) and Article 32(1)(e). Article 2 · Scope Covers notified electronic identification schemes, the Wallets provided by the Member States as well as trust service providers established in the Union. Expressly NOT covered are trust services provided under national law or under an agreement exclusively within a closed set of participants – internal company PKI thereby falls outside. Paragraph 3 makes clear that the Regulation leaves national contract law and the GDPR unaffected.",
+   "AUDIT CHECK": "How old is the QSCD certificate? Are the two-yearly vulnerability assessments available?",
+   "KEY POINT": "The third place where the 5/2 rule appears. Here without a specific period for remediation – unlike Article 12a(3) with its three months."
+  }
+ }
+]

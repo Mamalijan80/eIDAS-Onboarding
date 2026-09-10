@@ -1,0 +1,175 @@
+[
+ {
+  "id": "22|Abs. 1-2",
+  "article": "22",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 96,
+  "fields": {
+   "TOPIC": "Trusted lists",
+   "ADDRESSEE": "Member States",
+   "CONTENT": "Paragraph 1: Each Member State SHALL ENSURE the establishment, maintenance and publication of trusted lists including information related to the QTSPs for which it is responsible and to the qualified services provided by them. Paragraph 2: Those lists shall be established, maintained and published IN A SECURED MANNER, ELECTRONICALLY SIGNED OR SEALED, and in a form suitable for AUTOMATED PROCESSING.",
+   "PURPOSE": "A relying party must be able to check BY MACHINE whether a certificate really originates from a QTSP – a PDF list would be worthless.",
+   "CROSS-REFERENCES": "ETSI TS 119 612 · Trusted lists Defines the structure, content and XML format of the trusted lists, including the status information for each service and the history of status changes. Relation to eIDAS: Technical basis of Implementing Regulation (EU) 2015/1505 on Article 22 eIDAS. ● Summary, not verified against the original text Article 21(3) · Entry in the list as the starting point A service may be provided as qualified only once the status has been indicated in the trusted list referred to in Article 22(1). What is decisive is therefore not the decision of the supervisory body but the publicly accessible, signed entry in the list – it is that on which relying parties rely. Article 23(2) · Obligation to provide a link Requires anyone using the EU trust mark to keep a link to the relevant trusted list available on their website. Only thereby does the qualification asserted by the trust mark become verifiable by anyone. Article 20(3c) · Chain of notification upon withdrawal of status Requires the supervisory body to inform the provider concerned of the withdrawal, and further the body responsible for the trusted list pursuant to Article 22(3) for the purposes of updating it, as well as the competent NIS2 authority. In practice the withdrawal takes effect only once it is visible in the trusted list.",
+   "AUDIT CHECK": "Is the national trusted list signed, machine-readable and up to date? How quickly are updates made?",
+   "KEY POINT": "Signed + machine-readable. Those are the two hard requirements."
+  }
+ },
+ {
+  "id": "22|Abs. 3-4",
+  "article": "22",
+  "locus": "Abs. 3-4",
+  "locus_en": "Paragraphs 3-4",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 97,
+  "fields": {
+   "TOPIC": "Notification and publication of the list information",
+   "ADDRESSEE": "Member States / Commission",
+   "CONTENT": "Paragraph 3: Member States shall notify to the Commission, WITHOUT UNDUE DELAY, information on the bodies responsible for establishing, maintaining and publishing the lists, the place of publication, the CERTIFICATES used to sign or seal them and any changes thereto. Paragraph 4: The Commission shall make that information available to the public in a secure, signed or sealed form suitable for automated processing.",
+   "PURPOSE": "Only the central access point of the Commission (List of Trusted Lists) makes 27 national lists usable throughout Europe.",
+   "DEADLINE": "without undue delay",
+   "CROSS-REFERENCES": "Article 20(3c) · Chain of notification upon withdrawal of status Requires the supervisory body to inform the provider concerned of the withdrawal, and further the body responsible for the trusted list pursuant to Article 22(3) for the purposes of updating it, as well as the competent NIS2 authority. In practice the withdrawal takes effect only once it is visible in the trusted list. Article 21(2) · Procedural time limits for the granting of status The supervisory body verifies the fulfilment of the requirements and must request the NIS2 authorities to carry out supervisory actions; they report back within two months. The overall decision is to be taken not later than three months after the notification. Where the time limit is exceeded, the applicant is to be informed, specifying the reasons and a new period. “three months of notification, the supervisory body shall inform the trust service provider specifying the reasons for the delay” ✓ Article 21(2) eIDAS Article 46c · Single points of contact Requires each Member State to designate, make public and notify to the Commission a single point of contact for trust services, Wallets and notified electronic identification schemes. Cross-border supervision needs a defined contact; the single point of contact is, among other things, the addressee of the notifications under Article 5e.",
+   "AUDIT CHECK": "Is the signing certificate of the national list verifiable via the EU access point?",
+   "KEY POINT": "27 national lists + 1 list of the lists at the Commission."
+  }
+ },
+ {
+  "id": "22|Abs. 5",
+  "article": "22",
+  "locus": "Abs. 5",
+  "locus_en": "Paragraph 5",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 97,
+  "fields": {
+   "TOPIC": "Implementing act on the information and the format",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission SHALL SPECIFY the information referred to in paragraph 1 and shall define the technical specifications and the formats for trusted lists for the purposes of paragraphs 1 to 4.",
+   "PURPOSE": "Without a uniform format, automated evaluation across borders would be impossible.",
+   "DEADLINE": "by 18 September 2015 (deadline expired; implemented by Implementing Regulation (EU) 2015/1505)",
+   "CROSS-REFERENCES": "ETSI TS 119 612 · Trusted lists Defines the structure, content and XML format of the trusted lists, including the status information for each service and the history of status changes. Relation to eIDAS: Technical basis of Implementing Regulation (EU) 2015/1505 on Article 22 eIDAS. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Does the list comply with the format under Implementing Regulation 2015/1505 in its current version?"
+  }
+ },
+ {
+  "id": "23|Abs. 1-2",
+  "article": "23",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "KANN / DARF",
+  "modality_en": "MAY",
+  "level": "L2",
+  "page": 98,
+  "fields": {
+   "TOPIC": "EU trust mark",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "Paragraph 1: AFTER the qualified status referred to in the second subparagraph of Article 21(2) has been indicated in the trusted list, QTSPs MAY use the EU trust mark to indicate in a simple, recognisable and clear manner the qualified services they provide. Paragraph 2: Providers using the trust mark SHALL ENSURE that a LINK to the relevant trusted list is made available on their website.",
+   "PURPOSE": "A visible, verifiable mark of recognition – the link makes the assertion verifiable by anyone.",
+   "CROSS-REFERENCES": "Article 21(3) · Entry in the list as the starting point A service may be provided as qualified only once the status has been indicated in the trusted list referred to in Article 22(1). What is decisive is therefore not the decision of the supervisory body but the publicly accessible, signed entry in the list – it is that on which relying parties rely. Article 22(1) · Trusted lists Each Member State establishes, maintains and publishes lists of the QTSPs and of the qualified services they provide. Paragraph 2 requires those lists to be electronically signed or sealed in a secured manner and suitable for automated processing – a PDF list does not satisfy the provision. Under paragraph 4 the Commission maintains the central access point.",
+   "AUDIT CHECK": "Is the trust mark used? If so, the link to the trusted list must be present and functional.",
+   "KEY POINT": "A right, not an obligation – but whoever uses it MUST provide the link."
+  }
+ },
+ {
+  "id": "23|Abs. 3",
+  "article": "23",
+  "locus": "Abs. 3",
+  "locus_en": "Paragraph 3",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L3",
+  "page": 98,
+  "fields": {
+   "TOPIC": "Implementing act on the design of the trust mark",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "The Commission shall lay down specifications with regard to the form, presentation, composition, size and design of the EU trust mark.",
+   "PURPOSE": "A trust mark takes effect only if it looks identical throughout the EU.",
+   "DEADLINE": "by 1 July 2015 (deadline expired; implemented by Implementing Regulation (EU) 2015/806)",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Does the trust mark graphic used comply with the Implementing Regulation?"
+  }
+ },
+ {
+  "id": "24|Abs. 1",
+  "article": "24",
+  "locus": "Abs. 1",
+  "locus_en": "Paragraph 1",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 99,
+  "fields": {
+   "TOPIC": "Verification of identity and attributes – basic obligation",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "When issuing a qualified certificate OR a qualified electronic attestation of attributes, the QTSP SHALL VERIFY the IDENTITY and, if applicable, any SPECIFIC ATTRIBUTES of the natural or legal person.",
+   "PURPOSE": "The verification of identity is the weakest point of every chain of trust – it is here that it is decided whether a certificate is worth anything.",
+   "CROSS-REFERENCES": "ETSI TS 119 461 · Identity proofing of applicants Describes building blocks and requirements for identity proofing, among them the verification of identity documents, biometric procedures, liveness detection, remote and automated procedures as well as the reuse of identities already verified. Relation to eIDAS: The authoritative standard for Article 24(1a) and (1b) eIDAS, in particular for point (c) – those 'other methods with a high level of confidence' whose conformity must be confirmed by a conformity assessment body. Because of Article 51(4) eIDAS it is in practice indispensable for existing providers by 21 May 2026. ● Summary, not verified against the original text Significance here: The authoritative technical standard for point (c) of paragraphs 1a and 1b – in particular for remote identification. Article 24(1a) · Four methods of identity verification An exhaustive list: (a) the Wallet or a notified electronic identification means with assurance level high, (b) a certificate of a qualified electronic signature or of a qualified electronic seal issued in compliance with point (a), (c) or (d), (c) other methods which ensure identification with a high level of confidence, the conformity of which is confirmed by a conformity assessment body, (d) physical presence. Point (c) is the gateway for video identification and comparable remote procedures – but only with CAB confirmation. Article 24(1b) · Five methods of attribute verification Parallel to paragraph 1a, but extended by one option: the qualified electronic attestation of attributes is additionally permitted (point (c)). The QEAA from Section 9 thereby itself becomes an admissible means of evidence in the admission procedure of Section 3 – here the circle between the two blocks closes. Article 24(1c) · Implementing act on the verification of identity Empowers the Commission to establish a list of reference standards and, where necessary, specifications and procedures for the verification of identity and attributes in accordance with paragraphs 1, 1a and 1b. For existing providers this act is in practice indispensable because of the obligation to provide evidence under Article 51(4). Article 51(4) · Obligation of existing QTSPs to provide evidence Providers that were granted qualified status before 20 May 2024 must submit to the supervisory body, by 21 May 2026 at the latest, a conformity assessment report proving compliance with Article 24(1), (1a) and (1b) – that is, with the new rules on the verification of identity and attributes. In practice the most important retrofitting deadline for existing providers. Significance here: Existing providers must prove compliance with paragraphs 1, 1a and 1b by 21 May 2026 by means of a report.",
+   "AUDIT CHECK": "Is the identity proofing procedure documented and audited against ETSI TS 119 461?",
+   "KEY POINT": "eIDAS 2.0 separates cleanly: paragraph 1a = identity, paragraph 1b = attributes. Two lists, not one."
+  }
+ },
+ {
+  "id": "24|Abs. 1a a-d",
+  "article": "24",
+  "locus": "Abs. 1a a-d",
+  "locus_en": "Paragraph 1a(a)-(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 100,
+  "fields": {
+   "TOPIC": "The four permissible methods of identity verification",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "The verification of identity shall be performed directly or by means of a third party by ONE of the following methods or by a combination thereof: (a) by means of the EUROPEAN DIGITAL IDENTITY WALLET or a notified electronic identification means with LoA HIGH; (b) by means of a certificate of a QES or of a qualified electronic seal issued in compliance with point (a), (c) or (d); (c) by using OTHER identification methods which ensure a HIGH LEVEL OF CONFIDENCE and the conformity of which is CONFIRMED BY A CONFORMITY ASSESSMENT BODY; (d) through the PHYSICAL PRESENCE of the person or of an authorised representative in accordance with national law.",
+   "PURPOSE": "Point (c) is the entry path for video identification and other remote procedures – but only with CAB confirmation.",
+   "CROSS-REFERENCES": "ETSI TS 119 461 · Identity proofing of applicants Describes building blocks and requirements for identity proofing, among them the verification of identity documents, biometric procedures, liveness detection, remote and automated procedures as well as the reuse of identities already verified. Relation to eIDAS: The authoritative standard for Article 24(1a) and (1b) eIDAS, in particular for point (c) – those 'other methods with a high level of confidence' whose conformity must be confirmed by a conformity assessment body. Because of Article 51(4) eIDAS it is in practice indispensable for existing providers by 21 May 2026. ● Summary, not verified against the original text Significance here: The authoritative technical standard for point (c) of paragraphs 1a and 1b – in particular for remote identification. Article 24(1c) · Implementing act on the verification of identity Empowers the Commission to establish a list of reference standards and, where necessary, specifications and procedures for the verification of identity and attributes in accordance with paragraphs 1, 1a and 1b. For existing providers this act is in practice indispensable because of the obligation to provide evidence under Article 51(4). Article 51(4) · Obligation of existing QTSPs to provide evidence Providers that were granted qualified status before 20 May 2024 must submit to the supervisory body, by 21 May 2026 at the latest, a conformity assessment report proving compliance with Article 24(1), (1a) and (1b) – that is, with the new rules on the verification of identity and attributes. In practice the most important retrofitting deadline for existing providers. Significance here: Existing providers must prove compliance with paragraphs 1, 1a and 1b by 21 May 2026 by means of a report. Article 8 · Assurance levels of electronic identification schemes Requires in paragraph 1 that the assurance level attributed be specified, defines in paragraph 2 the scale low, substantial and high by reference to its effect against misuse of identity, and empowers the Commission in paragraph 3 to lay down minimum requirements for six fields: identity proofing and verification, issuance of the means, authentication mechanism, issuing entity, other bodies involved and the technical specifications of the means. Article 5a · European Digital Identity Wallets With 24 paragraphs the longest article of the Regulation and the centrepiece of eIDAS 2.0. It governs the obligation to provide and the deadline (paragraph 1), the three ways of providing (paragraph 2), open source (paragraph 3), the seven user functions (paragraph 4), the mandatory technical properties with eleven interfaces (paragraph 5), revocation, absence of charge, separation of data, voluntariness and unlinkability (paragraphs 9 to 16) as well as notification obligations, the reference on liability, accessibility, exceptions and the two implementing acts (paragraphs 18 to 24).",
+   "AUDIT CHECK": "On which point does the procedure used rely? Where point (c) applies: is the CAB confirmation available?",
+   "KEY POINT": "Wallet/eID high – certificate – CAB-confirmed procedure – in person. Four routes, no fifth."
+  }
+ },
+ {
+  "id": "24|Abs. 1b a-e",
+  "article": "24",
+  "locus": "Abs. 1b a-e",
+  "locus_en": "Paragraph 1b(a)-(e)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 101,
+  "fields": {
+   "TOPIC": "The five methods of attribute verification",
+   "ADDRESSEE": "Qualified trust service providers",
+   "CONTENT": "The verification of attributes shall be performed by: (a) the European Digital Identity Wallet or a notified electronic identification means with LoA high; (b) a certificate of a QES/of a qualified electronic seal in accordance with paragraph 1a, point (a), (c) or (d); (c) a QUALIFIED ELECTRONIC ATTESTATION OF ATTRIBUTES; (d) other methods with a high level of confidence and CAB confirmation; (e) physical presence.",
+   "PURPOSE": "The QEAA (point (c)) itself becomes an admissible means of evidence – here the circle between Section 3 and Section 9 closes.",
+   "CROSS-REFERENCES": "Annex V · Annex V – qualified electronic attestations of attributes Nine mandatory items, (a) to (i). At its core is point (d): the attested attributes including their scope of validity. Point (g) requires – unlike Annexes I and III – a QUALIFIED electronic signature or a qualified electronic seal of the issuing QTSP. Article 24(1c) · Implementing act on the verification of identity Empowers the Commission to establish a list of reference standards and, where necessary, specifications and procedures for the verification of identity and attributes in accordance with paragraphs 1, 1a and 1b. For existing providers this act is in practice indispensable because of the obligation to provide evidence under Article 51(4). Article 45d · Requirements for the qualified EAA Refers to Annex V and prohibits additional mandatory requirements. Noteworthy is Annex V, point (g): it requires a QUALIFIED signature or a qualified seal of the issuing QTSP, whereas Annexes I and III require only an advanced form at the same point. Under paragraph 4 the revocation is final. Article 45e · Verification of attributes against authentic sources Requires the Member States, at least for the eleven attributes listed in Annex VI – wherever those attributes rely on authentic sources within the public sector – to take measures allowing qualified providers to verify them by electronic means at the request of the user. Without a connection to the registers an attestation of attributes would be a mere assertion. The deadline follows the same anchor as the provision of the Wallet.",
+   "AUDIT CHECK": "Are attributes (for example a power of representation) verified by one of the five permissible routes?",
+   "KEY POINT": "Five instead of four: for attributes the QEAA is added as point (c)."
+  }
+ },
+ {
+  "id": "24|Abs. 1c",
+  "article": "24",
+  "locus": "Abs. 1c",
+  "locus_en": "Paragraph 1c",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L1",
+  "page": 102,
+  "fields": {
+   "TOPIC": "Implementing act on the verification of identity and attributes",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with a list of reference standards and, where necessary, specifications and procedures for the verification of identity and attributes in accordance with paragraphs 1, 1a and 1b.",
+   "PURPOSE": "Without uniform requirements, video identification in particular would be regulated differently in every Member State.",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI TS 119 461 · Identity proofing of applicants Describes building blocks and requirements for identity proofing, among them the verification of identity documents, biometric procedures, liveness detection, remote and automated procedures as well as the reuse of identities already verified. Relation to eIDAS: The authoritative standard for Article 24(1a) and (1b) eIDAS, in particular for point (c) – those 'other methods with a high level of confidence' whose conformity must be confirmed by a conformity assessment body. Because of Article 51(4) eIDAS it is in practice indispensable for existing providers by 21 May 2026. ● Summary, not verified against the original text Significance here: The authoritative technical standard for point (c) of paragraphs 1a and 1b – in particular for remote identification. Article 51(4) · Obligation of existing QTSPs to provide evidence Providers that were granted qualified status before 20 May 2024 must submit to the supervisory body, by 21 May 2026 at the latest, a conformity assessment report proving compliance with Article 24(1), (1a) and (1b) – that is, with the new rules on the verification of identity and attributes. In practice the most important retrofitting deadline for existing providers. Significance here: Existing providers must prove compliance with paragraphs 1, 1a and 1b by 21 May 2026 by means of a report. Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "Which version applies? Article 51(4) requires a CAR on compliance with paragraphs 1, 1a and 1b by 21 May 2026.",
+   "KEY POINT": "Remember the link: Article 24(1)/(1a)/(1b) + Article 51(4) = retrofitting deadline 21 May 2026."
+  }
+ }
+]
