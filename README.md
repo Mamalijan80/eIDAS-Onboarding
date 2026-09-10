@@ -8,9 +8,9 @@ Source regulation: **Regulation (EU) No 910/2014**, consolidated version of
 
 ## Status
 
-Pilot covering **Articles 5a–5f — 69 norm blocks, 38 typeset pages**.
+Pilot covering **Articles 5a–5f — 69 norm blocks, 33 typeset pages**.
 The full manual holds 220 norm blocks across 64 articles plus reference parts C–I.
-At the pilot's density (0.55 pages per block) that projects to about **169 pages**,
+At the pilot's density (0.48 pages per block) that projects to about **153 pages**,
 against a 200-page budget and the German original's 231.
 
 | Check | Result |
@@ -19,7 +19,6 @@ against a 200-page budget and the German original's 231.
 | Block, field and ordering parity DE ↔ EN | 69 / 69 |
 | Modality mapping (SHALL / SHALL NOT / MAY …) | 1:1, no softening |
 | Defined terms vs. the 57 Article 3 definitions | no non-official variant found |
-| Audit checks phrased as answerable questions | 69 / 69 |
 | Retrieval cues within the 90-character limit | 69 / 69 |
 
 ## Terminology
@@ -59,7 +58,8 @@ quotations are compared character-by-character against the official English text
 ## Length
 
 Blocks are set as continuous flow, not one per page, on a 152 mm measure. Median
-unused page height is 3 %. `Wallet` is used as the defined short form, as the German
+text coverage is 82 % of page height; the only sparse pages are the title and the
+last. Audit checks are held in the corpus but are not typeset. `Wallet` is used as the defined short form, as the German
 manual does, with the full term on first use in each block and inside every quotation.
 English runs 1.08× the German source by character count.
 

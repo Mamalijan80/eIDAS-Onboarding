@@ -139,14 +139,14 @@ def draw_rec(c, r, parts, x, cy):
         elif kind=="rel": cy=R.draw_lines(c,ln,x,cy,l)
     return cy-1.8*mm
 
-def flow_refs(doc, recs, first_y):
+def flow_refs(doc, recs, first_y, reserve=0.0):
     """Two balanced columns. Nothing is drawn that does not fit; the remainder goes to the next page."""
     packs=[(r,rec_parts(r)) for r in recs]
     i=0; y_start=first_y; guard=0
     while i < len(packs):
         guard+=1
         if guard > 400: raise RuntimeError("flow_refs did not converge")
-        avail = y_start - D.Y_BOT
+        avail = y_start - D.Y_BOT - reserve
         rest = packs[i:]
         total = sum(rec_h(p) for _,p in rest)
         if total <= avail*2:                       # everything left fits: balance the columns
@@ -164,15 +164,14 @@ def flow_refs(doc, recs, first_y):
                     chunks[ci].append(rest[k]); used[ci]+=h; k+=1
         drawn=len(chunks[0])+len(chunks[1])
         if drawn==0:
-            # one record taller than a full column: give it the full measure on a fresh page
-            r,p = rest[0]
             if y_start < D.Y_TOP - 1*mm:
+                # not the record's fault - the page is simply used up. Retry with a full page.
                 doc.new_page(); label(doc, doc.y, "CROSS-REFERENCES"); y_start=doc.y
-            wide = rec_parts_wide(r)
-            doc.y = draw_rec(doc.c, r, wide, D.COL_X[0], y_start)
-            i+=1; y_start=doc.y
-            if i < len(packs):
-                doc.new_page(); label(doc, doc.y, "CROSS-REFERENCES"); y_start=doc.y
+                continue
+            # genuinely taller than a full column: give it the whole measure, then keep flowing
+            r,_ = rest[0]
+            y_start = draw_rec(doc.c, r, rec_parts_wide(r), D.COL_X[0], y_start)
+            doc.y = y_start; i += 1
             continue
         if not chunks[1]:                      # single column would waste half the measure
             wide=[(r,rec_parts_wide(r)) for r,_ in chunks[0]]
@@ -215,14 +214,32 @@ def rec_parts_wide(r):
         out.append(("rel", R.wrap_runs([("Relevance: ",f,s,col),(r["relevance"],"UI",s,D.INK_SOFT)],W), l))
     return out
 
+def compact_ident(art, locus):
+    """'Paragraph 5(g) + second subparagraph' -> 'Art. 5a(5)(g), 2nd subpara.'"""
+    lx=str(locus or "").strip()
+    lx=re.sub(r'^Paragraphs?\s+','',lx)
+    lx=re.sub(r'\s*\(introductory wording\)\s*$',' \x01intro',lx,flags=re.I)
+    lx=re.sub(r'\s*\+\s*second subparagraph\s*$',' \x02',lx,flags=re.I)
+    lx=re.sub(r'\s*\+\s*third subparagraph\s*$',' \x03',lx,flags=re.I)
+    m=re.match(r'^(\d+[a-z]?)\s*-\s*(\d+[a-z]?)(.*)$', lx)          # 4-5  -> (4)-(5)
+    if m: base=f"({m.group(1)})–({m.group(2)})"; tail=m.group(3)
+    else:
+        m=re.match(r'^(\d+[a-z]?)(.*)$', lx)
+        if m: base=f"({m.group(1)})"; tail=m.group(2)
+        else: base=""; tail=lx
+    tail=tail.strip()
+    tail=re.sub(r'^\(', '(', tail)
+    tail=tail.replace('\x01intro',' intro').replace('\x02',', 2nd subpara.').replace('\x03',', 3rd subpara.')
+    tail=re.sub(r'\)\s*-\s*\(', ')–(', tail)
+    out=f"Art. {art}{base}{tail}".strip()
+    return re.sub(r'\s{2,}',' ',out)
+
 # ---------- one norm block ----------
 def draw_block(doc, b, part_label):
     c=doc.c; F=b["fields"]
     mod=(b.get("modality_en") or "").upper(); lvl=b.get("level","")
     art=b.get("article",""); locus=b.get("locus_en") or b.get("locus","")
-    lx=re.sub(r'^Paragraphs?\s+','',str(locus)).strip()
-    lx=re.sub(r'\s*\(.*?\)\s*$','',lx).strip()
-    ident=f"Art. {art}({lx})" if lx else f"Art. {art}"
+    ident=compact_ident(art, locus)
     # head + the first two fields must not be orphaned
     head_h = 9.4*mm
     tl,_ = lines_for("topic", F.get("TOPIC",""))
@@ -235,7 +252,7 @@ def draw_block(doc, b, part_label):
     block_top=y
     badge(c, D.TEXT_X0, y-5.6*mm, mod)
     f,s,l,col=T["blockid"]; c.setFont(f,s); c.setFillColor(col)
-    c.drawRightString(D.LABEL_X1, y-4.0*mm, ident)
+    c.drawRightString(D.TEXT_X1, y-4.0*mm, ident)
     priority_glyph(c, D.TEXT_X0+33*mm, y-5.3*mm, lvl)
     m=D.MODALITY.get(mod,{})
     if m.get("spine"):
@@ -253,15 +270,13 @@ def draw_block(doc, b, part_label):
         label(doc, y, key)
         y=R.draw_lines(c, ln, D.TEXT_X0, y, l) - 1.2*mm
         doc.y=y
-    if F.get("CROSS-REFERENCES"):
-        label(doc, y, "CROSS-REFERENCES")
-        y=flow_refs(doc, parse_xref(F["CROSS-REFERENCES"]), y)
     tail=[]
-    if F.get("AUDIT CHECK"):
-        ln,l=lines_for("audit", F["AUDIT CHECK"]); tail.append(("AUDIT CHECK",ln,l))
     if F.get("KEY POINT"):
         ln,l=lines_for("keypoint", F["KEY POINT"], D.TEXT_X1-D.TEXT_X0-5*mm); tail.append(("KEY POINT",ln,l))
     th=sum(len(ln)*l for _,ln,l in tail)+7*mm
+    if F.get("CROSS-REFERENCES"):
+        label(doc, y, "CROSS-REFERENCES")
+        y=flow_refs(doc, parse_xref(F["CROSS-REFERENCES"]), y, reserve=th)
     if th > doc.y-D.Y_BOT: doc.new_page()
     y=doc.y-1.5*mm
     for key,ln,l in tail:
