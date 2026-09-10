@@ -1,0 +1,986 @@
+{
+ "part": "I",
+ "title": "Reference digest",
+ "rows": [
+  {
+   "ref": "Article 1",
+   "text": "Sets out the subject matter in three blocks: the recognition of electronic identification means and the provision and recognition of European Digital Identity Wallets; the rules for trust services; and the legal framework for signatures, seals, time stamps, electronic documents, registered delivery services, website authentication, archiving, attestations of attributes, creation devices and electronic ledgers. The purpose is the proper functioning of the internal market with an adequate level of security."
+  },
+  {
+   "ref": "Article 2",
+   "text": "Applies to notified eID schemes, to the European Digital Identity Wallets provided by the Member States and to trust service providers established in the Union. Expressly NOT covered are trust services used exclusively within closed systems resulting from national law or from agreements between a defined set of participants - an enterprise-internal PKI thus falls outside. Paragraph 3 clarifies that the Regulation does not affect Union or national law on the conclusion and validity of contracts or other form requirements; paragraph 4 states that it is without prejudice to the GDPR."
+  },
+  {
+   "ref": "Article 3",
+   "text": "Contains the legal definitions in points 1 to 57, supplemented by the letter-numbered points inserted by eIDAS 2.0, such as 5a, 23a and 23b. Particularly important in practice: point 3 person identification data, point 5a user, point 6 relying party, point 16 trust service, point 20 qualified trust service provider, point 44 electronic attestation of attributes, point 46 electronic attestation of attributes issued by or on behalf of a public sector body responsible for an authentic source, and point 47 authentic source."
+  },
+  {
+   "ref": "Article 4",
+   "text": "Prohibits Member States from restricting the provision of trust services by a trust service provider established in another Member State for reasons that fall within the fields covered by the Regulation. Paragraph 2 requires that products and trust services lawfully provided in a Member State shall be permitted to circulate freely in the internal market. The general rule is spelled out for qualified services in Article 24a."
+  },
+  {
+   "ref": "Article 5",
+   "text": "A single, unnumbered sentence: without prejudice to specific rules requiring users to identify themselves and to the legal effect given to pseudonyms under national law, the use of pseudonyms that are chosen by the user shall not be prohibited in electronic transactions. The Article has NO paragraphs. It is given concrete effect in Article 5a paragraph 4, point (b), Article 5b(9) and Article 32(1), point (e)."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "With 24 paragraphs, the longest Article of the Regulation and the centrepiece of eIDAS 2.0. It governs the obligation to provide the European Digital Identity Wallet and the deadline for doing so (paragraph 1), the three ways of providing it (paragraph 2), open source (paragraph 3), the seven user functions (paragraph 4), the mandatory technical characteristics with eleven interfaces (paragraph 5), revocation, freedom from charges, data separation, voluntariness and unlinkability (paragraphs 9 to 16), and notification duties, the liability cross-reference, accessibility, exemptions and the two implementing acts (paragraphs 18 to 24)."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Governs, in eleven paragraphs, who may query the European Digital Identity Wallet and on what conditions: the obligation to register in the Member State of establishment, the minimum content of the registration including the intended use, the prohibition on requesting data going beyond that, making the registration information publicly available in electronically signed or sealed form, the duty to inform about changes, a common authentication mechanism, self-identification to the user, responsibility for validation and acceptance of pseudonyms, and the treatment of intermediaries as relying parties."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Provides that the European Digital Identity Wallet and the electronic identification scheme under which it is provided shall be certified by conformity assessment bodies designated by Member States, and splits the assessment: cybersecurity requirements through the schemes under the Cybersecurity Act, everything else through national certification schemes, the drafts of which are to be transmitted to the Cooperation Group. In addition, it governs the five-year limit with a vulnerability assessment every two years, optional certification under the GDPR, the implementing act and a delegated act on the criteria to be met by the conformity assessment bodies."
+  },
+  {
+   "ref": "Article 5d",
+   "text": "Requires Member States to inform the Commission and the Cooperation Group without undue delay both of certified European Digital Identity Wallets and of Wallets whose certification has been cancelled, and states the minimum content of that information. The Commission maintains a machine-readable list published in the Official Journal and enters amendments within one month. The list of Wallets is to be distinguished from the trusted list of trust service providers under Article 22."
+  },
+  {
+   "ref": "Article 5e",
+   "text": "Governs the emergency: suspension without undue delay, withdrawal without undue delay where justified by the severity, and information to the users affected, the single points of contact, the relying parties and the Commission. If the breach is not remedied within three months, the European Digital Identity Wallets shall be withdrawn and their validity revoked. Once remedied, provision shall be re-established; the Commission updates the list referred to in Article 5d without undue delay."
+  },
+  {
+   "ref": "Article 5f",
+   "text": "Requires the public sector to accept the European Digital Identity Wallet where it requires electronic identification, and extends this to certain private relying parties in eleven named sectors and to very large online platforms. Microenterprises and small enterprises are exempt; use occurs only upon the voluntary request of the user. In addition, the Article provides for codes of conduct and an assessment of the use of the Wallet."
+  },
+  {
+   "ref": "Article 6",
+   "text": "Establishes the obligation to recognise notified eID means from other Member States where the scheme is included in the list published by the Commission, its assurance level is at least substantial and corresponds to the level required, and the public sector body itself uses the assurance level substantial or high. Such recognition shall take place no later than twelve months after publication of the list. For assurance level low there is only a discretionary recognition (\"may be recognised\")."
+  },
+  {
+   "ref": "Article 7",
+   "text": "Eight cumulative conditions, points (a) to (h). Of particular practical relevance: point (f) requires the availability of authentication online across borders, which shall be provided free of charge for services online provided by a public sector body; point (g) requires the description of the scheme to be provided to the other Member States at least six months prior to notification. Points (d), (e) and (f) are at the same time the connecting factors for liability under Article 11. Not applicable to European Digital Identity Wallets (Article 5a(22))."
+  },
+  {
+   "ref": "Article 8",
+   "text": "Paragraph 1 requires the assurance level assigned to be specified; paragraph 2 defines the scale low, substantial and high by reference to their effect against misuse or alteration of the identity; and paragraph 3 empowers the Commission to set out minimum requirements in six fields: identity proofing and verification, the issuance of the means, the authentication mechanism, the entity issuing the means, any other body involved, and the technical specifications of the means."
+  },
+  {
+   "ref": "Article 9",
+   "text": "Governs the content and procedure of the notification of an eID scheme. The Member State notifies a description of the scheme, the assurance levels, the applicable supervisory regime and liability regime separately for the party issuing the means and the party operating the authentication procedure, the responsible authorities, the entity which manages the registration of the unique person identification data, the demonstration of interoperability, the description of the authentication and the arrangements for suspension and revocation. The Commission publishes the list in the Official Journal and enters amendments within one month."
+  },
+  {
+   "ref": "Article 10",
+   "text": "Requires the notifying Member State, where there is a breach or partial compromise affecting the reliability, to suspend or revoke the cross-border authentication without delay and to inform the other Member States and the Commission. Once remedied, it shall be re-established; if it is not remedied within three months, the withdrawal of the scheme shall be notified. The parallel provision for European Digital Identity Wallets is Article 5e."
+  },
+  {
+   "ref": "Article 11",
+   "text": "Allocates liability across three roles and three points of Article 7: the notifying Member State is liable under point (d) (unique attribution of the person identification data) and point (f) (availability of the authentication), the party issuing the means under point (e) (correct attribution of the means), and the party operating the authentication procedure for its incorrect operation. All three cases concern cross-border transactions only. Applies, via Article 5a paragraph 19, mutatis mutandis to European Digital Identity Wallets as well."
+  },
+  {
+   "ref": "Article 11a",
+   "text": "New in eIDAS 2.0. Requires Member States, when acting as relying parties for cross-border services, to ensure unequivocal identity matching for natural persons using a notified eID means or a European Digital Identity Wallet. Paragraph 2 requires technical and organisational measures to ensure a high level of protection of the personal data used for identity matching and, expressly, to prevent the profiling of users. Paragraph 3 contains the empowerment to adopt an implementing act."
+  },
+  {
+   "ref": "Article 12",
+   "text": "Requires the notified schemes to be interoperable and describes the framework to be established for that purpose: technology neutral, following European and international standards where possible and - new since eIDAS 2.0 - facilitating privacy and security by design. The framework consists of a reference to the assurance levels (LoA), a mapping of the national assurance levels, minimum technical requirements, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. In addition, the Article governs peer review."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "Requires the cybersecurity conformity of electronic identification schemes to be notified to be certified by conformity assessment bodies designated by the Member States, under a relevant scheme pursuant to the Cybersecurity Act. Certification shall be valid for up to five years, provided that a vulnerability assessment is carried out every two years, and shall be cancelled where a vulnerability is not remedied within three months. The practical incentive is in paragraph 5: for certified schemes the peer review does not apply."
+  },
+  {
+   "ref": "Article 12b",
+   "text": "Requires gatekeepers within the meaning of the Digital Markets Act to allow providers of European Digital Identity Wallets and issuers of notified electronic identification means effective interoperability with, and access to, the same operating system, hardware or software features - for example the secure element and the NFC interface. Within the meaning of Article 6(7) DMA, free of charge and regardless of whether the feature is part of the operating system. Without this provision, two platform operators could technically prevent compliance with the State's obligation to provide the Wallet. It is enforced through the DMA, not through eIDAS supervision. \"gatekeepers shall in particular allow them effective interoperability with, and, for the purposes of interoperability, access to, the same operating system, hardware or software features\" ✓ Article 12b eIDAS"
+  },
+  {
+   "ref": "Article 13",
+   "text": "Establishes the liability of all trust service providers for material and non-material damage caused intentionally or negligently and allocates the burden of proof: for a non-qualified trust service provider it lies with the person claiming the damage, whereas for a qualified trust service provider intention or negligence is presumed. Paragraph 2 allows liability to be limited through limitations on use, provided that the customer has been duly informed in advance and the limitations remain recognisable to third parties. Paragraph 3 refers to national rules on liability."
+  },
+  {
+   "ref": "Article 14",
+   "text": "Governs the recognition of trust services from third countries or from international organisations as legally equivalent, provided that an implementing act or an agreement pursuant to Article 218 TFEU is in place. The implementing act or the agreement shall ensure that the requirements applicable to Union providers are met and that the third country maintains its own trusted list. Agreements shall in addition ensure reciprocity."
+  },
+  {
+   "ref": "Article 15",
+   "text": "Requires electronic identification means, trust services AND the end-user products used in the provision of those services to be made available in plain and intelligible language - in accordance with the United Nations Convention on the Rights of Persons with Disabilities and with the accessibility requirements of Directive (EU) 2019/882. Elderly people and persons with limited access to digital technologies are expressly included. eIDAS 2.0 deleted the earlier qualifier 'where feasible'."
+  },
+  {
+   "ref": "Article 16",
+   "text": "Requires Member States to lay down rules on penalties that are effective, proportionate and dissuasive, and in paragraph 2 prescribes administrative fines of a maximum of at least EUR 5 000 000 or, in the case of legal persons, EUR 5 000 000 or 1 % of the total worldwide turnover of the preceding year. Paragraph 3 permits the fine to be initiated by the supervisory body and imposed by a national court. Article 31 of the NIS 2 Directive remains unaffected."
+  },
+  {
+   "ref": "Article 17",
+   "text": "Deleted by eIDAS 2.0. The provisions on the designation, tasks and powers of the supervisory body are now found in Article 46b in the new Chapter IVa. Anyone using older literature or commentaries will still find references there to Article 17 that lead nowhere."
+  },
+  {
+   "ref": "Article 18",
+   "text": "Deleted by eIDAS 2.0. The successor provision is Article 46d, which governs mutual assistance between the supervisory bodies, including joint investigations and the permissible grounds for refusal."
+  },
+  {
+   "ref": "Article 19",
+   "text": "Deleted by eIDAS 2.0. The security and notification obligations have been redistributed: Article 19a for non-qualified providers, Article 24(2), points (fa) and (fb), for qualified providers, supplemented by the direct application of Article 21 of the NIS 2 Directive."
+  },
+  {
+   "ref": "Article 19a",
+   "text": "New in eIDAS 2.0 and the security baseline for all non-qualified trust service providers. Point (a) requires appropriate policies and corresponding measures to manage legal, business, operational and other risks, at least as regards registration and onboarding procedures, procedural or administrative checks, and the management and implementation of the services. Point (b) requires notification of significant security breaches within 24 hours of having become aware of them."
+  },
+  {
+   "ref": "Article 20",
+   "text": "The audit core of the Regulation: an audit at least every 24 months at the provider's own expense by a conformity assessment body, the scope of the audit including Article 21 of the NIS 2 Directive, submission of the report within three working days. New are the requirement to inform the supervisory body one month before any planned audits, with the supervisory body's right to participate as an observer, and the withdrawal of qualified status where NIS 2 or GDPR infringements are notified. Paragraph 4 contains the empowerment for the central implementing act."
+  },
+  {
+   "ref": "Article 21",
+   "text": "Governs the initiation procedure: notification of the intention to the supervisory body together with a conformity assessment report covering eIDAS and Article 21 of the NIS 2 Directive. The supervisory body verifies, involves the NIS 2 competent authorities with a two-month deadline for their response, and decides within three months. The qualified trust service may only be provided once the qualified status has been indicated in the trusted list."
+  },
+  {
+   "ref": "Article 22",
+   "text": "Requires each Member State to establish, maintain and publish lists of the qualified trust service providers and of their qualified trust services - in a secured manner, electronically signed or sealed and in a form suitable for automated processing. The information on the body responsible for the lists, on where they are published and on the certificates used to sign or seal them shall be notified to the Commission without undue delay; the Commission shall in turn make it available to the public in a secured, electronically signed or sealed form suitable for automated processing."
+  },
+  {
+   "ref": "Article 23",
+   "text": "Allows qualified trust service providers, once indicated in the trusted list, to use the EU trust mark to indicate the qualified trust services they provide. Those who use it shall ensure that a link to the relevant trusted list is made available on their website. The form and design of the trust mark are laid down by implementing act."
+  },
+  {
+   "ref": "Article 24",
+   "text": "The central catalogue of obligations. Paragraphs 1, 1a and 1b govern the verification of identity (four methods) and of attributes (five methods). Paragraph 2 contains points (a) to (k) - notification obligations, staff, financial resources, information to users, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery, recording obligation, termination plan and certificate database. Paragraphs 3 and 4 govern revocation and information on validity or revocation status."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Lists in eleven paragraphs all types of qualified services and requires their recognition in all Member States: signatures and seals, creation devices, certificates and remote management services, validation and preservation services, time stamps, certificates for website authentication, registered delivery services, electronic attestations of attributes, archiving services and electronic ledgers. As a list, ideal for memorising."
+  },
+  {
+   "ref": "Article 25",
+   "text": "Contains two sentences of far-reaching significance: paragraph 1 prohibits denying an electronic signature legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in an electronic form or that it does not meet the requirements for qualified electronic signatures. Paragraph 2 gives the qualified electronic signature the equivalent legal effect of a handwritten signature. The former paragraph 3 was deleted by eIDAS 2.0."
+  },
+  {
+   "ref": "Article 26",
+   "text": "States four cumulative requirements: unique linkage to the signatory, capability of identifying the signatory, creation using electronic signature creation data that the signatory can, with a high level of confidence, use under his sole control, and detectability of any subsequent change in the data. Paragraph 2 requires the Commission to assess by 21 May 2026 whether reference standards by implementing act are necessary."
+  },
+  {
+   "ref": "Article 27",
+   "text": "Requires Member States which require an advanced electronic signature to use an online service offered by a public sector body to recognise also advanced electronic signatures based on qualified certificates and qualified electronic signatures - at least in the formats defined in the implementing acts. Conversely, they shall not request, for cross-border use in an online service offered by a public sector body, an electronic signature at a higher security level than the qualified electronic signature. The former paragraph 4 was deleted."
+  },
+  {
+   "ref": "Article 28",
+   "text": "Requires compliance with Annex I and at the same time bars Member States from laying down mandatory requirements exceeding those; non-mandatory additional attributes remain permissible as long as the interoperability and recognition of qualified electronic signatures are not affected. Revocation is final and the certificate's status shall not in any circumstances be reverted; temporary suspension is permitted only under the conditions of paragraph 5."
+  },
+  {
+   "ref": "Article 29",
+   "text": "Refers, for the requirements, to Annex II and contains in paragraph 1a the central innovation of eIDAS 2.0: generating, managing or duplicating electronic signature creation data shall be carried out only on behalf of the signatory, at the signatory's request, and by a qualified provider of a remote signature management service under Article 29a. Paragraph 2 empowers the Commission to establish reference numbers of the relevant standards."
+  },
+  {
+   "ref": "Article 29a",
+   "text": "Makes the server-side management of signature keys a qualified trust service in its own right, subject to three conditions: generation or management of the data on behalf of the signatory; duplication solely for back-up purposes, at the same level of security and in no more copies than strictly necessary; and compliance with all requirements identified in the certification report under Article 30. Grandfathering applies until 21 May 2026."
+  },
+  {
+   "ref": "Article 30",
+   "text": "Provides that conformity with Annex II shall be certified by appropriate public or private bodies designated by the Member States - to be distinguished from the conformity assessment bodies of Article 20. The basis is a security evaluation process carried out in accordance with a listed standard or, in the alternative, an equivalent notified process. New is the five-year limit coupled with vulnerability assessments every two years."
+  },
+  {
+   "ref": "Article 31",
+   "text": "Requires Member States to notify to the Commission certified electronic signature creation devices without undue delay and no later than one month after the certification is concluded - and likewise, within one month, those devices whose certification has been cancelled. The Commission shall make the list publicly available."
+  },
+  {
+   "ref": "Article 32",
+   "text": "Sets out in eight points when a validation process may confirm validity: a qualified certificate complying with Annex I at the time of signing, issuance by a qualified trust service provider and validity, correspondence of the signature validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a qualified electronic signature creation device, integrity of the data, and compliance with Article 26. Paragraph 2 additionally requires the result to be displayed comprehensibly."
+  },
+  {
+   "ref": "Article 32a",
+   "text": "New in eIDAS 2.0 and substantively identical to Article 32 - minus the condition that the signature was created by a qualified electronic signature creation device. The Article thereby closes the regulatory gap for the case, very common in practice, of an advanced electronic signature based on a qualified certificate."
+  },
+  {
+   "ref": "Article 33",
+   "text": "Permits provision only by qualified trust service providers and requires that validation be carried out in compliance with Article 32(1) and that the result be made available in an automated manner which is reliable and efficient - confirmed by an advanced electronic signature or advanced electronic seal of the provider. The advanced form is therefore sufficient for the result report."
+  },
+  {
+   "ref": "Article 34",
+   "text": "Requires procedures and technologies capable of extending the trustworthiness of a qualified electronic signature beyond its technological validity period. Cryptography ages - without preservation a 15-year-old signature loses its evidential value. To be distinguished from Article 45j: preservation keeps the SIGNATURE alive, archiving the DOCUMENT."
+  },
+  {
+   "ref": "Article 35",
+   "text": "Paragraph 1 contains the prohibition of discrimination, paragraph 2 the presumption of integrity of the data and of correctness of the origin of that data for qualified electronic seals. Unlike the qualified electronic signature, the seal is NOT given the equivalent legal effect of a handwritten signature - it attests the origin from an organisation, not a person's intention to be legally bound. The former paragraph 3 has been deleted."
+  },
+  {
+   "ref": "Article 36",
+   "text": "Mirrors Article 26 for the creator of the seal: unique linkage, capability of identifying, creation using electronic seal creation data under its control with a high level of confidence, and detectability of any subsequent change. The only substantive difference lies in point (c): what is required is not sole control but only 'its' control. Paragraph 2 contains the mandate for the Commission to carry out an assessment by 21 May 2026."
+  },
+  {
+   "ref": "Article 37",
+   "text": "Transfers the scheme of Article 27 to seals: an obligation to recognise the forms of seal named in Article 37 in the formats defined by implementing act, and a prohibition on requesting, for cross-border use, a higher security level than the qualified electronic seal. The former paragraph 4 has been deleted."
+  },
+  {
+   "ref": "Article 38",
+   "text": "Follows Article 28, but refers to Annex III. The only substantive difference from Annex I lies in point (c): Annex I permits the name OR a pseudonym of the signatory; Annex III requires the name of the creator of the seal and, where applicable, the registration number - a seal without an identifiable organisation would be pointless."
+  },
+  {
+   "ref": "Article 39",
+   "text": "Consists of three references: Article 29 shall apply mutatis mutandis to the requirements, Article 30 to the certification and Article 31 to the publication of the list. Annex II therefore also applies mutatis mutandis. Where the same hardware is used for signatures and seals, a single certification can cover both cases."
+  },
+  {
+   "ref": "Article 39a",
+   "text": "Declares Article 29a applicable mutatis mutandis to the management of remote qualified electronic seal creation devices. Remote sealing is thereby treated in exactly the same way as remote signing, including the transitional period until 21 May 2026 - Article 51(3) expressly names both Articles."
+  },
+  {
+   "ref": "Article 40",
+   "text": "A single sentence: Articles 32, 33 and 34 shall apply mutatis mutandis to the validation and preservation of qualified electronic seals. The eight verification points, the requirements for the qualified validation service and the preservation obligations therefore apply unchanged to seals as well."
+  },
+  {
+   "ref": "Article 40a",
+   "text": "A single sentence: Article 32a shall apply mutatis mutandis. This completes the mirroring between the signature section and the seal section - every article of Section 4 has a counterpart in Section 5."
+  },
+  {
+   "ref": "Article 41",
+   "text": "Paragraph 1 contains the prohibition of discrimination, paragraph 2 the presumption of the accuracy of the date and time and of the integrity of the data bound to them for qualified electronic time stamps. Without that presumption it would not be possible to prove that a document already existed at a particular point in time."
+  },
+  {
+   "ref": "Article 42",
+   "text": "Requires three things: a binding of the date and time to the data in such a manner as to reasonably preclude the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered."
+  },
+  {
+   "ref": "Article 43",
+   "text": "Paragraph 1 contains the prohibition of discrimination, paragraph 2 no fewer than four presumptions for qualified electronic registered delivery services: the integrity of the data, the sending of that data by the identified sender, its receipt by the identified addressee, and the accuracy of the date and time of both events. This makes the service the functional counterpart of registered post with acknowledgement of receipt."
+  },
+  {
+   "ref": "Article 44",
+   "text": "Names six requirements which, where data is transferred between several providers, apply to all those involved: provision by qualified trust service providers, identification of the sender with a high level of confidence, identification of the addressee before the delivery, securing by an advanced electronic signature or an advanced electronic seal, clear indication of any changes of the data that are needed, and indication of the time by a qualified electronic time stamp. The voluntary interoperability frameworks are new."
+  },
+  {
+   "ref": "Article 45",
+   "text": "Requires compliance with Annex IV and, for the first time, places obligations directly on providers of web-browsers: they shall recognise such certificates, display the attested identity data in a user-friendly manner, and ensure support and interoperability. Microenterprises and small enterprises are exempt during their first five years of operation. Mandatory requirements going beyond Annex IV are not permissible."
+  },
+  {
+   "ref": "Article 45a",
+   "text": "Prohibits providers of web-browsers from taking measures contrary to their obligations under Article 45, but allows precautionary measures in the event of substantiated concerns related to a security breach or the loss of integrity of an identified certificate or set of certificates. These shall be notified in writing without undue delay to the Commission, the supervisory body, the certificate holder and the issuing provider; the supervisory body investigates and may request that the measure be put to an end."
+  },
+  {
+   "ref": "Article 45b",
+   "text": "Paragraph 1 contains the prohibition of discrimination for all electronic attestations of attributes. Paragraph 2 gives a qualified electronic attestation of attributes, and an attestation issued by a public sector body responsible for an authentic source, the same legal effect as lawfully issued attestations in paper form. Paragraph 3 orders the Union-wide recognition of attestations issued by public sector bodies."
+  },
+  {
+   "ref": "Article 45c",
+   "text": "Primarily a prohibition subject to authorisation: person identification data in an electronic attestation of attributes shall not substitute the electronic identification, together with authentication, required under national law - unless the Member State specifically allows it. Only then does the legal consequence follow that qualified EAAs from other Member States shall also be accepted. The widespread reading as a mere obligation to accept is incorrect."
+  },
+  {
+   "ref": "Article 45d",
+   "text": "Refers to Annex V and prohibits additional mandatory requirements. Noteworthy is Annex V, point (g): it requires a QUALIFIED electronic signature or a qualified electronic seal of the issuing QTSP, whereas Annexes I and III at the same place require only an advanced form. Under paragraph 4, revocation is final."
+  },
+  {
+   "ref": "Article 45e",
+   "text": "Obliges Member States, at least for the eleven attributes listed in Annex VI - in so far as they rely on authentic sources within the public sector - to take measures allowing qualified trust service providers to verify those attributes by electronic means at the request of the user. Without a connection to registers, an electronic attestation of attributes would be a mere assertion. The time limit follows the same anchor as the provision of the European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 45f",
+   "text": "Creates a third class of EAA between simple and qualified. The issuing public sector body does not need QTSP status, but under paragraph 2 shall meet a level of reliability and trustworthiness EQUIVALENT to that of qualified trust service providers in accordance with Article 24, and under paragraph 3 is notified together with a conformity assessment report. Its responsibility for the authentic source shall be evidenced in machine-readable form in the underlying certificate. Paragraph 8 requires an interface with the European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 45g",
+   "text": "Paragraph 1 obliges ALL providers of electronic attestations of attributes to provide European Digital Identity Wallet users with the possibility to request, obtain, store and manage them irrespective of the Member State where the Wallet is provided. Paragraph 2 additionally requires - but only of providers of QUALIFIED EAAs - an interface with the Wallet. Without this bridge the Wallet would remain empty."
+  },
+  {
+   "ref": "Article 45h",
+   "text": "Prohibits providers of qualified and non-qualified electronic attestation of attributes services from combining personal data relating to the provision of those services with personal data from any other services offered by them or their commercial partners. Paragraph 2 requires the data to be kept logically separate from all other data held, paragraph 3 the functional separation of the qualified service from the provider's other services."
+  },
+  {
+   "ref": "Article 45i",
+   "text": "Paragraph 1 contains the prohibition of discrimination for electronically archived data and documents, paragraph 2 the presumption of their integrity and of their origin - limited, however, to the duration of the preservation period by the qualified trust service provider. This type of service is new in eIDAS 2.0."
+  },
+  {
+   "ref": "Article 45j",
+   "text": "Requires provision by qualified trust service providers, procedures and technologies for durability and legibility beyond the technological validity period and at least throughout the legal or contractual preservation period, safeguarding against loss and alteration except for changes of medium or format, and a report on integrity retrievable in an automated manner which bears a qualified electronic signature or a qualified electronic seal."
+  },
+  {
+   "ref": "Article 45k",
+   "text": "Paragraph 1 contains the prohibition of discrimination, paragraph 2 the presumption of the unique and accurate sequential chronological ordering as well as of the integrity of the data records - not of their substantive accuracy. The provision is deliberately drafted in a technology-neutral manner and nowhere mentions the term blockchain."
+  },
+  {
+   "ref": "Article 45l",
+   "text": "Requires four things: creation and management by one or more qualified trust service providers, establishment of the origin of the data records, ensuring the unique sequential chronological ordering, and a recording that makes any subsequent change immediately detectable."
+  },
+  {
+   "ref": "Article 46",
+   "text": "The whole of Chapter IV consists of this single article with one sentence: an electronic document shall not be denied legal effect and admissibility as evidence in legal proceedings solely on the grounds that it is in electronic form."
+  },
+  {
+   "ref": "Article 46a",
+   "text": "Obliges Member States to designate supervisory bodies for providers of European Digital Identity Wallets and to notify them to the Commission. Those bodies supervise compliance with the requirements, may request evidence and order measures. Before eIDAS 2.0 there was no comparable supervisory structure for the eID pillar."
+  },
+  {
+   "ref": "Article 46b",
+   "text": "Successor to the deleted Article 17. Requires the designation of one supervisory body per Member State and distinguishes the intensity of supervision: qualified trust service providers ex ante and ex post, non-qualified ones only ex post when informed of an alleged failure to comply. Paragraph 4 lists the tasks exhaustively in points (a) to (k) - among them the analysis of the conformity assessment reports, the verification of the termination plans and the investigation of web-browser claims under Article 45a."
+  },
+  {
+   "ref": "Article 46c",
+   "text": "Obliges each Member State to designate, make public and notify to the Commission a single point of contact for trust services, European Digital Identity Wallets and notified electronic identification schemes. Cross-border supervision needs a defined contact; the single point of contact is, among other things, the addressee of the notifications under Article 5e."
+  },
+  {
+   "ref": "Article 46d",
+   "text": "Successor to the deleted Article 18. Requires the supervisory bodies to provide each other, upon request, with information and assistance and to make joint investigations possible. A refusal is permissible only on defined grounds. Since a qualified provider operates Union-wide but is supervised nationally, supervisory gaps would arise without mutual assistance."
+  },
+  {
+   "ref": "Article 46e",
+   "text": "Establishes the Cooperation Group, in which the Member States coordinate the practical application. It facilitates peer review and the exchange of experience and issues opinions and recommendations - among other things on the draft national certification schemes for European Digital Identity Wallets under Article 5c(3) and on the notifications under Article 5d."
+  },
+  {
+   "ref": "Article 47",
+   "text": "Governs the procedure for delegated acts: the duration of the delegation, revocation at any time by the Parliament or the Council, consultation of experts, and the objection period within which the Parliament or the Council may raise objections. The Regulation refers to Article 47 in only three places: Article 5c(8), Article 24(4b) and Article 30(4)."
+  },
+  {
+   "ref": "Article 48",
+   "text": "Refers to the comitology Regulation (EU) No 182/2011 and declares its examination procedure applicable to all implementing acts under this Regulation. The committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft."
+  },
+  {
+   "ref": "Article 48a",
+   "text": "New in eIDAS 2.0. Requires the Member States to collect statistics on the use of the European Digital Identity Wallets and of the qualified trust services, to make them available to the public in machine-readable format and to report annually to the Commission. These figures form the evidence base for the review under Article 49 and for the assessment under Article 5f(5)."
+  },
+  {
+   "ref": "Article 49",
+   "text": "Requires the Commission to review the application of this Regulation at regular intervals and to report to the Parliament and the Council. eIDAS 2.0 emerged from this built-in review clause; together with the evaluation under Article 5f(5) it is the starting point for a possible further amendment."
+  },
+  {
+   "ref": "Article 50",
+   "text": "Repeals the Signature Directive 1999/93/EC with effect from 1 July 2016 and provides that references to the repealed Directive shall be construed as references to this Regulation. The grandfathering of certificates and devices issued under the old law follows from Article 51."
+  },
+  {
+   "ref": "Article 51",
+   "text": "Governs, in four paragraphs, the expiry of grandfathering: secure signature creation devices under the old Directive shall continue to be considered qualified until 21 May 2027, qualified certificates issued to natural persons until 21 May 2026, the management of remote signature and seal creation devices may be carried on until 21 May 2026 without qualified status of its own, and existing qualified providers shall submit, by 21 May 2026, a conformity assessment report on Article 24(1), (1a) and (1b)."
+  },
+  {
+   "ref": "Article 52",
+   "text": "Staggers the date of application: the general rule is 1 July 2016; the empowering provisions listed in paragraph 2, point (a) apply as early as 17 September 2014; Articles 7, 8(1) and (2), 9, 10, 11 and 12(1) apply from the date of application of the implementing acts referred to in Article 8(3) and Article 12(8); and the recognition obligation of Article 6 takes effect only three years thereafter."
+  },
+  {
+   "ref": "Article 2",
+   "text": "Paragraph 4 Makes clear that this Regulation is without prejudice to the General Data Protection Regulation. Where eIDAS governs processing operations, its requirements come in addition to the GDPR and do not replace it."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 1 Establishes the central implementation obligation of Chapter II: each Member State shall provide at least one European Digital Identity Wallet. The decisive element is the time-limit mechanism - the 24 months run not from the date of the Regulation but from the entry into force of TWO implementing acts: Article 5a(23) (core functionalities) and Article 5c(6) (certification). As long as either of the two is missing, the period does not begin to run. The same anchor also governs Article 5f(2) (36 months) and Article 45e(1). \"each Member State shall provide at least one European Digital Identity Wallet within 24 months of the date of entry into force of the implementing acts referred to in paragraph 23 of this Article and in Article 5c(6)\" ✓ Article 5a(1) eIDAS"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 11 Provides that European Digital Identity Wallets shall be provided under a notified electronic identification scheme with assurance level high. The Wallet is thereby, in law, a notified electronic identification means and not a special object - subject, however, to the exceptions in paragraph 22."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 12 Requires European Digital Identity Wallets to ensure security-by-design. Security is to be an architectural feature and not a protective layer added afterwards - the counterpart to Article 25 GDPR on the security side."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 13 Provides that the issuance, use and revocation of the European Digital Identity Wallet shall be free of charge to all natural persons. All three operations are covered, not only issuance."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 14 Prohibits the provider of the European Digital Identity Wallet from collecting information about use that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It shall also keep the data logically separate from all other holdings. Where the Wallet is provided by private parties in accordance with paragraph 2, point (b) or (c), Article 45h(3) (functional separation) applies mutatis mutandis in addition. This is the only paragraph outside 4, 5 and 8 that is expressly certified. \"Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet\" ✓ Article 5a(14) eIDAS"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 15 The core political condition of the European Digital Identity Wallet: no one is obliged to use it, and anyone who does not use it shall not be disadvantaged in access to services, in the labour market or in the freedom to conduct business. Forms the necessary counterweight to the acceptance obligations of Article 5f - the service MUST accept, the user need NOT use. \"The use of European Digital Identity Wallets shall be voluntary\" ✓ Article 5a(15) eIDAS"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 16 Point (a) prohibits providers of electronic attestations of attributes or any other party from obtaining, after issuance, data that allows transactions or user behaviour to be tracked, linked or correlated. Point (b) requires techniques which ensure unlinkability where identification is not necessary. Whereas paragraph 5, point (b) prohibits reading along, paragraph 16 prohibits combining - technically this leads to techniques such as selective disclosure and zero-knowledge proofs."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 17 Requires appropriate and effective data protection measures and expressly requires DEMONSTRATION that the processing activities comply with the GDPR. The accountability obligation of Article 5(2) GDPR is thereby specifically restated for the European Digital Identity Wallet. National provisions further specifying the application of such measures remain permissible."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 18 Names five items to be notified: the body responsible for the list of relying parties, together with the location of that list; the bodies responsible for provision; the bodies responsible for associating the person identification data; the mechanism for validating those data and the identity of the relying parties; and the mechanisms for validating the authenticity and validity of the European Digital Identity Wallet. The Commission shall make this available to the public in secure, signed and machine-processable form."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 19 Provides that Article 11 shall apply mutatis mutandis - without prejudice to paragraph 22. The European Digital Identity Wallet thus follows the liability regime of electronic identification and not that of trust services under Article 13."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 20 Makes Article 24(2), points (b) and (d) to (h), applicable mutatis mutandis to providers of European Digital Identity Wallets: qualified staff, pre-contractual information, trustworthy systems and cryptography, verifiable storage, risk management, 24-hour notification, protection against forgery and the recording obligation. Points (a), (c), (i) and (k) are not taken over - the Wallet provider does not thereby become a QTSP."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 21 Requires that European Digital Identity Wallets shall be made accessible for use, by persons with disabilities, on an equal basis with other users, in accordance with Directive (EU) 2019/882. The provision repeats Article 15 specifically for the Wallet."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 22 Switches off Articles 7, 9, 10, 12 and 12a for the European Digital Identity Wallet and the electronic identification scheme under which it is provided. The Wallet instead follows its own, stricter regime under Articles 5a to 5f. Important for the delimitation: Article 11 (liability) does apply, via Article 5a(19), and Article 12b (platform access) is precisely NOT excluded here. \"shall not be subject to the requirements laid down in Articles 7, 9, 10, 12 and 12a\" ✓ Article 5a(22) eIDAS"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 23 The Regulation's most important empowering provision in practice. The Commission shall establish reference standards, specifications and procedures for paragraphs 4, 5, 8 and 18 - this is the legal basis of the Architecture and Reference Framework. At the same time one of the two triggers of the 24-month period in paragraph 1. Numerous further provisions (5b(11), 5d(7), 5e(5), 45d(5), 45e(2), 45f(6) and (7)) expressly require alignment with that act. \"the Commission shall, by means of implementing acts, establish a list of reference standards and, where necessary, establish specifications and procedures for the requirements referred to in paragraphs 4, 5, 8 and 18 of this Article\" ✓ Article 5a(23) eIDAS"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 24 Empowers the Commission to establish reference standards and procedures for the onboarding of users - either by electronic identification means conforming to assurance level high or by assurance level substantial in conjunction with additional remote onboarding procedures that together meet the requirements of assurance level high. Without this route, citizens without an LoA-high identity document could not get into the European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 4 Describes, from the user's perspective, what the European Digital Identity Wallet shall be able to do: (a) securely request, store, delete and selectively present attributes, (b) generate pseudonyms and store them encrypted and locally, (c) interact with another person's Wallet, (d) a dashboard with a complete log of transactions, including requests for erasure and a report button to the data protection authority, (e) sign by means of qualified electronic signatures and seal by means of qualified electronic seals, (f) download data, (g) exercise data portability. Together with paragraphs 5, 8 and 14, this paragraph forms the subject matter of certification under Article 5c(1)."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 5 The internal view corresponding to paragraph 4. Point (a) lists eleven interfaces (issuance, request, presentation, user interaction, onboarding, Wallet-to-Wallet, RP authentication, verification of authenticity, requests for erasure, reporting to the authority, QES creation) - in effect the table of contents of the ARF. Point (b) prohibits any information being provided back to the issuer of the electronic attestation of attributes (EAA), point (d) requires assurance level high, point (g) the free-of-charge QES for natural persons."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 6 Requires the Member State to inform users without delay of any security breach that could have entirely or partially compromised their European Digital Identity Wallet or its contents - in particular where the Wallet has been suspended or revoked pursuant to Article 5e. The duty runs to the user and is to be distinguished from notification to authorities."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 8 Requires the Member State to provide two free-of-charge validation mechanisms running in opposite directions: point (a) allows verification of whether a presented European Digital Identity Wallet is authentic and valid; point (b) allows the user to verify whether the requesting relying party is registered and authentic. Without this two-way verifiability, Article 5b(8) (self-identification of the RP) would not be verifiable. Belongs to the subject matter of certification under Article 5c(1)."
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 9 Names three circumstances in which it shall be possible to revoke the validity of the European Digital Identity Wallet: the explicit request of the user, compromise of the security of the Wallet, and the death of the user or the cessation of activity of the legal person."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 1 Requires anyone intending to rely upon European Digital Identity Wallets for the provision of public or private services to register in the Member State where it is established. Only registered parties can be authenticated by the Wallet."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 11 Empowers the Commission to establish technical specifications and procedures for paragraphs 2, 5 and 6 to 9, and to do so within the European Digital Identity Wallet implementing act under Article 5a(23). Without a uniform format, the registration could not be evaluated across borders."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 2 The relying party shall provide authentication information, contact details and - point (c) - the intended use, including an indication of the data to be requested. Point (c) is the anchor of purpose limitation: it defines the permissible scope of requests, to which paragraph 3 binds the RP."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 3 Makes the registration information under paragraph 2, point (c) legally binding: the registered scope of data is at the same time the maximum permissible one. Purpose limitation under data protection law thereby becomes technically and supervisorily enforceable for the first time, instead of merely being asserted. \"shall not request users to provide any data other than that indicated pursuant to paragraph 2, point (c)\" ✓ Article 5b(3) eIDAS"
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 5 Requires the Member State to make the registration information publicly available online in electronically signed or sealed form suitable for automated processing. Only thereby can the European Digital Identity Wallet check by machine whether a requesting party is registered."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 6 Requires registered parties to inform the Member State without delay of any change to the registration information - including a change in the intended use and thus in the permissible scope of requests."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 7 Requires the Member State to provide a common mechanism for the identification and authentication of relying parties, as referred to in Article 5a(5), point (c). Twenty-seven different procedures would be unmanageable across borders."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 8 Requires the relying party to identify itself to the user. The user is to know, before releasing data, to whom he is giving it - protection against phishing and spoofing."
+  },
+  {
+   "ref": "Article 5b",
+   "text": "Paragraph 9 Places the responsibility for authenticating and validating the data presented on the relying party - not on the provider of the European Digital Identity Wallet. The second sentence at the same time prohibits refusing the use of pseudonyms unless a legal provision requires identification by real name. Article 5 is thereby protected against being undermined in practice."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 1 Defines exhaustively what is certified: the conformity of the European Digital Identity Wallet AND of the electronic identification scheme with Article 5a(4), (5) and (8), the requirement for logical separation under paragraph 14, and, where applicable, the standards referred to in paragraph 24. Everything else from Article 5a is subject to supervision under Article 46a, not to certification. The number sequence 4-5-8-14 is the practical mnemonic anchor."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 2 provides that certification, in so far as cybersecurity requirements are concerned, shall be carried out in accordance with the European cybersecurity certification schemes adopted pursuant to Regulation (EU) 2019/881. This does not create an eIDAS certification world of its own, but hooks into the Cybersecurity Act."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 4 limits certification of European Digital Identity Wallets to five years and ties it to a vulnerability assessment every two years. Where a vulnerability is not remedied in a timely manner, certification shall be cancelled. The same 5/2 pattern is found in Article 12a(3) (there with an express three-month deadline) and in Article 30(3a) for QSCDs. “Certification pursuant to paragraph 1 shall be valid for up to five years, provided that a vulnerability assessment is carried out every two years” ✓ Article 5c(4) eIDAS"
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 6 lays down reference standards, specifications and procedures for the certification referred to in paragraphs 1, 2 and 3. Together with Article 5a(23), it is the second trigger of the 24-month deadline. Without a uniform certification scheme, a European Digital Identity Wallet certificate from one Member State would not be dependable in another - and the list under Article 5d would have no common benchmark."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 7 requires Member States to communicate to the Commission the names and addresses of the designated conformity assessment bodies; the Commission shall make that information available to all Member States. Only bodies that are known may be recognised across borders."
+  },
+  {
+   "ref": "Article 5c",
+   "text": "Paragraph 8 empowers the Commission to adopt delegated acts in accordance with Article 47 establishing specific criteria to be met by the designated conformity assessment bodies. A delegated act means that Parliament and Council have a right to object - unlike under the examination procedure of Article 48."
+  },
+  {
+   "ref": "Article 5d",
+   "text": "Paragraph 2 names five items of information: the certificate and certification assessment report, a description of the underlying electronic identification scheme, the applicable supervisory regime and the liability regime, the authority or authorities responsible, and the arrangements for suspension and revocation. The structure largely corresponds to Article 9(1) for notified electronic identification schemes."
+  },
+  {
+   "ref": "Article 5d",
+   "text": "Paragraph 3 requires the Commission to establish, publish in the Official Journal and maintain in machine-readable form a list of certified European Digital Identity Wallets. This list is the central official reference and is not to be confused with the trusted list under Article 22."
+  },
+  {
+   "ref": "Article 5d",
+   "text": "Paragraph 7 empowers the Commission to establish the formats and procedures applicable for the purposes of paragraphs 1, 4 and 5 - within the implementing act on European Digital Identity Wallets referred to in Article 5a(23). Notifications shall be machine-processable, otherwise the procedure does not scale."
+  },
+  {
+   "ref": "Article 5e",
+   "text": "Paragraph 1 requires the Member State to suspend the provision and the use without undue delay where the European Digital Identity Wallets, the validation mechanisms or the underlying electronic identification scheme are breached or compromised in a manner that affects their reliability - where the severity so justifies, immediate withdrawal. Four groups of addressees shall be informed: the users affected, the single points of contact pursuant to Article 46c, the relying parties and the Commission."
+  },
+  {
+   "ref": "Article 5e",
+   "text": "Paragraph 2 sets the upper limit for the state of suspension: if the security breach is not remedied within three months of the suspension, the European Digital Identity Wallets shall be withdrawn and their validity revoked. The period is identical to that in Article 10(3) for notified electronic identification schemes - neither regime allows any longer forbearance. “not remedied within three months of the suspension, the Member State that provided the European Digital Identity Wallets shall withdraw European Digital Identity Wallets and revoke their validity” ✓ Article 5e(2) eIDAS"
+  },
+  {
+   "ref": "Article 5e",
+   "text": "Paragraph 4 requires the Commission to publish the corresponding amendments to the list referred to in Article 5d in the Official Journal without undue delay. Delayed publication would itself be a security problem, because relying parties would continue to rely on a suspended European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 5e",
+   "text": "Paragraph 5 empowers the Commission to establish reference standards, specifications and procedures for the measures referred to in paragraphs 1, 2 and 3 - that is, for suspension, withdrawal and re-establishment."
+  },
+  {
+   "ref": "Article 5f",
+   "text": "Paragraph 1: Where a Member State requires electronic identification and authentication to access an online service provided by a public sector body, it shall also accept the European Digital Identity Wallet. Without this obligation there would be no use cases and hence no incentive to use it."
+  },
+  {
+   "ref": "Article 5f",
+   "text": "Paragraph 2 covers private relying parties that are required by Union law, national law or by contractual obligation to use strong user authentication - the areas named include transport, energy, banking, financial services, social security, health, digital infrastructure, education and telecommunications. Microenterprises and small enterprises are excepted; acceptance takes place only upon the voluntary request of the user. Deadline: 36 months from the same anchor as Article 5a(1). “Where private relying parties that provide services, with the exception of microenterprises and small enterprises” ✓ Article 5f(2) eIDAS"
+  },
+  {
+   "ref": "Article 5f",
+   "text": "Paragraph 3 requires the providers designated pursuant to Article 33 of the Digital Services Act to accept European Digital Identity Wallets and to facilitate their use where they require user authentication for access - but only upon the voluntary request of the user and limited to the minimum data necessary for the specific service."
+  },
+  {
+   "ref": "Article 6",
+   "text": "Paragraph 1 is the core promise of eIDAS 2014. The obligation of recognition applies cumulatively: the scheme shall be included in the Commission's list pursuant to Article 9, its assurance level shall be at least 'substantial' and shall correspond to the level required, and the public sector body shall itself use substantial or high for that service. Recognition shall take place no later than 12 months after publication of the list. Assurance level 'low' never triggers an obligation (paragraph 2)."
+  },
+  {
+   "ref": "Article 6",
+   "text": "Paragraph 7 does not refer to eIDAS but to the Digital Markets Act: the gatekeeper shall allow, free of charge, effective interoperability with, and access to, the same operating system, hardware or software features that are accessed or controlled via the operating system or virtual assistant - irrespective of whether those features are part of the operating system. Article 12b eIDAS expressly refers to this."
+  },
+  {
+   "ref": "Article 8",
+   "text": "Paragraph 1 requires an electronic identification scheme notified pursuant to Article 9(1) to specify the assurance levels low, substantial and/or high for the electronic identification means issued under that scheme. The wording 'and/or' expressly permits several levels within one scheme."
+  },
+  {
+   "ref": "Article 8",
+   "text": "Paragraph 2 contains definitions only, no obligations to act - a frequent source of error. The scale is oriented towards the effect against identity misuse: 'low' decreases the risk, 'substantial' decreases it substantially, 'high' prevents it. The substantive requirements follow only from the implementing act under paragraph 3, given effect by Implementing Regulation (EU) 2015/1502. “The assurance levels low, substantial and high shall meet respectively the following criteria” ✓ Article 8(2) eIDAS Article 8 (3) The actual obligation of the Article, addressed to the Commission. It shall set out minimum technical specifications, standards and procedures, referring to six elements: proving and verifying identity, issuance of the means, the authentication mechanism, the entity issuing the means, any other body involved, and the technical and security specifications of the means. Without that act, 'high' would mean something different in every Member State."
+  },
+  {
+   "ref": "Article 9",
+   "text": "(1) Seven items of information, (a) to (g), among them the description of the scheme including its assurance levels, the applicable supervisory regime together with the liability regime separately for the issuing party and the party operating the authentication, the responsible authorities, the entity managing the registration of the person identification data, and the arrangements for suspension and revocation. Almost identical to Article 5d(2) for European Digital Identity Wallets - the same notification logic in two regimes."
+  },
+  {
+   "ref": "Article 9",
+   "text": "(2) Requires the Commission to publish the list of notified electronic identification schemes in the Official Journal without undue delay. Only that publication triggers the recognition obligation under Article 6."
+  },
+  {
+   "ref": "Article 9",
+   "text": "(3) Requires the Commission to publish amendments to the notified information in the Official Journal within one month of the date of receipt of the notification. The same one-month period applies under Article 5d(6) for European Digital Identity Wallets and under Article 31 (1) for signature creation devices."
+  },
+  {
+   "ref": "Article 10",
+   "text": "(2) Requires the notifying Member State, once the breach is remedied, to re-establish the cross-border authentication and to inform the other Member States and the Commission without undue delay. The state of emergency must also be able to come to an end - with the same transparency as its imposition."
+  },
+  {
+   "ref": "Article 10",
+   "text": "(3) Mirror image of Article 5e(2). Where the breach is not remedied within three months of the suspension or revocation, the notifying Member State shall notify the withdrawal of the scheme; the Commission shall publish the amendment in the Official Journal without undue delay. \"three months of the suspension or revocation, the notifying Member State shall notify other Member States and the Commission of the withdrawal of the electronic identification scheme\" ✓ Article 10(3) eIDAS Article 11 (1) Establishes the liability of the notifying Member State for damage caused intentionally or negligently which is due to a failure to comply with the obligations under Article 7, point (d) - unique attribution of the person identification data - and point (f) - availability of the authentication - in a cross-border transaction."
+  },
+  {
+   "ref": "Article 11",
+   "text": "(4) Provides that the liability rules in paragraphs 1 to 3 shall be applied in accordance with national rules on liability. The Regulation thereby determines the basis of liability, but not the assessment of damages, limitation periods or contributory negligence."
+  },
+  {
+   "ref": "Article 12",
+   "text": "(5) Requires Member States to carry out peer reviews of the electronic identification schemes to be notified. This collegial control replaces central Union supervision; under Article 12a(5) it does not apply to certified schemes."
+  },
+  {
+   "ref": "Article 12",
+   "text": "(8) Implements the framework which, under paragraph 4, comprises inter alia the mapping of national assurance levels to the Article 8 levels, the minimum set of person identification data, rules of procedure, dispute resolution and common operational security standards. Together with the act under Article 8(3) it triggers, under Article 52(2), point (b), the date of application of the eID Articles. Deadline in the recast: 18 September 2025."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "(1) Provides that the conformity of the electronic identification schemes to be notified with the cybersecurity requirements laid down in the Regulation - including the cybersecurity relevant requirements set out in Article 8(2) - shall be certified by the designated conformity assessment bodies."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "(2) Requires the certification to be carried out under a relevant cybersecurity certification scheme pursuant to Regulation (EU) 2019/881 or parts thereof, insofar as it covers those requirements."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "(3) A more precise variant of the 5/2 rule: certification of an electronic identification scheme shall be valid for up to five years, provided that a vulnerability assessment is carried out every two years; where a vulnerability is not remedied within three months of its identification, certification shall be cancelled. Article 5c(4) says only 'in a timely manner' at the same point, Article 30(3a) names no period at all - a popular examination topic."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "(5) Provides that for certified schemes or parts thereof the peer review under Article 12(5) shall not apply. For the non-cybersecurity-related requirements of Article 8(2), Member States may use a certificate or a statement of conformity. Therein lies the practical incentive to certify."
+  },
+  {
+   "ref": "Article 12a",
+   "text": "(6) Requires Member States to communicate to the Commission the names and addresses of the conformity assessment bodies they have designated. The parallel provisions are found in Article 5c(7), Article 20(1b) and Article 30 (2)."
+  },
+  {
+   "ref": "Article 13",
+   "text": "(1) Trust service providers shall be liable for damage caused intentionally or negligently, expressly including non-material damage - an extension introduced by eIDAS 2.0. The decisive difference is in the second and third subparagraphs: with a non-qualified provider the injured person must prove intention or negligence, whereas with a qualified provider both are presumed unless it exonerates itself. Only this gives qualified status a value in liability law."
+  },
+  {
+   "ref": "Article 13",
+   "text": "(2) Allows liability for use of the services exceeding the indicated limitations to be excluded - but only subject to double transparency: duly informing the customer in advance AND recognisability of the limitation to third parties. In practice this means machine-readable limitations in the certificate, not merely a clause in the terms and conditions."
+  },
+  {
+   "ref": "Article 13",
+   "text": "(3) Provides that the liability rules in paragraphs 1 and 2 shall be applied in accordance with national rules on liability - the Regulation governs the basis of liability, national law the legal consequences in detail."
+  },
+  {
+   "ref": "Article 19a",
+   "text": "Paragraph 1, point (a) requires appropriate policies and corresponding measures to manage risk, covering at least registration and onboarding procedures, procedural or administrative checks, and the management and implementation of the services - identical in wording to Article 24(2), point (fa) for QTSPs. Point (b) requires notification of significant security breaches within 24 hours of HAVING BECOME AWARE. Before eIDAS 2.0, non-qualified providers were practically unregulated."
+  },
+  {
+   "ref": "Article 20",
+   "text": "Paragraph 1 The audit core of the Regulation. Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body; the scope of the audit expressly covers Article 21 of the NIS 2 Directive as well. The conformity assessment report shall be submitted to the supervisory body within three WORKING days of its receipt. \"Qualified trust service providers shall be audited at their own expense at least every 24 months by a conformity assessment body\" ✓ Article 20(1) eIDAS"
+  },
+  {
+   "ref": "Article 20",
+   "text": "Paragraph 1b Obliges Member States to notify the Commission without undue delay of the names, addresses AND ACCREDITATION details of the conformity assessment bodies and of any subsequent changes thereto; the Commission makes that information available to all Member States. The fact that accreditation details are also subject to notification was added by eIDAS 2.0."
+  },
+  {
+   "ref": "Article 20",
+   "text": "Paragraph 3 A two-stage procedure: the supervisory body first requires a remedy within a set time limit. If none is provided, it withdraws the qualified status, where justified by the extent, duration and consequences of the failure. These three criteria also govern withdrawal for NIS2 and GDPR breaches under paragraphs 3a and 3b."
+  },
+  {
+   "ref": "Article 20",
+   "text": "Paragraph 3c Obliges the supervisory body to inform the provider concerned of the withdrawal, and further to inform the body notified pursuant to Article 22(3) as responsible for the trusted list, for the purposes of updating it, as well as the competent NIS2 authority. In practice the withdrawal takes effect only once it is visible in the trusted list."
+  },
+  {
+   "ref": "Article 20",
+   "text": "Paragraph 4 Governs the accreditation of the conformity assessment bodies, the content of the conformity assessment report, and the auditing requirements and conformity assessment schemes. Together with the act under Article 24(5), the most important audit document for QTSPs. Implemented by Implementing Regulation (EU) 2025/2162."
+  },
+  {
+   "ref": "Article 21",
+   "text": "Paragraph 1 Obliges providers intending to start providing a qualified trust service to notify the supervisory body of their intention and to attach a conformity assessment report issued by a conformity assessment body confirming the fulfilment of the requirements laid down in this Regulation AND in Article 21 of the NIS 2 Directive."
+  },
+  {
+   "ref": "Article 21",
+   "text": "Paragraph 2 The supervisory body verifies fulfilment of the requirements and shall request the NIS2 competent authorities to carry out supervisory actions; they report back within two months. The overall decision shall be taken not later than three months after the notification. Where that period is exceeded, the applicant shall be informed, specifying the reasons and a new time limit. \"three months of notification, the supervisory body shall inform the trust service provider specifying the reasons for the delay\" ✓ Article 21(2) eIDAS"
+  },
+  {
+   "ref": "Article 21",
+   "text": "Paragraph 3 A service may be provided as qualified only once the status has been indicated in the trusted list referred to in Article 22(1). What is decisive is therefore not the supervisory body's decision but the publicly retrievable, signed list entry - that is what relying parties rely on."
+  },
+  {
+   "ref": "Article 22",
+   "text": "Paragraph 1 Each Member State shall establish, maintain and publish trusted lists of QTSPs and the qualified services they provide. Paragraph 2 requires those lists to be securely electronically signed or sealed and in a form suitable for automated processing - a PDF list does not meet the standard. Under paragraph 4, the Commission maintains the central access point."
+  },
+  {
+   "ref": "Article 22",
+   "text": "Paragraph 3 Obliges Member States to notify the Commission without undue delay of the body responsible for establishing, maintaining and publishing the national trusted lists, of where such lists are published, of the certificates used to sign or seal them, and of any changes thereto."
+  },
+  {
+   "ref": "Article 23",
+   "text": "Paragraph 1 Allows qualified providers, after their status has been indicated in the trusted list, to use the EU trust mark to indicate in a simple, recognisable and clear manner the qualified services they provide. This is a right, not an obligation."
+  },
+  {
+   "ref": "Article 23",
+   "text": "Paragraph 2 Obliges anyone using the trust mark to ensure that a link to the relevant trusted list is made available on their website. Only through this does the qualification asserted by the mark become verifiable by anyone."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 1a An exhaustive list: (a) the European Digital Identity Wallet or a notified electronic identification means with assurance level high, (b) a certificate of a qualified electronic signature or of a qualified electronic seal issued in compliance with point (a), (c) or (d), (c) other identification methods which ensure identification with a high level of confidence, the conformity of which is confirmed by a conformity assessment body, (d) physical presence. Point (c) is the gateway for video identification and comparable remote methods - but only with CAB confirmation."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 1b Parallel to paragraph 1a, but extended by one option: additionally permitted is the qualified electronic attestation of attributes (point (c)). The QEAA from Section 9 thereby itself becomes an admissible means of evidence in the authorisation procedure of Section 3 - here the circle between the two blocks closes."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 1c Empowers the Commission to establish a list of reference standards and, where necessary, specifications and procedures for the verification of identity and attributes in accordance with paragraphs 1, 1a and 1b. For existing providers this act is practically unavoidable because of the evidence obligation under Article 51(4)."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 2 The central catalogue, in practice the outline of every audit: (a) notification duties (one month for changes, three months for cessation), (b) qualified and trained staff in accordance with recognised standards, (c) sufficient financial resources or liability insurance, (d) pre-contractual information, (e) trustworthy systems including suitable cryptographic techniques, (f) verifiable storage of data, (fa) risk management, (fb) 24-hour notification, (g) protection against forgery and loss of data, (h) record-keeping beyond cessation of activities, (i) termination plan, (k) certificate database. Point (j) was deleted - the gap is intentional."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 3 The QTSP registers the revocation in its certificate database and publishes the revocation status in a timely manner, and in any event within 24 hours after the RECEIPT OF THE REQUEST - not after its own decision. The revocation becomes effective only upon publication; an unpublished revocation protects no one. \"publish the revocation status of the certificate in a timely manner, and in any event within 24 hours after the receipt of the request. The revocation shall become effective immediately upon its publication\" ✓ Article 24(3) eIDAS"
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 4 The QTSP provides relying parties with information on the validity or revocation status - at least on a per certificate basis, at any time, beyond the validity period, in an automated manner, reliable, free of charge and efficient. The addition 'beyond the validity period' is decisive: only in this way can signatures still be validated years later."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 4a Provides that paragraphs 3 and 4 apply accordingly to the revocation of qualified electronic attestations of attributes. The 24-hour time limit and the permanent status information therefore apply there as well."
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 4b Empowers the Commission to adopt delegated acts in accordance with Article 47 establishing additional measures referred to in paragraph 2, point (fa). It is a delegated act, not an implementing act - with a right of objection for Parliament and Council."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 1 Provides that qualified electronic signatures and qualified electronic seals based on a qualified certificate issued in one Member State shall be recognised as such in all other Member States."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 10 Provides for Union-wide recognition of qualified electronic archiving services."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 11 Provides for Union-wide recognition of qualified electronic ledgers - the most recently inserted of the eleven types of service."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 3 Extends Union-wide recognition to qualified certificates for electronic signatures and for electronic seals as well as to qualified trust services for the management of remote qualified electronic signature and seal creation devices."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 6 Provides for Union-wide recognition of qualified electronic time stamps."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 7 Provides for Union-wide recognition of qualified certificates for website authentication."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 8 Provides for Union-wide recognition of qualified electronic registered delivery services."
+  },
+  {
+   "ref": "Article 24a",
+   "text": "Paragraph 9 Provides for Union-wide recognition of qualified electronic attestations of attributes."
+  },
+  {
+   "ref": "Article 25",
+   "text": "Paragraph 2 The sentence of signature law with the greatest practical consequences: a qualified electronic signature shall have the equivalent legal effect of a handwritten signature. Advanced electronic signatures do not attain this effect - not even where based on a qualified certificate. In German law, Section 126a BGB is the counterpart. \"A qualified electronic signature shall have the equivalent legal effect of a handwritten signature\" ✓ Article 25(2) eIDAS"
+  },
+  {
+   "ref": "Article 28",
+   "text": "Paragraph 2 Member States shall not make qualified certificates for electronic signatures subject to any mandatory requirement exceeding the requirements laid down in Annex I. Annex I is thereby at once the minimum and the maximum content. The same pattern is found in Article 38(2), Article 45(1b) and Article 45d(3)."
+  },
+  {
+   "ref": "Article 28",
+   "text": "Paragraph 4 A revoked qualified certificate shall lose its validity and its status shall not in any circumstances be reverted. A reversible intermediate stage exists only by way of the temporary suspension under paragraph 5, the period of which shall be clearly indicated in the certificate database. The same finality applies under Article 38(4), Article 45d(4) and Article 45f(4)."
+  },
+  {
+   "ref": "Article 28",
+   "text": "Paragraph 5 Allows Member States to lay down national rules on temporary suspension of qualified certificates, subject to two conditions: the certificate shall lose its validity for the period of suspension, and the period of suspension shall be clearly indicated in the certificate database and the suspension status made visible from the service providing information on the status of the certificate."
+  },
+  {
+   "ref": "Article 29",
+   "text": "Paragraph 1a Generating, managing or duplicating electronic signature creation data shall be carried out only on behalf of the signatory, at the request of the signatory, and by a QTSP providing a qualified trust service for the management of a remote qualified electronic signature creation device under Article 29a. This is the greatest practical upheaval of eIDAS 2.0, because virtually all signatures today are created server-side. Grandfathering until 21 May 2026 under Article 51(3)."
+  },
+  {
+   "ref": "Article 30",
+   "text": "Paragraph 2 Requires Member States to notify to the Commission the names and addresses of the public or private bodies designated for the certification of qualified electronic signature creation devices; the Commission shall make that information available to Member States."
+  },
+  {
+   "ref": "Article 30",
+   "text": "Paragraph 3a New in eIDAS 2.0: the validity of a certification of a qualified electronic signature creation device shall not exceed five years, provided that vulnerabilities assessments are carried out every two years; where vulnerabilities are not remedied, the certification shall be cancelled. Previously QSCD certificates were in practice unlimited in time, which was untenable with ageing cryptography."
+  },
+  {
+   "ref": "Article 30",
+   "text": "Paragraph 4 Empowers the Commission to adopt delegated acts in accordance with Article 47 concerning specific criteria to be met by the designated bodies - the same construction as in Article 5c(8) for the conformity assessment bodies for the European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 32",
+   "text": "Paragraph 1 The validation process shall confirm validity only if all eight conditions are met: a qualified certificate complying with Annex I at the time of signing, issuance by a QTSP and validity, correspondence of the signature validation data, correct provision of the unique set of data representing the signatory, clear indication of any pseudonym, creation by a QSCD, integrity of the signed data and compliance with Article 26. Point (f) - the QSCD condition - is precisely the point missing in Article 32a."
+  },
+  {
+   "ref": "Article 32",
+   "text": "Paragraph 2 Requires the system used for validation to provide to the relying party the correct result of the validation process and to allow it to detect any security relevant issues. A result that is technically correct but presented unintelligibly leads to wrong decisions."
+  },
+  {
+   "ref": "Article 32a",
+   "text": "Paragraph 1 Substantively identical to Article 32(1), but without the QSCD condition. The provision thereby covers the case, very common in practice, of an advanced electronic signature based on a qualified certificate, which was not regulated before eIDAS 2.0. The one missing point is at the same time the difference between QES and AdES."
+  },
+  {
+   "ref": "Article 33",
+   "text": "Paragraph 1 Only QTSPs may provide it. They shall provide validation in compliance with Article 32(1) and allow relying parties to receive the result in an automated manner, reliably and efficiently - bearing their ADVANCED electronic signature or their advanced electronic seal. For the result report the advanced form is therefore sufficient, unlike for the archiving report under Article 45j(1)(d)."
+  },
+  {
+   "ref": "Article 35",
+   "text": "Paragraph 1 Prohibits denying an electronic seal legal effect and admissibility as evidence solely on the grounds that it is in an electronic form or that it does not meet the requirements for qualified electronic seals."
+  },
+  {
+   "ref": "Article 36",
+   "text": "Paragraph 1 Mirror image of Article 26(1), applied to the creator of the seal as a legal person. The only substantive difference lies in point (c): what is required is use of the electronic seal creation data 'under its control', not under 'sole control'. For an organisation, sole control could not sensibly be represented either."
+  },
+  {
+   "ref": "Article 36",
+   "text": "Paragraph 2 Obliges the Commission to assess, by 21 May 2026, whether implementing acts establishing reference standards for advanced electronic seals are necessary, and empowers it to adopt such acts on the basis of that assessment. Only the assessment is subject to the deadline, not the act."
+  },
+  {
+   "ref": "Article 37",
+   "text": "Paragraph 1 Obliges Member States which require an advanced electronic seal in order to use an online service offered by a public sector body also to recognise advanced electronic seals based on a qualified certificate and qualified electronic seals - at least in the formats laid down by implementing act."
+  },
+  {
+   "ref": "Article 37",
+   "text": "Paragraph 3 Prohibits Member States from requesting, for the cross-border use in an online service offered by a public sector body, an electronic seal at a higher security level than the qualified electronic seal."
+  },
+  {
+   "ref": "Article 37",
+   "text": "Paragraph 5 Empowers the Commission to define reference formats of advanced electronic seals or reference methods where alternative formats are used. This was implemented together with the signature formats."
+  },
+  {
+   "ref": "Article 38",
+   "text": "Paragraph 2 Prohibits mandatory requirements for qualified certificates for electronic seals exceeding those laid down in Annex III. Annex III is thus at once the minimum and the maximum content."
+  },
+  {
+   "ref": "Article 38",
+   "text": "Paragraph 4 Provides that a revoked qualified certificate for electronic seal loses its validity from the moment of its revocation and that its status shall not in any circumstances be reverted."
+  },
+  {
+   "ref": "Article 38",
+   "text": "Paragraph 5 Permits national suspension rules under the same conditions as Article 28(5): loss of validity for the period of suspension and clear indication of the period in the certificate database as well as in the service providing information on the status of the certificate."
+  },
+  {
+   "ref": "Article 38",
+   "text": "Paragraph 6 Empowers the Commission to establish reference standards, specifications and procedures; where these are complied with, compliance with Annex III shall be presumed. In practice this act was adopted together with the one on Article 28(6)."
+  },
+  {
+   "ref": "Article 39",
+   "text": "Paragraph 1 Provides that Article 29 applies mutatis mutandis to qualified electronic seal creation devices - and thereby indirectly Annex II as well as the rule on remote management."
+  },
+  {
+   "ref": "Article 39",
+   "text": "Paragraph 2 Provides that Article 30 applies mutatis mutandis: certification by designated bodies, security evaluation process in accordance with a listed standard or a process using comparable security levels, five-year limit with vulnerability assessments every two years."
+  },
+  {
+   "ref": "Article 39",
+   "text": "Paragraph 3 Provides that Article 31 applies mutatis mutandis: notification within one month of the certification as well as of its cancellation, maintenance of the list by the Commission."
+  },
+  {
+   "ref": "Article 41",
+   "text": "Paragraph 1 Prohibits denying an electronic time stamp legal effect and admissibility as evidence solely on the grounds that it is in an electronic form or that it does not meet the requirements of the qualified electronic time stamp."
+  },
+  {
+   "ref": "Article 41",
+   "text": "Paragraph 2 Establishes the presumption of the accuracy of the date and time and of the integrity of the data to which they are bound. The time stamp is the glue of the Regulation: it reappears in signature validation, in Article 44(1)(f) for registered delivery services and indirectly in the ledgers under Article 45l."
+  },
+  {
+   "ref": "Article 43",
+   "text": "Paragraph 1 Prohibits denying data sent electronically legal effect and admissibility as evidence solely on the grounds that they are in an electronic form or that they do not meet the requirements of the qualified electronic registered delivery service."
+  },
+  {
+   "ref": "Article 43",
+   "text": "Paragraph 2 The densest presumption rule of the Regulation: integrity of the data, the sending of that data by the identified sender, its receipt by the identified addressee, and the accuracy of the date and time of both operations. This makes the electronic registered delivery service the functional counterpart of registered mail with acknowledgement of receipt."
+  },
+  {
+   "ref": "Article 44",
+   "text": "Paragraph 1 Six conditions (a) to (f), which in the event of transfer between several providers apply to all those involved. Note the differing signature level: point (d) requires an advanced electronic signature or an advanced electronic seal for securing the sending and receiving, whereas point (f) requires a QUALIFIED electronic time stamp for the time indication. „The date and time of sending, receiving and any change of data are indicated by a qualified electronic time stamp“ ✓ Article 44(1)(f) eIDAS"
+  },
+  {
+   "ref": "Article 45",
+   "text": "Paragraph 1a The politically most contested provision of eIDAS 2.0. Providers of web-browsers shall recognise qualified certificates for website authentication, display the attested identity data in a user-friendly manner and ensure support and interoperability. Microenterprises and small enterprises are exempt during their first five years of operation. For the first time, browser manufacturers are directly obliged by eIDAS. „Providers of web-browsers shall ensure that the identity data attested in the certificate and additional attested attributes are displayed in a user-friendly manner“ ✓ Article 45(1a) eIDAS"
+  },
+  {
+   "ref": "Article 45b",
+   "text": "Paragraph 1 Prohibits denying an electronic attestation of attributes legal effect and admissibility as evidence on the sole ground that it is in electronic form or that it does not meet the requirements for qualified electronic attestations of attributes."
+  },
+  {
+   "ref": "Article 45b",
+   "text": "Paragraph 2 Places the qualified electronic attestation of attributes and the attestation issued by a public sector body responsible for an authentic source on an equal footing with a lawfully issued paper attestation. The simple EAA receives only the non-discrimination rule of paragraph 1. Under paragraph 3, the PuB-EAA is in addition recognised in all Member States. \"shall have the same legal effect as lawfully issued attestations in paper form\" ✓ Article 45b(2) eIDAS"
+  },
+  {
+   "ref": "Article 45d",
+   "text": "Paragraph 3 Prohibits mandatory requirements for qualified electronic attestations of attributes going beyond Annex V - the same pattern as in Article 28(2), Article 38(2) and Article 45(1b)."
+  },
+  {
+   "ref": "Article 45d",
+   "text": "Paragraph 4 Provides that a revoked qualified electronic attestation of attributes loses its validity from the moment of its revocation and that its status shall not in any circumstances be reverted."
+  },
+  {
+   "ref": "Article 45d",
+   "text": "Paragraph 5 Empowers the Commission to establish reference standards, specifications and procedures for qualified electronic attestations of attributes - expressly consistent with the European Digital Identity Wallet implementing act under Article 5a(23). Without this alignment the attestation could not reach the Wallet."
+  },
+  {
+   "ref": "Article 45e",
+   "text": "Paragraph 1 Requires the Member States, at least for the eleven attributes listed in Annex VI - wherever those attributes rely on authentic sources within the public sector - to allow verification by electronic means at the request of the user. Without register access an attestation of attributes would be a mere assertion. Deadline: the same 24-month anchor as Article 5a(1)."
+  },
+  {
+   "ref": "Article 45e",
+   "text": "Paragraph 2 Empowers the Commission to establish reference standards, specifications and procedures for the catalogue of attributes, the schemes for the attestation of attributes and the verification procedures - taking into account international standards and consistent with the European Digital Identity Wallet implementing act."
+  },
+  {
+   "ref": "Article 45f",
+   "text": "Paragraph 6 Empowers the Commission to establish reference standards for the electronic attestations of attributes issued by public sector bodies - consistent with the European Digital Identity Wallet implementing act under Article 5a(23)."
+  },
+  {
+   "ref": "Article 45f",
+   "text": "Paragraph 8 Requires the public sector bodies responsible for an authentic source which issue electronic attestations of attributes to provide an interface with the European Digital Identity Wallets provided in accordance with Article 5a. Without an interface the official evidence would remain outside the Wallet."
+  },
+  {
+   "ref": "Article 45g",
+   "text": "Paragraph 2 Requires providers of QUALIFIED electronic attestations of attributes - and only these - to provide an interface with the European Digital Identity Wallets. The obligation under paragraph 1 to make it possible to request, obtain, store and manage them, by contrast, applies to all providers."
+  },
+  {
+   "ref": "Article 45h",
+   "text": "Paragraph 1 Prohibits providers of qualified AND non-qualified EAA services from combining personal data relating to those services with personal data from any other services offered by them OR BY THEIR COMMERCIAL PARTNERS. The reach beyond the provider's own corporate group is frequently overlooked. Paragraphs 2 and 3 add logical and functional separation."
+  },
+  {
+   "ref": "Article 45h",
+   "text": "Paragraph 3 Requires providers to implement the provision of such qualified trust services in a manner that is functionally separate from other services provided by them. Via Article 5a(14) this provision applies mutatis mutandis to private providers of the European Digital Identity Wallet."
+  },
+  {
+   "ref": "Article 45i",
+   "text": "Paragraph 1 Prohibits denying electronically archived data and documents legal effect and admissibility as evidence on the sole ground that they are in electronic form or that they do not meet the requirements for qualified electronic archiving services."
+  },
+  {
+   "ref": "Article 45i",
+   "text": "Paragraph 2 Establishes, for data preserved using a qualified electronic archiving service, the presumption of their integrity and of their origin - expressly limited to the duration of the preservation period by the provider."
+  },
+  {
+   "ref": "Article 45k",
+   "text": "Paragraph 1 Prohibits denying an electronic ledger legal effect and admissibility as evidence solely on the grounds that it is in electronic form or that it does not meet the requirements for qualified electronic ledgers."
+  },
+  {
+   "ref": "Article 45k",
+   "text": "Paragraph 2 Data records contained in a qualified electronic ledger shall enjoy the presumption of their unique and accurate sequential chronological ordering and of their integrity - not of substantive accuracy. The Regulation deliberately remains technology-neutral and nowhere uses the term blockchain. \"Data records contained in a qualified electronic ledger shall enjoy the presumption of their unique and accurate sequential chronological ordering and of their integrity\" ✓ Article 45k(2) eIDAS"
+  },
+  {
+   "ref": "Article 45l",
+   "text": "Paragraph 1 Four conditions: creation and management by one or more QTSPs, establishing the origin of the data records, ensuring the unique sequential chronological ordering, and recording data in such a way that any subsequent change is immediately detectable."
+  },
+  {
+   "ref": "Article 46b",
+   "text": "Paragraph 3 The core distinction of the supervisory regime: qualified providers are subject to ex ante AND ex post supervision, non-qualified providers only to ex post supervision - and then only where the supervisory body is informed of an alleged failure to comply. Paragraph 4 lists the tasks exhaustively in points (a) to (k)."
+  },
+  {
+   "ref": "Article 46b",
+   "text": "Paragraph 4 Eleven tasks, among them informing the NIS2 authorities, the ANALYSIS OF THE CONFORMITY ASSESSMENT REPORTS (point (c)), audits, cooperation with the data protection authorities, granting and withdrawing qualified status, informing the body responsible for the trusted list, the VERIFICATION OF THE TERMINATION PLANS (point (i)) and the investigation of web-browser claims under Article 45a (point (k))."
+  },
+  {
+   "ref": "Article 48",
+   "text": "Paragraph 2 Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  },
+  {
+   "ref": "Article 51",
+   "text": "Paragraph 3 Allows the management of remote qualified electronic signature and seal creation devices to continue until 21 May 2026 without obtaining a qualified status of its own. After that, Articles 29a and 39a apply without restriction. For providers of remote signing this is the most important cut-off date in the whole amendment."
+  },
+  {
+   "ref": "Article 51",
+   "text": "Paragraph 4 Providers that were granted qualified status before 20 May 2024 shall submit a conformity assessment report to the supervisory body by 21 May 2026 at the latest, proving compliance with Article 24(1), (1a) and (1b) - that is, with the new rules on the verification of identity and attributes. The practically most important retrofitting deadline for existing providers."
+  },
+  {
+   "ref": "Article 52",
+   "text": "Paragraph 2 Determines which provisions apply earlier or later by way of derogation from the general rule: the empowering provisions already from 17 September 2014, the eID articles from the date of application of the implementing acts referred to in Article 8(3) and Article 12(8), and the recognition obligation of Article 6 only three years from that date."
+  },
+  {
+   "ref": "Article 52",
+   "text": "Paragraph 3 Governs the treatment of electronic identification schemes that were already included in the Commission's list before the relevant date, thereby securing the continuity of early notifications."
+  },
+  {
+   "ref": "Annex I",
+   "text": "Ten mandatory items, (a) to (j): an indication in a form suitable for automated processing that the certificate is a qualified certificate, a set of data on the issuing QTSP including the Member State in which it is established, the name OR a pseudonym of the signatory, signature validation data, the period of validity, a unique certificate identity code, the advanced electronic signature or advanced electronic seal of the QTSP, the location where the supporting certificate is available free of charge, information on the validity status service, and an indication whether a QSCD is used."
+  },
+  {
+   "ref": "Annex II",
+   "text": "Point 1 requires, in four sub-points, that the confidentiality of the electronic signature creation data is assured, that those data practically occur only once, that they cannot be derived and that they are protected against use by others. Point 2 prohibits the device from altering the data to be signed or from preventing such data from being presented prior to signing. Point (1)(d) is modified by Article 29a(1), point (b), for the remote signature case."
+  },
+  {
+   "ref": "Annex III",
+   "text": "Structure identical to Annex I. The only substantive difference lies in point (c): what is required is the name of the creator of the seal and, where applicable, the registration number as stated in the official records - a pseudonym is not provided for here."
+  },
+  {
+   "ref": "Annex IV",
+   "text": "In addition to the usual items, this Annex is the only one to contain a point (ca), which for legal persons requires a unique set of data together with the registration number. Point (d) requires elements of the address, including city and State, point (e) the domain name(s) operated by the certificate holder."
+  },
+  {
+   "ref": "Annex V",
+   "text": "Nine mandatory items, (a) to (i). The core is point (d): the attested attributes including the scope of those attributes. Point (g) requires - unlike Annexes I and III - a QUALIFIED electronic signature or a qualified electronic seal of the issuing QTSP."
+  },
+  {
+   "ref": "Annex VI",
+   "text": "Eleven items: address, age, gender, civil status, family composition, nationality or citizenship, educational qualifications and licences, professional qualifications and licences, powers and mandates to represent, public permits and licences, and - expressly only for legal persons - financial and company data. Pursuant to Article 45e, these attributes shall be verifiable by electronic means."
+  },
+  {
+   "ref": "Annex VII",
+   "text": "Structure parallel to Annex V, but with an indication as a PuB-EAA and a set of data on the issuing public sector body including the Member State in which it is established, its name and, where applicable, its registration number. The signature or seal comes from the public sector body, not from a QTSP. TFEU Treaty on the Functioning of the European Union Primary law of the Union. For eIDAS, Article 218 is the relevant provision, which governs the procedure for the conclusion of international agreements. Relation to eIDAS: Article 14(1) eIDAS allows the recognition of third-country trust services by two routes: by implementing act or by an agreement pursuant to Article 218 TFEU. ● Summary of contents, not verified against the original text TFEU Article 218 Procedure for the conclusion of international agreements Governs the negotiating mandate, the signing and the conclusion of agreements between the Union and third countries or international organisations. The Council authorises the opening of negotiations and adopts the decision on conclusion; the European Parliament is to be consulted or must give its consent, depending on the subject matter. Relation to eIDAS: Only the agreement route - not the route via an implementing act - must under Article 14(3) eIDAS also ensure the MUTUAL recognition of EU trust services in the third country. ● Summary of contents, not verified against the original text ARF Architecture and Reference Framework of the European Digital Identity Wallet Not a legal act, but the technical reference architecture developed in the context of the implementing acts under"
+  },
+  {
+   "ref": "Article 5a",
+   "text": "Paragraph 23 eIDAS. It describes roles, data models, protocols and the trust model of the European Digital Identity Wallet, drawing on formats such as ISO/IEC 18013-5 (mobile driving licences) and W3C Verifiable Credentials. Relation to eIDAS: It fills the eleven interface cases of Article 5a(5), point (a)(i) to (xi) eIDAS with concrete specifications. Only what the implementing act takes over becomes legally binding. ● Summary of contents, not verified against the original text CEN EN 419211 Protection profiles for local signature creation devices A series of Common Criteria protection profiles for smart cards and similar devices in which the signature key is generated and used, with variants for key generation, key import and trusted channel. Relation to eIDAS: The evaluation basis for certification under Article 30 eIDAS against Annex II. ● Summary of contents, not verified against the original text CEN EN 419241 Requirements and protection profile for server-side signature creation Part 1 sets out the security requirements for remote signing systems, including ensuring the sole control of the signatory; Part 2 contains the associated protection profile for the cryptographic module. Relation to eIDAS: The central evaluation basis for Article 29a eIDAS. The certification report under Article 30 eIDAS, to which Article 29a(1), point (c) eIDAS refers, is in practice based on this standard. ● Summary of contents, not verified against the original text Common Criteria ISO/IEC 15408 - Common Criteria for Information Technology Security Evaluation An international framework for the security evaluation of IT products. Requirements are described in protection profiles, the depth of evaluation is expressed through assurance levels; the evaluation methodology is laid down in ISO/IEC 18045. Relation to eIDAS: Article 30(3), point (a) eIDAS presupposes a security evaluation process carried out in accordance with a standard listed by the Commission - in practice the Common Criteria. Point (b) allows an equivalent process only on a subsidiary basis. ● Summary of contents, not verified against the original text DMA Regulation (EU) 2022/1925 - Digital Markets Act Governs the obligations of so-called gatekeepers, that is, large platform operators formally designated by the Commission. Central are the definitions in Article 2 and the conduct obligations in Articles 5 to 7. Enforcement lies with the Commission, not with national supervisory authorities. Relation to eIDAS: Article 12b eIDAS connects to it directly: gatekeepers shall allow Wallet providers and issuers of electronic identification means access to the same operating system, hardware and software features. Enforcement of this eIDAS obligation therefore runs through the DMA and not through eIDAS supervision. ● Summary of contents, not verified against the original text DMA Article 2 Definitions Point (2) defines the core platform service and lists the categories covered: online intermediation services, online search engines, online social networking services, video-sharing platform services, number-independent interpersonal communications services, OPERATING SYSTEMS, web browsers, virtual assistants, cloud computing services and online advertising services. Point (21) defines the business user as a natural or legal person which uses core platform services in the course of its commercial or professional activity. Relation to eIDAS: Article 12b eIDAS presupposes precisely these two definitions: the Wallet provider must use a core platform service within the meaning of point (2) - in practice a mobile operating system - and in doing so be a business user within the meaning of point (21). Only then does the entitlement apply. ● Summary of contents, not verified against the original text DMA Article 6 Obligations for gatekeepers susceptible of being further specified Contains the catalogue of conduct obligations that may be further specified. Decisive for eIDAS is PARAGRAPH 7: the gatekeeper shall allow providers of services and providers of hardware, FREE OF CHARGE, effective interoperability with, and access to, the same operating system, hardware or software features that are accessed or controlled via the operating system or the virtual assistant - regardless of whether those features are part of the operating system. In practice this concerns in particular the secure element, the NFC interface and attestation services. Relation to eIDAS: Article 12b eIDAS expressly refers to this paragraph and thereby takes over both the absence of charge and the clarification that technical belonging to the operating system is immaterial. ● Summary of contents, not verified against the original text DSA Regulation (EU) 2022/2065 - Digital Services Act Governs the liability of intermediary services and online platforms. For eIDAS, only the category of very large online platforms and search engines, which the Commission formally designates pursuant to Article 33, is of importance. Relation to eIDAS: Article 5f(3) eIDAS obliges those designated providers to accept the Wallet and to facilitate its use - but only upon the voluntary request of the user and limited to the minimum data necessary for the specific service. ● Summary of contents, not verified against the original text DSA Article 33 Very large online platforms and very large online search engines Covers services with on average at least 45 million active monthly users in the Union - which corresponds to around 10 per cent of the Union population. The Commission designates the providers concerned by decision and publishes the list in the Official Journal; the stricter obligations apply four months after notification. Relation to eIDAS: The acceptance obligation of Article 5f(3) eIDAS attaches exclusively to that formal designation. A platform which reaches the threshold but is not designated does not fall within it. ● Summary of contents, not verified against the original text GDPR Regulation (EU) 2016/679 - General Data Protection Regulation Continues to apply alongside eIDAS without restriction; Article 2(3) eIDAS makes this expressly clear. For the Wallet and the trust services, the principles of processing (Article 5), accountability (Article 5(2), Article 24), data protection by design (Article 25), security of processing (Article 32), notification obligations (Article 33), the impact assessment (Article 35) and liability and penalties (Articles 82, 83) are above all decisive. Relation to eIDAS: Article 5a(17) eIDAS expressly requires that compliance with the GDPR be DEMONSTRATED for Wallet processing; Article 20(3b) eIDAS makes a notified GDPR infringement a ground for withdrawal of the qualified status. ● Summary of contents, not verified against the original text GDPR Article 17 Right to erasure - right to be forgotten Paragraph 1 gives the data subject the right to obtain erasure without undue delay, inter alia where the data are no longer necessary for the purposes of the processing, where consent has been withdrawn, where an objection has been lodged, or where the processing was unlawful. Paragraph 2 requires other controllers to be informed where the data have been made public. Paragraph 3 sets out exceptions, for instance for legal obligations and for the establishment of legal claims. Relation to eIDAS: Article 5a(4), point (d)(ii) eIDAS requires that the user be able to make this erasure request EASILY, directly from the Wallet dashboard - the right is thus translated into an operating function. ● Summary of contents, not verified against the original text GDPR Article 20 Right to data portability The data subject may receive the data concerning him or her in a structured, commonly used and machine-readable format and transmit them to another controller, provided that the processing is based on consent or on a contract and is carried out by automated means. Where technically feasible, there is a right to have the data transmitted directly between the controllers. Relation to eIDAS: Article 5a(4), points (f) and (g) eIDAS implement this for the Wallet - point (f) being qualified by 'to the extent technically feasible', point (g) not. The purpose is to avoid lock-in to the Wallet provider. ● Summary of contents, not verified against the original text GDPR Article 24 Responsibility of the controller Requires the controller to implement appropriate technical and organisational measures and to be able to review and update them, in order to ensure AND BE ABLE TO DEMONSTRATE compliance with the Regulation. Paragraph 3 names adherence to approved codes of conduct or certification mechanisms as a possible means of demonstration. Relation to eIDAS: Together with Article 5(2) GDPR it forms the basis of the obligation to demonstrate compliance under Article 5a(17) eIDAS. ● Summary of contents, not verified against the original text GDPR Article 25 Data protection by design and by default Paragraph 1 requires appropriate measures such as pseudonymisation to be taken already at the time of determining the means of processing, in order to implement the principles of Article 5 GDPR effectively. Paragraph 2 requires default settings by which, as a rule, only the data necessary for each specific purpose are processed - in terms of amount, extent of processing, period of storage and accessibility. Relation to eIDAS: Article 12(3), point (c) eIDAS expressly raises privacy and security by design into the interoperability framework; Article 5a(12) eIDAS requires security-by-design for the Wallet. ● Summary of contents, not verified against the original text GDPR Article 32 Security of processing Requires technical and organisational measures appropriate to the risk and gives as examples: pseudonymisation and encryption; the ability to ensure the ongoing confidentiality, integrity, availability and resilience of systems; the ability to restore availability rapidly after an incident; and a process for regularly testing and evaluating effectiveness. Relation to eIDAS: Substantively largely congruent with Article 24(2), points (e) and (g) eIDAS and with Article 21(2) NIS-2 - a well-run ISMS serves all three provisions at once. ● Summary of contents, not verified against the original text GDPR Article 33 Notification of a personal data breach to the supervisory authority Requires the controller to notify a personal data breach without undue delay and, where feasible, not later than 72 hours after having become aware of it, unless the breach is unlikely to result in a risk. Later notifications shall be accompanied by reasons. The processor notifies the controller without undue delay. The notification must contain the nature of the breach, the categories and approximate number of data subjects, a contact point, the likely consequences and the measures taken. Relation to eIDAS: Considerably more generous than eIDAS: Article 24(2), point (fb) eIDAS requires 24 hours after the incident. One incident can trigger both notification obligations at the same time - with different deadlines, addressees and contents. ● Summary of contents, not verified against the original text GDPR Article 35 Data protection impact assessment Where processing is likely to result in a high risk, an impact assessment shall be carried out prior to the processing, in particular in the case of a systematic and extensive evaluation of personal aspects, extensive processing of special categories of data, or systematic monitoring of publicly accessible areas on a large scale. The assessment contains a description, an assessment of necessity and proportionality, a risk assessment and the measures to address the risks. Relation to eIDAS: In practice unavoidable for the provision of a Wallet and an obvious component of the demonstration under Article 5a(17) eIDAS. ● Summary of contents, not verified against the original text GDPR Article 42 Certification Provides for the establishment of data protection certification mechanisms, seals and marks for the purpose of demonstrating compliance with the Regulation. Certification is voluntary, valid for a maximum of three years and does not reduce the responsibility of the controller. Relation to eIDAS: Article 5c(5) eIDAS expressly allows the data-protection-related requirements of Article 5a to be certified under the GDPR - a 'may' provision which facilitates the demonstration under Article 5a(17). ● Summary of contents, not verified against the original text GDPR Article 5 Principles relating to processing of personal data Paragraph 1 names six principles: lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality. Paragraph 2 establishes accountability - the controller must be able to DEMONSTRATE compliance with those principles. Relation to eIDAS: Article 5b(2), point (c) and (3) eIDAS make the purpose limitation of paragraph 1, point (b) technically enforceable: what is not indicated as an intended use at registration shall not be requested. The accountability of paragraph 2 reappears in Article 5a(17) eIDAS as a separate obligation to demonstrate compliance. ● Summary of contents, not verified against the original text GDPR Article 51 Supervisory authority Requires each Member State to provide for one or more independent public authorities to monitor the application of the Regulation, and governs their contribution to its consistent application in the Union as well as their cooperation with each other and with the Commission. Relation to eIDAS: Article 20(2) eIDAS obliges the eIDAS supervisory body, where data protection rules appear to have been breached, to inform those authorities without undue delay; under Article 20(3b) eIDAS their response can trigger withdrawal of the qualified status. They are moreover the addressees of the user reports made from the Wallet dashboard under Article 5a(4), point (d)(iii) eIDAS. ● Summary of contents, not verified against the original text GDPR Article 82 Liability and right to compensation Any person who has suffered material or non-material damage as a result of an infringement has the right to compensation. The controller is liable unless it proves that it is not in any way responsible for the event giving rise to the damage - an exculpation rule with the burden of proof on the controller. Relation to eIDAS: Structurally the same reversal of the burden of proof as in the third subparagraph of Article 13(1) eIDAS for qualified providers. The extension to non-material damage likewise corresponds to the wording of Article 13(1) eIDAS since eIDAS 2.0. ● Summary of contents, not verified against the original text GDPR Article 83 General conditions for imposing administrative fines Provides for two tiers of fines: up to EUR 10 000 000 or 2 per cent of the total worldwide turnover of the preceding financial year for infringements of, for example, Articles 25 and 32, and up to EUR 20 000 000 or 4 per cent for infringements of the principles and of data subjects' rights - in each case whichever is higher. Paragraph 2 names the criteria for determining the amount. Relation to eIDAS: These frameworks apply alongside the eIDAS framework of Article 16(2) (EUR 5 million or 1 per cent) and alongside Article 34 NIS-2. A single incident can in principle be penalised under several regimes. ● Summary of contents, not verified against the original text Implementing Regulation (EU) 2015/1501 Interoperability framework for notified electronic identification schemes Gives concrete form to Article 12(8) eIDAS. The framework is based on so-called eIDAS nodes which connect the national schemes, and defines a MINIMUM DATA SET for natural persons - family name, first name, date of birth and a unique identifier - as well as a corresponding set for legal persons. In addition it governs the mapping of national assurance levels, technical security requirements and dispute resolution. Relation to eIDAS: Together with Implementing Regulation (EU) 2015/1502, the trigger for the start of application of the eID articles under Article 52(2), point (b) eIDAS. For Article 11a eIDAS (identity matching) the minimum data set is the practical point of reference. ● Summary of contents, not verified against the original text Implementing Regulation (EU) 2015/1502 Minimum requirements for the assurance levels Gives concrete form to Article 8(3) eIDAS. The Annex structures the requirements for each of the three levels into four blocks: enrolment (application, identity proofing and verification), management of the electronic identification means (characteristics, issuance, revocation, renewal), authentication, and management and organisation including information security management, records and facilities. For 'high', the strictest variant is required in each case. Relation to eIDAS: Decisive for Article 5a(5), point (d) eIDAS (the Wallet must meet LoA high) and for"
+  },
+  {
+   "ref": "Article 24",
+   "text": "Paragraph 1a, point (a) eIDAS (verification of identity by means of electronic identification means at assurance level high). Anyone who has to demonstrate the LoA is in practice working to that Annex. ● Summary of contents, not verified against the original text Implementing Regulation (EU) 2015/1505 Format and specifications of trusted lists Gives concrete form to Article 22(5) eIDAS. It prescribes a machine-readable XML format for the national trusted lists, building on the ETSI specification TS 119 612, and governs the signing or sealing of the list as well as the publication of a human-readable version. Relation to eIDAS: Without this format the automated verification under Article 21(3) and Article 22(2) eIDAS would not be possible - a relying party could not establish the qualified status automatically. ● Summary of contents, not verified against the original text Implementing Regulation (EU) 2015/1506 Reference formats for advanced electronic signatures and seals Gives concrete form to Article 27(5) and Article 37(5) eIDAS. Public sector bodies shall recognise advanced electronic signatures and seals at least in the baseline profiles of XAdES, CAdES and PAdES and in ASiC containers. Where other formats are used, validation possibilities shall be provided. Relation to eIDAS: These formats are the practical benchmark of the acceptance obligation under Article 27(1) and (2) eIDAS. ● Summary of contents, not verified against the original text Implementing Regulation (EU) 2015/806 Form and design of the EU trust mark Gives concrete form to Article 23(3) eIDAS and lays down the presentation, colouring, minimum size and permitted variants of the trust mark. Relation to eIDAS: Whoever uses the trust mark under Article 23(1) eIDAS must in addition, under paragraph 2, make a link to the relevant trusted list available on its website. ● Summary of contents, not verified against the original text ETSI EN 319 102 Procedures for the creation and validation of signatures and seals Part 1 defines the validation model with the result classes TOTAL-PASSED, TOTAL-FAILED and INDETERMINATE, the building blocks of validation, and the handling of validation times and proofs of existence. Relation to eIDAS: The technical basis of Articles 32, 32a, 33, 40 and 40a eIDAS. The result classes are decisive for the display obligation under Article 32(2) eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 122 CAdES - CMS-based signature format Defines baseline profiles for CMS-based signatures, typical for binary data and containers. Relation to eIDAS: Reference format under Implementing Regulation (EU) 2015/1506 to Article 27 eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 132 XAdES - XML-based signature format Defines baseline profiles for XML signatures, typical for structured data exchange formats. Relation to eIDAS: Reference format under Implementing Regulation (EU) 2015/1506 to Article 27 eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 142 PAdES - signature format for PDF Defines baseline profiles for signatures embedded in PDF, including long-term validation data. Relation to eIDAS: Reference format under Implementing Regulation (EU) 2015/1506 to Article 27 eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 162 ASiC - containers for associated signatures Defines container formats which encapsulate document and signature together. Relation to eIDAS: Reference format under Implementing Regulation (EU) 2015/1506 to Article 27 eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 401 General requirements for trust service providers The basic standard of every trust service audit. It deals, among other things, with risk assessment, the practice statement and terms and conditions, organisation and trustworthiness of personnel, facility and access security, operational and network security, incident management, records, business continuity and termination of the service. Relation to eIDAS: Gives concrete form to Article 24(2), points (b), (e), (fa), (g), (h) and (i) eIDAS and to Article 19a(1), point (a) eIDAS. Through the formula 'European or international standards' in point (b) it is at the same time the bridge to ISO/IEC 27001. ● Summary of contents, not verified against the original text ETSI EN 319 403 Requirements for conformity assessment bodies assessing trust service providers Lays down the requirements a body must meet in order to audit trust service providers - building on ISO/IEC 17065 - and how the audit process and the report are to be designed. Relation to eIDAS: The practical benchmark for accreditation under Article 20(1b) eIDAS and for the conformity assessment report under Article 20(4), point (a) eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 411 Policy and security requirements for certification authorities Part 1 contains the general requirements and defines certificate policies, including QCP-w for qualified website authentication certificates. Part 2 supplements the requirements for issuers of qualified certificates with the policies QCP-n and QCP-l and their QSCD variants. Relation to eIDAS: Gives concrete form to Articles 24, 28 and 45 eIDAS and to Annexes I, III and IV. ● Summary of contents, not verified against the original text ETSI EN 319 412 Certificate profiles Part 2 describes profiles for certificates of natural persons, Part 3 for legal persons, Part 4 for website authentication and Part 5 the QCStatements - those machine-readable extensions which indicate, for example, qualified status or the use of a QSCD. Relation to eIDAS: The technical counterpart of Annexes I, III and IV. Part 5 is in practice the precondition for a validation under Article 32(1), point (f) eIDAS being able to establish the use of a QSCD by automated means at all. ● Summary of contents, not verified against the original text ETSI EN 319 421 Requirements for providers of qualified time stamps Governs policy and security requirements for time-stamping services, in particular the link to Coordinated Universal Time, the permissible deviation, its monitoring and the conduct required where it is exceeded. Relation to eIDAS: Gives concrete form to Article 42(1), point (b) eIDAS. The accompanying EN 319 422 describes the protocol and profile. ● Summary of contents, not verified against the original text ETSI EN 319 422 Profile and protocol for time stamps Describes the technical format of the time-stamp token and the request-response protocol. Relation to eIDAS: Supplements EN 319 421 to Article 42 eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 521 Requirements for providers of electronic delivery services Policy and security requirements for ERDS providers, including the identification of sender and addressee, the generation of evidence and the retention of that evidence. Relation to eIDAS: Gives concrete form to Article 44(1) eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 522 Architecture and protocols for electronic delivery services Describes the reference architecture, message formats and interoperability between delivery services. Relation to eIDAS: The practical basis of the voluntary interoperability frameworks under Article 44(2a) eIDAS. ● Summary of contents, not verified against the original text ETSI EN 319 531 Requirements for qualified electronic registered delivery services Supplements EN 319 521 with the additional requirements for the qualified variant. Relation to eIDAS: Gives concrete form to Article 44 eIDAS for the qualified case. ● Summary of contents, not verified against the original text ETSI EN 319 532 Protocols for qualified electronic registered delivery services Technical specification of the evidence and interfaces for qualified delivery services. Relation to eIDAS: Gives concrete form to Article 44 eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 172 Signature Policies Describes how signature policies are formulated and represented in machine-readable form - that is, which conditions a signature must meet in a particular context. Relation to eIDAS: A practical supplement to validation under Article 32 eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 312 Cryptographic suites Recommends algorithms, key lengths and parameters for signatures, seals and hash functions and states the time horizons up to which they are considered suitable. Relation to eIDAS: The practical benchmark for the wording 'including using suitable cryptographic techniques' in Article 24(2), point (e) eIDAS - and thus for planning the migration of algorithms. ● Summary of contents, not verified against the original text ETSI TS 119 431 Requirements for remote signature and seal creation services Part 1 is addressed to providers which operate a signature creation device on behalf of the signatory, and deals in particular with key generation, activation data, sole control of the signatory and back-up copies. Relation to eIDAS: The central standard for Articles 29a and 39a eIDAS - and thus for demonstrating that Article 26(1), point (c) eIDAS is also complied with on the server side. ● Summary of contents, not verified against the original text ETSI TS 119 441 Requirements for validation services Policy and security requirements for providers of signature and seal validation services. Relation to eIDAS: Gives concrete form to Articles 33 and 40 eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 442 Protocol for validation services Describes the interface and message formats for requesting validation results. Relation to eIDAS: Gives concrete form to Article 33(1), point (b) eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 461 Identity proofing of applicants Describes building blocks and requirements for identity proofing, including the checking of identity documents, biometric methods, liveness detection, remote and automated procedures, and the reuse of identities already verified. Relation to eIDAS: The decisive standard for Article 24(1a) and (1b) eIDAS, in particular for point (c) - those 'other methods' with 'a high level of confidence', the conformity of which shall be confirmed by a conformity assessment body. Because of Article 51(4) eIDAS it is in practice unavoidable for existing providers by 21 May 2026. ● Summary of contents, not verified against the original text ETSI TS 119 511 Preservation services - policy and security requirements Requirements for services which preserve the evidentiary value of signatures and seals over long periods, including re-signing and the renewal of time stamps before the algorithms become obsolete. Relation to eIDAS: Gives concrete form to Article 34 eIDAS and is at the same time the point of reference for Article 45j eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 512 Protocol and interfaces for preservation services Technical specification of the interfaces to preservation services, including the retrieval of evidence. Relation to eIDAS: Gives concrete form to Article 34 eIDAS. ● Summary of contents, not verified against the original text ETSI TS 119 612 Trusted lists Defines the structure, content and XML format of the trusted lists, including the status information for each service and the history of status changes. Relation to eIDAS: The technical basis of Implementing Regulation (EU) 2015/1505 to Article 22 eIDAS. ● Summary of contents, not verified against the original text EUCC European cybersecurity certification scheme based on the Common Criteria The first scheme adopted under the Cybersecurity Act. It relies on the Common Criteria and the associated evaluation methodology and covers the assurance levels substantial and high. ICT products are certified against protection profiles. Relation to eIDAS: In practice the likely reference framework for the cybersecurity elements of the certification of the European Digital Identity Wallet under Article 5c(2) eIDAS and of the certification of electronic identification schemes under Article 12a(2) eIDAS. ● Summary of contents, not verified against the original text Recommendation 2003/361/EC The Commission's SME definition Lays down the size categories. A MICROENTERPRISE employs fewer than 10 persons and reaches at most EUR 2 million annual turnover or balance sheet total. A SMALL enterprise employs fewer than 50 persons with at most EUR 10 million. A medium-sized enterprise is below 250 persons with at most EUR 50 million turnover or EUR 43 million balance sheet total. Linked and partner enterprises are to be counted proportionately. Relation to eIDAS: Decisive for two exemptions: Article 5f(2) eIDAS exempts microenterprises and small enterprises from the private-sector acceptance obligation, Article 45(1a) eIDAS exempts them, during the first five years of their activity as providers of web-browsing services, from the obligation to recognise QWACs. Medium-sized enterprises are NOT exempt in either case. ● Summary of contents, not verified against the original text ISO/IEC 27001 Information security management system Lays down requirements for the establishment, implementation, maintenance and continual improvement of an ISMS, including risk assessment and risk treatment as well as the control objectives of Annex A. Relation to eIDAS: Not named as such in eIDAS, but through the formula 'European or international standards' in Article 24(2), point (b) eIDAS and through ETSI EN 319 401 it is the practical reference framework. It also covers large parts of Article 21(2) NIS-2. ● Summary of contents, not verified against the original text NIS-2 Directive (EU) 2022/2555 on measures for a high common level of cybersecurity Replaces the NIS Directive of 2016 and had to be transposed into national law by 17 October 2024. It distinguishes essential and important entities; qualified trust service providers count as ESSENTIAL entities regardless of their size. Four provisions are load-bearing for eIDAS: Article 8 (competent authorities), Article 21 (risk management), Article 23 (reporting obligations) and Articles 31/34 (supervision and fines). Relation to eIDAS: eIDAS refers to it directly in several places: the scope of the conformity assessment under Article 20(1) and Article 21(1) eIDAS expressly covers Article 21 NIS-2; under Article 20(3a) eIDAS a notified infringement of Article 21 NIS-2 leads to withdrawal of the qualified status. ● Summary of contents, not verified against the original text NIS-2 Article 21 Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time the subject-matter of every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size of the entity, and the likelihood of occurrence and severity of possible impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities specific to each direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. • (a) policies on risk analysis and information system security • (b) incident handling • (c) business continuity - backup management, disaster recovery, crisis management • (d) supply chain security, including the relationships with direct suppliers and service providers • (e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure • (f) policies and procedures to assess the effectiveness of the risk-management measures • (g) basic cyber hygiene practices and cybersecurity training • (h) policies and procedures regarding the use of cryptography and, where appropriate, encryption • (i) human resources security, access control policies and asset management • (j) the use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communication systems Relation to eIDAS: The conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas - a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary of contents, not verified against the original text NIS2 Directive (EU) 2022/2555 on measures for a high common level of cybersecurity Replaces the NIS Directive of 2016 and had to be transposed into national law by 17 October 2024. It distinguishes essential and important entities; qualified trust service providers count as ESSENTIAL entities regardless of their size. Four provisions are load-bearing for eIDAS: Article 8 (competent authorities), Article 21 (risk management), Article 23 (reporting obligations) and Articles 31/34 (supervision and fines). Relation to eIDAS: eIDAS refers to it directly in several places: the scope of the conformity assessment under Article 20(1) and Article 21(1) eIDAS expressly covers Article 21 NIS-2; under Article 20(3a) eIDAS a notified infringement of Article 21 NIS-2 leads to withdrawal of the qualified status. ● Summary of contents, not verified against the original text NIS2 Article 21 Cybersecurity risk-management measures The substantive core provision of the Directive and at the same time the subject-matter of every QTSP audit under Article 20(1) eIDAS. Paragraph 1 requires appropriate and proportionate technical, operational and organisational measures following an all-hazards approach, measured against the risk, the size of the entity, and the likelihood of occurrence and severity of possible impacts. Paragraph 2 names ten minimum areas. Paragraph 3 requires the vulnerabilities specific to each direct supplier in the supply chain to be taken into account. Paragraph 4 requires corrective measures to be taken without undue delay where the requirements are not met. • (a) policies on risk analysis and information system security • (b) incident handling • (c) business continuity - backup management, disaster recovery, crisis management • (d) supply chain security, including the relationships with direct suppliers and service providers • (e) security in the acquisition, development and maintenance of network and information systems, including vulnerability handling and disclosure • (f) policies and procedures to assess the effectiveness of the risk-management measures • (g) basic cyber hygiene practices and cybersecurity training • (h) policies and procedures regarding the use of cryptography and, where appropriate, encryption • (i) human resources security, access control policies and asset management • (j) the use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communication systems Relation to eIDAS: The conformity assessment report under Article 20(1) and Article 21(1) eIDAS must also cover compliance with these ten areas - a purely eIDAS audit is not sufficient. Article 24(2), point (fa) eIDAS supplements them with three fields of its own (registration and onboarding, procedural and administrative checks, management and implementation). ● Summary of contents, not verified against the original text NIS2 Article 23 Reporting obligations for significant incidents Requires significant incidents to be notified without undue delay to the CSIRT or the competent authority and the recipients of the services to be informed. An incident is significant where it has caused or is capable of causing severe operational disruption or financial loss, or where it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage. Reporting takes place in stages. • Early warning: without undue delay, in any event within 24 hours of becoming aware • Incident notification: without undue delay, in any event within 72 hours • Intermediate report: upon request of the CSIRT or the competent authority • Final report: not later than one month after the notification • Progress report: where the incident is still ongoing at the expiry of that period Relation to eIDAS: Not to be confused with the eIDAS deadlines: Article 24(2), point (fb) eIDAS requires 24 hours AFTER THE INCIDENT, Article 19a(1), point (b) eIDAS 24 hours after BECOMING AWARE - the NIS-2 early warning of 24 hours likewise runs from awareness, but is followed by a full notification within 72 hours. A QTSP thus has parallel reporting channels to serve. ● Summary of contents, not verified against the original text NIS2 Article 31 General aspects concerning supervision and enforcement Requires the Member States to ensure effective supervision and enforcement. Essential entities are subject to supervision ex ante AND ex post, important entities only ex post - that is, only where there are indications of an infringement. The supervisory measures must be effective, proportionate and dissuasive and take account of the circumstances of the individual case. Relation to eIDAS: The same scheme is found in Article 46b(3) eIDAS: qualified providers ex ante and ex post, non-qualified providers only ex post. Article 16(1) eIDAS moreover expressly refers to Article 31 NIS-2. ● Summary of contents, not verified against the original text NIS2 Article 34 General conditions for imposing administrative fines Sets the upper limits for fines: for ESSENTIAL entities at least EUR 10 000 000 or 2 per cent of the total worldwide turnover of the preceding financial year, whichever is higher; for IMPORTANT entities at least EUR 7 000 000 or 1.4 per cent. The amount is determined by, among other things, the gravity and duration, intent or negligence, and the degree of cooperation with the authority. Relation to eIDAS: Here lies the source of a frequent confusion: the figures of EUR 10 million and 2 per cent come from NIS-2, NOT from eIDAS. Article 16(2) eIDAS provides only for a framework of EUR 5 million or 1 per cent. Since qualified providers are at the same time essential entities under NIS-2, both frameworks can apply side by side. ● Summary of contents, not verified against the original text NIS2 Article 8 Competent authorities and single points of contact Paragraph 1 requires each Member State to designate or establish one or more competent authorities responsible for cybersecurity, which at the same time carry out the supervisory tasks under the Directive. The remaining paragraphs govern the monitoring of the application of the Directive, the designation of a single point of contact for cross-border cooperation and its notification to the Commission, as well as cooperation with the data protection and law enforcement authorities. Relation to eIDAS: It is precisely these authorities designated pursuant to Article 8(1) whose notification under Article 20(3a) eIDAS triggers withdrawal of the qualified status - and which under Article 21(2) eIDAS must report back within two months in the authorisation procedure. ● Summary of contents, not verified against the original text Dir. (EU) 2019/882 European Accessibility Act - Accessibility Directive Lays down uniform accessibility requirements for certain products and services, including computer hardware, self-service terminals, e-books, electronic commerce and banking services. The requirements follow the principles of perceivability, operability, understandability and robustness; the technical specification is in practice provided via EN 301 549. Relation to eIDAS: Article 15 eIDAS declares these requirements binding for electronic identification means, trust services AND the end-user products used; Article 5a(21) eIDAS repeats them specifically for the Wallet. eIDAS 2.0 has deleted the earlier qualification 'where feasible'. ● Summary of contents, not verified against the original text Directive (EU) 2019/882 European Accessibility Act - Accessibility Directive See the entry Dir. (EU) 2019/882 - identical legal act, cited here only in the spelled-out form. Relation to eIDAS: Articles 15 and 5a(21) eIDAS. ● Summary of contents, not verified against the original text Reg. (EU) 182/2011 Comitology Regulation Governs how the Member States control the Commission in the exercise of implementing powers."
+  },
+  {
+   "ref": "Article 5",
+   "text": "describes the examination procedure: a committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft and may refer it to the appeal committee. Relation to eIDAS: Article 48(2) eIDAS declares this examination procedure applicable to ALL implementing acts under the Regulation. To be distinguished from these are the delegated acts under Article 47 eIDAS, in respect of which Parliament and Council have a right of objection - provided for only in Article 5c(8), Article 24(4b) and Article 30(4). ● Summary of contents, not verified against the original text Reg. (EU) 2019/881 Cybersecurity Act - Regulation on ENISA and on cybersecurity certification Gives ENISA a permanent mandate and creates the European framework for cybersecurity certification. Certification schemes are adopted by the Commission on the basis of a draft prepared by ENISA and provide for three assurance levels: basic, substantial and high. A European scheme replaces the national schemes within its scope. Relation to eIDAS: Article 5c(2) eIDAS assigns the certification of the European Digital Identity Wallet, in so far as it is relevant for cybersecurity, to those schemes; Article 12a(2) eIDAS does the same for electronic identification schemes. What those schemes do not cover falls back, under Article 5c paragraph 3 eIDAS, on national certification schemes. ● Summary of contents, not verified against the original text Reg. (EU) 2022/1925 Regulation (EU) 2022/1925 - Digital Markets Act Governs the obligations of so-called gatekeepers, that is, large platform operators formally designated by the Commission. Central are the definitions in Article 2 and the conduct obligations in Articles 5 to 7. Enforcement lies with the Commission, not with national supervisory authorities. Relation to eIDAS: Article 12b eIDAS connects to it directly: gatekeepers shall allow Wallet providers and issuers of electronic identification means access to the same operating system, hardware and software features. Enforcement of this eIDAS obligation therefore runs through the DMA and not through eIDAS supervision. ● Summary of contents, not verified against the original text Reg. (EU) 2022/2065 Regulation (EU) 2022/2065 - Digital Services Act Governs the liability of intermediary services and online platforms. For eIDAS, only the category of very large online platforms and search engines, which the Commission formally designates pursuant to Article 33, is of importance. Relation to eIDAS: Article 5f(3) eIDAS obliges those designated providers to accept the Wallet and to facilitate its use - but only upon the voluntary request of the user and limited to the minimum data necessary for the specific service. ● Summary of contents, not verified against the original text"
+  }
+ ]
+}

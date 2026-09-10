@@ -8,11 +8,10 @@ Source regulation: **Regulation (EU) No 910/2014**, consolidated version of
 
 ## Status
 
-**213 of 220 norm blocks** plus reference parts C to H — 121 typeset pages so far.
+**All 220 norm blocks and all seven reference parts — 143 typeset pages.**
 The full manual holds 220 norm blocks across 64 articles plus reference parts C–I.
-Part A is complete at exactly 97 norm blocks, matching the German manual's own count.
-With Part I still to come the document projects to about **145 pages**, against a
-200-page budget and the German original's 231.
+Part A holds 97 blocks and Part B 123, both matching the German manual's own counts.
+The English edition runs **143 pages** against the German original's 231.
 
 | Check | Result |
 |---|---|
@@ -81,7 +80,7 @@ are marked typographically — and all text colours meet a 4.5:1 contrast floor.
 | F | Signature and seal side by side | 12 | 12 |
 | G | Retrieval cards | 43 | 43 |
 | H | Corrections against the previous edition | 22 | 22 |
-| I | Reference digest | 255 entries | in progress |
+| I | Reference digest | 245 entries | 255 raw records |
 
 Every row count matches the German manual's own stated figure. Part G keeps the
 answer below a fold rule so it stays coverable — the desirable-difficulties

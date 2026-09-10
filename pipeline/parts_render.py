@@ -74,29 +74,46 @@ def part_cards(doc, rows, banner):
     return doc.y
 
 def part_index(doc, entries, banner):
-    """Part I: reference digest, two columns."""
+    """Part I: reference digest as continuous two-column text. Entries may break across
+    columns and pages; a heading is never left stranded at the foot of a column."""
     banner(doc, "I", "Reference Digest", "What each provision says, ordered for lookup")
-    c=doc.c; COLW=(D.TEXT_X1-D.TEXT_X0-6*mm)/2
-    packs=[]
+    COLW = (D.TEXT_X1 - D.TEXT_X0 - 6*mm) / 2
+    COLX = (D.TEXT_X0, D.TEXT_X0 + COLW + 6*mm)
+    tf, ts, tl, tc = D.T["xtitle"]
+    gf, gs, gl, gc = D.T["xgloss"]
+
+    stream = []            # (wrapped_line | None, leading, is_heading)
     for e in entries:
-        tf,ts,tl,tc = D.T["xtitle"]; gf,gs,gl,gc = D.T["xgloss"]
-        head=R.wrap_runs([(e.get("ref",""), tf, ts, tc)], COLW)
-        body=R.wrap_runs([(e.get("text",""), gf, gs, gc)], COLW)
-        packs.append((head,tl,body,gl,len(head)*tl+len(body)*gl+2.2*mm))
-    i=0
-    colx=[D.TEXT_X0, D.TEXT_X0+COLW+6*mm]
-    while i<len(packs):
-        avail=doc.y-D.Y_BOT
-        cy=[doc.y,doc.y]; placed=0
-        for ci in (0,1):
-            while i+placed<len(packs):
-                head,tl,body,gl,h=packs[i+placed]
-                if cy[ci]-h < D.Y_BOT: break
-                cy[ci]=R.draw_lines(c,head,colx[ci],cy[ci],tl)
-                cy[ci]=R.draw_lines(c,body,colx[ci],cy[ci],gl)-2.2*mm
-                placed+=1
-        if placed==0:
-            doc.new_page(); continue
-        i+=placed; doc.y=min(cy)
-        if i<len(packs): doc.new_page()
+        for ln in R.wrap_runs([(e.get("ref", ""), tf, ts, tc)], COLW):
+            stream.append((ln, tl, True))
+        for ln in R.wrap_runs([(e.get("text", ""), gf, gs, gc)], COLW):
+            stream.append((ln, gl, False))
+        stream.append((None, 2.0*mm, False))       # gap between entries
+
+    def widow_height(k):
+        """Height of the heading block at k plus two lines of its body."""
+        h = 0.0
+        while k < len(stream) and stream[k][2]:
+            h += stream[k][1]; k += 1
+        for _ in range(2):
+            if k < len(stream): h += stream[k][1]; k += 1
+        return h
+
+    i = 0
+    top = doc.y
+    while i < len(stream):
+        for ci in (0, 1):
+            x, y = COLX[ci], top
+            while i < len(stream):
+                line, lead, is_head = stream[i]
+                if y - lead < D.Y_BOT: break
+                if is_head and y - widow_height(i) < D.Y_BOT: break
+                if line is not None:
+                    R.draw_lines(doc.c, [line], x, y, lead)
+                y -= lead
+                i += 1
+        if i < len(stream):
+            doc.new_page(); top = doc.y
+        else:
+            doc.y = D.Y_BOT
     return doc.y
