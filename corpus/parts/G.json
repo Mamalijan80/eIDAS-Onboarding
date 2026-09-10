@@ -261,6 +261,9 @@
    "difficulty": "medium"
   }
  ],
- "rows_in_source": 43,
- "check": null
+ "check": {
+  "verdict": "clean",
+  "rows_checked": 43,
+  "defects": []
+ }
 }

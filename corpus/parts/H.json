@@ -20,7 +20,7 @@
    "kind": "CORRECTION",
    "reference": "Article 45c",
    "subject": "Electronic attestation of attributes in public services",
-   "previous": "Previous edition: 'shall accept qualified EAAs'",
+   "previous": "Previous edition: 'MUST accept qualified EAAs'",
    "finding": "Article 45c is primarily a PROHIBITION: PID in an EAA shall NOT substitute electronic identification and its authentication - unless the Member State specifically allows it. Only then does acceptance of QEAAs from other Member States follow."
   },
   {
@@ -49,7 +49,7 @@
    "reference": "Article 5a(1)",
    "subject": "Start of the deadline for provision of the European Digital Identity Wallet",
    "previous": "Previous edition: no deadline named",
-   "finding": "24 months after the entry into force of the implementing acts under Article 5a(23) AND Article 5c(6) - both shall be in force."
+   "finding": "24 months after the entry into force of the implementing acts under Article 5a(23) AND Article 5c(6) - both must be in force."
   },
   {
    "kind": "CLARIFICATION",
@@ -157,6 +157,22 @@
    "finding": "Legend of the modalities and priorities, list of abbreviations, operating instructions and a progress evaluation with formulas over the status column of the master sheet."
   }
  ],
- "rows_in_source": 22,
- "check": null
+ "check": {
+  "rows_checked": 22,
+  "verdict": "Substantially accurate. Row count (22) and row order match the German source exactly (the three repeated header lines at H.txt lines 5, 61, 116 are correctly excluded). No cell landed in the wrong row or wrong column: every kind/reference/subject/previous/finding tuple lines up with its German row. All article, annex, paragraph and point numbers are unchanged and verified against official_articles_full.json (5e(2), 16(2), 45c, 3, Annex VI, Annex I/III a-j, 5a(1), 5f(2), 20 with 1a/1b/3a/3b, 24 with 1a four methods / 1b five methods / gap at (j) / (fb) 24 hours, 12 with 3(c)/5/6/8 and deleted 7, 45f 2/3/8, 45h(1), 17-19 -> 46b/46d/19a, 5c(4)/12a(3)/30(3a), 44(2a)/(2b), 5b(10), 46c, 2019/881). All dates and periods are correct and unambiguous: 18 March 2025 and 18 September 2025 (Article 12(6) and 12(8)), three months, 6 months, 24/36 months, three working days, 24 hours, five years, two years, plus counts 57, 55, eleven, 16, 43. Defined terms match glossary.json (Wallet -> European Digital Identity Wallet, vertrauender Beteiligter -> relying party, eID -> electronic identification, Konformitaetsbewertungsstelle -> conformity assessment body, Personenstand -> civil status). Quoted wording matches the official English verbatim where quoted: \"not remedied within three months of the suspension\" (Art. 5e(2)), \"civil status\" (Annex VI item 4), \"Public permits and licences\" (item 10), \"For legal persons, financial and company data\" (item 11), Annex I/III point (i) recast by M2. Only two minor fidelity defects found, both listed below; neither changes a number, date or citation. One non-defect observation: in row 1 the previous-edition word \"Stoerung\" is rendered as \"compromise\", which aligns the loose old wording with official terminology (\"security breach or compromise\") - defensible, but \"disruption\" would more plainly signal that the old wording was imprecise.",
+  "defects": [
+   {
+    "row": 3,
+    "field": "previous",
+    "problem": "Row 3 = JSON array index 2 (Article 45c). The German source (H.txt line 17-18) writes the previous-edition quote with ALL-CAPS emphasis: 'MUESSEN qualifizierte EAA akzeptieren'. The English drops the emphasis to a plain 'shall accept'. The document uses ALL-CAPS as its consistent emphasis convention and the translation preserves it in eight other places (THREE, ONE, PROHIBITION, NOT, AND, COMMERCIAL PARTNERS, EUR 10 million/2% contrast, NIS-2), so losing it only here is an inconsistency and weakens the contrast the row is built on (old text said providers MUST accept; Article 45c is actually primarily a prohibition).",
+    "correction": "Previous edition: 'MUST accept qualified EAAs'"
+   },
+   {
+    "row": 7,
+    "field": "finding",
+    "problem": "Row 7 = JSON array index 6 (Article 5a(1)). The German 'beide muessen in Kraft sein' states a factual precondition - the 24-month clock only starts once both implementing acts (Article 5a(23) and Article 5c(6)) are actually in force. Rendering it as 'both shall be in force' turns a descriptive precondition into a normative legal obligation, which is the wrong modality and misreads as though the Regulation imposes a duty for the acts to be in force.",
+    "correction": "24 months after the entry into force of the implementing acts under Article 5a(23) AND Article 5c(6) - both must be in force."
+   }
+  ]
+ }
 }

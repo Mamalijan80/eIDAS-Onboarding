@@ -1,0 +1,136 @@
+[
+ {
+  "id": "45h|Abs. 2-3",
+  "article": "45h",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 171,
+  "fields": {
+   "TOPIC": "Logical and functional separation",
+   "ADDRESSEE": "Providers of electronic attestations of attributes",
+   "CONTENT": "Paragraph 2: personal data from EAA services SHALL BE KEPT LOGICALLY SEPARATE from ALL OTHER data held. Paragraph 3: providers SHALL IMPLEMENT the provision of such qualified trust services in a manner that is FUNCTIONALLY SEPARATE from other services provided by them.",
+   "PURPOSE": "Two levels of separation: data (paragraph 2) and operations/organisation (paragraph 3). Via Article 5a(14), paragraph 3 also applies mutatis mutandis to private European Digital Identity Wallet providers.",
+   "CROSS-REFERENCES": "Article 5a(14) · User control and logical separation Prohibits the Wallet provider from collecting usage data that is not necessary, or from combining Wallet data with data from other services of its own or of third parties. It must also keep the data logically separate from all other holdings. Where the Wallet is provided privately under paragraph 2(b) or (c), Article 45h(3) (functional separation) additionally applies mutatis mutandis. This is the only paragraph outside 4, 5 and 8 that is expressly certified. “Personal data relating to the provision of the European Digital Identity Wallet shall be kept logically separate from any other data held by the provider of the European Digital Identity Wallet” ✓ Article 5a(14) eIDAS Significance here: the same separation logic; paragraph 3 applies mutatis mutandis to private Wallet providers via Article 5a(14). Article 24(2) · Catalogue of obligations of the QTSP The central catalogue, in practice the structure of every audit: a) notification obligations (1 month for changes, 3 months for cessation), b) qualified and trained staff in accordance with recognised standards, c) sufficient financial resources or liability insurance, d) pre-contractual information, e) trustworthy systems including suitable cryptographic techniques, f) verifiable data storage, fa) risk management, fb) 24-hour notification, g) protection against forgery and data loss, h) record-keeping obligation extending beyond the cessation of operations, i) termination plan, k) certificate database. Point j was deleted – the gap is intentional. Article 4 · Internal market principle Prohibits Member States from restricting the provision of trust services from another Member State for reasons that fall within the fields covered by the Regulation. Paragraph 2 requires that products and services lawfully provided in one Member State be permitted to circulate freely in the internal market. The general rule is spelled out for qualified services in Article 24a.",
+   "AUDIT CHECK": "Is the separation implemented technically (separate systems/tenants) AND organisationally (separate processes)?",
+   "KEY POINT": "Logical (data) + functional (operations). Two levels, two pieces of evidence."
+  }
+ },
+ {
+  "id": "45i|Abs. 1-2",
+  "article": "45i",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L2",
+  "page": 172,
+  "fields": {
+   "TOPIC": "Legal effect of electronic archiving services",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: prohibition of discrimination for electronically archived data and documents. Paragraph 2: data from a QUALIFIED archiving service enjoy the PRESUMPTION OF THEIR INTEGRITY AND OF THE ACCURACY OF THEIR ORIGIN – FOR THE DURATION OF THE PRESERVATION PERIOD by the QTSP.",
+   "PURPOSE": "Long-term preservation needs evidentiary effect, otherwise archiving is of no use.",
+   "CROSS-REFERENCES": "Article 24a(10) · Recognition of archiving services Provides for the Union-wide recognition of qualified electronic archiving services. Article 45j · Requirements for qualified electronic archiving services Requires provision by qualified providers, procedures and technologies for durability and legibility beyond the technological validity period and at least throughout the entire legal or contractual preservation period, protection against loss and alteration with the exception of changes of medium and of format, as well as a report on integrity retrievable in an automated manner which bears a qualified electronic signature or a qualified electronic seal. Article 34 · Qualified preservation service Requires procedures and technologies capable of extending the trustworthiness of a qualified electronic signature beyond the period of its technological validity. Cryptography ages – without preservation a 15-year-old signature loses its evidentiary value. To be distinguished from Article 45j: preservation keeps the SIGNATURE alive, archiving keeps the DOCUMENT alive.",
+   "AUDIT CHECK": "Note the temporal limitation of the presumption: it applies only for the preservation period.",
+   "KEY POINT": "A new type of service in eIDAS 2.0 – it did not exist in 2014."
+  }
+ },
+ {
+  "id": "45j|Abs. 1 a-d",
+  "article": "45j",
+  "locus": "Abs. 1 a-d",
+  "locus_en": "Paragraph 1(a)-(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 173,
+  "fields": {
+   "TOPIC": "Requirements for qualified archiving services",
+   "ADDRESSEE": "QTSP (archiving service)",
+   "CONTENT": "Qualified electronic archiving services SHALL: (a) be provided by QTSPs; (b) use procedures and technologies capable of ensuring DURABILITY AND LEGIBILITY beyond the technological validity period AND AT LEAST THROUGHOUT THE ENTIRE LEGAL OR CONTRACTUAL PRESERVATION PERIOD, while maintaining integrity and the accuracy of origin; (c) ensure that the data are preserved in such a way that they are SAFEGUARDED AGAINST LOSS AND ALTERATION – except for changes concerning their medium or format; (d) allow authorised relying parties (RP) to receive a REPORT in an AUTOMATED manner confirming the presumption of integrity FROM THE BEGINNING OF THE PRESERVATION PERIOD TO THE MOMENT OF RETRIEVAL. That report shall bear the QUALIFIED electronic signature or the QUALIFIED electronic seal of the provider.",
+   "PURPOSE": "Without minimum requirements, 'archiving' would be no more than a storage location without evidentiary value.",
+   "DEADLINE": "the entire legal or contractual preservation period",
+   "CROSS-REFERENCES": "ETSI TS 119 511 · Preservation services – policy and security requirements Requirements for services which maintain the evidentiary value of signatures and seals over long periods, including re-signing and the renewal of time stamps before the algorithms become obsolete. Relation to eIDAS: gives concrete form to Article 34 eIDAS and is at the same time the point of reference for Article 45j eIDAS. ● Summary, not verified against the original text ETSI TS 119 512 · Protocol and interfaces for preservation services Technical design of the interfaces to preservation services, including the retrieval of evidence. Relation to eIDAS: gives concrete form to Article 34 eIDAS. ● Summary, not verified against the original text Article 45i(2) · Presumption attaching to archiving Establishes, for data from a qualified electronic archiving service, the presumption of their integrity and of the accuracy of their origin – expressly limited to the duration of the preservation period by the provider. Article 24a(10) · Recognition of archiving services Provides for the Union-wide recognition of qualified electronic archiving services. Article 34 · Qualified preservation service Requires procedures and technologies capable of extending the trustworthiness of a qualified electronic signature beyond the period of its technological validity. Cryptography ages – without preservation a 15-year-old signature loses its evidentiary value. To be distinguished from Article 45j: preservation keeps the SIGNATURE alive, archiving keeps the DOCUMENT alive.",
+   "AUDIT CHECK": "Does the preservation period cover the commercial and tax law retention periods (in Germany up to 10 years)? Is the report under point (d) signed in QUALIFIED form?",
+   "KEY POINT": "Point (d) requires QUALIFIED – unlike Article 33(1)(b), where the advanced form suffices."
+  }
+ },
+ {
+  "id": "45j|Abs. 2",
+  "article": "45j",
+  "locus": "Abs. 2",
+  "locus_en": "Paragraph 2",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 174,
+  "fields": {
+   "TOPIC": "Implementing act on archiving",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Implementing act with reference standards; where these are complied with, the presumption of conformity applies.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "ETSI TS 119 511 · Preservation services – policy and security requirements Requirements for services which maintain the evidentiary value of signatures and seals over long periods, including re-signing and the renewal of time stamps before the algorithms become obsolete. Relation to eIDAS: gives concrete form to Article 34 eIDAS and is at the same time the point of reference for Article 45j eIDAS. ● Summary, not verified against the original text ETSI TS 119 512 · Protocol and interfaces for preservation services Technical design of the interfaces to preservation services, including the retrieval of evidence. Relation to eIDAS: gives concrete form to Article 34 eIDAS. ● Summary, not verified against the original text Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure."
+  }
+ },
+ {
+  "id": "45k|Abs. 1-2",
+  "article": "45k",
+  "locus": "Abs. 1-2",
+  "locus_en": "Paragraphs 1-2",
+  "modality": "Rechtswirkung / Vermutung",
+  "modality_en": "LEGAL EFFECT",
+  "level": "L2",
+  "page": 174,
+  "fields": {
+   "TOPIC": "Legal effects of electronic ledgers",
+   "ADDRESSEE": "Courts / Member States",
+   "CONTENT": "Paragraph 1: prohibition of discrimination. Paragraph 2: data records contained in a QUALIFIED electronic ledger enjoy the PRESUMPTION OF THEIR UNIQUE AND ACCURATE SEQUENTIAL CHRONOLOGICAL ORDERING AND OF THEIR INTEGRITY.",
+   "PURPOSE": "Covers DLT- and blockchain-type applications and gives evidentiary force to the ordering of entries – formulated in a technology-neutral way.",
+   "CROSS-REFERENCES": "Article 24a(11) · Recognition of electronic ledgers Provides for the Union-wide recognition of qualified electronic ledgers – the most recently inserted of the eleven types of service. Article 45l · Requirements for qualified electronic ledgers Requires four things: creation and management by one or more qualified providers, establishing the origin of the data records, ensuring the unique sequential chronological ordering, and a record which makes any subsequent change immediately detectable. Article 42 · Requirements for qualified electronic time stamps Requires three things: a binding of the date and time to the data that reasonably precludes the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered.",
+   "AUDIT CHECK": "The presumption concerns ORDERING and INTEGRITY – not the substantive accuracy of the entries.",
+   "KEY POINT": "New in eIDAS 2.0. The Regulation deliberately nowhere says 'blockchain'."
+  }
+ },
+ {
+  "id": "45l|Abs. 1 a-d",
+  "article": "45l",
+  "locus": "Abs. 1 a-d",
+  "locus_en": "Paragraph 1(a)-(d)",
+  "modality": "MUSS",
+  "modality_en": "SHALL",
+  "level": "L1",
+  "page": 175,
+  "fields": {
+   "TOPIC": "Requirements for qualified electronic ledgers",
+   "ADDRESSEE": "QTSP (ledger provider)",
+   "CONTENT": "Qualified electronic ledgers SHALL: (a) be created and managed by ONE OR MORE QTSPs; (b) ESTABLISH THE ORIGIN of the data records; (c) ensure the UNIQUE SEQUENTIAL CHRONOLOGICAL ORDERING; (d) record the data in such a way that ANY SUBSEQUENT CHANGE IS IMMEDIATELY DETECTABLE, thereby ensuring their integrity over time.",
+   "PURPOSE": "Defines what a 'ledger' has to be able to prove – irrespective of the technology used.",
+   "CROSS-REFERENCES": "Article 45k(2) · Presumption attaching to qualified ledgers Data records contained in a qualified electronic ledger enjoy the presumption of their unique and accurate sequential chronological ordering and of their integrity – not of the substantive accuracy of their content. The Regulation deliberately remains technology-neutral and nowhere uses the term blockchain. “Data records contained in a qualified electronic ledger shall enjoy the presumption of their unique and accurate sequential chronological ordering and of their integrity” ✓ Article 45k(2) eIDAS Article 24a(11) · Recognition of electronic ledgers Provides for the Union-wide recognition of qualified electronic ledgers – the most recently inserted of the eleven types of service. Article 42 · Requirements for qualified electronic time stamps Requires three things: a binding of the date and time to the data that reasonably precludes the possibility of the data being changed undetectably; an accurate time source linked to Coordinated Universal Time; and securing by an advanced electronic signature or an advanced electronic seal of the qualified trust service provider, or by some equivalent method. That the advanced form suffices is frequently misremembered. Significance here: in practice the chronological ordering is secured by means of qualified electronic time stamps.",
+   "AUDIT CHECK": "How is the chronological ordering cryptographically secured – and how is the origin of each entry?",
+   "KEY POINT": "Four points: QTSP – origin – ordering – immutability."
+  }
+ },
+ {
+  "id": "45l|Abs. 2-3",
+  "article": "45l",
+  "locus": "Abs. 2-3",
+  "locus_en": "Paragraphs 2-3",
+  "modality": "Auftrag Kommission",
+  "modality_en": "COMMISSION MANDATE",
+  "level": "L2",
+  "page": 175,
+  "fields": {
+   "TOPIC": "Presumption of conformity and implementing act",
+   "ADDRESSEE": "Commission",
+   "CONTENT": "Paragraph 2: where it complies with the standards referred to in paragraph 3, the presumption of conformity applies. Paragraph 3: implementing act with reference standards, specifications and procedures. NOTE: the German wording of paragraph 3 inadvertently speaks of 'qualified validation services' – on the scheme of the provision and on the English version, what is meant is the qualified electronic ledgers.",
+   "PURPOSE": "-",
+   "DEADLINE": "by 21 May 2025",
+   "CROSS-REFERENCES": "Article 48(2) · Examination procedure Refers to Article 5 of Comitology Regulation (EU) No 182/2011. A committee composed of representatives of the Member States delivers an opinion by qualified majority; where the opinion is negative, the Commission shall not adopt the draft. All implementing acts under this Regulation follow this procedure.",
+   "AUDIT CHECK": "A drafting error in the German Official Journal – in case of doubt, consult the English version.",
+   "KEY POINT": "An example of why the English version is always read alongside when questions of interpretation arise."
+  }
+ }
+]

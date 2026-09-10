@@ -87,9 +87,8 @@
    "difference": "Distinguish from Article 45j (archiving of documents)."
   }
  ],
- "rows_in_source": 12,
  "check": {
-  "verdict": "clean - no defects found; 12 rows, order and columns match the German source, all article/annex/paragraph numbers and the date 21 May 2026 are correct, glossary terms and the one quoted phrase ('under its control', Art. 36(c)) match the official English",
+  "verdict": "PASS - no defects found. All 12 rows of the German table are present in the correct order with correct column mapping; every article, annex and paragraph number (25/35, 26/36, 27/37, 28+Annex I/38+Annex III, 29+Annex II/39, 29a/39a, 30/39(2), 31/39(3), 32/40, 32a/40a, 33/40, 34/40, plus the internal references to Art. 39->29/30/31+Annex II, Art. 40->32/33/34, Art. 32(1)(f), Art. 45j(1)(d) and Art. 51(3)) is unchanged and consistent with the official text; the single date 21.05.2026 is rendered unambiguously as \"21 May 2026\" and matches Article 51(3); defined terms follow the glossary; and the only quoted fragment ('seiner Kontrolle') matches the official English of Article 36(c) (\"under its control\"), contrasted correctly with Article 26(c) \"sole control\".",
   "defects": [],
   "rows_checked": 12
  }

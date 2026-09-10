@@ -813,6 +813,9 @@
    "priority": "L2"
   }
  ],
- "rows_in_source": 90,
- "check": null
+ "check": {
+  "verdict": "PASS - no defects found. All 90 rows match the German source in count, order, column placement, article/annex/paragraph numbering, dates, glossary terminology and quoted wording.",
+  "rows_checked": 90,
+  "defects": []
+ }
 }

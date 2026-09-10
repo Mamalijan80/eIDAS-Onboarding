@@ -264,7 +264,7 @@
   {
    "date": "ongoing: every 24 months",
    "article": "Article 20(1)",
-   "action": "Conformity assessment of the QTSP by a CAB at its own expense",
+   "action": "Conformity assessment of the QTSP, at the QTSP's own expense, by a CAB",
    "addressee": "QTSP",
    "note": "AUDIT CORE DEADLINE"
   },
@@ -313,7 +313,7 @@
   {
    "date": "ongoing: 3 months",
    "article": "Article 5e(2) / 10(3)",
-   "action": "At the latest after three months without remedy: withdrawal of the European Digital Identity Wallet or revocation of the eID scheme",
+   "action": "At the latest after three months without remedy: withdrawal of the European Digital Identity Wallet or withdrawal of the eID scheme",
    "addressee": "Member States",
    "note": "identical deadline in both provisions"
   },
@@ -360,22 +360,21 @@
    "note": "-"
   }
  ],
- "rows_in_source": 51,
  "check": {
   "rows_checked": 51,
-  "verdict": "PASS WITH MINOR DEFECTS. Row indices below are 0-based positions in the JSON array (row 0 = \"17 September 2014\"). Structure is clean: the JSON has 51 rows, exactly matching the 51 German table rows (headers on source lines 4-5, 53-54, 106-107 correctly dropped), and the order is identical. No cell is shifted between rows or columns - every date/article/action/addressee/note quadruple sits where the German has it, including the multi-line wrapped rows (e.g. source lines 59-63, 64-68, 120-122) and the \"-\" placeholders in row 7. A token-level diff of all numerals shows a perfect match: every article, paragraph, annex (V, VI, VII) and Implementing Regulation number (2015/806, 2015/1502, 2015/1505, 2015/1506, 2025/2162, 2025/2530, 2025/1943) is unchanged, and the multi-article cells (27(5)/37(5); 50(1)/52(2); 31(3)/32(3)/32a(3)/33(2)/34(2); 42(2)/44(2)/45(2)/45j(2)/45l(3); 9(3)/9(4)/5d(6)/31(1); 5c(4)/12a(3)/30(3a); 26(2)/36(2); 5e(2)/10(3)) are complete and in source order. All 34 dates are converted correctly and unambiguously from DD.MM.YYYY to spelled-out month form - no day/month transposition (checked especially 01.07.2015, 01.07.2016, 18.03.2025, 20.05.2024). Defined terms follow the glossary: \"Wallet\" is consistently expanded to \"European Digital Identity Wallet\" (#42), \"vertrauende Beteiligte\" to \"relying parties\" (#6), \"Identitaetsabgleich\" to \"identity matching\" (#55), \"Journalen\" to \"ledgers\" (#52), \"authentische Quellen\" to \"authentic sources\" (#47), \"Attributsbescheinigungen\" to \"attestations of attributes\" (#44/45), \"Vertrauensdiensteanbieter\" to \"trust service providers\" (#19). Substantive wording checked against the official English also holds: Art 51(1)-(4), 5a(1) (\"each Member State shall provide at least one European Digital Identity Wallet\"), 5f(2) (36 months, \"microenterprises and small enterprises\"), 5f(5) (\"the demand for, and the availability and usability of\"), 20(1)/(1a) (\"at their own expense\", \"three working days\", \"one month before any planned audits\"), 21(2) (three months / two-month NIS2 response), 24(1c) (\"verification of identity and attributes\"), 24(2)(a) (one month / three months), 24(2)(fb) and 24(3) (24 hours), 5c(4)/12a(3) (five years, biennial vulnerability assessment, three-month remediation), 6(1) (12 months), 7(g) (six months), 26(2)/36(2), 48a, 52(2)(a)/(b). Two terminology defects remain, both in the \"action\" column; neither affects a number, date or row placement.",
+  "verdict": "Row indices below are 0-based positions in the JSON array (row 0 = \"17 September 2014\"). Structural checks all pass: the source table has 51 data rows and the JSON has 51 entries in the identical order; no cell is shifted into the wrong row or column (date/article/action/addressee/note align with the German columns \"Datum / Rhythmus | Artikel | Was ist zu tun? | Adressat | Hinweis\" in every row). All article, annex and paragraph numbers are unchanged — a token-level diff of the German and English text found no numeric divergence beyond formatting (e.g. \"Art. 24 Abs. 2\" -> \"Article 24(2)\", \"52(2) a\" -> \"Article 52(2)(a)\", \"19a(1) b\" -> \"Article 19a(1)(b)\", \"7 g\" -> \"Article 7(g)\"); the multi-article stacks 27(5)/37(5), 31(3)/32(3)/32a(3)/33(2)/34(2), 42(2)/44(2)/45(2)/45j(2)/45l(3), 9(3)/9(4)/5d(6)/31(1) and 5c(4)/12a(3)/30(3a) are all intact, and Annexes V, VI and VII are correctly placed. All 51 dates are correct against the source and rendered unambiguously in day-month-year word form (17 September 2014, 1 July 2015, 18 September 2015 x3, 1 July 2016, 20 May 2024, 18 October 2024, 21 November 2024 x9, 18 March 2025, 21 May 2025 x9, 18 September 2025, 21 May 2026 x4, 21 May 2027, plus the 21 May 2026 inside the note of row 6), and each was independently confirmed against the official text (Art. 12(6) 18 March 2025; Art. 12(8) 18 September 2025; Art. 5a(23)/5b(11)/5c(6)/5d(7)/5e(5)/11a(3)/45d(5)/45e(2)/45f(6)-(7) 21 November 2024; Art. 19a(2)/20(4)/21(4)/24(1c)/24(5)/28(6)/38(6)/29a(2)/31-34/42-45/45j/45l 21 May 2025; Art. 51(1)-(4) and 26(2)/36(2) as stated). Relative deadlines are also correct (Art. 5a(1) and 45e(1) 24 months, Art. 5f(2) 36 months, Art. 5f(5) 24 months after deployment, Art. 20(1) every 24 months / 3 working days, Art. 20(1a) 1 month, Art. 24(2)(a) 1 month / 3 months, Art. 19a(1)(b) and 24(2)(fb) and 24(3) 24 hours, Art. 5e(2)/10(3) and 21(2) 3 months, Art. 5c(4)/12a(3)/30(3a) 5 years / 2 years with the 3-month remediation note, Art. 7(g) 6 months, Art. 6(1) 12 months, Art. 48a annually). Defined terms follow the glossary throughout: \"European Digital Identity Wallet\" (Wallet), \"relying party\" (vertrauender Beteiligter), \"identity matching\" (Identitaetsabgleich), \"authentic sources\" (authentische Quellen), \"electronic attestations of attributes\" (Attributsbescheinigungen), \"ledgers\" (Journale), \"conformity assessment body/report\" (Konformitaetsbewertungsstelle/-bericht), \"trust service provider\" (Vertrauensdiensteanbieter). Quoted/near-quoted wording matches the official English where checked, including \"microenterprises and small enterprises\" (Art. 5f(2)), \"catalogue of attributes\" (Art. 45e(2)), \"Cross-border identity matching\" (Art. 11a), \"assurance levels\" (Art. 8), \"trusted lists\" (Art. 22), \"EU trust mark\" (Art. 23), \"the demand for, and the availability and usability of\" (Art. 5f(5)), \"shall provide at least one European Digital Identity Wallet\" (Art. 5a(1)), \"verification of identity and attributes\" (Art. 24(1c)), and \"compliance with Article 24(1), (1a) and (1b)\" (Art. 51(4)). Two defects remain, both terminological/attachment issues rather than structural ones. Overall: the translation is accurate and safe to use once the two items below are corrected.",
   "defects": [
-   {
-    "row": 17,
-    "field": "action",
-    "problem": "\"gegenseitigen Begutachtung (Peer Review)\" is rendered as \"mutual assessment (peer review)\". \"Mutual assessment\" is not the official English term: Regulation (EU) No 910/2014 Art 12(5)/(6) uses German \"gegenseitige Begutachtungen\" for English \"peer reviews\" (\"the necessary procedural arrangements for the peer reviews referred to in paragraph 5\"). The invented term plus the parenthetical gloss is redundant and breaks the one-to-one mapping to the official vocabulary.",
-    "correction": "Implementing Regulation on the procedural arrangements for the peer reviews"
-   },
    {
     "row": 44,
     "field": "action",
-    "problem": "\"Zuruecknahme des eID-Systems\" is rendered as \"revocation of the eID scheme\". The official English of Art 10(3) for German \"Zurücknahme des elektronischen Identifizierungssystems\" is \"withdrawal of the electronic identification scheme\". \"Revocation\" is the official English for a different German verb in the same article (Art 10(1) \"widerruft\" = \"revoke\", which applies to the cross-border authentication, not to the scheme), so the choice both departs from the official term and blurs two distinct legal acts.",
+    "problem": "Article 10(3): the German source uses the official term \"Zurücknahme des eID-Systems\", whose official English equivalent in Article 10(3) is \"withdrawal of the electronic identification scheme\". The translation renders it \"revocation of the eID scheme\". In Article 10 \"revocation\"/\"Widerruf\" is a different, earlier step under paragraph 1 (suspension or revocation of the cross-border authentication), so using \"revocation\" for the paragraph 3 measure conflates two distinct legal acts and misstates what happens after the three months.",
     "correction": "At the latest after three months without remedy: withdrawal of the European Digital Identity Wallet or withdrawal of the eID scheme"
+   },
+   {
+    "row": 37,
+    "field": "action",
+    "problem": "Article 20(1): \"auf eigene Kosten\" refers to the QTSP, which bears the cost of the audit (official English: \"Qualified trust service providers shall be audited at their own expense ... by a conformity assessment body\"). By placing \"at its own expense\" immediately after \"by a CAB\", the English attaches the possessive to the nearest noun and reads as though the conformity assessment body pays, reversing who bears the cost. The official English avoids this by putting the expense phrase before the CAB.",
+    "correction": "Conformity assessment of the QTSP, at the QTSP's own expense, by a CAB"
    }
   ]
  }

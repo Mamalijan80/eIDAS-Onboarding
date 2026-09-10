@@ -82,7 +82,7 @@
   },
   {
    "role": "Public sector body under Article 3(46) / authentic source",
-   "task": "Maintains registers (population, commercial and education registers); enables the electronic verification of attributes; issues PuB-EAA under Annex VII, demonstrates an assurance level corresponding to Article 24, is notified with a CAR and provides a European Digital Identity Wallet interface",
+   "task": "Maintains registers (population, commercial and education registers); enables the electronic verification of attributes; issues PuB-EAA under Annex VII, demonstrates a level of reliability corresponding to Article 24, is notified with a CAR and provides a European Digital Identity Wallet interface",
    "articles": "3(46), 45b(2)+(3), 45e, 45f",
    "delimitation": "The CAR under Article 45f(3) is the most audit-relevant obligation of this role."
   },
@@ -95,7 +95,7 @@
   {
    "role": "Gatekeeper",
    "task": "Shall grant European Digital Identity Wallet providers and electronic identification means issuers free of charge, effective access to the same operating system, hardware and software features (e.g. Secure Element, NFC)",
-   "articles": "12b (in conjunction with Article 2(2) and (21) and Article 6(7) DMA)",
+   "articles": "12b (in conjunction with Article 2, points (2) and (21), and Article 6(7) DMA)",
    "delimitation": "The only eIDAS obligation that is not enforced by eIDAS authorities."
   },
   {
@@ -129,35 +129,22 @@
    "delimitation": "The Wallet contains a direct reporting button to the data protection authority (Article 5a(4)(d)(iii))."
   }
  ],
- "rows_in_source": 21,
  "check": {
-  "verdict": "Largely accurate. Row count (21), row order, and cell-to-row/column placement all match the German source exactly; a token-level comparison of every numeric reference per row shows zero discrepancies (all article, paragraph, point and annex numbers — including 5a(23)+(24), 24(2)(a)+(fb), 24(1a)(c), 44(2a), 45g(2)/45j/45l, 3(46), 3(5a), 9(1)(b)(ii), 46b(4)(a)-(k), Annex II, Annex VII — are unchanged), and every duration is rendered correctly and unambiguously (24 months, 24 hours, two months, five years, every two years, four addressees, exactly three, eleven types). No absolute dates occur in Part D. Quoted wording checks out against the official English: 'public or private bodies' and 'designated bodies' (Art. 30(1)/(4)), 'user' (Art. 3(5a)). Defined terms follow the glossary and the official English (European Digital Identity Wallet, electronic identification scheme/means, relying party, conformity assessment body, trust service provider, qualified electronic signature/seal creation device, public sector body, authentic source, EU trust mark, trusted lists, single points of contact, European Digital Identity Cooperation Group). Three defects remain, one substantive (a wrongly imported defined term) and two of citation/term consistency. Row indices below are 0-based positions in the JSON array; the role is named for clarity. Files consulted: /tmp/claude-0/-home-user-eIDAS-Onboarding/678a16ec-3ace-516d-958d-18e01f302da6/scratchpad/work/full/parts/D.txt, /tmp/claude-0/-home-user-eIDAS-Onboarding/678a16ec-3ace-516d-958d-18e01f302da6/scratchpad/work/full/glossary.json, /tmp/claude-0/-home-user-eIDAS-Onboarding/678a16ec-3ace-516d-958d-18e01f302da6/scratchpad/work/full/official_articles_full.json",
+  "rows_checked": 21,
+  "verdict": "Structurally sound, one substantive terminology defect. Row count (21) and row order match the source exactly (Commission → Member State → Supervisory body → CAB → Designated body → TSP → QTSP → Wallet provider → Relying party → Intermediary → eID issuer → Authentication operator → EAA provider → Public sector body/authentic source → Web-browser provider → Gatekeeper → User → Cooperation Group → ENISA → NIS2 authority → Data protection authority). No cell is in the wrong row or column: every role/task/articles/delimitation cell tracks its German counterpart. All article, paragraph, point and annex numbers are unchanged (verified all 21 article strings, incl. 5a(23)+(24)…49; 24(2)(a)+(fb); 24(1a)(c)/24(1b)(d); 7(a)+(e); 9(1)(b)(ii); 46b(4)(a)/(f); 5a(4)(d)(iii); 5a(5)(a)(x)); the German \"Nr.\" point references were consistently rendered as parenthesised numbers. All durations are correct and unambiguous against the official text: 24 months audit (Art. 20(1)), 24 hours on becoming aware (Art. 19a(1)(b)), 24 hours of the incident (Art. 24(2)(fb) — matches the official English verbatim), five years / vulnerability assessment every two years (Art. 30(3a), 5c(4), 12a(3)), two months (Art. 21(2)), first five years of activity (Art. 45(1a)); Part D contains no calendar dates. Defined terms match the glossary (\"European Digital Identity Wallet\", \"relying party\", \"conformity assessment body\", \"qualified trust service provider\", \"public sector body\", \"authentic source\"), and quoted wording matches the official English (\"designated bodies\"/\"public or private bodies\" Art. 30(1), \"termination plans\" Art. 24(2)(i), \"single points of contact\" Art. 46c, \"trusted lists\" Art. 22, \"qualified status\" Art. 20(3), \"European Digital Identity Cooperation Group\" Art. 46e, 46b(4)(a)-(k) confirmed as exactly points (a)-(k), Art. 24a paragraphs 1-11 confirmed as eleven). Row indices below are 1-based in the order given above.",
   "defects": [
    {
-    "row": 13,
+    "row": 14,
     "field": "task",
-    "problem": "Row 13 (\"Public sector body under Article 3(46) / authentic source\"): the German \"weist ein Verlaesslichkeitsniveau entsprechend Art. 24 nach\" was rendered as \"demonstrates an assurance level corresponding to Article 24\". \"Assurance level\" is the eIDAS defined term of Article 8 (official German: \"Sicherheitsniveau\" - low/substantial/high for electronic identification schemes) and means something entirely different here. The provision meant is Article 45f(2), whose official English reads \"meet a level of reliability and trustworthiness equivalent to qualified trust service providers in accordance with Article 24\" (official German: \"ein Mass an Verlaesslichkeit und Vertrauenswuerdigkeit ... entsprechend\"). The translation imports a wrong defined term and misstates the obligation.",
-    "correction": "\"Maintains registers (population, commercial and education registers); enables the electronic verification of attributes; issues PuB-EAA under Annex VII, demonstrates a level of reliability and trustworthiness equivalent to that of qualified trust service providers in accordance with Article 24, is notified with a CAR and provides a European Digital Identity Wallet interface\""
-   },
-   {
-    "row": 15,
-    "field": "articles",
-    "problem": "Row 15 (\"Gatekeeper\"): the German \"12b (i. V. m. Art. 2 Nr. 2 und 21 sowie Art. 6(7) DMA)\" cites POINTS of DMA Article 2, but the English \"Article 2(2) and (21)\" reads as paragraphs. The official English of eIDAS Article 12b itself cites these as \"Article 2, point (2), of Regulation (EU) 2022/1925\" and \"Article 2, point (21), of that Regulation\", so the citation form does not match the official English and is ambiguous. (The numbers themselves are unchanged.)",
-    "correction": "\"12b (in conjunction with Article 2, points (2) and (21), and Article 6(7) DMA)\""
+    "problem": "Row 14 (Public sector body under Article 3(46) / authentic source): the German \"weist ein Verlaesslichkeitsniveau entsprechend Art. 24 nach\" was rendered as \"demonstrates an assurance level corresponding to Article 24\". \"Assurance level\" is a reserved eIDAS defined term - it is the official English for \"Sicherheitsniveau\" (Art. 8: assurance levels low/substantial/high for electronic identification schemes) - and the source does not use that term here. The underlying provision, Art. 45f(2), reads in the official English \"meet a level of reliability and trustworthiness equivalent to qualified trust service providers in accordance with Article 24\" (DE: \"ein Mass an Verlaesslichkeit und Vertrauenswuerdigkeit\"). Using \"assurance level\" wrongly imports the low/substantial/high eID concept into a QTSP-equivalence requirement and misstates the legal obligation.",
+    "correction": "Issues PuB-EAA under Annex VII, demonstrates a level of reliability corresponding to Article 24, is notified with a CAR and provides a European Digital Identity Wallet interface  (i.e. replace \"an assurance level\" with \"a level of reliability\"; closer to the official wording: \"a level of reliability and trustworthiness equivalent to that of qualified trust service providers under Article 24\")"
    },
    {
     "row": 16,
     "field": "articles",
-    "problem": "Row 16 (\"User / natural person\"), and identically row 13 field \"role\" (\"Public sector body under Article 3(46)\") and row 16 field \"delimitation\": the German \"Art. 3 Nr. 5a\" / \"Art. 3 Nr. 46\" cites points of the definitions article, rendered as \"3(5a)\" / \"Article 3(46)\". The official English cites these as \"Article 3, point (46)\" (see Articles 45f(1)(b), 45f(2), 45f(3)); Article 3 has points, not paragraphs. Same numbers, non-official citation form.",
-    "correction": "articles: \"3, point (5a), 5, 5a(4)+(13)+(15), 5b(8)+(9), 45e(1)\"; delimitation: \"Article 3, point (5a) ('user') is a new definition introduced by eIDAS 2.0.\"; row 13 role: \"Public sector body under Article 3, point (46) / authentic source\""
-   },
-   {
-    "row": 7,
-    "field": "task",
-    "problem": "Row 7 (\"European Digital Identity Wallet provider\"): the glossary term is expanded inconsistently. Within the same row the role reads \"European Digital Identity Wallet provider\" but the task says only \"Provides the Wallet technically\". The same bare short form appears in row 8 delimitation (\"not on the Wallet provider\"), row 16 task (\"is entitled to a free Wallet\") and row 20 delimitation (\"The Wallet contains a direct reporting button\"), whereas rows 0, 1, 8, 12, 13, 15, 17 and 20 expand it. Cosmetic only - the German source uses the short form \"Wallet\" throughout - but it should be handled uniformly.",
-    "correction": "Use the glossary term consistently, e.g. row 7 task: \"Provides the European Digital Identity Wallet technically; ...\"; row 8 delimitation: \"... not on the European Digital Identity Wallet provider.\"; row 16 task: \"... is entitled to a free European Digital Identity Wallet and free QES ...\"; row 20 delimitation: \"The European Digital Identity Wallet contains a direct reporting button ...\""
+    "problem": "Minor / citation precision. Row 16 (Gatekeeper): the German \"12b (i. V. m. Art. 2 Nr. 2 und 21 sowie Art. 6(7) DMA)\" cites numbered POINTS of DMA Article 2 (a definitions article with no paragraphs). Rendering them as \"Article 2(2) and (21)\" reads as paragraph references and is ambiguous; the official English of Art. 12b eIDAS cites them as \"Article 2, point (2)\" and \"Article 2, point (21), of Regulation (EU) 2022/1925\". The numbers themselves are unchanged, so this is a precision issue, not a wrong number.",
+    "correction": "12b (in conjunction with Article 2, points (2) and (21), and Article 6(7) DMA)"
    }
-  ],
-  "rows_checked": 21
+  ]
  }
 }
